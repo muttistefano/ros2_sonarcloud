@@ -32,7 +32,7 @@ jobs:
           sudo rosdep init || true
 
           # Install ROS 2 workspace dependencies
-          rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || exit $?
+          rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
         
       - name: build
         run : |
