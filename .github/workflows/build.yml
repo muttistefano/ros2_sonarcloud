@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-22.04
+    using: "composite"
     steps:
       - name: Checking out
         uses: actions/checkout@v2.3.4
