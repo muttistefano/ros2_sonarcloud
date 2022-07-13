@@ -14,8 +14,41 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Build and test workspace
-        uses: ichiro-its/ros2-build-and-test-action@main
-        with:
-          ros2-distro: rolling
+      - name: dependencies
+        run: |
+
+          # Add ROS 2 GPG key
+          sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg || exit $?
+
+          # Add ROS 2 repository to the source list
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null || exit $?
+
+          # Install required tools
+          sudo apt update && sudo apt install -y \
+            python3-colcon-common-extensions \
+            python3-rosdep || exit $?
+
+          # Initialize rosdep
+          sudo rosdep init || true
+
+          # Install ROS 2 workspace dependencies
+          rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || exit $?
+        
+      - name: build
+        run : |
+          source /opt/ros/rolling/setup.bash || exit $?
+
+          # Build workspace
+          colcon build \
+            --event-handlers console_cohesion+ \
+            --cmake-args || exit $?
+
+          # Source build result environment
+          source install/setup.bash || exit $?
+
+          # Test workspace
+          colcon test \
+            --event-handlers console_cohesion+ \
+            --pytest-with-coverage \
+            --return-code-on-test-failure || exit $?
 
