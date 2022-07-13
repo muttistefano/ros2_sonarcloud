@@ -14,7 +14,8 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Building and testing
-        uses: ichiro-its/ros2-ci@v1.0.0
+      - name: Build and test workspace
+        uses: ichiro-its/ros2-build-and-test-action@main
         with:
           ros2-distro: rolling
+
