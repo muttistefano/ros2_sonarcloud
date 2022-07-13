@@ -33,6 +33,8 @@ jobs:
 
           # Install ROS 2 workspace dependencies
           rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
+        shell: bash
+
         
       - name: build
         run : |
@@ -51,4 +53,6 @@ jobs:
             --event-handlers console_cohesion+ \
             --pytest-with-coverage \
             --return-code-on-test-failure || exit $?
+        shell: bash
+
 
