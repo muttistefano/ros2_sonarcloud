@@ -77,15 +77,15 @@ jobs:
       - name: Run build-wrapper
         run: |
           cd /home/runner/target_ws/
-          echo "ls"
-          ls
-          echo "src"
-          ls src
-          echo "src2"
-          ls src/src
+          # echo "ls"
+          # ls
+          # echo "src"
+          # ls src
+          # echo "src2"
+          # ls src/src
           rm -rf install build log || true
           source /opt/ros/rolling/setup.bash
-          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  colcon build  --executor parallel --continue-on-error  --event-handlers console_cohesion+  || true
+          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  colcon build  --executor parallel --continue-on-error   || true
           
       - name: Run sonar-scanner
         env:
