@@ -44,6 +44,9 @@ jobs:
           # Install ROS 2 workspace dependencies
           rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
 
+          ls
+          ls /home
+          ls /
           mkdir runner || true
 
       # - name: build
