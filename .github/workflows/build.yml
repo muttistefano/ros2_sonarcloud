@@ -34,11 +34,7 @@ jobs:
 
           # Install ROS 2 workspace dependencies
           rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
-      #   shell: bash
 
-        
-      # - name: build
-      #   run : |
           source /opt/ros/rolling/setup.bash || exit $?
 
           # Build workspace
