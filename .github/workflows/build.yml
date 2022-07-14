@@ -83,9 +83,9 @@ jobs:
           # ls src
           # echo "src2"
           # ls src/src
-          rm -rf install build log || true
+          # rm -rf install build log || true
           source /opt/ros/rolling/setup.bash
-          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  colcon build  --executor parallel --continue-on-error   || true
+          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  colcon build  --executor parallel --continue-on-error   
           
       - name: Run sonar-scanner
         env:
