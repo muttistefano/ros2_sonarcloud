@@ -44,27 +44,27 @@ jobs:
           # Install ROS 2 workspace dependencies
           rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
 
-      - name: build
-        run: |
+      # - name: build
+      #   run: |
 
-          source /opt/ros/rolling/setup.bash || exit $?
+      #     source /opt/ros/rolling/setup.bash || exit $?
 
-          # Build workspace
-          colcon build \
-            --executor parallel \
-            --continue-on-error \
-            --event-handlers console_cohesion+ \
-            --cmake-args || true
+      #     # Build workspace
+      #     colcon build \
+      #       --executor parallel \
+      #       --continue-on-error \
+      #       --event-handlers console_cohesion+ \
+      #       --cmake-args || true
 
-          # Source build result environment
-          source install/setup.bash || exit $?
+      #     # Source build result environment
+      #     source install/setup.bash || exit $?
 
-          # Test workspace
-          colcon test \
-            --event-handlers console_cohesion+ \
-            --pytest-with-coverage \
-            --return-code-on-test-failure || exit $?
-        shell: bash
+      #     # Test workspace
+      #     colcon test \
+      #       --event-handlers console_cohesion+ \
+      #       --pytest-with-coverage \
+      #       --return-code-on-test-failure || exit $?
+      #   shell: bash
 
       - name: Set up JDK 11
         uses: actions/setup-java@v1
@@ -90,9 +90,14 @@ jobs:
       - name: Run build-wrapper
         run: |
           cd /home/runner/target_ws/
-          catkin clean -y
-          source /opt/ros/noetic/setup.bash
-          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} catkin build 
+          rm -rf install build log
+          source /opt/ros/rolling/setup.bash
+          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} \
+            colcon build \
+            --executor parallel \
+            --continue-on-error \
+            --event-handlers console_cohesion+ \
+            --cmake-args || true
           
       - name: Run sonar-scanner
         env:
@@ -101,8 +106,8 @@ jobs:
         run: |
           cd /home/runner/target_ws/
           sonar-scanner --define sonar.host.url="${{ env.SONAR_SERVER_URL }}" --define sonar.cfamily.build-wrapper-output="${{ env.BUILD_WRAPPER_OUT_DIR }}" \
-            -Dsonar.projectKey=cov_pkg \
-            -Dsonar.organization=mutti \
+            -Dsonar.projectKey=muttistefano_ros2_sonarcloud \
+            -Dsonar.organization=muttistefano \
             -Dsonar.cfamily.threads=2 \
             -Dsonar.projectBaseDir=/home/runner/target_ws/ \
             -Dsonar.sources=src
