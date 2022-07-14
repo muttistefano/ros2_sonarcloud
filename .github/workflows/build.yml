@@ -15,14 +15,30 @@ jobs:
       ISOLATION: "shell"
 
     steps:
-      - name: Checking out
-        uses: actions/checkout@v2.3.4
-        with:
-          submodules: recursive
 
       - uses: ros-tooling/setup-ros@v0.3
         with:
           required-ros-distributions: rolling
+
+      - uses: ros-tooling/action-ros-ci@v0.2
+          with:
+            package-name: my_package
+            target-ros2-distro: humble
+            colcon-defaults: |
+              {
+                "build": {
+                  "cmake-args": [
+                      "-DMY_CUSTOM_OPTION=ON"
+                  ]
+                }
+              }
+
+      - name: Checking out
+        uses: actions/checkout@v2.3.4
+        with:
+          submodules: recursive
+        run: ls && pwd
+
 
       - name: dependencies
         run: |
@@ -44,10 +60,6 @@ jobs:
           # Install ROS 2 workspace dependencies
           rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
 
-          ls
-          ls /home
-          ls /
-          mkdir runner || true
 
       # - name: build
       #   run: |
