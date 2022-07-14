@@ -45,6 +45,8 @@ jobs:
 
           # Build workspace
           colcon build \
+            --executor parallel \
+            --continue-on-error \
             --event-handlers console_cohesion+ \
             --cmake-args || exit $?
 
