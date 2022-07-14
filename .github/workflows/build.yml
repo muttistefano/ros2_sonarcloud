@@ -39,7 +39,7 @@ jobs:
           submodules: recursive
         
       - name: kiao
-        run: run: ls && pwd
+        run:  ls && pwd
 
       - name: dependencies
         run: |
