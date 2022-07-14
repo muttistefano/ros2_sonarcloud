@@ -91,7 +91,7 @@ jobs:
             -Dsonar.organization=muttistefano \
             -Dsonar.cfamily.threads=2 \
             -Dsonar.projectBaseDir=/home/runner/target_ws/ \
-            # -Dsonar.sources=src
+            -Dsonar.sources=/home/runner/target_ws/src
             
       - name: cccc action step
         uses: sarnold/cccc-action@main
