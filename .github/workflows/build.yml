@@ -79,7 +79,7 @@ jobs:
           cd /home/runner/target_ws/
           ls
           ls src
-          ls src/*
+          ls src/src
           rm -rf install build log || true
           source /opt/ros/rolling/setup.bash
           build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  colcon build  --executor parallel --continue-on-error  --event-handlers console_cohesion+  || true
