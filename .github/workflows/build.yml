@@ -9,52 +9,51 @@ jobs:
   build-and-test:
     runs-on: ubuntu-22.04
     runs:
-      using: "composite"
-      steps:
-        - name: Checking out
-          uses: actions/checkout@v2.3.4
-          with:
-            submodules: recursive
 
-        - name: dependencies
-          run: |
+      - name: Checking out
+        uses: actions/checkout@v2.3.4
+        with:
+          submodules: recursive
 
-            # Add ROS 2 GPG key
-            sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg || exit $?
+      - name: dependencies
+        run: |
 
-            # Add ROS 2 repository to the source list
-            echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null || exit $?
+          # Add ROS 2 GPG key
+          sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg || exit $?
 
-            # Install required tools
-            sudo apt update && sudo apt install -y \
-              python3-colcon-common-extensions \
-              python3-rosdep || exit $?
+          # Add ROS 2 repository to the source list
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null || exit $?
 
-            # Initialize rosdep
-            sudo rosdep init || true
+          # Install required tools
+          sudo apt update && sudo apt install -y \
+            python3-colcon-common-extensions \
+            python3-rosdep || exit $?
 
-            # Install ROS 2 workspace dependencies
-            rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
-          shell: bash
+          # Initialize rosdep
+          sudo rosdep init || true
 
-          
-        - name: build
-          run : |
-            source /opt/ros/rolling/setup.bash || exit $?
+          # Install ROS 2 workspace dependencies
+          rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
+      #   shell: bash
 
-            # Build workspace
-            colcon build \
-              --event-handlers console_cohesion+ \
-              --cmake-args || exit $?
+        
+      # - name: build
+      #   run : |
+          source /opt/ros/rolling/setup.bash || exit $?
 
-            # Source build result environment
-            source install/setup.bash || exit $?
+          # Build workspace
+          colcon build \
+            --event-handlers console_cohesion+ \
+            --cmake-args || exit $?
 
-            # Test workspace
-            colcon test \
-              --event-handlers console_cohesion+ \
-              --pytest-with-coverage \
-              --return-code-on-test-failure || exit $?
-          shell: bash
+          # Source build result environment
+          source install/setup.bash || exit $?
+
+          # Test workspace
+          colcon test \
+            --event-handlers console_cohesion+ \
+            --pytest-with-coverage \
+            --return-code-on-test-failure || exit $?
+        shell: bash
 
 
