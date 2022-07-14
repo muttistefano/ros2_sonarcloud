@@ -20,11 +20,6 @@ jobs:
         with:
           required-ros-distributions: rolling
 
-      - name: Checking out
-        uses: actions/checkout@v2.3.4
-        with:
-          submodules: recursive
-
       - name: dependencies
         run: |
 
@@ -68,6 +63,17 @@ jobs:
           unzip -o /home/runner/target_ws/build-wrapper-linux-x86.zip -d /home/runner/target_ws/
           echo "/home/runner/target_ws/build-wrapper-linux-x86" >> $GITHUB_PATH
      
+      - name: moving
+        run : |
+          mkdir /home/runner/target_ws/src/
+          cd /home/runner/target_ws/src/
+
+      - name: Checking out
+        uses: actions/checkout@v2.3.4
+        with:
+          submodules: recursive
+
+
       - name: Run build-wrapper
         run: |
           cd /home/runner/target_ws/
@@ -86,7 +92,7 @@ jobs:
             -Dsonar.organization=muttistefano \
             -Dsonar.cfamily.threads=2 \
             -Dsonar.projectBaseDir=/home/runner/target_ws/ \
-            -Dsonar.sources=.
+            -Dsonar.sources=src
             
       - name: cccc action step
         uses: sarnold/cccc-action@main
