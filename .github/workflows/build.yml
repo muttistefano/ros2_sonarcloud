@@ -21,17 +21,17 @@ jobs:
           required-ros-distributions: rolling
 
       - uses: ros-tooling/action-ros-ci@v0.2
-          with:
-            package-name: my_package
-            target-ros2-distro: humble
-            colcon-defaults: |
-              {
-                "build": {
-                  "cmake-args": [
-                      "-DMY_CUSTOM_OPTION=ON"
-                  ]
-                }
+        with:
+          package-name: my_package
+          target-ros2-distro: humble
+          colcon-defaults: |
+            {
+              "build": {
+                "cmake-args": [
+                    "-DMY_CUSTOM_OPTION=ON"
+                ]
               }
+            }
 
       - name: Checking out
         uses: actions/checkout@v2.3.4
