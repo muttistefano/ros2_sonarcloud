@@ -76,8 +76,7 @@ jobs:
 
       - name: Run build-wrapper
         run: |
-          ls /home/runner/work/ros2_sonarcloud/ros2_sonarcloud
-          ls /home/runner/work/ros2_sonarcloud/
+          cp -r  /home/runner/work/ros2_sonarcloud/ros2_sonarcloud/ /home/runner/target_ws/src/
           cd /home/runner/target_ws/
           source /opt/ros/rolling/setup.bash
           ./build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir .  colcon build  --executor parallel --continue-on-error
