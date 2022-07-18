@@ -78,6 +78,8 @@ jobs:
         run: |
           cp -r  /home/runner/work/ros2_sonarcloud/ros2_sonarcloud/ /home/runner/target_ws/src/
           cd /home/runner/target_ws/
+          wget https://raw.githubusercontent.com/ros2/ros2/rolling/ros2.repos
+          vcs import src < ros2.repos
           source /opt/ros/rolling/setup.bash
           ./build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir .  colcon build  --executor parallel --continue-on-error || true
           # build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  colcon build  --executor parallel --continue-on-error   
