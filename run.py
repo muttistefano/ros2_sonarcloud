@@ -18,15 +18,11 @@ def check_tag(str_in):
     str_out = str_out.replace(">","")
     return str_out
 
-# def entry_to_str(el_in):
-#     return "<h4>file : " + el_in.path + ":" + el_in.line + "</h4>\n<br />" \
-#             + "<h4>message : " + check_tag(el_in.msg) + "</h4>\n<br />" \
-#             + "<h4>[LINK](" + base_bug_link + el_in.key + ")" + "</h4>\n<br />"
 
 def entry_to_str(el_in):
     return "  * file : " + el_in.path + ":" + el_in.line + "  \n  " \
             + "message : " + check_tag(el_in.msg) + "  \n  " \
-            + "[LINK](" + base_bug_link + el_in.key + ")" + "  \n  \n---\n  \n"
+            + "[LINK](" + base_bug_link + el_in.key + ")" + "  \n---\n"
 
 base_bug_link = "https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open="
 
@@ -240,8 +236,8 @@ f.write("  \n")
 f.write("Extracted bugs, vulnerabilities and code smells are listed below in this document, grouped by package.  \n")
 f.write("Each entry is formed by a file:line and message, with a link to the specific sonacloud link.  \n")
 f.write("This page is generated automatically after every static analysys.  \n")
-f.write("The complete results of the analysis can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .")
-f.write("  \n")
+f.write("The complete results of the analysis can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  \n")
+f.write("Github truncates this file, i am currently looking for a solution but in the meantime the complete file can be downloaded and rendered locally  \n")
 
     
 f.write("  \n")
