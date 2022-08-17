@@ -120,8 +120,14 @@ jobs:
           cd /home/runner/target_ws/src/ros2_sonarcloud/
           python3 run.py
 
-      #- name: publish report    
-      #  uses: mikeal/publish-to-github-action@master
-      #  env:
-      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #    BRANCH_NAME: 'main' # your branch name goes here
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "push README.md" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
