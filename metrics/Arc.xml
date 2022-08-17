@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Arc-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="23" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="6" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="36" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="36" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="39" />
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Arc(double,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="42" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>append(Path &amp;,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.cpp" line="60" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Arc</name>
+<client_module>
+<name>LeftCircle</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="90" />
+</extent>
+<name>LeftTurn</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="62" />
+</extent>
+<name>LeftTurnAround</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="76" />
+</extent>
+<name>RightCircle</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="97" />
+</extent>
+<name>RightTurn</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="69" />
+</extent>
+<name>RightTurnAround</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.hpp" line="83" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Path</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/path_utils/path_utils.cpp" line="60" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

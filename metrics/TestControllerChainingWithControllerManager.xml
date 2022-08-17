@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module TestControllerChainingWithControllerManager-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="145" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="25" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="5.800" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.200" level="0" />
+<weighted_methods_per_class_unity value="4" level="0" />
+<weighted_methods_per_class_visibility value="4" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="16" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="16" level="0" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="16" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>declaration</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="35" />
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="16" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="81" />
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="35.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>CheckIfControllersAreAddedCorrectly()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="144" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>ConfigureAndCheckControllers()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="167" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="14.333" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetUp()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="86" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetupControllers()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="96" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="7.400" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>TestControllerChainingWithControllerManager</name>
+<client_module>
+<name>TestableControllerManager</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="64" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="66" />
+</extent>
+<name>TestableTestChainableController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="41" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="43" />
+</extent>
+</client_module>
+<supplier_module>
+<name>ControllerManagerFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="82" />
+</extent>
+<name>WithParamInterface</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="83" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

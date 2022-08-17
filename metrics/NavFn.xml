@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module NavFn-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="609" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="158" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="330" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="1.845" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.479" level="0" />
+<weighted_methods_per_class_unity value="21" level="0" />
+<weighted_methods_per_class_visibility value="20" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="103" />
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="33" level="0" />
+<lines_of_code_per_line_of_comment value="0.667" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>NavFn(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="111" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="111" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="70" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>calcNavFnAstar()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="310" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="136" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>calcNavFnDijkstra(bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="296" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="141" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>calcPath(...)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="258" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>calcPath(int,int *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="750" />
+</extent>
+<lines_of_code value="119" level="2" />
+<McCabes_cyclomatic_complexity value="41" level="2" />
+<lines_of_comment value="28" level="0" />
+<lines_of_code_per_line_of_comment value="4.250" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.464" level="0" />
+</member_function>
+<member_function>
+<name>getLastPathCost()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="732" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="165" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getPathLen()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="324" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="159" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getPathX()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="322" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="147" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getPathY()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="323" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="153" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>gradCell(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="922" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="265" />
+</extent>
+<lines_of_code value="45" level="1" />
+<McCabes_cyclomatic_complexity value="16" level="1" />
+<lines_of_comment value="13" level="0" />
+<lines_of_code_per_line_of_comment value="3.462" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.231" level="0" />
+</member_function>
+<member_function>
+<name>initCost(int,float)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="394" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="206" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>propNavFnAstar(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="651" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="243" />
+</extent>
+<lines_of_code value="55" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="29" level="0" />
+<lines_of_code_per_line_of_comment value="1.897" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.448" level="0" />
+</member_function>
+<member_function>
+<name>propNavFnDijkstra(int,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="570" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="235" />
+</extent>
+<lines_of_code value="50" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="26" level="0" />
+<lines_of_code_per_line_of_comment value="1.923" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.500" level="0" />
+</member_function>
+<member_function>
+<name>setCostmap(const COSTTYPE *,bool,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="246" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="130" />
+</extent>
+<lines_of_code value="45" level="1" />
+<McCabes_cyclomatic_complexity value="16" level="1" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="3.214" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.143" level="0" />
+</member_function>
+<member_function>
+<name>setGoal(int *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="184" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="189" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setNavArr(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="206" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="120" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="4.286" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.714" level="0" />
+</member_function>
+<member_function>
+<name>setStart(int *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="192" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="197" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setupNavFn(bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="335" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="226" />
+</extent>
+<lines_of_code value="46" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="4.600" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.800" level="0" />
+</member_function>
+<member_function>
+<name>updateCell(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="415" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="214" />
+</extent>
+<lines_of_code value="46" level="1" />
+<McCabes_cyclomatic_complexity value="15" level="1" />
+<lines_of_comment value="25" level="0" />
+<lines_of_code_per_line_of_comment value="1.840" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.600" level="0" />
+</member_function>
+<member_function>
+<name>updateCellAstar(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="490" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="220" />
+</extent>
+<lines_of_code value="50" level="1" />
+<McCabes_cyclomatic_complexity value="15" level="1" />
+<lines_of_comment value="24" level="0" />
+<lines_of_code_per_line_of_comment value="2.083" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.625" level="0" />
+</member_function>
+<member_function>
+<name>~NavFn()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="144" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="113" />
+</extent>
+<lines_of_code value="34" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>NavFn</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>COSTTYPE</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="246" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="130" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="168" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="246" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="246" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="296" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="335" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn.cpp" line="570" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="130" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="130" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="141" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="170" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="226" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/include/nav2_navfn_planner/navfn.hpp" line="235" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

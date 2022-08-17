@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Twist2D-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="10" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Twist2D</name>
+<client_module>
+<name>DWBLocalPlanner</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="282" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="343" />
+</extent>
+<name>GoalAlignCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/goal_align.cpp" line="61" />
+</extent>
+<name>GoalDistCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/goal_dist.cpp" line="44" />
+</extent>
+<name>LimitedAccelGenerator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/limited_accel_generator.cpp" line="82" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/limited_accel_generator.cpp" line="89" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/limited_accel_generator.cpp" line="90" />
+</extent>
+<name>PathAlignCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/path_align.cpp" line="61" />
+</extent>
+<name>PathDistCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/path_dist.cpp" line="44" />
+</extent>
+<name>StandardTrajectoryGenerator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="102" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="118" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="148" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="149" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="183" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="184" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="203" />
+</extent>
+<name>TrajectoryGenerator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_generator.hpp" line="83" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_generator.hpp" line="106" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_generator.hpp" line="124" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_generator.hpp" line="125" />
+</extent>
+<name>VelocityIterator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/include/dwb_plugins/velocity_iterator.hpp" line="56" />
+</extent>
+<name>XYThetaIterator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/xy_theta_iterator.cpp" line="71" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

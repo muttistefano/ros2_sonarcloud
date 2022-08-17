@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module TestTrajectoryActions-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="84" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="2" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="42.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="8" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="58" />
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>SetUp()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="61" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetUpActionClient()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="105" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetUpControllerHardware()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="86" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetUpExecutor(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="69" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>TearDown()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="121" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>TearDownControllerHardware()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="137" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>TearDownExecutor()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="127" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>TearDownTestCase()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="119" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>TestTrajectoryActions</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>TrajectoryControllerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp" line="58" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module uint8_t-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="2" level="0" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>uint8_t</name>
+<client_module>
+<name>LifecycleManager</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="210" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="231" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="170" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="175" />
+</extent>
+<name>LifecycleManagerClient</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager_client.cpp" line="108" />
+</extent>
+<name>LifecycleServiceClient</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_util/src/lifecycle_service_client.cpp" line="54" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_util/src/lifecycle_service_client.cpp" line="68" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/lifecycle_service_client.hpp" line="44" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/lifecycle_service_client.hpp" line="48" />
+</extent>
+<name>interface_configuration_type</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp" line="47" />
+</extent>
+<name>return_type</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp" line="35" />
+</extent>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp" line="22" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

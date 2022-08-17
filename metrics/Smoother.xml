@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Smoother-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="719" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="127" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="149" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.826" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.852" level="0" />
+<weighted_methods_per_class_unity value="21" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="4" level="0" />
+<coupling_between_objects value="16" level="0" />
+<IF4 value="2304" level="2" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="1936" level="2" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="256" level="2" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="38" />
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_core/include/nav2_core/smoother.hpp" line="38" />
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="42" />
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Smoother()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="44" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="48" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Smoother(const SmootherParams &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="26" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>buildProblem(const vector &amp;,const Costmap2D *,const SmootherParams &amp;,Problem &amp;,vector &amp;,vector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="135" />
+</extent>
+<lines_of_code value="115" level="2" />
+<McCabes_cyclomatic_complexity value="23" level="1" />
+<lines_of_comment value="24" level="0" />
+<lines_of_code_per_line_of_comment value="4.792" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.958" level="0" />
+</member_function>
+<member_function>
+<name>cubicBezier(Vector2d &amp;,Vector2d &amp;,Vector2d &amp;,Vector2d &amp;,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="375" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>enforceEndBoundaryConditions(const Pose &amp;,Path &amp;,const Costmap2D *,const bool &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="467" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="9.250" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.750" level="0" />
+</member_function>
+<member_function>
+<name>enforceStartBoundaryConditions(const Pose &amp;,Path &amp;,const Costmap2D *,const bool &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="421" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="9.250" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.750" level="0" />
+</member_function>
+<member_function>
+<name>findBoundaryExpansion(const Pose &amp;,const Pose &amp;,BoundaryExpansion &amp;,const Costmap2D *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="324" />
+</extent>
+<lines_of_code value="39" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="3.250" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.500" level="0" />
+</member_function>
+<member_function>
+<name>findDirectionalPathSegments(const Path &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="216" />
+</extent>
+<lines_of_code value="38" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="6.333" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.333" level="0" />
+</member_function>
+<member_function>
+<name>findShortestBoundaryExpansionIdx(const BoundaryExpansions &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="302" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.000" level="0" />
+</member_function>
+<member_function>
+<name>generateBoundaryExpansionPoints(IteratorT,IteratorT)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="384" />
+</extent>
+<lines_of_code value="31" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="7.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.250" level="0" />
+</member_function>
+<member_function>
+<name>getFieldByDim(const PoseStamped &amp;,const int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="191" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>initialize(const OptimizerParams)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="55" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="59" />
+</extent>
+<lines_of_code value="45" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="4.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initialize(const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="36" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setFieldByDim(PoseStamped &amp;,const int,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="203" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>smooth(Path &amp;,const Costmap2D *,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="42" />
+</extent>
+<lines_of_code value="41" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="6.833" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.333" level="0" />
+</member_function>
+<member_function>
+<name>smooth(vector &amp;,Costmap2D *,const SmootherParams &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="101" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="3.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.875" level="0" />
+</member_function>
+<member_function>
+<name>smooth(vector &amp;,const Vector2d &amp;,const Vector2d &amp;,const Costmap2D *,const SmootherParams &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="88" />
+</extent>
+<lines_of_code value="29" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="2.636" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.636" level="0" />
+</member_function>
+<member_function>
+<name>smoothImpl(Path &amp;,bool &amp;,const Costmap2D *,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="97" />
+</extent>
+<lines_of_code value="75" level="1" />
+<McCabes_cyclomatic_complexity value="14" level="1" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="12.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.333" level="0" />
+</member_function>
+<member_function>
+<name>updateApproximatePathOrientations(Path &amp;,bool &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="266" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="5.200" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.200" level="0" />
+</member_function>
+<member_function>
+<name>upsampleAndPopulate(const vector &amp;,const vector &amp;,const Vector2d &amp;,const Vector2d &amp;,const SmootherParams &amp;,vector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="280" />
+</extent>
+<lines_of_code value="80" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="5.714" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.929" level="0" />
+</member_function>
+<member_function>
+<name>~Smoother()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="49" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="53" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Smoother</name>
+<client_module>
+<name>ConstrainedSmoother</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/constrained_smoother.hpp" line="39" />
+</extent>
+<name>DummySmoother</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smoother/test/test_smoother_server.cpp" line="41" />
+</extent>
+<name>SimpleSmoother</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smoother/include/nav2_smoother/simple_smoother.hpp" line="55" />
+</extent>
+<name>SmootherWrapper</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smoother.cpp" line="42" />
+</extent>
+</client_module>
+<supplier_module>
+<name>BoundaryExpansions</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="303" />
+</extent>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="44" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="100" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="328" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="424" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="470" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="103" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="92" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="137" />
+</extent>
+<name>IteratorT</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="384" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="384" />
+</extent>
+<name>OptimizerParams</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="55" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="59" />
+</extent>
+<name>Options</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="141" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="395" />
+</extent>
+<name>Path</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="43" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="98" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="216" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="267" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="423" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="469" />
+</extent>
+<name>Pose</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="325" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="326" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="422" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="468" />
+</extent>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="192" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="204" />
+</extent>
+<name>Problem</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="139" />
+</extent>
+<name>Vector2d</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="90" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="91" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="283" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="284" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="376" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="376" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="377" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="377" />
+</extent>
+<name>bool</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="99" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="268" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="425" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="471" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="140" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="394" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="102" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="89" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="136" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="140" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="141" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="281" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="282" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="286" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

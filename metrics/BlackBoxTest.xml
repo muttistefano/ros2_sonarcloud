@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module BlackBoxTest-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="101" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="40" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="2.525" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="4" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="8" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/simple_transmission_test.cpp" line="108" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="141" />
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="145" />
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>createTestInstances(const size_type)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="175" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="179" />
+</extent>
+<lines_of_code value="40" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="3.333" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>testIdentityMap(DifferentialTransmission &amp;,const vector &amp;,const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="149" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>testIdentityMap(FourBarLinkageTransmission &amp;,const vector &amp;,const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="153" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>testIdentityMap(SimpleTransmission &amp;,const string &amp;,const double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_control/transmission_interface/test/simple_transmission_test.cpp" line="117" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>BlackBoxTest</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>DifferentialTransmission</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="150" />
+</extent>
+<name>FourBarLinkageTransmission</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="154" />
+</extent>
+<name>SimpleTransmission</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/simple_transmission_test.cpp" line="118" />
+</extent>
+<name>TestWithParam</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/transmission_interface/test/simple_transmission_test.cpp" line="108" />
+</extent>
+<name>TransmissionSetup</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/transmission_interface/test/simple_transmission_test.cpp" line="108" />
+</extent>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="141" />
+</extent>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="145" />
+</extent>
+<name>size_type</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="176" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="180" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/simple_transmission_test.cpp" line="118" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="151" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="155" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="150" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="154" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

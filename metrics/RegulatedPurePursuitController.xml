@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module RegulatedPurePursuitController-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="704" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="103" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="240" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="2.933" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.429" level="0" />
+<weighted_methods_per_class_unity value="23" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="12" level="0" />
+<IF4 value="121" level="1" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="121" level="2" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="16" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp" line="41" />
+<lines_of_code value="62" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="151" level="0" />
+<lines_of_code_per_line_of_comment value="0.411" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>activate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="205" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>applyConstraints(const double &amp;,const double &amp;,const double &amp;,const Twist &amp;,const double &amp;,double &amp;,double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="574" />
+</extent>
+<lines_of_code value="39" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="3.545" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.727" level="0" />
+</member_function>
+<member_function>
+<name>circleSegmentIntersection(const Point &amp;,const Point &amp;,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="381" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="2.444" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>cleanup()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="193" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeVelocityCommands(const PoseStamped &amp;,const Twist &amp;,GoalChecker *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="261" />
+</extent>
+<lines_of_code value="59" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="4.214" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.714" level="0" />
+</member_function>
+<member_function>
+<name>configure(const WeakPtr &amp;,string,shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="41" />
+</extent>
+<lines_of_code value="138" level="2" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="34.500" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>costAtPose(const double &amp;,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="556" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createCarrotMsg(const PoseStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="236" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>deactivate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="223" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>dynamicParametersCallback(vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="782" />
+</extent>
+<lines_of_code value="79" level="1" />
+<McCabes_cyclomatic_complexity value="30" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>findVelocitySignChange(const Path &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="723" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="2.857" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getCostmapMaxExtent()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="773" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getLookAheadDistance(const Twist &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="247" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getLookAheadPoint(const double &amp;,const Path &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="416" />
+</extent>
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="3.286" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.857" level="0" />
+</member_function>
+<member_function>
+<name>inCollision(const double &amp;,const double &amp;,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="528" />
+</extent>
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="23.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>isCollisionImminent(const PoseStamped &amp;,const double &amp;,const double &amp;,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="449" />
+</extent>
+<lines_of_code value="51" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="16" level="0" />
+<lines_of_code_per_line_of_comment value="3.187" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.625" level="0" />
+</member_function>
+<member_function>
+<name>rotateToHeading(double &amp;,double &amp;,const double &amp;,const Twist &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="366" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setPlan(const Path &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="631" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setSpeedLimit(const double &amp;,const bool &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="636" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>shouldRotateToGoalHeading(const PoseStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="358" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>shouldRotateToPath(const PoseStamped &amp;,double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="350" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>transformGlobalPlan(const PoseStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="654" />
+</extent>
+<lines_of_code value="48" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="4.800" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.700" level="0" />
+</member_function>
+<member_function>
+<name>transformPose(const string,const PoseStamped &amp;,PoseStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="753" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>RegulatedPurePursuitController</name>
+<client_module>
+<name>BasicAPIRPP</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp" line="38" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Controller</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp" line="41" />
+</extent>
+<name>GoalChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="264" />
+</extent>
+<name>Path</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="418" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="631" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="724" />
+</extent>
+<name>Point</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="382" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="383" />
+</extent>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="237" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="262" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="351" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="359" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="450" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="655" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="755" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="756" />
+</extent>
+<name>Twist</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="248" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="263" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="368" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="576" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="42" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="638" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="43" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="44" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="43" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="754" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="783" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

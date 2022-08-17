@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module NodeHybrid-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="348" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="59" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="73" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.767" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.808" level="0" />
+<weighted_methods_per_class_unity value="13" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="10" level="0" />
+<IF4 value="81" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="81" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/node_lattice.hpp" line="45" />
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/node_hybrid.hpp" line="53" />
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/node_hybrid.hpp" line="135" />
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>NodeHybrid(const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="261" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>backtracePath(CoordinateVector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="700" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getDistanceHeuristic(const Coordinates &amp;,const Coordinates &amp;,const float &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="545" />
+</extent>
+<lines_of_code value="51" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="4.250" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.583" level="0" />
+</member_function>
+<member_function>
+<name>getHeuristicCost(const Coordinates &amp;,const Coordinates &amp;,const Costmap2D *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="344" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getNeighbors(function &amp;,GridCollisionChecker *,const bool &amp;,NodeVector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="663" />
+</extent>
+<lines_of_code value="32" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="16.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getObstacleHeuristic(const Coordinates &amp;,const Coordinates &amp;,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="433" />
+</extent>
+<lines_of_code value="81" level="1" />
+<McCabes_cyclomatic_complexity value="23" level="1" />
+<lines_of_comment value="22" level="0" />
+<lines_of_code_per_line_of_comment value="3.682" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.045" level="0" />
+</member_function>
+<member_function>
+<name>getTraversalCost(const NodePtr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="303" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="6.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.600" level="0" />
+</member_function>
+<member_function>
+<name>initMotionModel(const MotionModel &amp;,int &amp;,int &amp;,int &amp;,SearchInfo &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="355" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isNodeValid(const bool &amp;,GridCollisionChecker *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="289" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>precomputeDistanceHeuristic(const float &amp;,const MotionModel &amp;,const int &amp;,const SearchInfo &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="614" />
+</extent>
+<lines_of_code value="40" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="6.667" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.833" level="0" />
+</member_function>
+<member_function>
+<name>reset()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="277" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetObstacleHeuristic(Costmap2D *,const int &amp;,const int &amp;,const int &amp;,const int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="389" />
+</extent>
+<lines_of_code value="29" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="2.900" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~NodeHybrid()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="272" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>NodeHybrid</name>
+<client_module>
+<name>NodeBasic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_basic.cpp" line="57" />
+</extent>
+</client_module>
+<supplier_module>
+<name>CoordinateVector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="700" />
+</extent>
+<name>Coordinates</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="345" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="346" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="434" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="435" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="546" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="547" />
+</extent>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="347" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="390" />
+</extent>
+<name>GridCollisionChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="291" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="665" />
+</extent>
+<name>MotionModel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="356" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="616" />
+</extent>
+<name>NodePtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="303" />
+</extent>
+<name>NodeVector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="667" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="290" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="666" />
+</extent>
+<name>function</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="664" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

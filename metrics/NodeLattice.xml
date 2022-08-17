@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module NodeLattice-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="328" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="49" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="75" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.373" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.653" level="0" />
+<weighted_methods_per_class_unity value="11" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="10" level="0" />
+<IF4 value="81" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="81" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/node_lattice.hpp" line="44" />
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/node_lattice.hpp" line="119" />
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="20" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>NodeLattice(const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="175" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>backtracePath(CoordinateVector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="538" />
+</extent>
+<lines_of_code value="34" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="5.667" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.167" level="0" />
+</member_function>
+<member_function>
+<name>getDistanceHeuristic(const Coordinates &amp;,const Coordinates &amp;,const float &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="349" />
+</extent>
+<lines_of_code value="51" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="5.100" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.700" level="0" />
+</member_function>
+<member_function>
+<name>getHeuristicCost(const Coordinates &amp;,const Coordinates &amp;,const Costmap2D *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="320" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getNeighbors(function &amp;,GridCollisionChecker *,const bool &amp;,NodeVector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="462" />
+</extent>
+<lines_of_code value="60" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="6.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.000" level="0" />
+</member_function>
+<member_function>
+<name>getTraversalCost(const NodePtr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="270" />
+</extent>
+<lines_of_code value="36" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="5.143" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.286" level="0" />
+</member_function>
+<member_function>
+<name>initMotionModel(const MotionModel &amp;,int &amp;,int &amp;,int &amp;,SearchInfo &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="333" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isNodeValid(const bool &amp;,GridCollisionChecker *,MotionPrimitive *,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="205" />
+</extent>
+<lines_of_code value="49" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="4.083" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.750" level="0" />
+</member_function>
+<member_function>
+<name>precomputeDistanceHeuristic(const float &amp;,const MotionModel &amp;,const int &amp;,const SearchInfo &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="416" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="6.167" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>reset()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="192" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~NodeLattice()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="187" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>NodeLattice</name>
+<client_module>
+<name>NodeBasic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_basic.cpp" line="65" />
+</extent>
+</client_module>
+<supplier_module>
+<name>CoordinateVector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="538" />
+</extent>
+<name>Coordinates</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="321" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="322" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="350" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="351" />
+</extent>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="323" />
+</extent>
+<name>GridCollisionChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="207" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="464" />
+</extent>
+<name>MotionModel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="334" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="418" />
+</extent>
+<name>NodePtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="270" />
+</extent>
+<name>NodeVector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="466" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="206" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="209" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="465" />
+</extent>
+<name>function</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="463" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

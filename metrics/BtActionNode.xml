@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module BtActionNode-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="35" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="14" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="2.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="10" level="0" />
+<coupling_between_objects value="13" level="0" />
+<IF4 value="900" level="1" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="900" level="2" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="100" level="1" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_node.hpp" line="34" />
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>BtActionNode(const string &amp;,const string &amp;,const NodeConfiguration &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_node.hpp" line="43" />
+</extent>
+<lines_of_code value="25" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="2.778" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>BtActionNode</name>
+<client_module>
+<name>BackUpAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/back_up_action.hpp" line="29" />
+</extent>
+<name>ComputePathThroughPosesAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp" line="33" />
+</extent>
+<name>ComputePathToPoseAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp" line="30" />
+</extent>
+<name>DriveOnHeadingAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp" line="29" />
+</extent>
+<name>FollowPathAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/follow_path_action.hpp" line="30" />
+</extent>
+<name>NavigateThroughPosesAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp" line="31" />
+</extent>
+<name>NavigateToPoseAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp" line="31" />
+</extent>
+<name>SmoothPathAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/smooth_path_action.hpp" line="31" />
+</extent>
+<name>SpinAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/spin_action.hpp" line="29" />
+</extent>
+<name>WaitAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/wait_action.hpp" line="29" />
+</extent>
+</client_module>
+<supplier_module>
+<name>ActionNodeBase</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_node.hpp" line="34" />
+</extent>
+<name>NodeConfiguration</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_node.hpp" line="46" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_node.hpp" line="44" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_node.hpp" line="45" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

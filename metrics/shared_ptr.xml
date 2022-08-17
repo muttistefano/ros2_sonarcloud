@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module shared_ptr-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="65" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>shared_ptr</name>
+<client_module>
+<name>AmclNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="480" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="481" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="482" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="499" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="500" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="501" />
+</extent>
+<name>BackUp</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/back_up.cpp" line="20" />
+</extent>
+<name>BehaviorTreeHandler</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/test_behavior_tree_node.cpp" line="163" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/test_behavior_tree_node.cpp" line="164" />
+</extent>
+<name>BehaviorTreeTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_behavior_tree_fixture.hpp" line="76" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_behavior_tree_fixture.hpp" line="78" />
+</extent>
+<name>ClearCostmapService</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="65" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="66" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="67" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="77" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="78" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="79" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="85" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="86" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="87" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="121" />
+</extent>
+<name>ConstrainedSmoother</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_constrained_smoother/src/constrained_smoother.cpp" line="43" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_constrained_smoother/src/constrained_smoother.cpp" line="44" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_constrained_smoother/src/constrained_smoother.cpp" line="45" />
+</extent>
+<name>Costmap2DPublisher</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d_publisher.cpp" line="232" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d_publisher.cpp" line="233" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d_publisher.cpp" line="234" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp" line="144" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp" line="145" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp" line="146" />
+</extent>
+<name>CostmapSubscriber</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_subscriber.hpp" line="69" />
+</extent>
+<name>DWBLocalPlanner</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="70" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="71" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="283" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="344" />
+</extent>
+<name>DWBPublisher</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/publisher.cpp" line="158" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/publisher.cpp" line="253" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/publisher.hpp" line="90" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/publisher.hpp" line="95" />
+</extent>
+<name>DistanceControllerTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_distance_controller.cpp" line="46" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_distance_controller.cpp" line="47" />
+</extent>
+<name>DistanceTraveledConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_distance_traveled.cpp" line="40" />
+</extent>
+<name>DummyActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="148" />
+</extent>
+<name>DummyService</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="77" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="78" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="81" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="82" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="83" />
+</extent>
+<name>DummySmoother</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/test/test_smoother_server.cpp" line="51" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/test/test_smoother_server.cpp" line="52" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/test/test_smoother_server.cpp" line="53" />
+</extent>
+<name>FollowPathAction</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/follow_path_action.cpp" line="39" />
+</extent>
+<name>GloballyUpdatedGoalConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_globally_updated_goal.cpp" line="40" />
+</extent>
+<name>GoalChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_core/include/nav2_core/goal_checker.hpp" line="75" />
+</extent>
+<name>GoalReachedConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_goal_reached.cpp" line="57" />
+</extent>
+<name>GoalUpdatedConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_goal_updated.cpp" line="41" />
+</extent>
+<name>GoalUpdatedControllerTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_goal_updated_controller.cpp" line="53" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_goal_updated_controller.cpp" line="54" />
+</extent>
+<name>GripperActionController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="85" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="93" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="122" />
+</extent>
+<name>Handle</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_cli_node.cpp" line="62" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_cli_node.cpp" line="63" />
+</extent>
+<name>InfoServerTester</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_map_server/test/unit/test_costmap_filter_info_server.cpp" line="116" />
+</extent>
+<name>InitialPoseReceivedConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp" line="56" />
+</extent>
+<name>IsBatteryLowConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_battery_low.cpp" line="63" />
+</extent>
+<name>IsPathValidService</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp" line="40" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp" line="41" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp" line="42" />
+</extent>
+<name>IsPathValidTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp" line="76" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp" line="81" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp" line="82" />
+</extent>
+<name>IsStuckTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_stuck.cpp" line="45" />
+</extent>
+<name>JointTrajectoryController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp" line="992" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp" line="1062" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp" line="1122" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp" line="1289" />
+</extent>
+<name>LayeredCostmap</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/layered_costmap.cpp" line="92" />
+</extent>
+<name>LifecycleManager</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="118" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="119" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="120" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="143" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="144" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="145" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="75" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="76" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="77" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="86" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="87" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="88" />
+</extent>
+<name>LifecycleManagerClient</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager_client.cpp" line="31" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp" line="53" />
+</extent>
+<name>MapSaver</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_saver/map_saver.cpp" line="122" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_saver/map_saver.cpp" line="123" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_saver/map_saver.cpp" line="124" />
+</extent>
+<name>MapServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_server/map_server.cpp" line="181" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_server/map_server.cpp" line="182" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_server/map_server.cpp" line="183" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_server/map_server.cpp" line="197" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_server/map_server.cpp" line="198" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_server/map_server.cpp" line="199" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_map_server/src/map_server/map_server.cpp" line="219" />
+</extent>
+<name>NavfnPlanner</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn_planner.cpp" line="65" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn_planner.cpp" line="66" />
+</extent>
+<name>NavigateThroughPosesNavigator</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="28" />
+</extent>
+<name>NavigateToPoseNavigator</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp" line="28" />
+</extent>
+<name>ObstacleLayer</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="322" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="356" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="399" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="153" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="162" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="171" />
+</extent>
+<name>PathExpiringTimerConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_path_expiring_timer.cpp" line="52" />
+</extent>
+<name>RateControllerTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_rate_controller.cpp" line="45" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_rate_controller.cpp" line="46" />
+</extent>
+<name>RegulatedPurePursuitController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="43" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="44" />
+</extent>
+<name>RotationShimController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp" line="38" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp" line="39" />
+</extent>
+<name>SimpleGoalChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_controller/plugins/simple_goal_checker.cpp" line="67" />
+</extent>
+<name>SimpleSmoother</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="29" />
+</extent>
+<name>SingleTriggerTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_single_trigger_node.cpp" line="45" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_single_trigger_node.cpp" line="46" />
+</extent>
+<name>SmacPlanner2D</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_2d.cpp" line="50" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_2d.cpp" line="51" />
+</extent>
+<name>SmacPlannerHybrid</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_hybrid.cpp" line="51" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_hybrid.cpp" line="52" />
+</extent>
+<name>SmacPlannerLattice</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="49" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="50" />
+</extent>
+<name>SpeedControllerTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_speed_controller.cpp" line="56" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/decorator/test_speed_controller.cpp" line="57" />
+</extent>
+<name>Spin</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="74" />
+</extent>
+<name>StoppedGoalChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_controller/plugins/stopped_goal_checker.cpp" line="61" />
+</extent>
+<name>TestActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="69" />
+</extent>
+<name>TestAmclPose</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/localization/test_localization_node.cpp" line="62" />
+</extent>
+<name>TestCollisionChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="284" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="285" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="286" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="292" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="293" />
+</extent>
+<name>TestNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="76" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="82" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="111" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="122" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp" line="112" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/obstacle_tests.cpp" line="123" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/range_tests.cpp" line="145" />
+</extent>
+<name>TestService</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_service.hpp" line="46" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_service.hpp" line="47" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_service.hpp" line="48" />
+</extent>
+<name>TestableControllerManager</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp" line="72" />
+</extent>
+<name>ThetaStarPlanner</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_theta_star_planner/src/theta_star_planner.cpp" line="25" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_theta_star_planner/src/theta_star_planner.cpp" line="26" />
+</extent>
+<name>TimeExpiredConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_time_expired.cpp" line="45" />
+</extent>
+<name>Trajectory</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="37" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="53" />
+</extent>
+<name>TrajectoryControllerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp" line="403" />
+</extent>
+<name>TransformAvailableConditionTestFixture</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_transform_available.cpp" line="81" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_transform_available.cpp" line="83" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_transform_available.cpp" line="84" />
+</extent>
+<name>TransformHandler</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_transform_handler.hpp" line="157" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_transform_handler.hpp" line="158" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_transform_handler.hpp" line="159" />
+</extent>
+<name>Wait</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/wait.cpp" line="31" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

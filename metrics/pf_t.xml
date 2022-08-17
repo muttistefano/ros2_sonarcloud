@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module pf_t-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="6" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>pf_t</name>
+<client_module>
+<name>BeamModel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/sensors/laser/beam_model.cpp" line="120" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/sensors/laser/laser.hpp" line="128" />
+</extent>
+<name>DifferentialMotionModel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/motion_model/differential_motion_model.cpp" line="41" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/motion_model/differential_motion_model.hpp" line="41" />
+</extent>
+<name>Laser</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/sensors/laser/laser.hpp" line="57" />
+</extent>
+<name>LikelihoodFieldModel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model.cpp" line="136" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/sensors/laser/laser.hpp" line="158" />
+</extent>
+<name>LikelihoodFieldModelProb</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp" line="244" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/sensors/laser/laser.hpp" line="192" />
+</extent>
+<name>OmniMotionModel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/motion_model/omni_motion_model.cpp" line="41" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/motion_model/omni_motion_model.hpp" line="41" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

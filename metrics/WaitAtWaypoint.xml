@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module WaitAtWaypoint-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="68" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="30" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="2.267" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.200" level="0" />
+<weighted_methods_per_class_unity value="4" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="34" />
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>WaitAtWaypoint()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/wait_at_waypoint.cpp" line="26" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="41" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initialize(const WeakPtr &amp;,const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/wait_at_waypoint.cpp" line="36" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="55" />
+</extent>
+<lines_of_code value="36" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="6.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>processAtWaypoint(const PoseStamped &amp;,const int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/wait_at_waypoint.cpp" line="70" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="68" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~WaitAtWaypoint()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/wait_at_waypoint.cpp" line="32" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="47" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>WaitAtWaypoint</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/wait_at_waypoint.cpp" line="71" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="69" />
+</extent>
+<name>WaypointTaskExecutor</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="34" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/wait_at_waypoint.cpp" line="37" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="56" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="74" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/wait_at_waypoint.cpp" line="38" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/wait_at_waypoint.hpp" line="57" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

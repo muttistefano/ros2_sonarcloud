@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module CostmapTopicCollisionChecker-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="86" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="12" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="33" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="2.606" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.364" level="0" />
+<weighted_methods_per_class_unity value="4" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_topic_collision_checker.hpp" line="40" />
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="30" level="0" />
+<lines_of_code_per_line_of_comment value="0.700" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>CostmapTopicCollisionChecker(CostmapSubscriber &amp;,FootprintSubscriber &amp;,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="35" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_topic_collision_checker.hpp" line="46" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getFootprint(const Pose2D &amp;,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="87" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isCollisionFree(const Pose2D &amp;,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="45" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>scorePose(const Pose2D &amp;,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="66" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>CostmapTopicCollisionChecker</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>CostmapSubscriber</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="36" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_topic_collision_checker.hpp" line="47" />
+</extent>
+<name>FootprintSubscriber</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="37" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_topic_collision_checker.hpp" line="48" />
+</extent>
+<name>Pose2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="46" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="67" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="88" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="47" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="68" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="89" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="38" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_topic_collision_checker.hpp" line="49" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

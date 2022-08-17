@@ -1,0 +1,1499 @@
+gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:233:10: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    argv.push_back(reinterpret_cast<const char *>(arg.data()));
+         ^
+navigation2/nav2_amcl/src/amcl_node.cpp:945:10: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+    temp += covariance_value;
+         ^
+navigation2/nav2_amcl/src/map/map_cspace.cpp:54:5: warning: Class 'CachedDistanceMap' does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s). [noCopyConstructor]
+    distances_ = new double *[cell_radius_ + 2];
+    ^
+navigation2/nav2_amcl/src/map/map_cspace.cpp:54:5: warning: Class 'CachedDistanceMap' does not have a operator= which is recommended since it has dynamic memory/resource allocation(s). [noOperatorEq]
+    distances_ = new double *[cell_radius_ + 2];
+    ^
+navigation2/nav2_amcl/src/map/map_draw.c:48:14: style: The scope of the variable 'pixel' can be reduced. [variableScope]
+  uint16_t * pixel;
+             ^
+navigation2/nav2_amcl/src/map/map_draw.c:80:14: style: The scope of the variable 'pixel' can be reduced. [variableScope]
+  uint16_t * pixel;
+             ^
+navigation2/nav2_amcl/src/map/map_draw.c:113:14: style: The scope of the variable 'ipix' can be reduced. [variableScope]
+  uint16_t * ipix, * mpix;
+             ^
+navigation2/nav2_amcl/src/map/map_draw.c:113:22: style: The scope of the variable 'mpix' can be reduced. [variableScope]
+  uint16_t * ipix, * mpix;
+                     ^
+navigation2/nav2_amcl/src/map/map_range.c:45:7: style: The scope of the variable 'tmp' can be reduced. [variableScope]
+  int tmp;
+      ^
+navigation2/nav2_amcl/src/motion_model/differential_motion_model.cpp:52:10: style: The scope of the variable 'delta_rot1_hat' can be reduced. [variableScope]
+  double delta_rot1_hat, delta_trans_hat, delta_rot2_hat;
+         ^
+navigation2/nav2_amcl/src/motion_model/differential_motion_model.cpp:52:26: style: The scope of the variable 'delta_trans_hat' can be reduced. [variableScope]
+  double delta_rot1_hat, delta_trans_hat, delta_rot2_hat;
+                         ^
+navigation2/nav2_amcl/src/motion_model/differential_motion_model.cpp:52:43: style: The scope of the variable 'delta_rot2_hat' can be reduced. [variableScope]
+  double delta_rot1_hat, delta_trans_hat, delta_rot2_hat;
+                                          ^
+navigation2/nav2_amcl/src/motion_model/omni_motion_model.cpp:50:34: style: The scope of the variable 'delta_bearing' can be reduced. [variableScope]
+  double delta_trans, delta_rot, delta_bearing;
+                                 ^
+navigation2/nav2_amcl/src/motion_model/omni_motion_model.cpp:51:10: style: The scope of the variable 'delta_trans_hat' can be reduced. [variableScope]
+  double delta_trans_hat, delta_rot_hat, delta_strafe_hat;
+         ^
+navigation2/nav2_amcl/src/motion_model/omni_motion_model.cpp:51:27: style: The scope of the variable 'delta_rot_hat' can be reduced. [variableScope]
+  double delta_trans_hat, delta_rot_hat, delta_strafe_hat;
+                          ^
+navigation2/nav2_amcl/src/motion_model/omni_motion_model.cpp:51:42: style: The scope of the variable 'delta_strafe_hat' can be reduced. [variableScope]
+  double delta_trans_hat, delta_rot_hat, delta_strafe_hat;
+                                         ^
+navigation2/nav2_amcl/src/pf/eig3.c:46:16: style: The scope of the variable 'h' can be reduced. [variableScope]
+  double f, g, h, hh;
+               ^
+navigation2/nav2_amcl/src/pf/eig3.c:160:13: style: The scope of the variable 'm' can be reduced. [variableScope]
+  int i, j, m, l, k;
+            ^
+navigation2/nav2_amcl/src/pf/eig3.c:57:12: style: Local variable 'h' shadows outer variable [shadowVariable]
+    double h = 0.0;
+           ^
+navigation2/nav2_amcl/src/pf/eig3.c:46:16: note: Shadowed declaration
+  double f, g, h, hh;
+               ^
+navigation2/nav2_amcl/src/pf/eig3.c:57:12: note: Shadow variable
+    double h = 0.0;
+           ^
+navigation2/nav2_amcl/src/pf/pf.c:132:17: style: The scope of the variable 'sample' can be reduced. [variableScope]
+  pf_sample_t * sample;
+                ^
+navigation2/nav2_amcl/src/pf/pf.c:171:17: style: The scope of the variable 'sample' can be reduced. [variableScope]
+  pf_sample_t * sample;
+                ^
+navigation2/nav2_amcl/src/pf/pf.c:461:16: style: The scope of the variable 'cidx' can be reduced. [variableScope]
+  int i, j, k, cidx;
+               ^
+navigation2/nav2_amcl/src/pf/pf.c:462:17: style: The scope of the variable 'sample' can be reduced. [variableScope]
+  pf_sample_t * sample;
+                ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:50:10: style: The scope of the variable 'px' can be reduced. [variableScope]
+  double px, py, pa;
+         ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:50:14: style: The scope of the variable 'py' can be reduced. [variableScope]
+  double px, py, pa;
+             ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:50:18: style: The scope of the variable 'pa' can be reduced. [variableScope]
+  double px, py, pa;
+                 ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:107:10: style: The scope of the variable 'weight' can be reduced. [variableScope]
+  double weight, o, d1, d2;
+         ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:107:18: style: The scope of the variable 'o' can be reduced. [variableScope]
+  double weight, o, d1, d2;
+                 ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:107:21: style: The scope of the variable 'd1' can be reduced. [variableScope]
+  double weight, o, d1, d2;
+                    ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:107:25: style: The scope of the variable 'd2' can be reduced. [variableScope]
+  double weight, o, d1, d2;
+                        ^
+navigation2/nav2_amcl/src/pf/pf_draw.c:114:12: style: Variable 'weight' is assigned a value that is never used. [unreadVariable]
+    weight = cluster->weight;
+           ^
+navigation2/nav2_amcl/src/pf/pf_kdtree.c:395:22: style: The scope of the variable 'nnode' can be reduced. [variableScope]
+  pf_kdtree_node_t * nnode;
+                     ^
+navigation2/nav2_amcl/src/pf/pf_kdtree.c:440:10: style: The scope of the variable 'ox' can be reduced. [variableScope]
+  double ox, oy;
+         ^
+navigation2/nav2_amcl/src/pf/pf_kdtree.c:440:14: style: The scope of the variable 'oy' can be reduced. [variableScope]
+  double ox, oy;
+             ^
+navigation2/nav2_amcl/src/pf/pf_kdtree.c:441:8: style: The scope of the variable 'text' can be reduced. [variableScope]
+  char text[64];
+       ^
+navigation2/nav2_amcl/src/pf/pf_pdf.c:134:10: style: The scope of the variable 'x1' can be reduced. [variableScope]
+  double x1, x2, w, r;
+         ^
+navigation2/nav2_amcl/src/sensors/laser/beam_model.cpp:49:13: style: The scope of the variable 'step' can be reduced. [variableScope]
+  int i, j, step;
+            ^
+navigation2/nav2_amcl/src/sensors/laser/beam_model.cpp:51:10: style: The scope of the variable 'p' can be reduced. [variableScope]
+  double p;
+         ^
+navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model.cpp:45:13: style: The scope of the variable 'step' can be reduced. [variableScope]
+  int i, j, step;
+            ^
+navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model.cpp:47:10: style: The scope of the variable 'p' can be reduced. [variableScope]
+  double p;
+         ^
+navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp:104:8: style: The scope of the variable 'realloc' can be reduced. [variableScope]
+  bool realloc = false;
+       ^
+navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp:101:16: style: Variable 'beam_ind' is assigned a value that is never used. [unreadVariable]
+  int beam_ind = 0;
+               ^
+navigation2/nav2_behavior_tree/plugins/action/remove_passed_goals_action.cpp:64:10: style: The scope of the variable 'dist_to_goal' can be reduced. [variableScope]
+  double dist_to_goal;
+         ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_back_up_cancel_node.cpp:34:8: style: The function 'execute' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/test_action_server.hpp:82:16: note: Virtual function in base class
+  virtual void execute(
+               ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_back_up_cancel_node.cpp:34:8: note: Function in derived class
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_controller_cancel_node.cpp:34:8: style: The function 'execute' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/test_action_server.hpp:82:16: note: Virtual function in base class
+  virtual void execute(
+               ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_controller_cancel_node.cpp:34:8: note: Function in derived class
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_drive_on_heading_cancel_node.cpp:34:8: style: The function 'execute' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/test_action_server.hpp:82:16: note: Virtual function in base class
+  virtual void execute(
+               ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_drive_on_heading_cancel_node.cpp:34:8: note: Function in derived class
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_follow_path_action.cpp:42:21: style: Variable 'goal' is assigned a value that is never used. [unreadVariable]
+    const auto goal = goal_handle->get_goal();
+                    ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_navigate_through_poses_action.cpp:45:21: style: Variable 'goal' is assigned a value that is never used. [unreadVariable]
+    const auto goal = goal_handle->get_goal();
+                    ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_navigate_to_pose_action.cpp:43:21: style: Variable 'goal' is assigned a value that is never used. [unreadVariable]
+    const auto goal = goal_handle->get_goal();
+                    ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_smooth_path_action.cpp:42:21: style: Variable 'goal' is assigned a value that is never used. [unreadVariable]
+    const auto goal = goal_handle->get_goal();
+                    ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_spin_cancel_node.cpp:34:8: style: The function 'execute' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/test_action_server.hpp:82:16: note: Virtual function in base class
+  virtual void execute(
+               ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_spin_cancel_node.cpp:34:8: note: Function in derived class
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_wait_cancel_node.cpp:34:8: style: The function 'execute' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/test_action_server.hpp:82:16: note: Virtual function in base class
+  virtual void execute(
+               ^
+navigation2/nav2_behavior_tree/test/plugins/action/test_wait_cancel_node.cpp:34:8: note: Function in derived class
+  void execute(
+       ^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp:39:16: style: The function 'handle_service' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  virtual void handle_service(
+               ^
+navigation2/nav2_behavior_tree/test/test_service.hpp:45:16: note: Virtual function in base class
+  virtual void handle_service(
+               ^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp:39:16: note: Function in derived class
+  virtual void handle_service(
+               ^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_path_expiring_timer.cpp:51:34: warning: The class 'PathExpiringTimerConditionTestFixture' defines member variable with name 'node_' also defined in its parent class 'BehaviorTreeTestFixture'. [duplInheritedMember]
+  static rclcpp::Node::SharedPtr node_;
+                                 ^
+navigation2/nav2_behavior_tree/test/test_behavior_tree_fixture.hpp:75:34: note: Parent variable 'BehaviorTreeTestFixture::node_'
+  static rclcpp::Node::SharedPtr node_;
+                                 ^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_path_expiring_timer.cpp:51:34: note: Derived variable 'PathExpiringTimerConditionTestFixture::node_'
+  static rclcpp::Node::SharedPtr node_;
+                                 ^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_path_expiring_timer.cpp:53:34: warning: The class 'PathExpiringTimerConditionTestFixture' defines member variable with name 'config_' also defined in its parent class 'BehaviorTreeTestFixture'. [duplInheritedMember]
+  static BT::NodeConfiguration * config_;
+                                 ^
+navigation2/nav2_behavior_tree/test/test_behavior_tree_fixture.hpp:77:34: note: Parent variable 'BehaviorTreeTestFixture::config_'
+  static BT::NodeConfiguration * config_;
+                                 ^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_path_expiring_timer.cpp:53:34: note: Derived variable 'PathExpiringTimerConditionTestFixture::config_'
+  static BT::NodeConfiguration * config_;
+                                 ^
+navigation2/nav2_behavior_tree/test/test_bt_conversions.cpp:226:8: style: Redundant initialization for 'tree'. The initialized value is overwritten before it is read. [redundantInitialization]
+  tree = factory.createTreeFromText(xml_txt);
+       ^
+navigation2/nav2_behavior_tree/test/test_bt_conversions.cpp:224:13: note: tree is initialized
+  auto tree = factory.createTreeFromText(xml_txt);
+            ^
+navigation2/nav2_behavior_tree/test/test_bt_conversions.cpp:226:8: note: tree is overwritten
+  tree = factory.createTreeFromText(xml_txt);
+       ^
+navigation2/nav2_behaviors/plugins/drive_on_heading.hpp:162:12: style: The scope of the variable 'sim_position_change' can be reduced. [variableScope]
+    double sim_position_change;
+           ^
+navigation2/nav2_behaviors/plugins/spin.cpp:167:10: style: The scope of the variable 'sim_position_change' can be reduced. [variableScope]
+  double sim_position_change;
+         ^
+navigation2/nav2_behaviors/plugins/spin.cpp:161:18: style:inconclusive: Function 'isCollisionFree' argument 1 names different: declaration 'distance' definition 'relative_yaw'. [funcArgNamesDifferent]
+  const double & relative_yaw,
+                 ^
+navigation2/nav2_behaviors/plugins/spin.hpp:70:20: note: Function 'isCollisionFree' argument 1 names different: declaration 'distance' definition 'relative_yaw'.
+    const double & distance,
+                   ^
+navigation2/nav2_behaviors/plugins/spin.cpp:161:18: note: Function 'isCollisionFree' argument 1 names different: declaration 'distance' definition 'relative_yaw'.
+  const double & relative_yaw,
+                 ^
+navigation2/nav2_controller/plugins/test/goal_checker.cpp:140:10: style: Variable 'x' is assigned a value that is never used. [unreadVariable]
+  auto x = std::make_shared<TestLifecycleNode>("goal_checker");
+         ^
+navigation2/nav2_controller/plugins/test/progress_checker.cpp:108:10: style: Variable 'x' is assigned a value that is never used. [unreadVariable]
+  auto x = std::make_shared<TestLifecycleNode>("progress_checker");
+         ^
+navigation2/nav2_costmap_2d/src/costmap_2d.cpp:544:3: warning: %u in format string (no. 3) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+  fprintf(fp, "P2\n%u\n%u\n%u\n", size_x_, size_y_, 0xff);
+  ^
+navigation2/nav2_costmap_2d/src/costmap_2d.cpp:78:10: style: The scope of the variable 'data' can be reduced. [variableScope]
+  int8_t data;
+         ^
+navigation2/nav2_costmap_2d/src/costmap_2d_cloud.cpp:84:52: style: Parameter 'cloud' can be declared with const [constParameter]
+  std::unique_ptr<sensor_msgs::msg::PointCloud2> & cloud,
+                                                   ^
+navigation2/nav2_costmap_2d/src/costmap_2d_cloud.cpp:224:12: style: Variable 'sub' is assigned a value that is never used. [unreadVariable]
+  auto sub = g_node->create_subscription<nav2_msgs::msg::VoxelGrid>(
+           ^
+navigation2/nav2_costmap_2d/src/costmap_2d_markers.cpp:158:12: style: Variable 'sub' is assigned a value that is never used. [unreadVariable]
+  auto sub = g_node->create_subscription<nav2_msgs::msg::VoxelGrid>(
+           ^
+navigation2/nav2_costmap_2d/src/costmap_layer.cpp:76:23: style: The statement 'if (grid[index]!=NO_INFORMATION) grid[index]=NO_INFORMATION' is logically equivalent to 'grid[index]=NO_INFORMATION'. [duplicateConditionalAssign]
+      if (grid[index] != NO_INFORMATION) {
+                      ^
+navigation2/nav2_costmap_2d/src/costmap_layer.cpp:77:21: note: Assignment 'grid[index]=NO_INFORMATION'
+        grid[index] = NO_INFORMATION;
+                    ^
+navigation2/nav2_costmap_2d/src/costmap_layer.cpp:76:23: note: Condition 'grid[index]!=NO_INFORMATION' is redundant
+      if (grid[index] != NO_INFORMATION) {
+                      ^
+navigation2/nav2_costmap_2d/src/footprint_collision_checker.cpp:91:10: style: The scope of the variable 'point_cost' can be reduced. [variableScope]
+  double point_cost = -1.0;
+         ^
+navigation2/nav2_costmap_2d/src/footprint_collision_checker.cpp:91:21: style: Variable 'point_cost' is assigned a value that is never used. [unreadVariable]
+  double point_cost = -1.0;
+                    ^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:121:21: style: Unsigned expression 'neighbor_cost' can't be negative so it is unnecessary to test it. [unsignedPositive]
+      neighbor_cost >= expected_lowest_cost ||
+                    ^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:119:42: note: Assignment 'expected_lowest_cost=0', assigned value is 0
+    unsigned char expected_lowest_cost = 0;
+                                         ^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:121:21: note: Unsigned positive
+      neighbor_cost >= expected_lowest_cost ||
+                    ^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:128:23: style: Checking if unsigned expression 'neighbor_cost' is less than zero. [unsignedLessThanZero]
+    if (neighbor_cost < expected_lowest_cost) {
+                      ^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:127:42: note: Assignment 'expected_lowest_cost=0', assigned value is 0
+    unsigned char expected_lowest_cost = 0;
+                                         ^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:128:23: note: Unsigned less than zero
+    if (neighbor_cost < expected_lowest_cost) {
+                      ^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:170:38: style: Variable 'timer' is assigned a value that is never used. [unreadVariable]
+  rclcpp::TimerBase::SharedPtr timer = node->create_wall_timer(30000ms, testCallback);
+                                     ^
+navigation2/nav2_costmap_2d/test/integration/dyn_params_tests.cpp:63:17: style: Variable 'results1' is assigned a value that is never used. [unreadVariable]
+  auto results1 = parameter_client->set_parameters_atomically(
+                ^
+navigation2/nav2_costmap_2d/test/integration/dyn_params_tests.cpp:81:17: style: Variable 'results2' is assigned a value that is never used. [unreadVariable]
+  auto results2 = parameter_client->set_parameters_atomically(
+                ^
+navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp:106:5: performance: Variable 'footprint_tester_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    footprint_tester_ = std::make_shared<FootprintTestNode>();
+    ^
+navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp:85:42: style:inconclusive: Technically the member function 'FootprintTestNode::getRobotFootprint' can be const. [functionConst]
+  std::vector<geometry_msgs::msg::Point> getRobotFootprint()
+                                         ^
+navigation2/nav2_costmap_2d/test/integration/obstacle_tests.cpp:107:5: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    node_ = std::make_shared<TestLifecycleNode>("obstacle_test_node");
+    ^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:90:12: warning: Member variable 'TestCollisionChecker::x_' is not initialized in the constructor. [uninitMemberVar]
+  explicit TestCollisionChecker(std::string name)
+           ^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:90:12: warning: Member variable 'TestCollisionChecker::y_' is not initialized in the constructor. [uninitMemberVar]
+  explicit TestCollisionChecker(std::string name)
+           ^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:90:12: warning: Member variable 'TestCollisionChecker::yaw_' is not initialized in the constructor. [uninitMemberVar]
+  explicit TestCollisionChecker(std::string name)
+           ^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:310:5: performance: Variable 'collision_checker_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    collision_checker_ = std::make_shared<TestCollisionChecker>("test_collision_checker");
+    ^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:90:45: performance: Function parameter 'name' should be passed by const reference. [passedByValue]
+  explicit TestCollisionChecker(std::string name)
+                                            ^
+navigation2/nav2_costmap_2d/test/regression/costmap_bresenham_2d.cpp:54:23: style:inconclusive: Technically the member function 'CostmapAction::get' can be const. [functionConst]
+  inline unsigned int get(unsigned int off)
+                      ^
+navigation2/nav2_costmap_2d/test/unit/array_parser_test.cpp:55:7: style: Variable 'vvf' is assigned a value that is never used. [unreadVariable]
+  vvf = nav2_costmap_2d::parseVVF("[1, 2.2], [.3, -4e4]]", error);
+      ^
+navigation2/nav2_costmap_2d/test/unit/array_parser_test.cpp:63:7: style: Variable 'vvf' is assigned a value that is never used. [unreadVariable]
+  vvf = nav2_costmap_2d::parseVVF("[[1, 2.2], [.3, -4e4]", error);
+      ^
+navigation2/nav2_costmap_2d/test/unit/array_parser_test.cpp:71:7: style: Variable 'vvf' is assigned a value that is never used. [unreadVariable]
+  vvf = nav2_costmap_2d::parseVVF("[1, 2.2], [.3, -4e4]", error);
+      ^
+navigation2/nav2_costmap_2d/test/unit/costmap_conversion_test.cpp:81:10: style: The scope of the variable 'data' can be reduced. [variableScope]
+  int8_t data;
+         ^
+navigation2/nav2_costmap_2d/test/unit/costmap_conversion_test.cpp:104:17: style: The scope of the variable 'data' can be reduced. [variableScope]
+  unsigned char data, data_ref;
+                ^
+navigation2/nav2_costmap_2d/test/unit/keepout_filter_test.cpp:270:38: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+        it != keepout_points_.end(); it++)
+                                     ^
+navigation2/nav2_dwb_controller/dwb_critics/src/map_grid.cpp:126:10: style: The scope of the variable 'grid_dist' can be reduced. [variableScope]
+  double grid_dist;
+         ^
+navigation2/nav2_dwb_controller/dwb_critics/src/obstacle_footprint.cpp:137:10: style: The scope of the variable 'point_cost' can be reduced. [variableScope]
+  double point_cost = -1.0;
+         ^
+navigation2/nav2_dwb_controller/dwb_critics/src/obstacle_footprint.cpp:137:21: style: Variable 'point_cost' is assigned a value that is never used. [unreadVariable]
+  double point_cost = -1.0;
+                    ^
+navigation2/nav2_dwb_controller/dwb_critics/test/obstacle_footprint_test.cpp:117:21: style: Local variable 'i' shadows outer variable [shadowVariable]
+  for (unsigned int i = 0; i < footprint_before.size(); i++) {
+                    ^
+navigation2/nav2_dwb_controller/dwb_critics/test/obstacle_footprint_test.cpp:108:8: note: Shadowed declaration
+  uint i;
+       ^
+navigation2/nav2_dwb_controller/dwb_critics/test/obstacle_footprint_test.cpp:117:21: note: Shadow variable
+  for (unsigned int i = 0; i < footprint_before.size(); i++) {
+                    ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/speed_limit_test.cpp:65:5: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    node_ = nav2_util::LifecycleNode::make_shared(node_name);
+    ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:112:10: style:inconclusive: Same expression used in consecutive assignments of 'min_x' and 'max_x'. [duplicateAssignExpression]
+  double min_x = first.x, max_x = first.x, min_y = first.y, max_y = first.y;
+         ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:112:27: note: Same expression used in consecutive assignments of 'min_x' and 'max_x'.
+  double min_x = first.x, max_x = first.x, min_y = first.y, max_y = first.y;
+                          ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:112:10: note: Same expression used in consecutive assignments of 'min_x' and 'max_x'.
+  double min_x = first.x, max_x = first.x, min_y = first.y, max_y = first.y;
+         ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:112:44: style:inconclusive: Same expression used in consecutive assignments of 'min_y' and 'max_y'. [duplicateAssignExpression]
+  double min_x = first.x, max_x = first.x, min_y = first.y, max_y = first.y;
+                                           ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:112:61: note: Same expression used in consecutive assignments of 'min_y' and 'max_y'.
+  double min_x = first.x, max_x = first.x, min_y = first.y, max_y = first.y;
+                                                            ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:112:44: note: Same expression used in consecutive assignments of 'min_y' and 'max_y'.
+  double min_x = first.x, max_x = first.x, min_y = first.y, max_y = first.y;
+                                           ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:113:10: style:inconclusive: Same expression used in consecutive assignments of 'min_theta' and 'max_theta'. [duplicateAssignExpression]
+  double min_theta = first.theta, max_theta = first.theta;
+         ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:113:35: note: Same expression used in consecutive assignments of 'min_theta' and 'max_theta'.
+  double min_theta = first.theta, max_theta = first.theta;
+                                  ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/twist_gen.cpp:113:10: note: Same expression used in consecutive assignments of 'min_theta' and 'max_theta'.
+  double min_theta = first.theta, max_theta = first.theta;
+         ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/velocity_iterator_test.cpp:121:3: style: Variable 'it' is assigned a value that is never used. [unreadVariable]
+  ++it;
+  ^
+navigation2/nav2_dwb_controller/dwb_plugins/test/velocity_iterator_test.cpp:136:3: style: Variable 'it' is assigned a value that is never used. [unreadVariable]
+  ++it;
+  ^
+navigation2/nav2_dwb_controller/nav_2d_utils/src/tf_help.cpp:44:21: performance: Function parameter 'frame' should be passed by const reference. [passedByValue]
+  const std::string frame,
+                    ^
+navigation2/nav2_dwb_controller/nav_2d_utils/src/tf_help.cpp:100:21: performance: Function parameter 'frame' should be passed by const reference. [passedByValue]
+  const std::string frame,
+                    ^
+navigation2/nav2_dwb_controller/nav_2d_utils/src/tf_help.cpp:47:22: style: Parameter 'transform_tolerance' can be declared with const [constParameter]
+  rclcpp::Duration & transform_tolerance
+                     ^
+navigation2/nav2_lifecycle_manager/test/test_bond.cpp:34:5: performance: Variable 'state' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    state = "";
+    ^
+navigation2/nav2_lifecycle_manager/test/test_bond.cpp:120:5: performance: Variable 'lf_node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    lf_node_ = std::make_shared<TestLifecycleNode>(bond, node_name);
+    ^
+navigation2/nav2_lifecycle_manager/test/test_bond.cpp:31:44: performance: Function parameter 'name' should be passed by const reference. [passedByValue]
+  TestLifecycleNode(bool bond, std::string name)
+                                           ^
+navigation2/nav2_lifecycle_manager/test/test_lifecycle_manager.cpp:73:5: performance: Variable 'lf_node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    lf_node_ = std::make_shared<LifecycleNodeTest>();
+    ^
+navigation2/nav2_map_server/src/map_io.cpp:210:13: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+        sum += c;
+            ^
+navigation2/nav2_map_server/src/map_io.cpp:71:21: style: Condition 'path!=NULL' is always true [knownConditionTrueFalse]
+  last_slash = path != NULL ? strrchr(path, '/') : NULL;
+                    ^
+navigation2/nav2_map_server/src/map_io.cpp:59:12: note: Assuming that condition 'path==NULL' is not redundant
+  if (path == NULL) {
+           ^
+navigation2/nav2_map_server/src/map_io.cpp:71:21: note: Condition 'path!=NULL' is always true
+  last_slash = path != NULL ? strrchr(path, '/') : NULL;
+                    ^
+navigation2/nav2_map_server/src/map_saver/main_cli.cpp:83:34: style: Unused variable: params_from_args [unusedVariable]
+  std::vector<rclcpp::Parameter> params_from_args;
+                                 ^
+navigation2/nav2_map_server/src/map_saver/main_server.cpp:27:15: style: Variable 'logger' is assigned a value that is never used. [unreadVariable]
+  auto logger = rclcpp::get_logger("map_saver_server");
+              ^
+navigation2/nav2_map_server/src/map_server/main.cpp:24:24: style: Variable 'node_name' is assigned a value that is never used. [unreadVariable]
+  std::string node_name("map_server");
+                       ^
+navigation2/nav2_map_server/test/component/test_map_server_node.cpp:206:15: style: Variable 'client' is assigned a value that is never used. [unreadVariable]
+  auto client = node_->create_client<nav_msgs::srv::GetMap>("/map_server/map");
+              ^
+navigation2/nav2_navfn_planner/src/navfn.cpp:455:13: style: Local variable 'd' shadows outer variable [shadowVariable]
+      float d = dc / hf;
+            ^
+navigation2/nav2_navfn_planner/src/navfn.cpp:424:12: note: Shadowed declaration
+  float u, d, l, r;
+           ^
+navigation2/nav2_navfn_planner/src/navfn.cpp:455:13: note: Shadow variable
+      float d = dc / hf;
+            ^
+navigation2/nav2_navfn_planner/src/navfn.cpp:530:13: style: Local variable 'd' shadows outer variable [shadowVariable]
+      float d = dc / hf;
+            ^
+navigation2/nav2_navfn_planner/src/navfn.cpp:499:12: note: Shadowed declaration
+  float u, d, l, r;
+           ^
+navigation2/nav2_navfn_planner/src/navfn.cpp:530:13: note: Shadow variable
+      float d = dc / hf;
+            ^
+navigation2/nav2_planner/src/planner_server.cpp:545:16: style: The scope of the variable 'closest_point_index' can be reduced. [variableScope]
+  unsigned int closest_point_index = 0;
+               ^
+navigation2/nav2_planner/src/planner_server.cpp:377:60: style: Unused variable: goal_iter [unusedVariable]
+    std::vector<geometry_msgs::msg::PoseStamped>::iterator goal_iter;
+                                                           ^
+navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp:659:53: style: Parameter 'robot_position' can be declared with const [constParameter]
+  void setup_transforms(geometry_msgs::msg::Point & robot_position)
+                                                    ^
+navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp:183:10: style: The scope of the variable 'dx' can be reduced. [variableScope]
+  double dx, dy;
+         ^
+navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp:183:14: style: The scope of the variable 'dy' can be reduced. [variableScope]
+  double dx, dy;
+             ^
+navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp:240:10: style: The scope of the variable 'yaw' can be reduced. [variableScope]
+  double yaw = 0.0;
+         ^
+navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp:241:10: style: The scope of the variable 'footprint_cost' can be reduced. [variableScope]
+  double footprint_cost = 0.0;
+         ^
+navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp:240:14: style: Variable 'yaw' is assigned a value that is never used. [unreadVariable]
+  double yaw = 0.0;
+             ^
+navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp:241:25: style: Variable 'footprint_cost' is assigned a value that is never used. [unreadVariable]
+  double footprint_cost = 0.0;
+                        ^
+navigation2/nav2_rotation_shim_controller/test/test_shim_controller.cpp:120:13: style: Variable 'ctrl' is assigned a value that is never used. [unreadVariable]
+  auto ctrl = std::make_shared<RotationShimShim>();
+            ^
+navigation2/nav2_rotation_shim_controller/test/test_shim_controller.cpp:170:13: style: Variable 'ctrl' is assigned a value that is never used. [unreadVariable]
+  auto ctrl = std::make_shared<RotationShimShim>();
+            ^
+navigation2/nav2_rotation_shim_controller/test/test_shim_controller.cpp:229:13: style: Variable 'ctrl' is assigned a value that is never used. [unreadVariable]
+  auto ctrl = std::make_shared<RotationShimShim>();
+            ^
+navigation2/nav2_rotation_shim_controller/test/test_shim_controller.cpp:233:17: style: Variable 'listener' is assigned a value that is never used. [unreadVariable]
+  auto listener = std::make_shared<tf2_ros::TransformListener>(*tf, node, true);
+                ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:438:27: style: Variable 'futureNav' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureNav =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:443:27: style: Variable 'futureLoc' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureLoc =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:453:27: style: Variable 'futureNav' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureNav =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:458:27: style: Variable 'futureLoc' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureLoc =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:468:27: style: Variable 'futureNav' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureNav =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:473:27: style: Variable 'futureLoc' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureLoc =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:483:27: style: Variable 'futureNav' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureNav =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:488:27: style: Variable 'futureLoc' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> futureLoc =
+                          ^
+navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:499:24: style: Variable 'future' is assigned a value that is never used. [unreadVariable]
+  QFuture<void> future =
+                       ^
+navigation2/nav2_rviz_plugins/src/particle_cloud_display/flat_weighted_arrows_array.cpp:119:9: style: The scope of the variable 'length' can be reduced. [variableScope]
+  float length;
+        ^
+navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp:253:9: style: The scope of the variable 'shaft_length' can be reduced. [variableScope]
+  float shaft_length;
+        ^
+navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp:278:9: style: The scope of the variable 'shaft_length' can be reduced. [variableScope]
+  float shaft_length;
+        ^
+navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp:388:9: style: The scope of the variable 'shaft_length' can be reduced. [variableScope]
+  float shaft_length;
+        ^
+navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp:405:9: style: The scope of the variable 'shaft_length' can be reduced. [variableScope]
+  float shaft_length;
+        ^
+navigation2/nav2_smac_planner/src/analytic_expansion.cpp:153:10: style: The scope of the variable 'theta' can be reduced. [variableScope]
+  double theta;
+         ^
+navigation2/nav2_smac_planner/src/analytic_expansion.cpp:157:16: style: The scope of the variable 'index' can be reduced. [variableScope]
+  unsigned int index = 0;
+               ^
+navigation2/nav2_smac_planner/src/analytic_expansion.cpp:159:9: style: The scope of the variable 'angle' can be reduced. [variableScope]
+  float angle = 0.0;
+        ^
+navigation2/nav2_smac_planner/src/analytic_expansion.cpp:157:22: style: Variable 'index' is assigned a value that is never used. [unreadVariable]
+  unsigned int index = 0;
+                     ^
+navigation2/nav2_smac_planner/src/analytic_expansion.cpp:159:15: style: Variable 'angle' is assigned a value that is never used. [unreadVariable]
+  float angle = 0.0;
+              ^
+navigation2/nav2_smac_planner/src/collision_checker.cpp:60:10: style: The scope of the variable 'sin_th' can be reduced. [variableScope]
+  double sin_th, cos_th;
+         ^
+navigation2/nav2_smac_planner/src/collision_checker.cpp:60:18: style: The scope of the variable 'cos_th' can be reduced. [variableScope]
+  double sin_th, cos_th;
+                 ^
+navigation2/nav2_smac_planner/src/costmap_downsampler.cpp:130:16: style: The scope of the variable 'mx' can be reduced. [variableScope]
+  unsigned int mx, my;
+               ^
+navigation2/nav2_smac_planner/src/node_2d.cpp:135:7: style: The scope of the variable 'index' can be reduced. [variableScope]
+  int index;
+      ^
+navigation2/nav2_smac_planner/src/node_hybrid.cpp:469:9: style: The scope of the variable 'c_cost' can be reduced. [variableScope]
+  float c_cost, cost, travel_cost, new_cost, existing_cost;
+        ^
+navigation2/nav2_smac_planner/src/node_hybrid.cpp:470:16: style: The scope of the variable 'idx' can be reduced. [variableScope]
+  unsigned int idx, mx, my, mx_idx, my_idx;
+               ^
+navigation2/nav2_smac_planner/src/node_hybrid.cpp:669:16: style: The scope of the variable 'index' can be reduced. [variableScope]
+  unsigned int index = 0;
+               ^
+navigation2/nav2_smac_planner/src/node_hybrid.cpp:638:26: style: Variable 'motion_heuristic' is assigned a value that is never used. [unreadVariable]
+  float motion_heuristic = 0.0;
+                         ^
+navigation2/nav2_smac_planner/src/node_hybrid.cpp:669:22: style: Variable 'index' is assigned a value that is never used. [unreadVariable]
+  unsigned int index = 0;
+                     ^
+navigation2/nav2_smac_planner/src/node_lattice.cpp:159:9: style: The scope of the variable 'dist' can be reduced. [variableScope]
+  float dist = 0.0;
+        ^
+navigation2/nav2_smac_planner/src/node_lattice.cpp:468:16: style: The scope of the variable 'index' can be reduced. [variableScope]
+  unsigned int index = 0;
+               ^
+navigation2/nav2_smac_planner/src/node_lattice.cpp:159:14: style: Variable 'dist' is assigned a value that is never used. [unreadVariable]
+  float dist = 0.0;
+             ^
+navigation2/nav2_smac_planner/src/node_lattice.cpp:438:26: style: Variable 'motion_heuristic' is assigned a value that is never used. [unreadVariable]
+  float motion_heuristic = 0.0;
+                         ^
+navigation2/nav2_smac_planner/src/node_lattice.cpp:468:22: style: Variable 'index' is assigned a value that is never used. [unreadVariable]
+  unsigned int index = 0;
+                     ^
+navigation2/nav2_smac_planner/src/node_lattice.cpp:470:18: style: Variable 'backwards' is assigned a value that is never used. [unreadVariable]
+  bool backwards = false;
+                 ^
+navigation2/nav2_smac_planner/src/smoother.cpp:352:10: style: The scope of the variable 'theta' can be reduced. [variableScope]
+  double theta(0.0), x(0.0), y(0.0);
+         ^
+navigation2/nav2_smac_planner/src/smoother.cpp:352:22: style: The scope of the variable 'x' can be reduced. [variableScope]
+  double theta(0.0), x(0.0), y(0.0);
+                     ^
+navigation2/nav2_smac_planner/src/smoother.cpp:352:30: style: The scope of the variable 'y' can be reduced. [variableScope]
+  double theta(0.0), x(0.0), y(0.0);
+                             ^
+navigation2/nav2_smac_planner/src/smoother.cpp:54:25: style: Variable 'time_remaining' is assigned a value that is never used. [unreadVariable]
+  double time_remaining = max_time;
+                        ^
+navigation2/nav2_smac_planner/src/smoother.cpp:352:0: style: Variable 'theta' is assigned a value that is never used. [unreadVariable]
+  double theta(0.0), x(0.0), y(0.0);
+^
+navigation2/nav2_smac_planner/src/smoother.cpp:352:0: style: Variable 'x' is assigned a value that is never used. [unreadVariable]
+  double theta(0.0), x(0.0), y(0.0);
+^
+navigation2/nav2_smac_planner/src/smoother.cpp:352:0: style: Variable 'y' is assigned a value that is never used. [unreadVariable]
+  double theta(0.0), x(0.0), y(0.0);
+^
+navigation2/nav2_smac_planner/test/test_a_star.cpp:199:22: style: Variable 'it_on_approach' is assigned a value that is never used. [unreadVariable]
+  int it_on_approach = 10;
+                     ^
+navigation2/nav2_smac_planner/test/test_nodelattice.cpp:48:17: style: Variable 'jsonPose' is assigned a value that is never used. [unreadVariable]
+  json jsonPose = jsonPrimatives[0]["poses"][0];
+                ^
+navigation2/nav2_smac_planner/test/test_smoother.cpp:91:22: style: Variable 'it_on_approach' is assigned a value that is never used. [unreadVariable]
+  int it_on_approach = 10;
+                     ^
+navigation2/nav2_smoother/src/simple_smoother.cpp:62:25: style: Variable 'time_remaining' is assigned a value that is never used. [unreadVariable]
+  double time_remaining = max_time.seconds();
+                        ^
+navigation2/nav2_smoother/test/test_simple_smoother.cpp:171:20: style: Variable 'right_angle_path' is assigned a value that is never used. [unreadVariable]
+  right_angle_path = straight_regular_path;
+                   ^
+navigation2/nav2_smoother/test/test_smoother_server.cpp:273:17: performance: Function parameter 'smoother_id' should be passed by const reference. [passedByValue]
+    std::string smoother_id, double x_start, double y_start, double x_goal,
+                ^
+navigation2/nav2_system_tests/src/behavior_tree/server_handler.hpp:48:5: performance: Variable 'result_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    result_ = std::make_shared<nav2_msgs::action::ComputePathToPose::Result>();
+    ^
+navigation2/nav2_system_tests/src/behavior_tree/server_handler.cpp:28:3: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+  node_ = rclcpp::Node::make_shared("behavior_tree_tester");
+  ^
+navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp:168:70: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+      if (goal_count_ >= index.first && goal_count_ <= index.second) {
+                                                                     ^
+navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp:176:70: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+      if (goal_count_ >= index.first && goal_count_ <= index.second) {
+                                                                     ^
+navigation2/nav2_system_tests/src/behavior_tree/test_behavior_tree_node.cpp:45:5: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    node_ = rclcpp::Node::make_shared("behavior_tree_handler");
+    ^
+navigation2/nav2_system_tests/src/behaviors/backup/backup_behavior_tester.cpp:38:3: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+  node_ = rclcpp::Node::make_shared("backup_behavior_test");
+  ^
+navigation2/nav2_system_tests/src/behaviors/backup/backup_behavior_tester.cpp:71:5: style: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return;
+    ^
+navigation2/nav2_system_tests/src/behaviors/backup/test_backup_behavior_node.cpp:75:8: style: Local variable 'test_params' shadows outer variable [shadowVariable]
+  auto test_params = GetParam();
+       ^
+navigation2/nav2_system_tests/src/behaviors/backup/test_backup_behavior_node.cpp:100:29: note: Shadowed declaration
+std::vector<TestParameters> test_params = {TestParameters{-0.05, 0.0, -0.2, 0.01},
+                            ^
+navigation2/nav2_system_tests/src/behaviors/backup/test_backup_behavior_node.cpp:75:8: note: Shadow variable
+  auto test_params = GetParam();
+       ^
+navigation2/nav2_system_tests/src/behaviors/drive_on_heading/drive_on_heading_behavior_tester.cpp:38:3: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+  node_ = rclcpp::Node::make_shared("DriveOnHeading_behavior_test");
+  ^
+navigation2/nav2_system_tests/src/behaviors/drive_on_heading/drive_on_heading_behavior_tester.cpp:71:5: style: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return;
+    ^
+navigation2/nav2_system_tests/src/behaviors/drive_on_heading/test_drive_on_heading_behavior_node.cpp:74:8: style: Local variable 'test_params' shadows outer variable [shadowVariable]
+  auto test_params = GetParam();
+       ^
+navigation2/nav2_system_tests/src/behaviors/drive_on_heading/test_drive_on_heading_behavior_node.cpp:103:29: note: Shadowed declaration
+std::vector<TestParameters> test_params = {TestParameters{-0.05, 0.0, -0.2, 10.0, 0.01},
+                            ^
+navigation2/nav2_system_tests/src/behaviors/drive_on_heading/test_drive_on_heading_behavior_node.cpp:74:8: note: Shadow variable
+  auto test_params = GetParam();
+       ^
+navigation2/nav2_system_tests/src/behaviors/spin/spin_behavior_tester.cpp:37:3: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+  node_ = rclcpp::Node::make_shared("spin_behavior_test");
+  ^
+navigation2/nav2_system_tests/src/behaviors/spin/spin_behavior_tester.cpp:84:5: style: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return;
+    ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp:38:3: performance: Variable 'node_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+  node_ = rclcpp::Node::make_shared("wait_behavior_test");
+  ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp:69:5: style: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return;
+    ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp:107:15: style:inconclusive: Function 'behaviorTest' argument 1 names different: declaration 'time' definition 'wait_time'. [funcArgNamesDifferent]
+  const float wait_time)
+              ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.hpp:53:11: note: Function 'behaviorTest' argument 1 names different: declaration 'time' definition 'wait_time'.
+    float time);
+          ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp:107:15: note: Function 'behaviorTest' argument 1 names different: declaration 'time' definition 'wait_time'.
+  const float wait_time)
+              ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp:176:15: style:inconclusive: Function 'behaviorTestCancel' argument 1 names different: declaration 'time' definition 'wait_time'. [funcArgNamesDifferent]
+  const float wait_time)
+              ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.hpp:55:33: note: Function 'behaviorTestCancel' argument 1 names different: declaration 'time' definition 'wait_time'.
+  bool behaviorTestCancel(float time);
+                                ^
+navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp:176:15: note: Function 'behaviorTestCancel' argument 1 names different: declaration 'time' definition 'wait_time'.
+  const float wait_time)
+              ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:54:5: style: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return;
+    ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:89:5: style: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return;
+    ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:155:10: style: The scope of the variable 'resolution' can be reduced. [variableScope]
+  double resolution = 1.0;
+         ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:156:8: style: The scope of the variable 'negate' can be reduced. [variableScope]
+  bool negate = false;
+       ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:157:10: style: The scope of the variable 'occupancy_threshold' can be reduced. [variableScope]
+  double occupancy_threshold = 0.65;
+         ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:158:10: style: The scope of the variable 'free_threshold' can be reduced. [variableScope]
+  double free_threshold = 0.196;
+         ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:432:8: style: The scope of the variable 'collisionFree' can be reduced. [variableScope]
+  bool collisionFree = true;
+       ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:400:55: style: Parameter 'path' can be declared with const [constParameter]
+bool PlannerTester::isPathValid(nav_msgs::msg::Path & path)
+                                                      ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:251:27: style: Variable 'costmap_properties' is assigned a value that is never used. [unreadVariable]
+  auto costmap_properties = costmap_->get_properties();
+                          ^
+navigation2/nav2_system_tests/src/planning/planner_tester.cpp:432:22: style: Variable 'collisionFree' is assigned a value that is never used. [unreadVariable]
+  bool collisionFree = true;
+                     ^
+navigation2/nav2_theta_star_planner/src/theta_star.cpp:86:10: style: The scope of the variable 'g_cost' can be reduced. [variableScope]
+  double g_cost, los_cost = 0;
+         ^
+navigation2/nav2_theta_star_planner/src/theta_star.cpp:105:7: style: The scope of the variable 'mx' can be reduced. [variableScope]
+  int mx, my;
+      ^
+navigation2/nav2_theta_star_planner/src/theta_star.cpp:105:11: style: The scope of the variable 'my' can be reduced. [variableScope]
+  int mx, my;
+          ^
+navigation2/nav2_util/src/lifecycle_utils.cpp:55:3: style: Throwing a copy of the caught exception instead of rethrowing the original exception. [exceptRethrowCopy]
+  RETRY(
+  ^
+navigation2/nav2_util/src/lifecycle_utils.cpp:58:3: style: Throwing a copy of the caught exception instead of rethrowing the original exception. [exceptRethrowCopy]
+  RETRY(
+  ^
+navigation2/nav2_util/src/lifecycle_utils.cpp:83:3: style: Throwing a copy of the caught exception instead of rethrowing the original exception. [exceptRethrowCopy]
+  RETRY(
+  ^
+navigation2/nav2_util/src/lifecycle_utils.cpp:86:3: style: Throwing a copy of the caught exception instead of rethrowing the original exception. [exceptRethrowCopy]
+  RETRY(
+  ^
+navigation2/nav2_util/src/robot_utils.cpp:28:50: performance: Function parameter 'global_frame' should be passed by const reference. [passedByValue]
+  tf2_ros::Buffer & tf_buffer, const std::string global_frame,
+                                                 ^
+navigation2/nav2_util/src/robot_utils.cpp:29:21: performance: Function parameter 'robot_frame' should be passed by const reference. [passedByValue]
+  const std::string robot_frame, const double transform_timeout,
+                    ^
+navigation2/nav2_util/src/robot_utils.cpp:43:50: performance: Function parameter 'target_frame' should be passed by const reference. [passedByValue]
+  tf2_ros::Buffer & tf_buffer, const std::string target_frame,
+                                                 ^
+navigation2/nav2_util/test/test_actions.cpp:267:9: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+    sum += number;
+        ^
+navigation2/nav2_util/test/test_actions.cpp:316:9: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+    sum += number;
+        ^
+navigation2/nav2_util/test/test_actions.cpp:426:9: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+    sum += number;
+        ^
+navigation2/nav2_util/test/test_actions.cpp:473:9: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+    sum += number;
+        ^
+navigation2/nav2_util/test/test_actions.cpp:494:9: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+    sum += number;
+        ^
+navigation2/nav2_util/test/test_lifecycle_cli_node.cpp:53:5: performance: Variable 'node' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    node = std::make_shared<DummyNode>();
+    ^
+navigation2/nav2_util/test/test_lifecycle_node.cpp:36:14: style: Variable 'node1' is assigned a value that is never used. [unreadVariable]
+  auto node1 = std::make_shared<nav2_util::LifecycleNode>("test_node", "");
+             ^
+navigation2/nav2_util/test/test_lifecycle_node.cpp:44:14: style: Variable 'node1' is assigned a value that is never used. [unreadVariable]
+  auto node1 = std::make_shared<nav2_util::LifecycleNode>("test_node1", "");
+             ^
+navigation2/nav2_util/test/test_lifecycle_node.cpp:45:14: style: Variable 'node2' is assigned a value that is never used. [unreadVariable]
+  auto node2 = std::make_shared<nav2_util::LifecycleNode>("test_node2", "");
+             ^
+navigation2/nav2_util/test/test_service_client.cpp:37:3: style: Class 'TestServiceClient' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  TestServiceClient(
+  ^
+navigation2/nav2_voxel_grid/test/voxel_grid_bresenham_3d.cpp:52:23: style:inconclusive: Technically the member function 'TestVoxel::operator()' can be const. [functionConst]
+  inline unsigned int operator()(unsigned int off)
+                      ^
+navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp:93:8: style: The scope of the variable 'input_received' can be reduced. [variableScope]
+  bool input_received = false;
+       ^
+navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp:93:23: style: Variable 'input_received' is assigned a value that is never used. [unreadVariable]
+  bool input_received = false;
+                      ^
+navigation2/nav2_waypoint_follower/test/test_task_executors.cpp:117:32: warning: The lock is ineffective because the mutex is locked at the same scope as the mutex itself. [localMutex]
+  std::unique_lock<std::mutex> lck(mtx, std::defer_lock);
+                               ^
+ros2_control/controller_interface/src/chainable_controller_interface.cpp:42:7: style: Redundant initialization for 'ret'. The initialized value is overwritten before it is read. [redundantInitialization]
+  ret = update_and_write_commands(time, period);
+      ^
+ros2_control/controller_interface/src/chainable_controller_interface.cpp:31:19: note: ret is initialized
+  return_type ret = return_type::ERROR;
+                  ^
+ros2_control/controller_interface/src/chainable_controller_interface.cpp:42:7: note: ret is overwritten
+  ret = update_and_write_commands(time, period);
+      ^
+ros2_control/controller_interface/src/chainable_controller_interface.cpp:71:5: style: Consider using std::find_if algorithm instead of a raw loop. [useStlAlgorithm]
+    {
+    ^
+ros2_control/controller_interface/test/test_force_torque_sensor.cpp:47:44: style: Variable 'interface_names' is assigned a value that is never used. [unreadVariable]
+  std::vector<std::string> interface_names = force_torque_sensor_->get_state_interface_names();
+                                           ^
+ros2_control/controller_interface/test/test_force_torque_sensor.cpp:131:44: style: Variable 'interface_names' is assigned a value that is never used. [unreadVariable]
+  std::vector<std::string> interface_names = force_torque_sensor_->get_state_interface_names();
+                                           ^
+ros2_control/controller_interface/test/test_imu_sensor.cpp:46:44: style: Variable 'interface_names' is assigned a value that is never used. [unreadVariable]
+  std::vector<std::string> interface_names = imu_sensor_->get_state_interface_names();
+                                           ^
+ros2_control/controller_manager/src/controller_manager.cpp:450:13: style: Redundant initialization for 'new_state'. The initialized value is overwritten before it is read. [redundantInitialization]
+  new_state = controller->configure();
+            ^
+ros2_control/controller_manager/src/controller_manager.cpp:433:18: note: new_state is initialized
+  auto new_state = controller->get_state();
+                 ^
+ros2_control/controller_manager/src/controller_manager.cpp:450:13: note: new_state is overwritten
+  new_state = controller->configure();
+            ^
+ros2_control/controller_manager/src/controller_manager.cpp:622:39: style: Local variable 'ret' shadows outer variable [shadowVariable]
+    controller_interface::return_type ret = controller_interface::return_type::OK;
+                                      ^
+ros2_control/controller_manager/src/controller_manager.cpp:591:8: note: Shadowed declaration
+  auto ret = list_controllers(deactivate_controllers, deactivate_request_, "deactivate");
+       ^
+ros2_control/controller_manager/src/controller_manager.cpp:622:39: note: Shadow variable
+    controller_interface::return_type ret = controller_interface::return_type::OK;
+                                      ^
+ros2_control/controller_manager/src/controller_manager.cpp:673:39: style: Local variable 'ret' shadows outer variable [shadowVariable]
+    controller_interface::return_type ret = controller_interface::return_type::OK;
+                                      ^
+ros2_control/controller_manager/src/controller_manager.cpp:591:8: note: Shadowed declaration
+  auto ret = list_controllers(deactivate_controllers, deactivate_request_, "deactivate");
+       ^
+ros2_control/controller_manager/src/controller_manager.cpp:673:39: note: Shadow variable
+    controller_interface::return_type ret = controller_interface::return_type::OK;
+                                      ^
+ros2_control/controller_manager/src/controller_manager.cpp:769:12: style: Local variable 'ret' shadows outer variable [shadowVariable]
+      auto ret = handle_conflict(
+           ^
+ros2_control/controller_manager/src/controller_manager.cpp:591:8: note: Shadowed declaration
+  auto ret = list_controllers(deactivate_controllers, deactivate_request_, "deactivate");
+       ^
+ros2_control/controller_manager/src/controller_manager.cpp:769:12: note: Shadow variable
+      auto ret = handle_conflict(
+           ^
+ros2_control/controller_manager/src/controller_manager.cpp:782:12: style: Local variable 'ret' shadows outer variable [shadowVariable]
+      auto ret = handle_conflict(
+           ^
+ros2_control/controller_manager/src/controller_manager.cpp:591:8: note: Shadowed declaration
+  auto ret = list_controllers(deactivate_controllers, deactivate_request_, "deactivate");
+       ^
+ros2_control/controller_manager/src/controller_manager.cpp:782:12: note: Shadow variable
+      auto ret = handle_conflict(
+           ^
+ros2_control/controller_manager/src/controller_manager.cpp:795:12: style: Local variable 'ret' shadows outer variable [shadowVariable]
+      auto ret = handle_conflict(
+           ^
+ros2_control/controller_manager/src/controller_manager.cpp:591:8: note: Shadowed declaration
+  auto ret = list_controllers(deactivate_controllers, deactivate_request_, "deactivate");
+       ^
+ros2_control/controller_manager/src/controller_manager.cpp:795:12: note: Shadow variable
+      auto ret = handle_conflict(
+           ^
+ros2_control/controller_manager/src/controller_manager.cpp:1332:43: style: Local variable 'guard' shadows outer variable [shadowVariable]
+    std::lock_guard<std::recursive_mutex> guard(rt_controllers_wrapper_.controllers_lock_);
+                                          ^
+ros2_control/controller_manager/src/controller_manager.cpp:1324:31: note: Shadowed declaration
+  std::lock_guard<std::mutex> guard(services_lock_);
+                              ^
+ros2_control/controller_manager/src/controller_manager.cpp:1332:43: note: Shadow variable
+    std::lock_guard<std::recursive_mutex> guard(rt_controllers_wrapper_.controllers_lock_);
+                                          ^
+ros2_control/controller_manager/src/controller_manager.cpp:90:21: performance: Function parameter 'interface_name' should be passed by const reference. [passedByValue]
+  const std::string interface_name,
+                    ^
+ros2_control/controller_manager/src/controller_manager.cpp:1590:11: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    names.push_back(controller.info.name);
+          ^
+ros2_control/controller_manager/src/controller_manager.cpp:1912:42: style: Unused variable: preceding_controllers_using_ref_itf [unusedVariable]
+    std::vector<ControllersListIterator> preceding_controllers_using_ref_itf;
+                                         ^
+ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp:25:26: warning: Member variable 'TestChainableController::internal_counter' is not initialized in the constructor. [uninitMemberVar]
+TestChainableController::TestChainableController()
+                         ^
+ros2_control/controller_manager/test/controller_manager_test_common.hpp:130:3: warning: Member variable 'ControllerManagerFixture < controller_manager :: ControllerManager >::run_updater_' is not initialized in the constructor. Maybe it should be initialized directly in the class ControllerManagerFixture < controller_manager :: ControllerManager >? [uninitDerivedMemberVar]
+  TestControllerManagerSrvs() {}
+  ^
+ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:259:24: style: Variable 'test_controller_weak' is reassigned a value before the old one has been used. [redundantAssignment]
+  test_controller_weak = test_controller;
+                       ^
+ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:238:24: note: test_controller_weak is assigned
+  test_controller_weak = test_controller;
+                       ^
+ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:259:24: note: test_controller_weak is overwritten
+  test_controller_weak = test_controller;
+                       ^
+ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:80:33: style: Variable 'abstract_test_controller' is assigned a value that is never used. [unreadVariable]
+  auto abstract_test_controller = cm_->add_controller(
+                                ^
+ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:331:33: style: Variable 'abstract_test_controller' is assigned a value that is never used. [unreadVariable]
+  auto abstract_test_controller = cm_->add_controller(
+                                ^
+ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:356:33: style: Variable 'abstract_test_controller' is assigned a value that is never used. [unreadVariable]
+  auto abstract_test_controller = cm_->add_controller(
+                                ^
+ros2_control/controller_manager/test/test_hardware_management_srvs.cpp:121:33: performance: Function parameter 'is_available_status' should be passed by const reference. [passedByValue]
+        const std::vector<bool> is_available_status, const std::vector<bool> is_claimed_status)
+                                ^
+ros2_control/controller_manager/test/test_spawner_unspawner.cpp:68:36: performance: Function parameter 'extra_args' should be passed by const reference. [passedByValue]
+int call_spawner(const std::string extra_args)
+                                   ^
+ros2_control/controller_manager/test/test_spawner_unspawner.cpp:74:38: performance: Function parameter 'extra_args' should be passed by const reference. [passedByValue]
+int call_unspawner(const std::string extra_args)
+                                     ^
+ros2_control/hardware_interface/src/component_parser.cpp:219:34: style: The scope of the variable 'attr' can be reduced. [variableScope]
+  const tinyxml2::XMLAttribute * attr;
+                                 ^
+ros2_control/hardware_interface/src/component_parser.cpp:84:85: performance: Function parameter 'tag_name' should be passed by const reference. [passedByValue]
+  const tinyxml2::XMLElement * element_it, const char * attribute_name, std::string tag_name)
+                                                                                    ^
+ros2_control/hardware_interface/src/resource_manager.cpp:107:8: performance:inconclusive: Technically the member function 'hardware_interface::ResourceStorage::initialize_hardware' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  bool initialize_hardware(const HardwareInfo & hardware_info, HardwareT & hardware)
+       ^
+ros2_control/hardware_interface/src/resource_manager.cpp:261:8: performance:inconclusive: Technically the member function 'hardware_interface::ResourceStorage::shutdown_hardware' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  bool shutdown_hardware(HardwareT & hardware)
+       ^
+ros2_control/hardware_interface/src/resource_manager.cpp:278:8: performance:inconclusive: Technically the member function 'hardware_interface::ResourceStorage::activate_hardware' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  bool activate_hardware(HardwareT & hardware)
+       ^
+ros2_control/hardware_interface/src/resource_manager.cpp:293:8: performance:inconclusive: Technically the member function 'hardware_interface::ResourceStorage::deactivate_hardware' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  bool deactivate_hardware(HardwareT & hardware)
+       ^
+ros2_control/hardware_interface/src/resource_manager.cpp:636:10: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    keys.push_back(std::get<0>(item));
+         ^
+ros2_control/hardware_interface/src/resource_manager.cpp:769:10: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    keys.push_back(std::get<0>(item));
+         ^
+ros2_control/hardware_interface/src/resource_manager.cpp:1075:15: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+      err_msg += "' " + missing_key + " '" + "\t";
+              ^
+ros2_control/hardware_interface/src/resource_manager.cpp:1080:15: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+      err_msg += "' " + missing_key + " '" + "\t";
+              ^
+ros2_control/hardware_interface/test/mock_components/test_generic_system.cpp:1272:57: style: Variable 'gpio1_a_i1_s' is assigned a value that is never used. [unreadVariable]
+  hardware_interface::LoanedStateInterface gpio1_a_i1_s =
+                                                        ^
+ros2_control/hardware_interface/test/mock_components/test_generic_system.cpp:1274:57: style: Variable 'gpio1_a_o2_s' is assigned a value that is never used. [unreadVariable]
+  hardware_interface::LoanedStateInterface gpio1_a_o2_s =
+                                                        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:711:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:710:9: note: state is assigned
+  state = actuator_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:711:9: note: state is overwritten
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:734:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:730:9: note: state is assigned
+  state = actuator_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:734:9: note: state is overwritten
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:770:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:769:9: note: state is assigned
+  state = actuator_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:770:9: note: state is overwritten
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:793:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:789:9: note: state is assigned
+  state = actuator_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:793:9: note: state is overwritten
+  state = actuator_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:826:9: style: Redundant initialization for 'state'. The initialized value is overwritten before it is read. [redundantInitialization]
+  state = sensor_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:822:14: note: state is initialized
+  auto state = sensor_hw.initialize(mock_hw_info);
+             ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:826:9: note: state is overwritten
+  state = sensor_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:827:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = sensor_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:826:9: note: state is assigned
+  state = sensor_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:827:9: note: state is overwritten
+  state = sensor_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:848:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = sensor_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:845:9: note: state is assigned
+  state = sensor_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:848:9: note: state is overwritten
+  state = sensor_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:881:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:880:9: note: state is assigned
+  state = system_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:881:9: note: state is overwritten
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:909:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:900:9: note: state is assigned
+  state = system_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:909:9: note: state is overwritten
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:945:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:944:9: note: state is assigned
+  state = system_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:945:9: note: state is overwritten
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:973:9: style: Variable 'state' is reassigned a value before the old one has been used. [redundantAssignment]
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:964:9: note: state is assigned
+  state = system_hw.configure();
+        ^
+ros2_control/hardware_interface/test/test_component_interfaces.cpp:973:9: note: state is overwritten
+  state = system_hw.activate();
+        ^
+ros2_control/hardware_interface/test/test_hardware_components/test_force_torque_sensor.cpp:49:7: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+      {
+      ^
+ros2_control/hardware_interface/test/test_hardware_components/test_single_joint_actuator.cpp:63:7: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+      {
+      ^
+ros2_control/hardware_interface/test/test_hardware_components/test_system_with_command_modes.cpp:52:9: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+        {
+        ^
+ros2_control/hardware_interface/test/test_hardware_components/test_system_with_command_modes.cpp:67:9: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+        {
+        ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:213:21: style: Local variable 'key' shadows outer variable [shadowVariable]
+  for (const auto & key :
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:196:14: note: Shadowed declaration
+  const auto key = "joint1/position";
+             ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:213:21: note: Shadow variable
+  for (const auto & key :
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:232:21: style: Local variable 'key' shadows outer variable [shadowVariable]
+  for (const auto & key :
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:196:14: note: Shadowed declaration
+  const auto key = "joint1/position";
+             ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:232:21: note: Shadow variable
+  for (const auto & key :
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:248:21: style: Local variable 'key' shadows outer variable [shadowVariable]
+  for (const auto & key : interface_names)
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:196:14: note: Shadowed declaration
+  const auto key = "joint1/position";
+             ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:248:21: note: Shadow variable
+  for (const auto & key : interface_names)
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:253:21: style: Local variable 'key' shadows outer variable [shadowVariable]
+  for (const auto & key : interface_names)
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:196:14: note: Shadowed declaration
+  const auto key = "joint1/position";
+             ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:253:21: note: Shadow variable
+  for (const auto & key : interface_names)
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:259:21: style: Local variable 'key' shadows outer variable [shadowVariable]
+  for (const auto & key : interface_names)
+                    ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:196:14: note: Shadowed declaration
+  const auto key = "joint1/position";
+             ^
+ros2_control/hardware_interface/test/test_resource_manager.cpp:259:21: note: Shadow variable
+  for (const auto & key : interface_names)
+                    ^
+ros2_control/transmission_interface/test/random_generator_utils.hpp:36:10: style:inconclusive: Technically the member function 'RandomDoubleGenerator::operator()' can be const. [functionConst]
+  double operator()()
+         ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:459:11: warning:inconclusive: Possible null pointer dereference: twist_stamped [nullPointer]
+          twist_stamped->twist = *msg;
+          ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:457:34: note: Assignment 'std::shared_ptr<Twist>twist_stamped', assigned value is 0
+          std::shared_ptr<Twist> twist_stamped;
+                                 ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:459:11: note: Null pointer dereference
+          twist_stamped->twist = *msg;
+          ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:460:11: warning:inconclusive: Possible null pointer dereference: twist_stamped [nullPointer]
+          twist_stamped->header.stamp = get_node()->get_clock()->now();
+          ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:457:34: note: Assignment 'std::shared_ptr<Twist>twist_stamped', assigned value is 0
+          std::shared_ptr<Twist> twist_stamped;
+                                 ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:460:11: note: Null pointer dereference
+          twist_stamped->header.stamp = get_node()->get_clock()->now();
+          ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:597:38: style: Parameter 'wheel_handles' can be declared with const [constParameter]
+  const auto halt_wheels = [](auto & wheel_handles) {
+                                     ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:119:16: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    conf_names.push_back(joint_name + "/" + HW_IF_VELOCITY);
+               ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:123:16: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    conf_names.push_back(joint_name + "/" + HW_IF_VELOCITY);
+               ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:133:16: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    conf_names.push_back(joint_name + "/" + feedback_type());
+               ^
+ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:137:16: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    conf_names.push_back(joint_name + "/" + feedback_type());
+               ^
+ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.cpp:581:14: style: Redundant initialization for 'node_state'. The initialized value is overwritten before it is read. [redundantInitialization]
+  node_state = state_broadcaster_->get_node()->activate();
+             ^
+ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.cpp:580:19: note: node_state is initialized
+  auto node_state = state_broadcaster_->get_node()->configure();
+                  ^
+ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.cpp:581:14: note: node_state is overwritten
+  node_state = state_broadcaster_->get_node()->activate();
+             ^
+ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.cpp:375:43: style: Variable 'IF_NAMES' is assigned a value that is never used. [unreadVariable]
+  const std::vector<std::string> IF_NAMES = {interface_names_[0], interface_names_[1]};
+                                          ^
+ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1213:27: style: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+      trajectory_end_time += p.time_from_start;
+                          ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory.cpp:64:31: style: Variable 'traj_starttime' is assigned a value that is never used. [unreadVariable]
+    const auto traj_starttime = traj.time_from_start();
+                              ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:432:16: style: The function 'SetUp' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  virtual void SetUp()
+               ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:113:16: note: Virtual function in base class
+  virtual void SetUp()
+               ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:432:16: note: Function in derived class
+  virtual void SetUp()
+               ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:61:8: style: The function 'SetUp' overrides a function in a base class but is not marked with a 'override' specifier. [missingOverride]
+  void SetUp()
+       ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:113:16: note: Virtual function in base class
+  virtual void SetUp()
+               ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:61:8: note: Function in derived class
+  void SetUp()
+       ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:907:3: style:inconclusive: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
+  rclcpp::executors::SingleThreadedExecutor executor;
+  ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:966:10: style: The scope of the variable 'state_from_command_offset' can be reduced. [variableScope]
+  double state_from_command_offset = 0.3;
+         ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1053:10: style: The scope of the variable 'state_from_command_offset' can be reduced. [variableScope]
+  double state_from_command_offset = 0.3;
+         ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:71:29: style: Variable 'future_handle_' is assigned a value that is never used. [unreadVariable]
+  const auto future_handle_ = std::async(std::launch::async, spin, &executor);
+                            ^
+ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:255:25: style: Variable 'start_time' is assigned a value that is never used. [unreadVariable]
+  const auto start_time = rclcpp::Clock().now();
+                        ^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp:101:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp:62:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/integration/obstacle_tests.cpp:102:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/integration/range_tests.cpp:111:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_constrained_smoother/test/test_constrained_smoother.cpp:37:1: error: The one definition rule is violated, different classes/structs have the same name 'DummyCostmapSubscriber' [ctuOneDefinitionRuleViolation]
+class DummyCostmapSubscriber : public nav2_costmap_2d::CostmapSubscriber
+^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:54:1: note: The one definition rule is violated, different classes/structs have the same name 'DummyCostmapSubscriber'
+class DummyCostmapSubscriber : public nav2_costmap_2d::CostmapSubscriber
+^
+navigation2/nav2_constrained_smoother/test/test_constrained_smoother.cpp:37:1: note: The one definition rule is violated, different classes/structs have the same name 'DummyCostmapSubscriber'
+class DummyCostmapSubscriber : public nav2_costmap_2d::CostmapSubscriber
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:305:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/unit/costmap_conversion_test.cpp:41:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/unit/keepout_filter_test.cpp:96:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/unit/keepout_filter_test.cpp:41:1: error: The one definition rule is violated, different classes/structs have the same name 'InfoPublisher' [ctuOneDefinitionRuleViolation]
+class InfoPublisher : public rclcpp::Node
+^
+navigation2/nav2_costmap_2d/test/unit/speed_filter_test.cpp:54:1: note: The one definition rule is violated, different classes/structs have the same name 'InfoPublisher'
+class InfoPublisher : public rclcpp::Node
+^
+navigation2/nav2_costmap_2d/test/unit/keepout_filter_test.cpp:41:1: note: The one definition rule is violated, different classes/structs have the same name 'InfoPublisher'
+class InfoPublisher : public rclcpp::Node
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_costmap_2d/test/unit/speed_filter_test.cpp:202:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: error: The one definition rule is violated, different classes/structs have the same name 'TestNode' [ctuOneDefinitionRuleViolation]
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_dwb_controller/dwb_plugins/test/speed_limit_test.cpp:59:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public ::testing::Test
+^
+navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp:24:1: note: The one definition rule is violated, different classes/structs have the same name 'TestNode'
+class TestNode : public BT::SyncActionNode
+^
+navigation2/nav2_controller/plugins/test/goal_checker.cpp:99:1: error: The one definition rule is violated, different classes/structs have the same name 'TestLifecycleNode' [ctuOneDefinitionRuleViolation]
+class TestLifecycleNode : public nav2_util::LifecycleNode
+^
+navigation2/nav2_lifecycle_manager/test/test_bond.cpp:28:1: note: The one definition rule is violated, different classes/structs have the same name 'TestLifecycleNode'
+class TestLifecycleNode : public nav2_util::LifecycleNode
+^
+navigation2/nav2_controller/plugins/test/goal_checker.cpp:99:1: note: The one definition rule is violated, different classes/structs have the same name 'TestLifecycleNode'
+class TestLifecycleNode : public nav2_util::LifecycleNode
+^
+navigation2/nav2_smac_planner/test/test_smoother.cpp:42:1: error: The one definition rule is violated, different classes/structs have the same name 'SmootherWrapper' [ctuOneDefinitionRuleViolation]
+class SmootherWrapper : public nav2_smac_planner::Smoother
+^
+navigation2/nav2_smoother/test/test_simple_smoother.cpp:42:1: note: The one definition rule is violated, different classes/structs have the same name 'SmootherWrapper'
+class SmootherWrapper : public nav2_smoother::SimpleSmoother
+^
+navigation2/nav2_smac_planner/test/test_smoother.cpp:42:1: note: The one definition rule is violated, different classes/structs have the same name 'SmootherWrapper'
+class SmootherWrapper : public nav2_smac_planner::Smoother
+^
+navigation2/nav2_constrained_smoother/test/test_constrained_smoother.cpp:37:1: error: The one definition rule is violated, different classes/structs have the same name 'DummyCostmapSubscriber' [ctuOneDefinitionRuleViolation]
+class DummyCostmapSubscriber : public nav2_costmap_2d::CostmapSubscriber
+^
+navigation2/nav2_smoother/test/test_smoother_server.cpp:126:1: note: The one definition rule is violated, different classes/structs have the same name 'DummyCostmapSubscriber'
+class DummyCostmapSubscriber : public nav2_costmap_2d::CostmapSubscriber
+^
+navigation2/nav2_constrained_smoother/test/test_constrained_smoother.cpp:37:1: note: The one definition rule is violated, different classes/structs have the same name 'DummyCostmapSubscriber'
+class DummyCostmapSubscriber : public nav2_costmap_2d::CostmapSubscriber
+^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:70:1: error: The one definition rule is violated, different classes/structs have the same name 'DummyFootprintSubscriber' [ctuOneDefinitionRuleViolation]
+class DummyFootprintSubscriber : public nav2_costmap_2d::FootprintSubscriber
+^
+navigation2/nav2_smoother/test/test_smoother_server.cpp:158:1: note: The one definition rule is violated, different classes/structs have the same name 'DummyFootprintSubscriber'
+class DummyFootprintSubscriber : public nav2_costmap_2d::FootprintSubscriber
+^
+navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp:70:1: note: The one definition rule is violated, different classes/structs have the same name 'DummyFootprintSubscriber'
+class DummyFootprintSubscriber : public nav2_costmap_2d::FootprintSubscriber
+^
+navigation2/nav2_behavior_tree/test/plugins/action/test_compute_path_to_pose_action.cpp:29:1: error: The one definition rule is violated, different classes/structs have the same name 'ComputePathToPoseActionServer' [ctuOneDefinitionRuleViolation]
+class ComputePathToPoseActionServer : public TestActionServer<nav2_msgs::action::ComputePathToPose>
+^
+navigation2/nav2_system_tests/src/behavior_tree/server_handler.hpp:41:1: note: The one definition rule is violated, different classes/structs have the same name 'ComputePathToPoseActionServer'
+class ComputePathToPoseActionServer
+^
+navigation2/nav2_behavior_tree/test/plugins/action/test_compute_path_to_pose_action.cpp:29:1: note: The one definition rule is violated, different classes/structs have the same name 'ComputePathToPoseActionServer'
+class ComputePathToPoseActionServer : public TestActionServer<nav2_msgs::action::ComputePathToPose>
+^
+navigation2/nav2_system_tests/src/behaviors/backup/test_backup_behavior_node.cpp:32:1: error: The one definition rule is violated, different classes/structs have the same name 'TestParameters' [ctuOneDefinitionRuleViolation]
+struct TestParameters
+^
+navigation2/nav2_system_tests/src/behaviors/drive_on_heading/test_drive_on_heading_behavior_node.cpp:30:1: note: The one definition rule is violated, different classes/structs have the same name 'TestParameters'
+struct TestParameters
+^
+navigation2/nav2_system_tests/src/behaviors/backup/test_backup_behavior_node.cpp:32:1: note: The one definition rule is violated, different classes/structs have the same name 'TestParameters'
+struct TestParameters
+^
+navigation2/nav2_controller/test/test_dynamic_parameters.cpp:54:1: error: The one definition rule is violated, different classes/structs have the same name 'RclCppFixture' [ctuOneDefinitionRuleViolation]
+class RclCppFixture
+^
+navigation2/nav2_util/test/test_actions.cpp:140:1: note: The one definition rule is violated, different classes/structs have the same name 'RclCppFixture'
+class RclCppFixture
+^
+navigation2/nav2_controller/test/test_dynamic_parameters.cpp:54:1: note: The one definition rule is violated, different classes/structs have the same name 'RclCppFixture'
+class RclCppFixture
+^
+ros2_control/controller_manager/test/test_load_controller.cpp:35:1: error: The one definition rule is violated, different classes/structs have the same name 'TestLoadController' [ctuOneDefinitionRuleViolation]
+class TestLoadController : public ControllerManagerFixture<controller_manager::ControllerManager>
+^
+ros2_control/controller_manager/test/test_spawner_unspawner.cpp:32:1: note: The one definition rule is violated, different classes/structs have the same name 'TestLoadController'
+class TestLoadController : public ControllerManagerFixture<controller_manager::ControllerManager>
+^
+ros2_control/controller_manager/test/test_load_controller.cpp:35:1: note: The one definition rule is violated, different classes/structs have the same name 'TestLoadController'
+class TestLoadController : public ControllerManagerFixture<controller_manager::ControllerManager>
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:141:1: error: The one definition rule is violated, different classes/structs have the same name 'BlackBoxTest' [ctuOneDefinitionRuleViolation]
+class BlackBoxTest : public TransmissionSetup
+^
+ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp:145:1: note: The one definition rule is violated, different classes/structs have the same name 'BlackBoxTest'
+class BlackBoxTest : public TransmissionSetup
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:141:1: note: The one definition rule is violated, different classes/structs have the same name 'BlackBoxTest'
+class BlackBoxTest : public TransmissionSetup
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:130:1: error: The one definition rule is violated, different classes/structs have the same name 'TransmissionSetup' [ctuOneDefinitionRuleViolation]
+class TransmissionSetup : public ::testing::Test
+^
+ros2_control/transmission_interface/test/simple_transmission_test.cpp:93:1: note: The one definition rule is violated, different classes/structs have the same name 'TransmissionSetup'
+class TransmissionSetup
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:130:1: note: The one definition rule is violated, different classes/structs have the same name 'TransmissionSetup'
+class TransmissionSetup : public ::testing::Test
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:141:1: error: The one definition rule is violated, different classes/structs have the same name 'BlackBoxTest' [ctuOneDefinitionRuleViolation]
+class BlackBoxTest : public TransmissionSetup
+^
+ros2_control/transmission_interface/test/simple_transmission_test.cpp:108:1: note: The one definition rule is violated, different classes/structs have the same name 'BlackBoxTest'
+class BlackBoxTest : public TransmissionSetup, public ::testing::TestWithParam<SimpleTransmission>
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:141:1: note: The one definition rule is violated, different classes/structs have the same name 'BlackBoxTest'
+class BlackBoxTest : public TransmissionSetup
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:227:1: error: The one definition rule is violated, different classes/structs have the same name 'WhiteBoxTest' [ctuOneDefinitionRuleViolation]
+class WhiteBoxTest : public TransmissionSetup
+^
+ros2_control/transmission_interface/test/simple_transmission_test.cpp:169:1: note: The one definition rule is violated, different classes/structs have the same name 'WhiteBoxTest'
+class WhiteBoxTest : public TransmissionSetup, public ::testing::Test
+^
+ros2_control/transmission_interface/test/differential_transmission_test.cpp:227:1: note: The one definition rule is violated, different classes/structs have the same name 'WhiteBoxTest'
+class WhiteBoxTest : public TransmissionSetup
+^
+gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:388:0: style: The function 'Reset' is never used. [unusedFunction]
+
+^
+navigation2/nav2_behavior_tree/test/plugins/action/test_back_up_action.cpp:53:0: style: The function 'SetUpTestCase' is never used. [unusedFunction]
+
+^
+navigation2/nav2_behavior_tree/test/plugins/action/test_back_up_action.cpp:98:0: style: The function 'TearDown' is never used. [unusedFunction]
+
+^
+navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp:61:0: style: The function 'TestBody' is never used. [unusedFunction]
+
+^
+ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:43:0: style: The function 'getLastReceivedTwist' is never used. [unusedFunction]
+
+^
+navigation2/nav2_util/src/node_utils.cpp:93:0: style: The function 'get_node_options_default' is never used. [unusedFunction]
+
+^
+navigation2/nav2_amcl/src/map/map_draw.c:74:0: style: The function 'map_draw_cspace' is never used. [unusedFunction]
+
+^
+navigation2/nav2_amcl/src/map/map_draw.c:42:0: style: The function 'map_draw_occ' is never used. [unusedFunction]
+
+^
+navigation2/nav2_amcl/src/map/map_draw.c:107:0: style: The function 'map_draw_wifi' is never used. [unusedFunction]
+
+^
+navigation2/nav2_behaviors/plugins/spin.cpp:99:0: style: The function 'onCycleUpdate' is never used. [unusedFunction]
+
+^
+navigation2/nav2_controller/plugins/test/goal_checker.cpp:132:0: style: The function 'onError' is never used. [unusedFunction]
+
+^
+navigation2/nav2_behaviors/plugins/back_up.cpp:20:0: style: The function 'onRun' is never used. [unusedFunction]
+
+^
+navigation2/nav2_behavior_tree/test/plugins/action/test_bt_action_node.cpp:118:0: style: The function 'on_success' is never used. [unusedFunction]
+
+^
+navigation2/nav2_behavior_tree/test/plugins/action/test_bt_action_node.cpp:113:0: style: The function 'on_tick' is never used. [unusedFunction]
+
+^
+navigation2/nav2_amcl/src/pf/pf_draw.c:99:0: style: The function 'pf_draw_cluster_stats' is never used. [unusedFunction]
+
+^
+navigation2/nav2_amcl/src/pf/pf_draw.c:74:0: style: The function 'pf_draw_hist' is never used. [unusedFunction]
+
+^
+navigation2/nav2_amcl/src/pf/pf_draw.c:47:0: style: The function 'pf_draw_samples' is never used. [unusedFunction]
+
+^
+navigation2/nav2_behavior_tree/test/plugins/action/test_bt_action_node.cpp:124:0: style: The function 'providedPorts' is never used. [unusedFunction]
+
+^
+navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp:56:0: style: The function 'resetVelocityRegulationScaling' is never used. [unusedFunction]
+
+^
+navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp:55:0: style: The function 'setCostRegulationScaling' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+

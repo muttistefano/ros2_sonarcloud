@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module ClearCostmapService-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="110" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="26" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.231" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.269" level="0" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp" line="38" />
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>ClearCostmapService(const WeakPtr &amp;,Costmap2DROS &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="34" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp" line="44" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="8.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearAroundRobotCallback(const shared_ptr,const shared_ptr,const shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="76" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearEntireCallback(const shared_ptr,const shared_ptr,const shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="84" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearEntirely()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="142" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearExceptRegionCallback(const shared_ptr,const shared_ptr,const shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="64" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearLayerRegion(shared_ptr &amp;,double,double,double,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="120" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearRegion(const double,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="96" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getPosition(double &amp;,double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="148" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>ClearCostmapService</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Costmap2DROS</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="36" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp" line="44" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="35" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/clear_costmap_service.hpp" line="44" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="96" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="122" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="65" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="66" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="67" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="77" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="78" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="79" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="85" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="86" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="87" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/clear_costmap_service.cpp" line="121" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

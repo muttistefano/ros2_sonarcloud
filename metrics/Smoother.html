@@ -1,0 +1,359 @@
+<HTML><HEAD><TITLE>
+Detailed report on module Smoother
+</TITLE>
+</HEAD>
+<BODY>
+<H1><A NAME="summary">Detailed report on module Smoother</A></H1>
+<TABLE BORDER WIDTH=100%>
+<TR>
+<TH BGCOLOR="AQUA" WIDTH=70%>Metric</TH><TH BGCOLOR="AQUA" WIDTH=10%>Tag</TH><TH BGCOLOR="AQUA" WIDTH=10%>Overall</TH><TH BGCOLOR="AQUA" WIDTH=10%>Per Function</TH></TR>
+<TR>
+<TD>Lines of Code</TD><TD>LOC</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>   719</EM></TD><TD ALIGN=RIGHT>    34</TD></TR>
+<TR>
+<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>   127</TD><TD ALIGN=RIGHT>     6</TD></TR>
+<TR>
+<TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>   149</TD><TD ALIGN=RIGHT>   7.095</TD></TR>
+<TR>
+<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT> 4.826</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 0.852</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>Weighted Methods per Class ( &nbsp;weighting = unity&nbsp;)</TD><TD>WMC1</TD><TD ALIGN=RIGHT>    21</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>Weighted Methods per Class ( &nbsp;weighting = visible&nbsp;)</TD><TD>WMCv</TD><TD ALIGN=RIGHT>     3</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>Depth of Inheritance Tree</TD><TD>DIT</TD><TD ALIGN=RIGHT>     0</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>Number of Children</TD><TD>NOC</TD><TD ALIGN=RIGHT>     4</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>    16</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>  2304</STRONG></TD><TD ALIGN=RIGHT> 109.714</TD></TR>
+<TR>
+<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>  1936</STRONG></TD><TD ALIGN=RIGHT>  92.190</TD></TR>
+<TR>
+<TD>Information Flow measure ( &nbsp;concrete&nbsp;)</TD><TD>IF4c</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>   256</STRONG></TD><TD ALIGN=RIGHT>  12.190</TD></TR>
+</TABLE>
+<H2><A NAME="modext">Definitions and Declarations</A></H2>
+<TABLE BORDER WIDTH=100%><TR>
+<TD WIDTH=50%>Description</TD><TH BGCOLOR="AQUA" WIDTH=10%>LOC</TH><TH BGCOLOR="AQUA" WIDTH=10%>MVG</TH><TH BGCOLOR="AQUA" WIDTH=10%>COM</TH><TH BGCOLOR="AQUA" WIDTH=10%>L_C</TH><TH BGCOLOR="AQUA" WIDTH=10%>M_C</TH><TR>
+<TD>definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:        38">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:38</A></CODE><BR>
+</TD>
+<TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_core/include/nav2_core/smoother.hpp:        38">navigation2/nav2_core/include/nav2_core/smoother.hpp:38</A></CODE><BR>
+</TD>
+<TD ALIGN=RIGHT>    10</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        42">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:42</A></CODE><BR>
+</TD>
+<TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
+</TR></TABLE>
+<H2><A NAME="proc">Functions</A></H2>
+<TABLE BORDER WIDTH=100%><TR>
+<TD WIDTH=50%>Function prototype</TD><TH BGCOLOR="AQUA" WIDTH=10%>LOC</TH><TH BGCOLOR="AQUA" WIDTH=10%>MVG</TH><TH BGCOLOR="AQUA" WIDTH=10%>COM</TH><TH BGCOLOR="AQUA" WIDTH=10%>L_C</TH><TH BGCOLOR="AQUA" WIDTH=10%>M_C</TH><TR>
+<TD>Smoother( &nbsp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:        44">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:44</A></CODE><BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        48">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:48</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>Smoother( &nbsp;const SmootherParams &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        26">navigation2/nav2_smac_planner/src/smoother.cpp:26</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>buildProblem( &nbsp;const vector &amp;, &nbsp;const Costmap2D *, &nbsp;const SmootherParams &amp;, &nbsp;Problem &amp;, &nbsp;vector &amp;, &nbsp;vector &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       135">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:135</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>   115</STRONG></TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    23</EM></TD><TD ALIGN=RIGHT>    24</TD><TD ALIGN=RIGHT> 4.792</TD><TD ALIGN=RIGHT> 0.958</TD></TR>
+<TR>
+<TD>cubicBezier( &nbsp;Vector2d &amp;, &nbsp;Vector2d &amp;, &nbsp;Vector2d &amp;, &nbsp;Vector2d &amp;, &nbsp;double&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       375">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:375</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    15</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>enforceEndBoundaryConditions( &nbsp;const Pose &amp;, &nbsp;Path &amp;, &nbsp;const Costmap2D *, &nbsp;const bool &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       467">navigation2/nav2_smac_planner/src/smoother.cpp:467</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    37</EM></TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 9.250</EM></TD><TD ALIGN=RIGHT> 1.750</TD></TR>
+<TR>
+<TD>enforceStartBoundaryConditions( &nbsp;const Pose &amp;, &nbsp;Path &amp;, &nbsp;const Costmap2D *, &nbsp;const bool &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       421">navigation2/nav2_smac_planner/src/smoother.cpp:421</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    37</EM></TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 9.250</EM></TD><TD ALIGN=RIGHT> 1.750</TD></TR>
+<TR>
+<TD>findBoundaryExpansion( &nbsp;const Pose &amp;, &nbsp;const Pose &amp;, &nbsp;BoundaryExpansion &amp;, &nbsp;const Costmap2D *&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       324">navigation2/nav2_smac_planner/src/smoother.cpp:324</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    39</EM></TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>    12</TD><TD ALIGN=RIGHT> 3.250</TD><TD ALIGN=RIGHT> 0.500</TD></TR>
+<TR>
+<TD>findDirectionalPathSegments( &nbsp;const Path &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       216">navigation2/nav2_smac_planner/src/smoother.cpp:216</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    38</EM></TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT> 6.333</TD><TD ALIGN=RIGHT> 1.333</TD></TR>
+<TR>
+<TD>findShortestBoundaryExpansionIdx( &nbsp;const BoundaryExpansions &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       302">navigation2/nav2_smac_planner/src/smoother.cpp:302</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    17</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT> 2.000</TD></TR>
+<TR>
+<TD>generateBoundaryExpansionPoints( &nbsp;IteratorT, &nbsp;IteratorT&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       384">navigation2/nav2_smac_planner/src/smoother.cpp:384</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    31</EM></TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 7.750</EM></TD><TD ALIGN=RIGHT> 1.250</TD></TR>
+<TR>
+<TD>getFieldByDim( &nbsp;const PoseStamped &amp;, &nbsp;const int &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       191">navigation2/nav2_smac_planner/src/smoother.cpp:191</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    11</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>******</TD></TR>
+<TR>
+<TD>initialize( &nbsp;const OptimizerParams&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:        55">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:55</A></CODE><BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        59">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:59</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    45</EM></TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>    10</TD><TD ALIGN=RIGHT> 4.500</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>initialize( &nbsp;const double &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        36">navigation2/nav2_smac_planner/src/smoother.cpp:36</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>setFieldByDim( &nbsp;PoseStamped &amp;, &nbsp;const int, &nbsp;const double &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       203">navigation2/nav2_smac_planner/src/smoother.cpp:203</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    12</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>smooth( &nbsp;Path &amp;, &nbsp;const Costmap2D *, &nbsp;const double &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        42">navigation2/nav2_smac_planner/src/smoother.cpp:42</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    41</EM></TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT> 6.833</TD><TD ALIGN=RIGHT> 1.333</TD></TR>
+<TR>
+<TD>smooth( &nbsp;vector &amp;, &nbsp;Costmap2D *, &nbsp;const SmootherParams &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:       101">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:101</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    28</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT> 3.500</TD><TD ALIGN=RIGHT> 0.875</TD></TR>
+<TR>
+<TD>smooth( &nbsp;vector &amp;, &nbsp;const Vector2d &amp;, &nbsp;const Vector2d &amp;, &nbsp;const Costmap2D *, &nbsp;const SmootherParams &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        88">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:88</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    29</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>    11</TD><TD ALIGN=RIGHT> 2.636</TD><TD ALIGN=RIGHT> 0.636</TD></TR>
+<TR>
+<TD>smoothImpl( &nbsp;Path &amp;, &nbsp;bool &amp;, &nbsp;const Costmap2D *, &nbsp;const double &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        97">navigation2/nav2_smac_planner/src/smoother.cpp:97</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    75</EM></TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    14</EM></TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>12.500</EM></TD><TD ALIGN=RIGHT> 2.333</TD></TR>
+<TR>
+<TD>updateApproximatePathOrientations( &nbsp;Path &amp;, &nbsp;bool &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       266">navigation2/nav2_smac_planner/src/smoother.cpp:266</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    26</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT> 5.200</TD><TD ALIGN=RIGHT> 1.200</TD></TR>
+<TR>
+<TD>upsampleAndPopulate( &nbsp;const vector &amp;, &nbsp;const vector &amp;, &nbsp;const Vector2d &amp;, &nbsp;const Vector2d &amp;, &nbsp;const SmootherParams &amp;, &nbsp;vector &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       280">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:280</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    80</EM></TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    13</EM></TD><TD ALIGN=RIGHT>    14</TD><TD ALIGN=RIGHT> 5.714</TD><TD ALIGN=RIGHT> 0.929</TD></TR>
+<TR>
+<TD>~Smoother( &nbsp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:        49">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:49</A></CODE><BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        53">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:53</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
+</TR></TABLE>
+<H2><A NAME="structdet">Relationships</A></H2>
+<TABLE BORDER WIDTH=100%>
+<TR><TH WIDTH=50%>Clients</TH><TH WIDTH=50%>Suppliers</TH></TR>
+<TR>
+<TD WIDTH=50%>
+ConstrainedSmoother [CV] <BR>
+inheritance &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/constrained_smoother.hpp:        39">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/constrained_smoother.hpp:39</A></CODE><BR>
+<BR>
+<BR>
+DummySmoother [CV] <BR>
+inheritance &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smoother/test/test_smoother_server.cpp:        41">navigation2/nav2_smoother/test/test_smoother_server.cpp:41</A></CODE><BR>
+<BR>
+<BR>
+SimpleSmoother [CV] <BR>
+inheritance &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smoother/include/nav2_smoother/simple_smoother.hpp:        55">navigation2/nav2_smoother/include/nav2_smoother/simple_smoother.hpp:55</A></CODE><BR>
+<BR>
+<BR>
+SmootherWrapper [CV] <BR>
+inheritance &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/test_smoother.cpp:        42">navigation2/nav2_smac_planner/test/test_smoother.cpp:42</A></CODE><BR>
+<BR>
+<BR>
+&nbsp;
+</TD>
+<TD WIDTH=50%>
+BoundaryExpansions [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       303">navigation2/nav2_smac_planner/src/smoother.cpp:303</A></CODE><BR>
+<BR>
+<BR>
+Costmap2D [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        44">navigation2/nav2_smac_planner/src/smoother.cpp:44</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       100">navigation2/nav2_smac_planner/src/smoother.cpp:100</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       328">navigation2/nav2_smac_planner/src/smoother.cpp:328</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       424">navigation2/nav2_smac_planner/src/smoother.cpp:424</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       470">navigation2/nav2_smac_planner/src/smoother.cpp:470</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:       103">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:103</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        92">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:92</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       137">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:137</A></CODE><BR>
+<BR>
+<BR>
+IteratorT [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       384">navigation2/nav2_smac_planner/src/smoother.cpp:384</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       384">navigation2/nav2_smac_planner/src/smoother.cpp:384</A></CODE><BR>
+<BR>
+<BR>
+OptimizerParams [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:        55">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:55</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        59">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:59</A></CODE><BR>
+<BR>
+<BR>
+Options [CV] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:       141">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:141</A></CODE><BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       395">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:395</A></CODE><BR>
+<BR>
+<BR>
+Path [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        43">navigation2/nav2_smac_planner/src/smoother.cpp:43</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        98">navigation2/nav2_smac_planner/src/smoother.cpp:98</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       216">navigation2/nav2_smac_planner/src/smoother.cpp:216</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       267">navigation2/nav2_smac_planner/src/smoother.cpp:267</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       423">navigation2/nav2_smac_planner/src/smoother.cpp:423</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       469">navigation2/nav2_smac_planner/src/smoother.cpp:469</A></CODE><BR>
+<BR>
+<BR>
+Pose [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       325">navigation2/nav2_smac_planner/src/smoother.cpp:325</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       326">navigation2/nav2_smac_planner/src/smoother.cpp:326</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       422">navigation2/nav2_smac_planner/src/smoother.cpp:422</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       468">navigation2/nav2_smac_planner/src/smoother.cpp:468</A></CODE><BR>
+<BR>
+<BR>
+PoseStamped [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       192">navigation2/nav2_smac_planner/src/smoother.cpp:192</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       204">navigation2/nav2_smac_planner/src/smoother.cpp:204</A></CODE><BR>
+<BR>
+<BR>
+Problem [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       139">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:139</A></CODE><BR>
+<BR>
+<BR>
+Vector2d [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        90">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:90</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        91">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:91</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       283">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:283</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       284">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:284</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       376">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:376</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       376">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:376</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       377">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:377</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       377">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:377</A></CODE><BR>
+<BR>
+<BR>
+bool [C] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:        99">navigation2/nav2_smac_planner/src/smoother.cpp:99</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       268">navigation2/nav2_smac_planner/src/smoother.cpp:268</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       425">navigation2/nav2_smac_planner/src/smoother.cpp:425</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/src/smoother.cpp:       471">navigation2/nav2_smac_planner/src/smoother.cpp:471</A></CODE><BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:       140">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:140</A></CODE><BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       394">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:394</A></CODE><BR>
+<BR>
+<BR>
+vector [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:       102">navigation2/nav2_smac_planner/test/deprecated/smoother.hpp:102</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:        89">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:89</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       136">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:136</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       140">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:140</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       141">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:141</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       281">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:281</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       282">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:282</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:       286">navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp:286</A></CODE><BR>
+<BR>
+<BR>
+&nbsp;
+</TD>
+</TR></TABLE>
+</BODY></HTML>

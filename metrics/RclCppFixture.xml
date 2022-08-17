@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module RclCppFixture-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="240" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="240" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="1.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="0" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/copy_window_test.cpp" line="20" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/costmap_conversion_test.cpp" line="28" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/declare_parameter_test.cpp" line="23" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/dyn_params_tests.cpp" line="24" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="54" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp" line="47" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="35" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/obstacle_tests.cpp" line="55" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="46" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/range_tests.cpp" line="56" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/test/test_simple_smoother.cpp" line="34" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_planner/test/test_dynamic_parameters.cpp" line="54" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/test/test_dynamic_parameters.cpp" line="26" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_nodehybrid.cpp" line="28" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_node2d.cpp" line="27" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smoother.cpp" line="34" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_a_star.cpp" line="32" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_hybrid.cpp" line="32" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_2d.cpp" line="33" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_nodebasic.cpp" line="31" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_lattice.cpp" line="31" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_costmap_downsampler.cpp" line="24" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_service_client.cpp" line="26" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_node.cpp" line="21" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_odometry_utils.cpp" line="27" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_node_utils.cpp" line="30" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_utils.cpp" line="26" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_cli_node.cpp" line="66" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_rotation_shim_controller/test/test_shim_controller.cpp" line="29" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp" line="30" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_controller/test/test_dynamic_parameters.cpp" line="54" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/test/test_dynamic_parameters.cpp" line="47" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/test/test_task_executors.cpp" line="31" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/unit/test_costmap_filter_info_server.cpp" line="39" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/unit/test_map_io.cpp" line="55" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/component/test_map_saver_node.cpp" line="36" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/component/test_map_server_node.cpp" line="36" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/localization/test_localization_node.cpp" line="27" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="navigation2/nav2_velocity_smoother/test/test_velocity_smoother.cpp" line="29" />
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>RclCppFixture()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/copy_window_test.cpp" line="23" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/costmap_conversion_test.cpp" line="31" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/declare_parameter_test.cpp" line="26" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/dyn_params_tests.cpp" line="27" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="57" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp" line="50" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/obstacle_tests.cpp" line="58" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="49" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/range_tests.cpp" line="59" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/test/test_simple_smoother.cpp" line="37" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_planner/test/test_dynamic_parameters.cpp" line="57" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/test/test_dynamic_parameters.cpp" line="29" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_nodehybrid.cpp" line="31" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_node2d.cpp" line="30" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smoother.cpp" line="37" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_a_star.cpp" line="35" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_hybrid.cpp" line="35" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_2d.cpp" line="36" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_nodebasic.cpp" line="34" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_lattice.cpp" line="34" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_costmap_downsampler.cpp" line="27" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_service_client.cpp" line="29" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_node.cpp" line="24" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_odometry_utils.cpp" line="30" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_node_utils.cpp" line="33" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_utils.cpp" line="29" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_cli_node.cpp" line="69" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_rotation_shim_controller/test/test_shim_controller.cpp" line="32" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp" line="33" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_controller/test/test_dynamic_parameters.cpp" line="57" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/test/test_dynamic_parameters.cpp" line="50" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/test/test_task_executors.cpp" line="34" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/unit/test_costmap_filter_info_server.cpp" line="42" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/unit/test_map_io.cpp" line="58" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/component/test_map_saver_node.cpp" line="39" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/component/test_map_server_node.cpp" line="39" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/localization/test_localization_node.cpp" line="30" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_velocity_smoother/test/test_velocity_smoother.cpp" line="32" />
+</extent>
+<lines_of_code value="44" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~RclCppFixture()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/copy_window_test.cpp" line="24" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/costmap_conversion_test.cpp" line="32" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/declare_parameter_test.cpp" line="27" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/dyn_params_tests.cpp" line="28" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="58" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp" line="51" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/obstacle_tests.cpp" line="59" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="50" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/range_tests.cpp" line="64" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/test/test_simple_smoother.cpp" line="38" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_planner/test/test_dynamic_parameters.cpp" line="58" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_navfn_planner/test/test_dynamic_parameters.cpp" line="30" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_nodehybrid.cpp" line="32" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_node2d.cpp" line="31" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smoother.cpp" line="38" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_a_star.cpp" line="36" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_hybrid.cpp" line="36" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_2d.cpp" line="37" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_nodebasic.cpp" line="35" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_lattice.cpp" line="35" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_costmap_downsampler.cpp" line="28" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_service_client.cpp" line="30" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_node.cpp" line="25" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_odometry_utils.cpp" line="31" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_node_utils.cpp" line="34" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_utils.cpp" line="30" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/test/test_lifecycle_cli_node.cpp" line="74" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_rotation_shim_controller/test/test_shim_controller.cpp" line="33" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp" line="34" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_controller/test/test_dynamic_parameters.cpp" line="58" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/test/test_dynamic_parameters.cpp" line="51" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/test/test_task_executors.cpp" line="35" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/unit/test_costmap_filter_info_server.cpp" line="43" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/unit/test_map_io.cpp" line="59" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/component/test_map_saver_node.cpp" line="40" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_map_server/test/component/test_map_server_node.cpp" line="40" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/localization/test_localization_node.cpp" line="31" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_velocity_smoother/test/test_velocity_smoother.cpp" line="33" />
+</extent>
+<lines_of_code value="44" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>RclCppFixture</name>
+<client_module>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

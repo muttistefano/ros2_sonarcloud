@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module DWBLocalPlanner-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="384" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="50" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="36" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="10.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.389" level="0" />
+<weighted_methods_per_class_unity value="14" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="14" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/dwb_local_planner.hpp" line="61" />
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>DWBLocalPlanner()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="62" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/dwb_local_planner.hpp" line="67" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>activate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="141" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>cleanup()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="153" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>computeVelocityCommands(const Pose2DStamped &amp;,const Twist2D &amp;,shared_ptr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="280" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="14.333" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.000" level="0" />
+</member_function>
+<member_function>
+<name>computeVelocityCommands(const PoseStamped &amp;,const Twist &amp;,GoalChecker *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="238" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>configure(const WeakPtr &amp;,string,shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="68" />
+</extent>
+<lines_of_code value="63" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>coreScoringAlgorithm(const Pose2D &amp;,const Twist2D,shared_ptr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="341" />
+</extent>
+<lines_of_code value="61" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>deactivate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="147" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>loadCritics()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="179" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>prepareGlobalPlan(const Pose2DStamped &amp;,Path2D &amp;,Pose2DStamped &amp;,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="263" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resolveCriticClassName(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="161" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>scoreTrajectory(const Trajectory2D &amp;,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="409" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="24.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
+</member_function>
+<member_function>
+<name>setPlan(const Path &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="224" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>transformGlobalPlan(const Pose2DStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="440" />
+</extent>
+<lines_of_code value="67" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="21" level="0" />
+<lines_of_code_per_line_of_comment value="3.190" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.476" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>DWBLocalPlanner</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Controller</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/dwb_local_planner.hpp" line="61" />
+</extent>
+<name>GoalChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="241" />
+</extent>
+<name>Path</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="224" />
+</extent>
+<name>Path2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="264" />
+</extent>
+<name>Pose2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="342" />
+</extent>
+<name>Pose2DStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="264" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="265" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="281" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="441" />
+</extent>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="239" />
+</extent>
+<name>Trajectory2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="410" />
+</extent>
+<name>Twist</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="240" />
+</extent>
+<name>Twist2D</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="282" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="343" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="69" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="265" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="70" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="71" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="283" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="344" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="70" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="161" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

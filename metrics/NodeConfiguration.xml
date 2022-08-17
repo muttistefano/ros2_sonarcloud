@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module NodeConfiguration-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="54" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>NodeConfiguration</name>
+<client_module>
+<name>BackUpAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/back_up_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/back_up_action.hpp" line="41" />
+</extent>
+<name>BackUpCancel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/back_up_cancel_node.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp" line="43" />
+</extent>
+<name>BehaviorTreeTestFixture</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_behavior_tree_fixture.hpp" line="77" />
+</extent>
+<name>BtActionNode</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_node.hpp" line="46" />
+</extent>
+<name>BtCancelActionNode</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_cancel_action_node.hpp" line="47" />
+</extent>
+<name>BtServiceNode</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_service_node.hpp" line="44" />
+</extent>
+<name>ClearCostmapAroundRobotService</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/clear_costmap_service.cpp" line="50" />
+</extent>
+<name>ClearCostmapExceptRegionService</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/clear_costmap_service.cpp" line="37" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/clear_costmap_service.hpp" line="65" />
+</extent>
+<name>ClearEntireCostmapService</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/clear_costmap_service.cpp" line="25" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/clear_costmap_service.hpp" line="41" />
+</extent>
+<name>ComputePathThroughPosesAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/compute_path_through_poses_action.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp" line="45" />
+</extent>
+<name>ComputePathToPoseAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/compute_path_to_pose_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp" line="42" />
+</extent>
+<name>ControllerCancel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/controller_cancel_node.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/controller_cancel_node.hpp" line="43" />
+</extent>
+<name>ControllerSelector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/controller_selector_node.cpp" line="32" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/controller_selector_node.hpp" line="49" />
+</extent>
+<name>DistanceController</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/decorator/distance_controller.cpp" line="35" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/distance_controller.hpp" line="44" />
+</extent>
+<name>DistanceTraveledCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/distance_traveled_condition.cpp" line="29" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp" line="45" />
+</extent>
+<name>DriveOnHeadingAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/drive_on_heading_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp" line="41" />
+</extent>
+<name>DriveOnHeadingCancel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp" line="43" />
+</extent>
+<name>FollowPathAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/follow_path_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/follow_path_action.hpp" line="42" />
+</extent>
+<name>GloballyUpdatedGoalCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.cpp" line="25" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp" line="43" />
+</extent>
+<name>GoalCheckerSelector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/goal_checker_selector_node.cpp" line="32" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp" line="49" />
+</extent>
+<name>GoalReachedCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/goal_reached_condition.cpp" line="29" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp" line="42" />
+</extent>
+<name>GoalUpdatedCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/goal_updated_condition.cpp" line="24" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp" line="41" />
+</extent>
+<name>GoalUpdatedController</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/decorator/goal_updated_controller.cpp" line="29" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp" line="43" />
+</extent>
+<name>GoalUpdater</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/decorator/goal_updater_node.cpp" line="33" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp" line="45" />
+</extent>
+<name>IsBatteryLowCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/is_battery_low_condition.cpp" line="25" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp" line="44" />
+</extent>
+<name>IsBatteryLowConditionTestFixture</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_battery_low.cpp" line="62" />
+</extent>
+<name>IsPathValidCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/is_path_valid_condition.cpp" line="25" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp" line="43" />
+</extent>
+<name>IsPathValidTestFixture</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_is_path_valid.cpp" line="80" />
+</extent>
+<name>IsStuckCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/is_stuck_condition.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp" line="43" />
+</extent>
+<name>NavigateThroughPosesAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/navigate_through_poses_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp" line="43" />
+</extent>
+<name>NavigateToPoseAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/navigate_to_pose_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp" line="43" />
+</extent>
+<name>PathExpiringTimerCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp" line="41" />
+</extent>
+<name>PathExpiringTimerConditionTestFixture</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_path_expiring_timer.cpp" line="53" />
+</extent>
+<name>PathLongerOnApproach</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/decorator/path_longer_on_approach.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp" line="44" />
+</extent>
+<name>PipelineSequence</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/control/pipeline_sequence.cpp" line="31" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/control/pipeline_sequence.hpp" line="69" />
+</extent>
+<name>PlannerSelector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/planner_selector_node.cpp" line="32" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/planner_selector_node.hpp" line="49" />
+</extent>
+<name>RateController</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/decorator/rate_controller.cpp" line="25" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/rate_controller.hpp" line="39" />
+</extent>
+<name>RecoveryNode</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/control/recovery_node.cpp" line="23" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/control/recovery_node.hpp" line="45" />
+</extent>
+<name>ReinitializeGlobalLocalizationService</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.cpp" line="23" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp" line="39" />
+</extent>
+<name>RemovePassedGoals</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/remove_passed_goals_action.cpp" line="29" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp" line="37" />
+</extent>
+<name>RoundRobinNode</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/control/round_robin_node.cpp" line="29" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/control/round_robin_node.hpp" line="68" />
+</extent>
+<name>SingleTrigger</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/decorator/single_trigger_node.cpp" line="25" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp" line="40" />
+</extent>
+<name>SmoothPathAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/smooth_path_action.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/smooth_path_action.hpp" line="43" />
+</extent>
+<name>SpeedController</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/decorator/speed_controller.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/speed_controller.hpp" line="47" />
+</extent>
+<name>SpinAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/spin_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/spin_action.hpp" line="41" />
+</extent>
+<name>SpinCancel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/spin_cancel_node.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/spin_cancel_node.hpp" line="43" />
+</extent>
+<name>TestNode</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_bt_conversions.cpp" line="32" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp" line="27" />
+</extent>
+<name>TimeExpiredCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/time_expired_condition.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/time_expired_condition.hpp" line="41" />
+</extent>
+<name>TransformAvailableCondition</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/condition/transform_available_condition.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/transform_available_condition.hpp" line="43" />
+</extent>
+<name>TransformAvailableConditionTestFixture</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/condition/test_transform_available.cpp" line="82" />
+</extent>
+<name>TruncatePath</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/truncate_path_action.cpp" line="32" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/truncate_path_action.hpp" line="42" />
+</extent>
+<name>TruncatePathLocal</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/truncate_path_local_action.cpp" line="34" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp" line="44" />
+</extent>
+<name>WaitAction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/wait_action.cpp" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/wait_action.hpp" line="41" />
+</extent>
+<name>WaitCancel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/plugins/action/wait_cancel_node.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/wait_cancel_node.hpp" line="43" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

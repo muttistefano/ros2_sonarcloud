@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module InputAtWaypoint-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="85" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="29" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="2.931" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.241" level="0" />
+<weighted_methods_per_class_unity value="5" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="34" />
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Cb(const SharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="75" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="72" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>InputAtWaypoint()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="28" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="41" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initialize(const WeakPtr &amp;,const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="39" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="54" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="6.600" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>processAtWaypoint(const PoseStamped &amp;,const int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="81" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="64" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="3.857" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.857" level="0" />
+</member_function>
+<member_function>
+<name>~InputAtWaypoint()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="35" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="47" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>InputAtWaypoint</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Duration</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="76" />
+</extent>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="82" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="65" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="75" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="72" />
+</extent>
+<name>WaypointTaskExecutor</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="34" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="40" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="55" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="74" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="75" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/plugins/input_at_waypoint.cpp" line="41" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/plugins/input_at_waypoint.hpp" line="56" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

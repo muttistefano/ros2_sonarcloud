@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module WaitBehaviorTester-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="217" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="44" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="6" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="36.167" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.333" level="1" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.hpp" line="42" />
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>WaitBehaviorTester()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="34" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>activate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="65" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="26.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
+</member_function>
+<member_function>
+<name>amclPoseCallback(const SharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="275" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>behaviorTest(const float)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="106" />
+</extent>
+<lines_of_code value="52" level="1" />
+<McCabes_cyclomatic_complexity value="16" level="1" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="26.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="8.000" level="1" />
+</member_function>
+<member_function>
+<name>behaviorTestCancel(const float)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="175" />
+</extent>
+<lines_of_code value="63" level="1" />
+<McCabes_cyclomatic_complexity value="17" level="1" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="31.500" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="8.500" level="1" />
+</member_function>
+<member_function>
+<name>deactivate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="98" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>sendInitialPose()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="252" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~WaitBehaviorTester()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="58" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>WaitBehaviorTester</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behaviors/wait/wait_behavior_tester.cpp" line="276" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

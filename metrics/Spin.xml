@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Spin-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="149" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="21" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="27" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="5.519" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.778" level="0" />
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.hpp" line="34" />
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="23" level="0" />
+<lines_of_code_per_line_of_comment value="0.870" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Spin()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="31" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.hpp" line="40" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isCollisionFree(const double &amp;,Twist *,Pose2D &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="160" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="24.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>onConfigure()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="46" />
+</extent>
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>onCycleUpdate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="99" />
+</extent>
+<lines_of_code value="48" level="1" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>onRun(const shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="74" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~Spin()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="44" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.hpp" line="41" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Spin</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Pose2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="163" />
+</extent>
+<name>TimedBehavior</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.hpp" line="34" />
+</extent>
+<name>Twist</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="162" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="74" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

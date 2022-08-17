@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Time-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="19" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Time</name>
+<client_module>
+<name>Actuator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/actuator.cpp" line="219" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/actuator.cpp" line="235" />
+</extent>
+<name>AmclNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="394" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="411" />
+</extent>
+<name>ChainableControllerInterface</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/controller_interface/src/chainable_controller_interface.cpp" line="29" />
+</extent>
+<name>ForceTorqueSensorBroadcaster</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp" line="160" />
+</extent>
+<name>ForwardControllersBase</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/forward_command_controller/src/forward_controllers_base.cpp" line="121" />
+</extent>
+<name>GazeboSystem</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="458" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="499" />
+</extent>
+<name>GenericSystem</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/mock_components/generic_system.cpp" line="321" />
+</extent>
+<name>GripperActionController</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="64" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="154" />
+</extent>
+<name>HardwareInterfaceAdapter</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/hardware_interface_adapter.hpp" line="54" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/hardware_interface_adapter.hpp" line="55" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/hardware_interface_adapter.hpp" line="82" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/hardware_interface_adapter.hpp" line="83" />
+</extent>
+<name>IMUSensorBroadcaster</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp" line="117" />
+</extent>
+<name>JointStateBroadcaster</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="339" />
+</extent>
+<name>JointTrajectoryController</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp" line="127" />
+</extent>
+<name>Odometry</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/src/odometry.cpp" line="41" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/src/odometry.cpp" line="48" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/src/odometry.cpp" line="74" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/src/odometry.cpp" line="98" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/include/diff_drive_controller/odometry.hpp" line="37" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/include/diff_drive_controller/odometry.hpp" line="38" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/include/diff_drive_controller/odometry.hpp" line="39" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/diff_drive_controller/include/diff_drive_controller/odometry.hpp" line="40" />
+</extent>
+<name>Sensor</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/sensor.cpp" line="196" />
+</extent>
+<name>System</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/system.cpp" line="215" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/system.cpp" line="231" />
+</extent>
+<name>TestCollisionChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="211" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="242" />
+</extent>
+<name>TestControllerFailedInit</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/controller_manager/test/test_controller_failed_init/test_controller_failed_init.cpp" line="42" />
+</extent>
+<name>TestControllerWithInterfaces</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp" line="36" />
+</extent>
+<name>Trajectory</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="35" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="46" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="61" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="170" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="171" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/trajectory.cpp" line="172" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

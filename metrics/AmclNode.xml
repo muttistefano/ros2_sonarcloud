@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module AmclNode-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="1187" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="163" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="130" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="9.131" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.254" level="0" />
+<weighted_methods_per_class_unity value="39" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="17" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/amcl_node.hpp" line="59" />
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="26" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>AmclNode(...)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/amcl_node.hpp" line="66" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>AmclNode(const NodeOptions &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="61" />
+</extent>
+<lines_of_code value="131" level="2" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addNewScanner(int &amp;,const ConstSharedPtr &amp;,const string &amp;,PoseStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="723" />
+</extent>
+<lines_of_code value="31" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="31.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>calculateMaptoOdomTransform(const ConstSharedPtr &amp;,const vector &amp;,const int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="967" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="24.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>checkElapsedTime(seconds,Time)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="394" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>convertMap(const OccupancyGrid &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1401" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="21.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createFreeSpaceVector()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1370" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createLaserObject()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1010" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>dynamicParametersCallback(vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1138" />
+</extent>
+<lines_of_code value="177" level="2" />
+<McCabes_cyclomatic_complexity value="53" level="2" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="29.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="8.833" level="1" />
+</member_function>
+<member_function>
+<name>freeMapDependentMemory()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1384" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getMaxWeightHyp(vector &amp;,amcl_hyp_t &amp;,int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="867" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="35.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
+</member_function>
+<member_function>
+<name>getOdomPose(PoseStamped &amp;,double &amp;,double &amp;,double &amp;,const Time &amp;,const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="408" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="13.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>globalLocalizationCallback(const shared_ptr,const shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="479" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handleInitialPose(PoseWithCovarianceStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="543" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="4.300" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handleMapMessage(const OccupancyGrid &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1345" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initLaserScan()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1563" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initMessageFilters()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1449" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initOdometry()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1507" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initParameters()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1033" />
+</extent>
+<lines_of_code value="89" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="89.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>initParticleFilter()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1534" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="10.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initPubSub()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1471" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initServices()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1495" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initTransforms()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1429" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initialPoseReceived(SharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="508" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="14.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
+</member_function>
+<member_function>
+<name>laserReceived(ConstSharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="608" />
+</extent>
+<lines_of_code value="88" level="1" />
+<McCabes_cyclomatic_complexity value="25" level="1" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="6.286" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.786" level="0" />
+</member_function>
+<member_function>
+<name>mapReceived(const SharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1334" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>nomotionUpdateCallback(const shared_ptr,const shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="498" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_activate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="256" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="4.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_cleanup(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="319" />
+</extent>
+<lines_of_code value="48" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="5.333" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_configure(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="236" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_deactivate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="299" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_shutdown(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="387" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>publishAmclPose(const ConstSharedPtr &amp;,const vector &amp;,const int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="909" />
+</extent>
+<lines_of_code value="47" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="6.714" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.000" level="0" />
+</member_function>
+<member_function>
+<name>publishParticleCloud(const pf_sample_set_t *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="845" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>sendMapToOdomTransform(const TimePoint &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="997" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>shouldUpdateFilter(const pf_vector_t,pf_vector_t &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="758" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>uniformPoseGenerator(void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="440" />
+</extent>
+<lines_of_code value="29" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="29.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>updateFilter(const int &amp;,const ConstSharedPtr &amp;,const pf_vector_t &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="772" />
+</extent>
+<lines_of_code value="55" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="5.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.545" level="0" />
+</member_function>
+<member_function>
+<name>~AmclNode()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="231" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/amcl_node.hpp" line="70" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>AmclNode</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>ConstSharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="608" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="725" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="774" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="910" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="968" />
+</extent>
+<name>LifecycleNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_amcl/include/nav2_amcl/amcl_node.hpp" line="59" />
+</extent>
+<name>NodeOptions</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="61" />
+</extent>
+<name>OccupancyGrid</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1345" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1401" />
+</extent>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="409" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="727" />
+</extent>
+<name>PoseWithCovarianceStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="543" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="508" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1334" />
+</extent>
+<name>State</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="236" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="256" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="299" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="319" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="387" />
+</extent>
+<name>Time</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="394" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="411" />
+</extent>
+<name>TimePoint</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="997" />
+</extent>
+<name>amcl_hyp_t</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="868" />
+</extent>
+<name>pf_sample_set_t</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="845" />
+</extent>
+<name>pf_vector_t</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="758" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="758" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="775" />
+</extent>
+<name>seconds</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="394" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="480" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="481" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="482" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="499" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="500" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="501" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="411" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="726" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="868" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="911" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="969" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1139" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

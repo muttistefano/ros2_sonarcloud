@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Costmap2D-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="472" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="71" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="256" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="1.844" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.277" level="0" />
+<weighted_methods_per_class_unity value="40" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="2" level="0" />
+<coupling_between_objects value="27" level="0" />
+<IF4 value="5184" level="2" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="5184" level="2" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="4" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="67" />
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="23" level="0" />
+<lines_of_code_per_line_of_comment value="0.957" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Costmap2D()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="243" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="136" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Costmap2D(const Costmap2D &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="235" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="89" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Costmap2D(const OccupancyGrid &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="62" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="95" />
+</extent>
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="2.556" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Costmap2D(int,int,double,double,double,char)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="49" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="81" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>cellDistance(double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="255" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="359" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>convexFillCells(const vector &amp;,vector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="432" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="319" />
+</extent>
+<lines_of_code value="58" level="1" />
+<McCabes_cyclomatic_complexity value="14" level="1" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="5.800" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.400" level="0" />
+</member_function>
+<member_function>
+<name>copyCostmapWindow(const Costmap2D &amp;,double,double,double,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="145" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="112" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="15" level="0" />
+<lines_of_code_per_line_of_comment value="2.200" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.400" level="0" />
+</member_function>
+<member_function>
+<name>copyWindow(const Costmap2D &amp;,int,int,int,int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="187" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="128" />
+</extent>
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="2.091" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.636" level="0" />
+</member_function>
+<member_function>
+<name>deleteMaps()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="93" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getCharMap()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="261" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="233" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getCost(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="271" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="157" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getCost(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="266" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="149" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getDefaultValue()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="290" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getIndex(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="212" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getMutex()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="363" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getOriginX()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="521" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="263" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getOriginY()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="526" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="269" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getResolution()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="531" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="275" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getSizeInCellsX()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="501" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="239" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getSizeInCellsY()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="506" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="245" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getSizeInMetersX()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="511" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="251" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getSizeInMetersY()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="516" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="257" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>indexToCells(int,int &amp;,int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="223" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initMaps(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="101" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mapToWorld(int,int,double &amp;,double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="281" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="174" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>operator =(const Costmap2D &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="210" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="102" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>polygonOutlineCells(const vector &amp;,vector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="415" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="310" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetMap(int,int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="130" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="346" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetMapToValue(int,int,int,int,char)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="135" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="351" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetMaps()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="124" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resizeMap(int,int,double,double,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="108" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="339" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>saveMap(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="536" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="334" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.250" level="0" />
+</member_function>
+<member_function>
+<name>setConvexPolygonCost(const vector &amp;,char)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="386" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="301" />
+</extent>
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="2.091" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.455" level="0" />
+</member_function>
+<member_function>
+<name>setCost(int,int,char)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="276" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="165" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setDefaultValue(char)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="281" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>updateOrigin(double,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="330" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="328" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="17" level="0" />
+<lines_of_code_per_line_of_comment value="1.941" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>worldToMap(double,double,int &amp;,int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="287" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="184" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.875" level="0" />
+</member_function>
+<member_function>
+<name>worldToMapEnforceBounds(double,double,int &amp;,int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="308" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="204" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>worldToMapNoBounds(double,double,int &amp;,int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="302" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="194" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~Costmap2D()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="249" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="141" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Costmap2D</name>
+<client_module>
+<name>Costmap2DPublisher</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d_publisher.cpp" line="54" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_publisher.hpp" line="71" />
+</extent>
+<name>CostmapDownsampler</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/costmap_downsampler.hpp" line="111" />
+</extent>
+<name>CostmapFilter</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/costmap_filter.cpp" line="112" />
+</extent>
+<name>CostmapLayer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_layer.cpp" line="110" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_layer.cpp" line="139" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_layer.cpp" line="165" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_layer.cpp" line="186" />
+</extent>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_layer.hpp" line="54" />
+</extent>
+<name>CostmapQueue</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/costmap_queue/src/costmap_queue.cpp" line="44" />
+</extent>
+<name>CostmapTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/regression/costmap_bresenham_2d.cpp" line="65" />
+</extent>
+<name>CostmapTester</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp" line="56" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp" line="59" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp" line="85" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/costmap_tester.cpp" line="108" />
+</extent>
+<name>GridCollisionChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="21" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="40" />
+</extent>
+<name>KeepoutFilter</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/keepout_filter.cpp" line="151" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/keepout_filter.hpp" line="76" />
+</extent>
+<name>Layer</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/layer.hpp" line="111" />
+</extent>
+<name>LayerWrapper</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/unit/declare_parameter_test.cpp" line="35" />
+</extent>
+<name>LimitedCostmapQueue</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/costmap_queue/src/limited_costmap_queue.cpp" line="41" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/costmap_queue/include/costmap_queue/limited_costmap_queue.hpp" line="53" />
+</extent>
+<name>MapGridQueue</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/include/dwb_critics/map_grid.hpp" line="114" />
+</extent>
+<name>NodeHybrid</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="347" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="390" />
+</extent>
+<name>NodeLattice</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="323" />
+</extent>
+<name>ObstacleLayer</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="513" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="111" />
+</extent>
+<name>RangeSensorLayer</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/range_sensor_layer.cpp" line="477" />
+</extent>
+<name>SimpleSmoother</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="101" />
+</extent>
+<name>Smoother</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="44" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="100" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="328" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="424" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smoother.cpp" line="470" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="103" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="92" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="137" />
+</extent>
+<name>SpeedFilter</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="242" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="76" />
+</extent>
+<name>StaticLayer</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/static_layer.cpp" line="376" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/static_layer.hpp" line="118" />
+</extent>
+<name>TestCollisionChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/test_costmap_topic_collision_checker.cpp" line="255" />
+</extent>
+<name>TestNode</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="75" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="121" />
+</extent>
+<name>UnconstrainedSmootherCostFunction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother_cost_function.hpp" line="52" />
+</extent>
+</client_module>
+<supplier_module>
+<name>OccupancyGrid</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="62" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="95" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="536" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="334" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="387" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="416" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="417" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="433" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="434" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="302" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="311" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="312" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="320" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="321" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

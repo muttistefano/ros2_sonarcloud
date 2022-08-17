@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module GridCollisionChecker-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="141" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="36" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="80" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="1.762" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.450" level="0" />
+<weighted_methods_per_class_unity value="7" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="9" level="0" />
+<IF4 value="400" level="1" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="400" level="2" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="28" />
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>GridCollisionChecker(Costmap2D *,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="20" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="39" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getCost()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="168" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="92" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getPrecomputedAngles()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="98" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>inCollision(const float &amp;,const float &amp;,const float &amp;,const bool &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="83" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="72" />
+</extent>
+<lines_of_code value="53" level="1" />
+<McCabes_cyclomatic_complexity value="21" level="1" />
+<lines_of_comment value="20" level="0" />
+<lines_of_code_per_line_of_comment value="2.650" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.050" level="0" />
+</member_function>
+<member_function>
+<name>inCollision(const int &amp;,const bool &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="155" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="84" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>outsideRange(const int &amp;,const float &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="174" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="111" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setFootprint(const Footprint &amp;,const bool &amp;,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="41" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="59" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="25" level="0" />
+<lines_of_code_per_line_of_comment value="1.400" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.240" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>GridCollisionChecker</name>
+<client_module>
+<name>AStarAlgorithm</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/a_star.cpp" line="99" />
+</extent>
+<name>AnalyticExpansion</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/analytic_expansion.cpp" line="44" />
+</extent>
+<name>NodeHybrid</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="291" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_hybrid.cpp" line="665" />
+</extent>
+<name>NodeLattice</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="207" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/node_lattice.cpp" line="464" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="21" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="40" />
+</extent>
+<name>Footprint</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="42" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="60" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="115" />
+</extent>
+<name>FootprintCollisionChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="29" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="43" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="87" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/collision_checker.cpp" line="157" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="61" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="76" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="86" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="117" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="114" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="118" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module LifecycleManager-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="404" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="75" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="121" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="3.339" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.620" level="0" />
+<weighted_methods_per_class_unity value="22" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="10" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="47" />
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="1.429" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>CreateActiveDiagnostic(DiagnosticStatusWrapper &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="151" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="187" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>LifecycleManager(...)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="54" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>LifecycleManager(const NodeOptions &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="35" />
+</extent>
+<lines_of_code value="63" level="1" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="31.500" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>changeStateForAllNodes(uint8_t,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="231" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="175" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="8.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.250" level="0" />
+</member_function>
+<member_function>
+<name>changeStateForNode(const string &amp;,uint8_t)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="210" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="168" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.333" level="0" />
+</member_function>
+<member_function>
+<name>checkBondConnections()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="382" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="156" />
+</extent>
+<lines_of_code value="31" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="3.100" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.000" level="0" />
+</member_function>
+<member_function>
+<name>checkBondRespawnConnection()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="422" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="163" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="2.917" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.917" level="0" />
+</member_function>
+<member_function>
+<name>createBondConnection(const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="180" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="143" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="6.750" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.250" level="0" />
+</member_function>
+<member_function>
+<name>createBondTimer()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="358" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="137" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createLifecycleServiceClients()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="161" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="121" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>destroyBondTimer()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="372" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="149" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>destroyLifecycleServiceClients()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="171" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="131" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isActiveCallback(const shared_ptr,const shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="142" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="85" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>managerCallback(const shared_ptr,const shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="117" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="74" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="3.857" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.857" level="0" />
+</member_function>
+<member_function>
+<name>message(const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="471" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="181" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>pause()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="327" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="110" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>reset(bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="306" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="105" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.000" level="0" />
+</member_function>
+<member_function>
+<name>resume()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="343" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="115" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>shutdown()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="293" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="100" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>shutdownAllNodes()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="268" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="127" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>startup()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="277" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="95" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~LifecycleManager()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="110" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="58" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>LifecycleManager</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>DiagnosticStatusWrapper</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="151" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="187" />
+</extent>
+<name>Node</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="47" />
+</extent>
+<name>NodeOptions</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="35" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="62" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="66" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="67" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="190" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="191" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="192" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="231" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="306" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="105" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="175" />
+</extent>
+<name>milliseconds</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="193" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="118" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="119" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="120" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="143" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="144" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="145" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="75" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="76" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="77" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="86" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="87" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="88" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="180" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="210" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="471" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="143" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="169" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="181" />
+</extent>
+<name>uint8_t</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="210" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/src/lifecycle_manager.cpp" line="231" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="170" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="175" />
+</extent>
+<name>unique_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp" line="63" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

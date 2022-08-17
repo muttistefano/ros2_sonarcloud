@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module ControllerServer-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="33" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="108" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="0.306" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="3" level="0" />
+<IF4 value="4" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="4" level="0" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="1" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_controller/include/nav2_controller/controller_server.hpp" line="48" />
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="108" level="0" />
+<lines_of_code_per_line_of_comment value="0.278" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>ControllerServer(const NodeOptions &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_controller/src/controller_server.cpp" line="36" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>ControllerServer</name>
+<client_module>
+<name>ControllerShim</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_controller/test/test_dynamic_parameters.cpp" line="26" />
+</extent>
+</client_module>
+<supplier_module>
+<name>LifecycleNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_controller/include/nav2_controller/controller_server.hpp" line="48" />
+</extent>
+<name>NodeOptions</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_controller/src/controller_server.cpp" line="36" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

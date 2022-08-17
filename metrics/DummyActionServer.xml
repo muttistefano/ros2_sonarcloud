@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module DummyActionServer-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="85" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="12" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="10" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="8.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.200" level="0" />
+<weighted_methods_per_class_unity value="10" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="16" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="16" level="0" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="4" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="98" />
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>DummyActionServer(const SharedPtr &amp;,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="101" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>execute(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="159" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.000" level="0" />
+</member_function>
+<member_function>
+<name>fillResult()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="141" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getGoalCount()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="135" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handle_accepted(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="186" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handle_cancel(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="153" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handle_goal(const GoalUUID &amp;,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="146" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>reset()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="128" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setFailureRanges(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="118" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setRunningRanges(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="123" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>DummyActionServer</name>
+<client_module>
+<name>ComputePathToPoseActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/server_handler.hpp" line="42" />
+</extent>
+</client_module>
+<supplier_module>
+<name>GoalUUID</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="147" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="102" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="148" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_system_tests/src/behavior_tree/dummy_servers.hpp" line="103" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module SpeedFilter-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="267" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="37" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="82" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="3.256" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.451" level="0" />
+<weighted_methods_per_class_unity value="10" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="6" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="58" />
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>SpeedFilter()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="52" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="64" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>filterInfoCallback(const SharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="98" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="125" />
+</extent>
+<lines_of_code value="48" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="6.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.625" level="0" />
+</member_function>
+<member_function>
+<name>getMaskData(const int,const int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="235" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="118" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initializeFilter(const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="59" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="69" />
+</extent>
+<lines_of_code value="29" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="3.625" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isActive()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="341" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="88" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>maskCallback(const SharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="156" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="129" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>process(Costmap2D &amp;,int,int,int,int,const Pose2D &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="241" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="75" />
+</extent>
+<lines_of_code value="72" level="1" />
+<McCabes_cyclomatic_complexity value="15" level="1" />
+<lines_of_comment value="20" level="0" />
+<lines_of_code_per_line_of_comment value="3.600" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.750" level="0" />
+</member_function>
+<member_function>
+<name>resetFilter()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="329" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="83" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>transformPose(const Pose2D &amp;,Pose2D &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="177" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="97" />
+</extent>
+<lines_of_code value="32" level="1" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="2.909" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>worldToMask(double,double,int &amp;,int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="214" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="110" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.778" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>SpeedFilter</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="242" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="76" />
+</extent>
+<name>CostmapFilter</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="58" />
+</extent>
+<name>Pose2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="178" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="179" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="244" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="78" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="98" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="99" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="99" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="157" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="125" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="129" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="131" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="132" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="134" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="136" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="142" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="60" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="70" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="138" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="139" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

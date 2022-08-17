@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module TestActionServer-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="63" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="3" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="21.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.667" level="0" />
+<weighted_methods_per_class_unity value="9" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="15" level="0" />
+<coupling_between_objects value="19" level="0" />
+<IF4 value="3600" level="2" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="3600" level="2" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="2025" level="2" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="25" />
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>TestActionServer(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="28" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>execute(...)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="82" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getCurrentGoal()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="46" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getReturnSuccess(void)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="56" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handle_accepted(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="85" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handle_cancel(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="75" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handle_goal(const GoalUUID &amp;,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="67" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isGoalCancelled()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="61" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setReturnSuccess(bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="51" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>TestActionServer</name>
+<client_module>
+<name>BackUpActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_back_up_action.cpp" line="26" />
+</extent>
+<name>CancelBackUpServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_back_up_cancel_node.cpp" line="26" />
+</extent>
+<name>CancelControllerServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_controller_cancel_node.cpp" line="26" />
+</extent>
+<name>CancelDriveOnHeadingServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_drive_on_heading_cancel_node.cpp" line="26" />
+</extent>
+<name>CancelSpinServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_spin_cancel_node.cpp" line="26" />
+</extent>
+<name>CancelWaitServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_wait_cancel_node.cpp" line="26" />
+</extent>
+<name>ComputePathThroughPosesActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_compute_path_through_poses_action.cpp" line="31" />
+</extent>
+<name>ComputePathToPoseActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_compute_path_to_pose_action.cpp" line="29" />
+</extent>
+<name>DriveOnHeadingActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_drive_on_heading_action.cpp" line="26" />
+</extent>
+<name>FollowPathActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_follow_path_action.cpp" line="29" />
+</extent>
+<name>NavigateThroughPosesActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_navigate_through_poses_action.cpp" line="32" />
+</extent>
+<name>NavigateToPoseActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_navigate_to_pose_action.cpp" line="30" />
+</extent>
+<name>SmoothPathActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_smooth_path_action.cpp" line="29" />
+</extent>
+<name>SpinActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_spin_action.cpp" line="26" />
+</extent>
+<name>WaitActionServer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/plugins/action/test_wait_action.cpp" line="26" />
+</extent>
+</client_module>
+<supplier_module>
+<name>GoalUUID</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="68" />
+</extent>
+<name>Node</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="25" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="51" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/test/test_action_server.hpp" line="69" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

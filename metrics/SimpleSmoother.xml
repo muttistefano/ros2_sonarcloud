@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module SimpleSmoother-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="230" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="36" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="47" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.894" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.766" level="0" />
+<weighted_methods_per_class_unity value="7" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="10" level="0" />
+<IF4 value="81" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="81" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="9" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/include/nav2_smoother/simple_smoother.hpp" line="55" />
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="26" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>configure(const WeakPtr &amp;,string,shared_ptr,shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="25" />
+</extent>
+<lines_of_code value="25" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="12.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>findDirectionalPathSegments(const Path &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="217" />
+</extent>
+<lines_of_code value="34" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="8.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
+</member_function>
+<member_function>
+<name>getFieldByDim(const PoseStamped &amp;,const int &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="192" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>setFieldByDim(PoseStamped &amp;,const int,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="204" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>smooth(Path &amp;,const Duration &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="54" />
+</extent>
+<lines_of_code value="31" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="7.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>smoothImpl(Path &amp;,bool &amp;,const Costmap2D *,const double &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="98" />
+</extent>
+<lines_of_code value="75" level="1" />
+<McCabes_cyclomatic_complexity value="14" level="1" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="12.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.333" level="0" />
+</member_function>
+<member_function>
+<name>updateApproximatePathOrientations(Path &amp;,bool &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="260" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="5.200" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.000" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>SimpleSmoother</name>
+<client_module>
+<name>SmootherWrapper</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smoother/test/test_simple_smoother.cpp" line="42" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="101" />
+</extent>
+<name>Duration</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="56" />
+</extent>
+<name>Path</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="55" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="99" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="218" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="261" />
+</extent>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="193" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="205" />
+</extent>
+<name>Smoother</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smoother/include/nav2_smoother/simple_smoother.hpp" line="55" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="26" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="100" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="262" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="29" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smoother/src/simple_smoother.cpp" line="27" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

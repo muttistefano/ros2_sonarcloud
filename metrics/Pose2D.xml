@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Pose2D-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="13" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Pose2D</name>
+<client_module>
+<name>CostmapTopicCollisionChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="46" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="67" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_topic_collision_checker.cpp" line="88" />
+</extent>
+<name>DWBLocalPlanner</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/dwb_local_planner.cpp" line="342" />
+</extent>
+<name>GoalAlignCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/goal_align.cpp" line="61" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/goal_align.cpp" line="62" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/goal_align.cpp" line="79" />
+</extent>
+<name>GoalDistCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/goal_dist.cpp" line="44" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/goal_dist.cpp" line="45" />
+</extent>
+<name>KeepoutFilter</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/keepout_filter.cpp" line="153" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/keepout_filter.hpp" line="78" />
+</extent>
+<name>MapGridCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/map_grid.cpp" line="158" />
+</extent>
+<name>PathAlignCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/path_align.cpp" line="61" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/path_align.cpp" line="62" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/path_align.cpp" line="88" />
+</extent>
+<name>PathDistCritic</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/path_dist.cpp" line="44" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_critics/src/path_dist.cpp" line="45" />
+</extent>
+<name>SimpleProgressChecker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_controller/plugins/simple_progress_checker.cpp" line="77" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_controller/plugins/simple_progress_checker.cpp" line="84" />
+</extent>
+<name>SpeedFilter</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="178" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="179" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/costmap_filters/speed_filter.cpp" line="244" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="78" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="98" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_filters/speed_filter.hpp" line="99" />
+</extent>
+<name>Spin</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behaviors/plugins/spin.cpp" line="163" />
+</extent>
+<name>StandardTrajectoryGenerator</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="147" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/standard_traj_generator.cpp" line="202" />
+</extent>
+<name>TrajectoryGenerator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/trajectory_generator.hpp" line="123" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

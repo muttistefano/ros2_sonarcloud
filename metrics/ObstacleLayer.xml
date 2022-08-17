@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module ObstacleLayer-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="605" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="78" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="147" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.116" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.531" level="0" />
+<weighted_methods_per_class_unity value="21" level="0" />
+<weighted_methods_per_class_visibility value="4" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="10" level="0" />
+<IF4 value="81" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="81" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="36" level="1" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="68" />
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="18" level="0" />
+<lines_of_code_per_line_of_comment value="1.278" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>ObstacleLayer()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="74" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>activate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="694" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="122" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addStaticObservation(Observation &amp;,bool,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="545" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="174" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearStaticObservations(bool,bool)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="558" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="175" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>deactivate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="710" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="117" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>dynamicParametersCallback(vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="288" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="139" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>getClearingObservations(vector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="586" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="191" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getMarkingObservations(vector &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="569" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="183" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isClearable()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="132" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>laserScanCallback(ConstSharedPtr,const shared_ptr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="320" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="151" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="3.750" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>laserScanValidInfCallback(ConstSharedPtr,const shared_ptr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="354" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="160" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="3.700" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>onInitialize()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="71" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="86" />
+</extent>
+<lines_of_code value="170" level="2" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="14.167" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.917" level="0" />
+</member_function>
+<member_function>
+<name>pointCloud2Callback(ConstSharedPtr,const shared_ptr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="397" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="169" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>raytraceFreespace(const Observation &amp;,double *,double *,double *,double *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="603" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="202" />
+</extent>
+<lines_of_code value="70" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="19" level="0" />
+<lines_of_code_per_line_of_comment value="3.684" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.421" level="0" />
+</member_function>
+<member_function>
+<name>reset()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="735" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="127" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetBuffersLastUpdated()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="744" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="144" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>updateBounds(double,double,double,double *,double *,double *,double *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="408" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="97" />
+</extent>
+<lines_of_code value="65" level="1" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="20" level="0" />
+<lines_of_code_per_line_of_comment value="3.250" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.600" level="0" />
+</member_function>
+<member_function>
+<name>updateCosts(Costmap2D &amp;,int,int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="512" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="110" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="2.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.750" level="0" />
+</member_function>
+<member_function>
+<name>updateFootprint(double,double,double,double *,double *,double *,double *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="497" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="222" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>updateRaytraceBounds(double,double,double,double,double,double,double *,double *,double *,double *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="720" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="211" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~ObstacleLayer()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="63" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="82" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>ObstacleLayer</name>
+<client_module>
+<name>VoxelLayer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/voxel_layer.hpp" line="64" />
+</extent>
+</client_module>
+<supplier_module>
+<name>ConstSharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="321" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="355" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="398" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="152" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="161" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="170" />
+</extent>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="513" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="111" />
+</extent>
+<name>CostmapLayer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="68" />
+</extent>
+<name>LaserProjection</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="232" />
+</extent>
+<name>Observation</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="546" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="604" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="174" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="203" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="547" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="547" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="558" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="558" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="174" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="174" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="175" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="175" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="218" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="322" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="356" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="399" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="153" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="162" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="171" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="228" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="289" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="569" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="586" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="139" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="184" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="192" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="217" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

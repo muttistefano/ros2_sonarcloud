@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module GripperActionController-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="323" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="36" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="49" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="6.592" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.735" level="0" />
+<weighted_methods_per_class_unity value="14" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="3" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="6" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller.hpp" line="59" />
+<lines_of_code value="65" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="23" level="0" />
+<lines_of_code_per_line_of_comment value="2.826" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>GripperActionController()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="353" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller.hpp" line="72" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>accepted_callback(shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="92" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>cancel_callback(const shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="121" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>check_for_success(const Time &amp;,double,double,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="153" />
+</extent>
+<lines_of_code value="44" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>command_interface_configuration()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="335" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>goal_callback(const GoalUUID &amp;,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="84" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_activate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="236" />
+</extent>
+<lines_of_code value="75" level="1" />
+<McCabes_cyclomatic_complexity value="16" level="1" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="18.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.000" level="0" />
+</member_function>
+<member_function>
+<name>on_configure(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="200" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="3.429" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_deactivate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="323" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_init()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="40" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>preempt_active_goal()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="28" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>set_hold_position()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="145" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>state_interface_configuration()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="344" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>update(const Time &amp;,const Duration &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="63" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>GripperActionController</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>ControllerInterface</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller.hpp" line="59" />
+</extent>
+<name>Duration</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="64" />
+</extent>
+<name>GoalUUID</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="85" />
+</extent>
+<name>State</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="201" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="237" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="324" />
+</extent>
+<name>Time</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="64" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="154" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="85" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="93" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ros2_controllers/gripper_controllers/include/gripper_controllers/gripper_action_controller_impl.hpp" line="122" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

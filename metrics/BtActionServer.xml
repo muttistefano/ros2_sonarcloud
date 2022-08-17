@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module BtActionServer-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="185" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="30" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="54" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="3.426" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.556" level="0" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server.hpp" line="35" />
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="34" level="0" />
+<lines_of_code_per_line_of_comment value="0.824" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>BtActionServer(const WeakPtr &amp;,const string &amp;,const vector &amp;,const string &amp;,OnGoalReceivedCallback,OnLoopCallback,OnPreemptCallback,OnCompletionCallback)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="33" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="28.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeCallback()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="189" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="8.600" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.600" level="0" />
+</member_function>
+<member_function>
+<name>loadBehaviorTree(const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="151" />
+</extent>
+<lines_of_code value="25" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="6.250" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.750" level="0" />
+</member_function>
+<member_function>
+<name>on_activate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="119" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_cleanup()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="137" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_configure()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="69" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="3.300" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_deactivate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="130" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~BtActionServer()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="65" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>BtActionServer</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>OnCompletionCallback</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="41" />
+</extent>
+<name>OnGoalReceivedCallback</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="38" />
+</extent>
+<name>OnLoopCallback</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="39" />
+</extent>
+<name>OnPreemptCallback</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="40" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="34" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="35" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="37" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="151" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="36" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

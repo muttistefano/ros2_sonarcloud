@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module vector-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="52" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>vector</name>
+<client_module>
+<name>Actuator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/actuator.cpp" line="202" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/actuator.cpp" line="203" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/actuator.cpp" line="209" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/actuator.cpp" line="210" />
+</extent>
+<name>AmclNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="868" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="911" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="969" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_amcl/src/amcl_node.cpp" line="1139" />
+</extent>
+<name>BehaviorTreeEngine</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/src/behavior_tree_engine.cpp" line="28" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/behavior_tree_engine.hpp" line="49" />
+</extent>
+<name>BlackBoxTest</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="150" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="154" />
+</extent>
+<name>BtActionServer</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_behavior_tree/include/nav2_behavior_tree/bt_action_server_impl.hpp" line="36" />
+</extent>
+<name>ControllerShim</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_controller/test/test_dynamic_parameters.cpp" line="45" />
+</extent>
+<name>Costmap2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="387" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="416" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="417" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="433" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/costmap_2d.cpp" line="434" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="302" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="311" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="312" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="320" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d.hpp" line="321" />
+</extent>
+<name>DWBPublisher</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/src/publisher.cpp" line="254" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_core/include/dwb_core/publisher.hpp" line="96" />
+</extent>
+<name>FlatWeightedArrowsArray</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_rviz_plugins/src/particle_cloud_display/flat_weighted_arrows_array.cpp" line="82" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_rviz_plugins/src/particle_cloud_display/flat_weighted_arrows_array.cpp" line="114" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp" line="76" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp" line="85" />
+</extent>
+<name>FootprintSubscriber</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/footprint_subscriber.cpp" line="62" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/footprint_subscriber.cpp" line="79" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_subscriber.hpp" line="69" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/footprint_subscriber.hpp" line="80" />
+</extent>
+<name>FootprintTestNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp" line="91" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/footprint_tests.cpp" line="98" />
+</extent>
+<name>ForceTorqueSensorTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/controller_interface/test/test_force_torque_sensor.hpp" line="75" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/controller_interface/test/test_force_torque_sensor.hpp" line="76" />
+</extent>
+<name>ForwardCommandControllerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/forward_command_controller/test/test_forward_command_controller.hpp" line="66" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/forward_command_controller/test/test_forward_command_controller.hpp" line="67" />
+</extent>
+<name>GridCollisionChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="114" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp" line="118" />
+</extent>
+<name>IMUSensorTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/controller_interface/test/test_imu_sensor.hpp" line="64" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/controller_interface/test/test_imu_sensor.hpp" line="65" />
+</extent>
+<name>JointGroupEffortControllerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.hpp" line="54" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/effort_controllers/test/test_joint_group_effort_controller.hpp" line="55" />
+</extent>
+<name>JointGroupPositionControllerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/position_controllers/test/test_joint_group_position_controller.hpp" line="55" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/position_controllers/test/test_joint_group_position_controller.hpp" line="56" />
+</extent>
+<name>JointGroupVelocityControllerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/velocity_controllers/test/test_joint_group_velocity_controller.hpp" line="55" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/velocity_controllers/test/test_joint_group_velocity_controller.hpp" line="56" />
+</extent>
+<name>JointStateBroadcasterTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.hpp" line="76" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.hpp" line="77" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.hpp" line="79" />
+</extent>
+<name>JointTrajectoryController</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp" line="1166" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp" line="1318" />
+</extent>
+<name>KinematicsHandler</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/src/kinematic_parameters.cpp" line="168" />
+</extent>
+<name>KinematicsHandlerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_dwb_controller/dwb_plugins/test/kinematic_parameters_test.cpp" line="50" />
+</extent>
+<name>LatticeWrap</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_lattice.cpp" line="43" />
+</extent>
+<name>LayeredCostmap</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/layered_costmap.cpp" line="269" />
+</extent>
+<name>Nav2Panel</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_rviz_plugins/src/nav2_panel.cpp" line="665" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_rviz_plugins/src/nav2_panel.cpp" line="715" />
+</extent>
+<name>NavfnPlanner</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_navfn_planner/src/navfn_planner.cpp" line="528" />
+</extent>
+<name>ObservationBuffer</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/src/observation_buffer.cpp" line="175" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/observation_buffer.hpp" line="106" />
+</extent>
+<name>ObstacleLayer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="289" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="569" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/obstacle_layer.cpp" line="586" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="139" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="184" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="192" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/obstacle_layer.hpp" line="217" />
+</extent>
+<name>PlannerShim</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_planner/test/test_dynamic_parameters.cpp" line="45" />
+</extent>
+<name>RegulatedPurePursuitController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp" line="783" />
+</extent>
+<name>RotationShimController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_rotation_shim_controller/src/nav2_rotation_shim_controller.cpp" line="284" />
+</extent>
+<name>SimpleGoalChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_controller/plugins/simple_goal_checker.cpp" line="144" />
+</extent>
+<name>SimpleProgressChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_controller/plugins/simple_progress_checker.cpp" line="100" />
+</extent>
+<name>SmacPlanner2D</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_2d.cpp" line="340" />
+</extent>
+<name>SmacPlannerHybrid</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_hybrid.cpp" line="377" />
+</extent>
+<name>SmacPlannerLattice</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="336" />
+</extent>
+<name>Smoother</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother.hpp" line="102" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="89" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="136" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="140" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="141" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="281" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="282" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp" line="286" />
+</extent>
+<name>StaticLayer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/static_layer.cpp" line="449" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/static_layer.hpp" line="161" />
+</extent>
+<name>StoppedGoalChecker</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_controller/plugins/stopped_goal_checker.cpp" line="118" />
+</extent>
+<name>System</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/system.cpp" line="198" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/system.cpp" line="199" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/system.cpp" line="205" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_control/hardware_interface/src/system.cpp" line="206" />
+</extent>
+<name>TestNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="79" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/test/integration/inflation_tests.cpp" line="180" />
+</extent>
+<name>ThetaStar</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_theta_star_planner/src/theta_star.cpp" line="45" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_theta_star_planner/src/theta_star.cpp" line="152" />
+</extent>
+<name>ThetaStarPlanner</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_theta_star_planner/src/theta_star_planner.cpp" line="170" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_theta_star_planner/src/theta_star_planner.cpp" line="198" />
+</extent>
+<name>TrajectoryControllerTest</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp" line="396" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp" line="397" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp" line="398" />
+</extent>
+<name>TransmissionSetup</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="136" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/transmission_interface/test/differential_transmission_test.cpp" line="137" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="140" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ros2_control/transmission_interface/test/four_bar_linkage_transmission_test.cpp" line="141" />
+</extent>
+<name>UnconstrainedSmootherCostFunction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/smoother_cost_function.hpp" line="51" />
+</extent>
+<name>Upsampler</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/upsampler.hpp" line="103" />
+</extent>
+<name>UpsamplerConstrainedCostFunction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/upsampler_cost_function_nlls.hpp" line="48" />
+</extent>
+<name>UpsamplerCostFunction</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/test/deprecated/upsampler_cost_function.hpp" line="48" />
+</extent>
+<name>VoxelLayer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/plugins/voxel_layer.cpp" line="481" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_costmap_2d/include/nav2_costmap_2d/voxel_layer.hpp" line="231" />
+</extent>
+<name>WaypointFollower</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="318" />
+</extent>
+<name>test_theta_star</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_theta_star_planner/test/test_theta_star.cpp" line="63" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module JointStateBroadcaster-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="310" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="43" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="45" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="6.889" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.956" level="0" />
+<weighted_methods_per_class_unity value="12" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="3" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="16" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="16" level="0" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="1" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp" line="57" />
+<lines_of_code value="42" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="29" level="0" />
+<lines_of_code_per_line_of_comment value="1.448" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>JointStateBroadcaster()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="47" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp" line="61" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>command_interface_configuration()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="73" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>init_dynamic_joint_state_msg()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="299" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>init_joint_data()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="229" />
+</extent>
+<lines_of_code value="43" level="1" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="6.143" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.571" level="0" />
+</member_function>
+<member_function>
+<name>init_joint_state_msg()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="284" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_activate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="180" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="22.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>on_configure(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="103" />
+</extent>
+<lines_of_code value="66" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="33.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.500" level="0" />
+</member_function>
+<member_function>
+<name>on_deactivate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="206" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_init()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="49" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>state_interface_configuration()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="79" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>update(const Time &amp;,const Duration &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="338" />
+</extent>
+<lines_of_code value="53" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="26.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>use_all_available_interfaces()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="317" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>JointStateBroadcaster</name>
+<client_module>
+<name>FriendJointStateBroadcaster</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.hpp" line="33" />
+</extent>
+</client_module>
+<supplier_module>
+<name>ControllerInterface</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp" line="57" />
+</extent>
+<name>Duration</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="339" />
+</extent>
+<name>State</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="104" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="181" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="207" />
+</extent>
+<name>Time</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp" line="339" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

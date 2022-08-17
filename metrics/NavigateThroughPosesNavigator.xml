@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module NavigateThroughPosesNavigator-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="146" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="19" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="32" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.562" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.594" level="0" />
+<weighted_methods_per_class_unity value="7" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/include/nav2_bt_navigator/navigators/navigate_through_poses.hpp" line="38" />
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>configure(WeakPtr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="26" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getDefaultBTFilepath(WeakPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="52" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>goalCompleted(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="90" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>goalReceived(ConstSharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="73" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initializeGoalPoses(ConstSharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="202" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>onLoop()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="97" />
+</extent>
+<lines_of_code value="54" level="1" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="4.909" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.636" level="0" />
+</member_function>
+<member_function>
+<name>onPreempt(ConstSharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="177" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>NavigateThroughPosesNavigator</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>ConstSharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="73" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="177" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="202" />
+</extent>
+<name>Navigator</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_bt_navigator/include/nav2_bt_navigator/navigators/navigate_through_poses.hpp" line="39" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="53" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp" line="28" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

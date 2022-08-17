@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module OdomSmoother-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="100" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="38" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="2.632" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.158" level="0" />
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="8" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="41" />
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>OdomSmoother(const WeakPtr &amp;,double,const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="26" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="46" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="50" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="62" />
+</extent>
+<lines_of_code value="44" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="13" level="0" />
+<lines_of_code_per_line_of_comment value="3.385" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getTwist()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="71" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getTwistStamped()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="77" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>odomCallback(SharedPtr)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="84" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>odomCallback(const SharedPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="66" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="4.800" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>updateState()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="102" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="89" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>OdomSmoother</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Duration</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="96" />
+</extent>
+<name>Odometry</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="92" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="66" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="84" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="91" />
+</extent>
+<name>TwistStamped</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="93" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="27" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="47" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="51" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="63" />
+</extent>
+<name>deque</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="97" />
+</extent>
+<name>mutex</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="94" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="29" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/src/odometry_utils.cpp" line="49" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="53" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_util/include/nav2_util/odometry_utils.hpp" line="65" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module GazeboSystem-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="414" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="67" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="25" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="16.560" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.680" level="0" />
+<weighted_methods_per_class_unity value="10" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="3" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp" line="39" />
+<lines_of_code value="29" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="2.636" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>export_command_interfaces()</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="442" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>export_state_interfaces()</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="436" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initSim(SharedPtr &amp;,ModelPtr,const HardwareInfo &amp;,ElementPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="108" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>on_activate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="447" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_deactivate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="452" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_init(const HardwareInfo &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="427" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>read(const Time &amp;,const Duration &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="457" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>registerJoints(const HardwareInfo &amp;,ModelPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="139" />
+</extent>
+<lines_of_code value="134" level="2" />
+<McCabes_cyclomatic_complexity value="20" level="1" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="33.500" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>registerSensors(const HardwareInfo &amp;,ModelPtr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="290" />
+</extent>
+<lines_of_code value="119" level="2" />
+<McCabes_cyclomatic_complexity value="16" level="1" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="14.875" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.000" level="0" />
+</member_function>
+<member_function>
+<name>write(const Time &amp;,const Duration &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="498" />
+</extent>
+<lines_of_code value="50" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="25.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.500" level="1" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>GazeboSystem</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>Duration</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="459" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="500" />
+</extent>
+<name>ElementPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="112" />
+</extent>
+<name>GazeboSystemInterface</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp" line="39" />
+</extent>
+<name>ModelPtr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="141" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="292" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="109" />
+</extent>
+<name>State</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="447" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="452" />
+</extent>
+<name>Time</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="458" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp" line="499" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

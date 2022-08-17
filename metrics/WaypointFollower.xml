@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module WaypointFollower-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="285" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="39" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="73" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="3.904" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.534" level="0" />
+<weighted_methods_per_class_unity value="11" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="36" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="36" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="4" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/waypoint_follower.hpp" line="51" />
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="57" level="0" />
+<lines_of_code_per_line_of_comment value="0.649" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>WaypointFollower(const NodeOptions &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="30" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>dynamicParametersCallback(vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="318" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>followWaypoints()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="151" />
+</extent>
+<lines_of_code value="113" level="2" />
+<McCabes_cyclomatic_complexity value="22" level="1" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="16.143" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.143" level="0" />
+</member_function>
+<member_function>
+<name>goalResponseCallback(const SharedPtr &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="306" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_activate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="101" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_cleanup(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="133" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_configure(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="52" />
+</extent>
+<lines_of_code value="40" level="1" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="40.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_deactivate(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="119" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>on_shutdown(const State &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="144" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resultCallback(const WrappedResult &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="286" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>~WaypointFollower()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="47" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>WaypointFollower</name>
+<client_module>
+<name>WPShim</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_waypoint_follower/test/test_dynamic_parameters.cpp" line="26" />
+</extent>
+</client_module>
+<supplier_module>
+<name>LifecycleNode</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_waypoint_follower/include/nav2_waypoint_follower/waypoint_follower.hpp" line="51" />
+</extent>
+<name>NodeOptions</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="30" />
+</extent>
+<name>SharedPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="307" />
+</extent>
+<name>State</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="52" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="101" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="119" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="133" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="144" />
+</extent>
+<name>WrappedResult</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="287" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_waypoint_follower/src/waypoint_follower.cpp" line="318" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

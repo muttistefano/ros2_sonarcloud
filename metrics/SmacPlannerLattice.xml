@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module SmacPlannerLattice-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="379" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="45" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="63" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="6.016" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.714" level="0" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="36" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="36" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="16" level="0" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/smac_planner_lattice.hpp" line="38" />
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="26" level="0" />
+<lines_of_code_per_line_of_comment value="0.808" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>SmacPlannerLattice()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="32" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/smac_planner_lattice.hpp" line="44" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>activate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="192" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>cleanup()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="213" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>configure(const WeakPtr &amp;,string,shared_ptr,shared_ptr)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="47" />
+</extent>
+<lines_of_code value="117" level="2" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="8.357" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createPlan(const PoseStamped &amp;,const PoseStamped &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="223" />
+</extent>
+<lines_of_code value="84" level="1" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="8.400" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.200" level="0" />
+</member_function>
+<member_function>
+<name>deactivate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="204" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>dynamicParametersCallback(vector)</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="336" />
+</extent>
+<lines_of_code value="115" level="2" />
+<McCabes_cyclomatic_complexity value="29" level="1" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="19.167" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.833" level="0" />
+</member_function>
+<member_function>
+<name>~SmacPlannerLattice()</name>
+<extent>
+<description>definition</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="40" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/smac_planner_lattice.hpp" line="49" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>SmacPlannerLattice</name>
+<client_module>
+<name>LatticeWrap</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smac_planner/test/test_smac_lattice.cpp" line="40" />
+</extent>
+</client_module>
+<supplier_module>
+<name>GlobalPlanner</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="navigation2/nav2_smac_planner/include/nav2_smac_planner/smac_planner_lattice.hpp" line="38" />
+</extent>
+<name>PoseStamped</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="224" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="225" />
+</extent>
+<name>WeakPtr</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="48" />
+</extent>
+<name>shared_ptr</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="49" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="50" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="49" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="navigation2/nav2_smac_planner/src/smac_planner_lattice.cpp" line="336" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>
