@@ -115,6 +115,11 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
           
+      - name: execute py script
+        run: |
+          cd /home/runner/target_ws/src/ros2_sonarcloud/
+          python3 run.py
+
       #- name: publish report    
       #  uses: mikeal/publish-to-github-action@master
       #  env:
