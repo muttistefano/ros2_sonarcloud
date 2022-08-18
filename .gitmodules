@@ -10,3 +10,10 @@
 [submodule "gazebo_ros2_control"]
 	path = gazebo_ros2_control
 	url = https://github.com/ros-controls/gazebo_ros2_control/
+[submodule "moveit2"]
+	path = moveit2
+	url = https://github.com/ros-planning/moveit2.git
+[submodule "gazebo_ros_pkgs"]
+    	path = gazebo_ros_pkgs
+   	url = https://github.com/ros-simulation/gazebo_ros_pkgs/
+    	branch = ros2
