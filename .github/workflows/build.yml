@@ -99,21 +99,21 @@ jobs:
             -Dsonar.sources=src
           cd /home/runner/target_ws/src/
             
-      - name: cccc action step
-        uses: sarnold/cccc-action@main
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: cccc action step
+      #   uses: sarnold/cccc-action@main
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: upload metrics report
-        uses: actions/upload-artifact@v2
-        with:
-          name: metrics
-          path: ./metrics
+      # - name: upload metrics report
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: metrics
+      #     path: ./metrics
       
-      - name: cppcheck
-        uses: deep5050/cppcheck-action@main
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN}}
+      # - name: cppcheck
+      #   uses: deep5050/cppcheck-action@main
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN}}
           
       - name: execute py script
         run: |
