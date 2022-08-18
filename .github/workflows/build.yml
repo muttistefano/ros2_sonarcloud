@@ -118,10 +118,14 @@ jobs:
       - name: execute py script
         run: |
           cd /home/runner/target_ws/src/ros2_sonarcloud/
+          ls -al
           python3 run.py
+          ls -al
 
       - name: Commit files
         run: |
+          pwd
+          ls -al
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add . -A
