@@ -2,11 +2,9 @@ name: Build and Test
 on:
   schedule:
     - cron: "0 0 * * 1"
-  push:         
-    branches:
-      - master
-  # pull_request:
-  #   types: [opened, synchronize, reopened]
+  # push:         
+  #   branches:
+  #     - master
 jobs:
   build-and-test:
     runs-on: ubuntu-22.04
@@ -23,27 +21,6 @@ jobs:
           required-ros-distributions: ""
           # required-ros-distributions: rolling
 
-      # - name: dependencies
-      #   run: |
-
-      #     # Add ROS 2 GPG key
-      #     # sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg || exit $?
-
-      #     # Add ROS 2 repository to the source list
-      #     # echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null || exit $?
-
-      #     # Install required tools
-      #     sudo apt update && sudo apt install -y \
-      #       python3-colcon-common-extensions \
-      #       python3-rosdep || exit $?
-
-      #     # Initialize rosdep
-      #     sudo rosdep init || true
-
-      #     # Install ROS 2 workspace dependencies
-      #     rosdep update && rosdep install -y --rosdistro "rolling" --from-paths . --ignore-src || true
-
-      #     mkdir -p /home/runner/target_ws/src/ || true
       - name: creating_folder
         run : |
           mkdir -p /home/runner/target_ws/src/ || true
@@ -80,9 +57,8 @@ jobs:
           wget https://raw.githubusercontent.com/ros2/ros2/rolling/ros2.repos
           vcs import src < ros2.repos
           vcs import src < /home/runner/work/ros2_sonarcloud/ros2_sonarcloud/extra_repo.repos
-          # source /opt/ros/rolling/setup.bash
-          ./build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir .  colcon build  --executor parallel --continue-on-error || true
-          # build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  colcon build  --executor parallel --continue-on-error   
+          rosdep update && rosdep install -y --rosdistro "rolling" --from-paths src --ignore-src || true
+          ./build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir .  colcon build  --executor parallel --continue-on-error || true  
           
       - name: Run sonar-scanner
         env:

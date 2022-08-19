@@ -1,3 +1,5 @@
+[![stiima](doc/stiima.png)](https://www.stiima.cnr.it/)
+[![stiima](doc/serlab.png)](https://serlab.di.uniba.it/)
 # ROS2_SONARCLOUD  
 This repository uses github actions to build ROS2 rolling from source ,plus other relevant packages, and performs static analysis using sonarcloud tools.  
 Extracted bugs, vulnerabilities and code smells are listed below in this document, grouped by package.  
