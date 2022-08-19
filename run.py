@@ -230,6 +230,10 @@ PKGS_set_issue_critical = sorted(PKGS_set_issue_critical, key=str.lower)
 ###README WRITING
 
 f = open("README.md", "w")
+
+
+f.write("[![stiima](doc/stiima.png)](https://www.stiima.cnr.it/)  \n")
+f.write("[![serlab](doc/serlab.png)](https://serlab.di.uniba.it/) \n")
 f.write("# ROS2_SONARCLOUD  \n")
 f.write("This repository uses github actions to build ROS2 rolling from source ,plus other relevant packages, and performs static analysis using sonarcloud tools.")
 f.write("  \n")
