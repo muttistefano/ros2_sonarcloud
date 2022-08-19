@@ -8,7 +8,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #267 
+## BUGS #270 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -682,6 +682,21 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0H4zCYfarq97O5h)  
 ---
 </details>  
+<details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
+
+  * file : ros2_sonarcloud/moveit2/moveit/scripts/maintainer_table_template.html:27  
+  message : Add "th" headers to this "table".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkX)  
+---
+  * file : ros2_sonarcloud/moveit2/moveit/scripts/maintainer_table_template.html:27  
+  message : Add a description to this table.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkW)  
+---
+  * file : ros2_sonarcloud/moveit2/moveit_commander/src/moveit_commander/move_group.py:655  
+  message : Fix this invalid "+" operation between incompatible types (str and type).  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjn)  
+---
+</details>  
 <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
 
   * file : osrf/osrf_pycommon/tests/unit/test_cli_utils/test_common.py:32  
@@ -1104,7 +1119,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #8 
+## VULNERABILITIES #9 
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-DDS/include/fastrtps/utils/fixed_size_string.hpp:217  
@@ -1122,6 +1137,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/os_file_functions.hpp:426  
   message : Remove this TOCTOU race condition window when accessing files  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISius5zCYfarq97JiM)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
+
+  * file : ros2_sonarcloud/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
+  message : Disable access to external entities in XML parsing.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
@@ -1150,7 +1172,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #825 
+## ISSUES (level blocker) #827 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -6085,6 +6107,17 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MoY)  
 ---
 </details>  
+  <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
+
+  * file : ros2_sonarcloud/moveit2/moveit_commander/src/moveit_commander/move_group.py:655  
+  message : Fix this invalid "+" operation between incompatible types (str and type).  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjn)  
+---
+  * file : ros2_sonarcloud/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
+  message : Disable access to external entities in XML parsing.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
+---
+</details>  
   <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
 
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/variant.hpp:2106  
@@ -6273,7 +6306,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
     
 <br />  
   
-## ISSUES (level critical) #10454 
+## ISSUES (level critical) #10530 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_cpp/src/get_package_prefix.cpp:46  
