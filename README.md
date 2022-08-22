@@ -1,7 +1,8 @@
-[![stiima](doc/stiima.png)](https://www.stiima.cnr.it/)
-[![stiima](doc/serlab.png)](https://serlab.di.uniba.it/)
+[![stiima](doc/stiima.png)](https://www.stiima.cnr.it/)  
+[![serlab](doc/serlab.png)](https://serlab.di.uniba.it/) 
 # ROS2_SONARCLOUD  
-This repository uses github actions to build ROS2 rolling from source ,plus other relevant packages, and performs static analysis using sonarcloud tools.  
+This repository uses github actions to build ROS2 rolling from source ,plus other relevant packages, and performs static analysis using sonarcloud tools 
+.Its aim is to improve stability and code quality of ROS2 packages by mean of static code analysis. 
 Extracted bugs, vulnerabilities and code smells are listed below in this document, grouped by package.  
 Each entry is formed by a file:line and message, with a link to the specific sonacloud link.  
 This page is generated automatically after every static analysys.  
@@ -10,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #270 
+## BUGS #268 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -686,15 +687,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : ros2_sonarcloud/moveit2/moveit/scripts/maintainer_table_template.html:27  
+  * file : moveit2/moveit/scripts/maintainer_table_template.html:27  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkX)  
 ---
-  * file : ros2_sonarcloud/moveit2/moveit/scripts/maintainer_table_template.html:27  
+  * file : moveit2/moveit/scripts/maintainer_table_template.html:27  
   message : Add a description to this table.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkW)  
 ---
-  * file : ros2_sonarcloud/moveit2/moveit_commander/src/moveit_commander/move_group.py:655  
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:655  
   message : Fix this invalid "+" operation between incompatible types (str and type).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjn)  
 ---
@@ -1098,14 +1099,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add a description to this table.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAI)  
 ---
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/objects/covariance_visual.cpp:152  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinJTzCYfarq97IEi)  
----
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/render_system.cpp:253  
-  message : Name this temporary "unique_ptrOgre::RenderSystemCapabilities" object if you want to use it in for RAII.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinMNzCYfarq97IHY)  
----
   * file : ros2/tlsf/tlsf/src/tlsf.c:901  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISir-izCYfarq97JHi)  
@@ -1113,7 +1106,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
 
-  * file : ros2_sonarcloud/ros2_control/ros2controlcli/ros2controlcli/verb/load_controller.py:56  
+  * file : ros2_control/ros2controlcli/ros2controlcli/verb/load_controller.py:56  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBdgN9jsepBWks1Tre)  
 ---
@@ -1143,7 +1136,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : ros2_sonarcloud/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
@@ -1174,7 +1167,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #827 
+## ISSUES (level blocker) #822 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -6111,11 +6104,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : ros2_sonarcloud/moveit2/moveit_commander/src/moveit_commander/move_group.py:655  
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:655  
   message : Fix this invalid "+" operation between incompatible types (str and type).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjn)  
 ---
-  * file : ros2_sonarcloud/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
@@ -6308,7 +6301,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
     
 <br />  
   
-## ISSUES (level critical) #10530 
+## ISSUES (level critical) #10291 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_cpp/src/get_package_prefix.cpp:46  
@@ -48234,6 +48227,751 @@ void(const FooType& test_arg));
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0I8zCYfarq97O6M)  
 ---
 </details>  
+  <details><summary><a style='color:blue;font-size:18px;'>gazebo_ros_pkgs</a></summary>  
+
+  * file : gazebo_ros_pkgs/gazebo_ros/launch/gzserver.launch.py:85  
+  message : Define a constant instead of duplicating this literal '" else ""' 5 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu5e0OeMN8l7rDW3)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/scripts/gazebo_ros_paths.py:39  
+  message : Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu110OeMN8l7rDWr)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/scripts/gazebo_ros_paths.py:56  
+  message : Define a constant instead of duplicating this literal '${prefix}' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu110OeMN8l7rDWq)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/scripts/spawn_entity.py:116  
+  message : Refactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu2B0OeMN8l7rDWv)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/test/entity_spawner.test.py:54  
+  message : Define a constant instead of duplicating this literal 'spawn_entity.py' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu4Y0OeMN8l7rDW1)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/test/entity_spawner.test.py:55  
+  message : Define a constant instead of duplicating this literal '/mock_robot_description' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu4Y0OeMN8l7rDW2)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/launch/gzserver.launch.py:85  
+  message : Define a constant instead of duplicating this literal '" else ""' 5 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu5e0OeMN8l7rDW3)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/scripts/gazebo_ros_paths.py:39  
+  message : Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu110OeMN8l7rDWr)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/scripts/gazebo_ros_paths.py:56  
+  message : Define a constant instead of duplicating this literal '${prefix}' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu110OeMN8l7rDWq)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/scripts/spawn_entity.py:116  
+  message : Refactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu2B0OeMN8l7rDWv)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/test/entity_spawner.test.py:54  
+  message : Define a constant instead of duplicating this literal 'spawn_entity.py' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu4Y0OeMN8l7rDW1)  
+---
+  * file : gazebo_ros_pkgs/gazebo_ros/test/entity_spawner.test.py:55  
+  message : Define a constant instead of duplicating this literal '/mock_robot_description' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYK1Qu4Y0OeMN8l7rDW2)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
+
+  * file : moveit2/moveit/scripts/create_maintainer_table.py:98  
+  message : Define a constant instead of duplicating this literal "/tdtd" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpL-ZzpJC77kImkZ)  
+---
+  * file : moveit2/moveit/scripts/create_maintainer_table.py:107  
+  message : Define a constant instead of duplicating this literal "/td" 5 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpL-ZzpJC77kImkY)  
+---
+  * file : moveit2/moveit_commander/bin/moveit_commander_cmdline.py:50  
+  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKtZzpJC77kImkG)  
+---
+  * file : moveit2/moveit_commander/bin/moveit_commander_cmdline.py:128  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKtZzpJC77kImkI)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:111  
+  message : Refactor this function to reduce its Cognitive Complexity from 91 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImjz)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:141  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj0)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:197  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj1)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:226  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj2)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:231  
+  message : Refactor this function to reduce its Cognitive Complexity from 223 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj3)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:292  
+  message : Define a constant instead of duplicating this literal "Connected to " 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImju)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:341  
+  message : Define a constant instead of duplicating this literal "Unknown command: '" 5 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImjt)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:357  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj4)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:382  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj5)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:440  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj6)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:458  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj7)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:531  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj8)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:540  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj9)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:549  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj-)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:561  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj_)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:574  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkA)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:598  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkB)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:636  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkC)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:655  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkD)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:700  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkE)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:755  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkF)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:199  
+  message : Refactor this function to reduce its Cognitive Complexity from 52 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjo)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:215  
+  message : Define a constant instead of duplicating this literal "Too many arguments specified" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjk)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:220  
+  message : Define a constant instead of duplicating this literal "Error setting joint target. Is the target within bounds?" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjl)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:298  
+  message : Define a constant instead of duplicating this literal "There is no end effector to set the pose for" 4 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjm)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/planning_scene_interface.py:48  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJvZzpJC77kImjh)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/planning_scene_interface.py:52  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJvZzpJC77kImji)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/planning_scene_interface.py:279  
+  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJvZzpJC77kImjj)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/robot.py:208  
+  message : Define a constant instead of duplicating this literal "There is no group named %s" 4 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKGZzpJC77kImjp)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/robot.py:298  
+  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKGZzpJC77kImjr)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander.py:63  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpK9ZzpJC77kImkJ)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander.py:68  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpK9ZzpJC77kImkK)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander.py:68  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpK9ZzpJC77kImkL)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander_ns.py:54  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLHZzpJC77kImkN)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander_ns.py:61  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLHZzpJC77kImkO)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander_ns.py:61  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLHZzpJC77kImkP)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:50  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkR)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:55  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkS)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:55  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkT)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:85  
+  message : Define a constant instead of duplicating this literal "Retimed plan is invalid" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkQ)  
+---
+  * file : moveit2/moveit_configs_utils/moveit_configs_utils/moveit_configs_builder.py:276  
+  message : Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpM_ZzpJC77kImkc)  
+---
+  * file : moveit2/moveit_configs_utils/moveit_configs_utils/moveit_configs_builder.py:368  
+  message : Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpM_ZzpJC77kImkf)  
+---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:199  
+  message : Define a constant instead of duplicating this literal "/src/" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjP)  
+---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:362  
+  message : Remove this identity check; it will always be False.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjW)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/integration_tests/src/python_move_group_planning.py:55  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcowyZzpJC77kImjB)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/integration_tests/src/python_move_group_planning.py:63  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcowyZzpJC77kImjC)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/integration_tests/src/python_move_group_planning.py:63  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcowyZzpJC77kImjD)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/test_data/testpoints.py:35  
+  message : Import only needed names or import the module and then use its members.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcoxIZzpJC77kImjE)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/test_data/testpoints.py:36  
+  message : Import only needed names or import the module and then use its members.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcoxIZzpJC77kImjF)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:112  
+  message : Refactor this function to reduce its Cognitive Complexity from 88 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImie)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:292  
+  message : Define a constant instead of duplicating this literal "PRAGMA table_info(runs)" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImh0)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:395  
+  message : Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImir)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:631  
+  message : Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImi4)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/dual_arm_robot_state_update.py:15  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcomXZzpJC77kImhi)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/dual_arm_robot_state_update.py:21  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcomXZzpJC77kImhj)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/dual_arm_robot_state_update.py:21  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcomXZzpJC77kImhk)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/launch/move_group_launch_test_common.py:73  
+  message : Define a constant instead of duplicating this literal "/controller_manager" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconFZzpJC77kImhn)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group.py:19  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconTZzpJC77kImhp)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group.py:25  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconTZzpJC77kImhq)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group.py:25  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconTZzpJC77kImhr)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group_ns.py:57  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconiZzpJC77kImhu)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group_ns.py:65  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconiZzpJC77kImhv)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group_ns.py:65  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconiZzpJC77kImhw)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/robot_state_update.py:19  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcol6ZzpJC77kImhe)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/robot_state_update.py:25  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcol6ZzpJC77kImhf)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/robot_state_update.py:25  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcol6ZzpJC77kImhg)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/serialize_msg.py:96  
+  message : Define a constant instead of duplicating this literal "Python argument types in" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcom7ZzpJC77kImhm)  
+---
+  * file : moveit2/moveit_ros/visualization/src/moveit_ros_visualization/moveitjoy_module.py:460  
+  message : Refactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcog4ZzpJC77kImhZ)  
+---
+  * file : moveit2/moveit_ros/visualization/src/moveit_ros_visualization/moveitjoy_module.py:538  
+  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcog4ZzpJC77kImha)  
+---
+  * file : moveit2/moveit/scripts/create_maintainer_table.py:98  
+  message : Define a constant instead of duplicating this literal "/tdtd" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpL-ZzpJC77kImkZ)  
+---
+  * file : moveit2/moveit/scripts/create_maintainer_table.py:107  
+  message : Define a constant instead of duplicating this literal "/td" 5 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpL-ZzpJC77kImkY)  
+---
+  * file : moveit2/moveit_commander/bin/moveit_commander_cmdline.py:50  
+  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKtZzpJC77kImkG)  
+---
+  * file : moveit2/moveit_commander/bin/moveit_commander_cmdline.py:128  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKtZzpJC77kImkI)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:111  
+  message : Refactor this function to reduce its Cognitive Complexity from 91 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImjz)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:141  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj0)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:197  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj1)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:226  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj2)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:231  
+  message : Refactor this function to reduce its Cognitive Complexity from 223 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj3)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:292  
+  message : Define a constant instead of duplicating this literal "Connected to " 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImju)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:341  
+  message : Define a constant instead of duplicating this literal "Unknown command: '" 5 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImjt)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:357  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj4)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:382  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj5)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:440  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj6)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:458  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj7)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:531  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj8)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:540  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj9)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:549  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj-)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:561  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImj_)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:574  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkA)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:598  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkB)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:636  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkC)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:655  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkD)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:700  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkE)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/interpreter.py:755  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKWZzpJC77kImkF)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:199  
+  message : Refactor this function to reduce its Cognitive Complexity from 52 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjo)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:215  
+  message : Define a constant instead of duplicating this literal "Too many arguments specified" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjk)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:220  
+  message : Define a constant instead of duplicating this literal "Error setting joint target. Is the target within bounds?" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjl)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:298  
+  message : Define a constant instead of duplicating this literal "There is no end effector to set the pose for" 4 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjm)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/planning_scene_interface.py:48  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJvZzpJC77kImjh)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/planning_scene_interface.py:52  
+  message : Specify an exception class to catch or reraise the exception  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJvZzpJC77kImji)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/planning_scene_interface.py:279  
+  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJvZzpJC77kImjj)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/robot.py:208  
+  message : Define a constant instead of duplicating this literal "There is no group named %s" 4 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKGZzpJC77kImjp)  
+---
+  * file : moveit2/moveit_commander/src/moveit_commander/robot.py:298  
+  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpKGZzpJC77kImjr)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander.py:63  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpK9ZzpJC77kImkJ)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander.py:68  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpK9ZzpJC77kImkK)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander.py:68  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpK9ZzpJC77kImkL)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander_ns.py:54  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLHZzpJC77kImkN)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander_ns.py:61  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLHZzpJC77kImkO)  
+---
+  * file : moveit2/moveit_commander/test/python_moveit_commander_ns.py:61  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLHZzpJC77kImkP)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:50  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkR)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:55  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkS)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:55  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkT)  
+---
+  * file : moveit2/moveit_commander/test/python_time_parameterization.py:85  
+  message : Define a constant instead of duplicating this literal "Retimed plan is invalid" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLSZzpJC77kImkQ)  
+---
+  * file : moveit2/moveit_configs_utils/moveit_configs_utils/moveit_configs_builder.py:276  
+  message : Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpM_ZzpJC77kImkc)  
+---
+  * file : moveit2/moveit_configs_utils/moveit_configs_utils/moveit_configs_builder.py:368  
+  message : Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpM_ZzpJC77kImkf)  
+---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:199  
+  message : Define a constant instead of duplicating this literal "/src/" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjP)  
+---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:362  
+  message : Remove this identity check; it will always be False.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjW)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/integration_tests/src/python_move_group_planning.py:55  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcowyZzpJC77kImjB)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/integration_tests/src/python_move_group_planning.py:63  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcowyZzpJC77kImjC)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/integration_tests/src/python_move_group_planning.py:63  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcowyZzpJC77kImjD)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/test_data/testpoints.py:35  
+  message : Import only needed names or import the module and then use its members.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcoxIZzpJC77kImjE)  
+---
+  * file : moveit2/moveit_planners/pilz_industrial_motion_planner/test/test_data/testpoints.py:36  
+  message : Import only needed names or import the module and then use its members.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcoxIZzpJC77kImjF)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:112  
+  message : Refactor this function to reduce its Cognitive Complexity from 88 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImie)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:292  
+  message : Define a constant instead of duplicating this literal "PRAGMA table_info(runs)" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImh0)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:395  
+  message : Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImir)  
+---
+  * file : moveit2/moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py:631  
+  message : Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcorbZzpJC77kImi4)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/dual_arm_robot_state_update.py:15  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcomXZzpJC77kImhi)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/dual_arm_robot_state_update.py:21  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcomXZzpJC77kImhj)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/dual_arm_robot_state_update.py:21  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcomXZzpJC77kImhk)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/launch/move_group_launch_test_common.py:73  
+  message : Define a constant instead of duplicating this literal "/controller_manager" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconFZzpJC77kImhn)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group.py:19  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconTZzpJC77kImhp)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group.py:25  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconTZzpJC77kImhq)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group.py:25  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconTZzpJC77kImhr)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group_ns.py:57  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconiZzpJC77kImhu)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group_ns.py:65  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconiZzpJC77kImhv)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/python_move_group_ns.py:65  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwconiZzpJC77kImhw)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/robot_state_update.py:19  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcol6ZzpJC77kImhe)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/robot_state_update.py:25  
+  message : Add a nested comment explaining why this method is empty, or complete the implementation.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcol6ZzpJC77kImhf)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/robot_state_update.py:25  
+  message : Rename "self" to a valid class parameter name or add the missing class parameter.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcol6ZzpJC77kImhg)  
+---
+  * file : moveit2/moveit_ros/planning_interface/test/serialize_msg.py:96  
+  message : Define a constant instead of duplicating this literal "Python argument types in" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcom7ZzpJC77kImhm)  
+---
+  * file : moveit2/moveit_ros/visualization/src/moveit_ros_visualization/moveitjoy_module.py:460  
+  message : Refactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcog4ZzpJC77kImhZ)  
+---
+  * file : moveit2/moveit_ros/visualization/src/moveit_ros_visualization/moveitjoy_module.py:538  
+  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcog4ZzpJC77kImha)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
+
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/demo_recoveries.py:29  
+  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwkS53YbmN_IUAiT)  
+---
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/demo_security.py:32  
+  message : Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwjp53YbmN_IUAiB)  
+---
+  * file : navigation2/nav2_smac_planner/lattice_primitives/lattice_generator.py:249  
+  message : Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwsZ53YbmN_IUAiY)  
+---
+  * file : navigation2/nav2_smac_planner/lattice_primitives/trajectory_generator.py:329  
+  message : Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwsI53YbmN_IUAiX)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:89  
+  message : Define a constant instead of duplicating this literal "Waiting for 'NavigateThroughPoses' action server" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhq)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:91  
+  message : Define a constant instead of duplicating this literal "'NavigateThroughPoses' action server not available, waiting..." 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAho)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:98  
+  message : Define a constant instead of duplicating this literal 'Sending goal request...' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhr)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:105  
+  message : Define a constant instead of duplicating this literal 'Goal rejected' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAht)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:108  
+  message : Define a constant instead of duplicating this literal 'Goal accepted' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhu)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:111  
+  message : Define a constant instead of duplicating this literal "Waiting for 'NavigateToPose' action to complete" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhp)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:118  
+  message : Define a constant instead of duplicating this literal 'Goal succeeded!' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhs)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_to_pose_tester_node.py:232  
+  message : Replace this expression; used as a condition it will always be constant.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCS53YbmN_IUAhi)  
+---
+  * file : navigation2/nav2_system_tests/src/updown/updownresults.py:31  
+  message : Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwE253YbmN_IUAh1)  
+---
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/demo_recoveries.py:29  
+  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwkS53YbmN_IUAiT)  
+---
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/demo_security.py:32  
+  message : Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwjp53YbmN_IUAiB)  
+---
+  * file : navigation2/nav2_smac_planner/lattice_primitives/lattice_generator.py:249  
+  message : Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwsZ53YbmN_IUAiY)  
+---
+  * file : navigation2/nav2_smac_planner/lattice_primitives/trajectory_generator.py:329  
+  message : Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwsI53YbmN_IUAiX)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:89  
+  message : Define a constant instead of duplicating this literal "Waiting for 'NavigateThroughPoses' action server" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhq)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:91  
+  message : Define a constant instead of duplicating this literal "'NavigateThroughPoses' action server not available, waiting..." 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAho)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:98  
+  message : Define a constant instead of duplicating this literal 'Sending goal request...' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhr)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:105  
+  message : Define a constant instead of duplicating this literal 'Goal rejected' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAht)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:108  
+  message : Define a constant instead of duplicating this literal 'Goal accepted' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhu)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:111  
+  message : Define a constant instead of duplicating this literal "Waiting for 'NavigateToPose' action to complete" 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhp)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_through_poses_tester_node.py:118  
+  message : Define a constant instead of duplicating this literal 'Goal succeeded!' 3 times.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCz53YbmN_IUAhs)  
+---
+  * file : navigation2/nav2_system_tests/src/system/nav_to_pose_tester_node.py:232  
+  message : Replace this expression; used as a condition it will always be constant.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwCS53YbmN_IUAhi)  
+---
+  * file : navigation2/nav2_system_tests/src/updown/updownresults.py:31  
+  message : Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBWwE253YbmN_IUAh1)  
+---
+</details>  
   <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
 
   * file : osrf/osrf_pycommon/docs/conf.py:207  
@@ -49556,374 +50294,6 @@ out 2
   message : Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinWZzCYfarq97II4)  
 ---
-  * file : ros2/launch/launch/launch/event_handlers/on_action_event_base.py:39  
-  message : Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinUOzCYfarq97IIy)  
----
-  * file : ros2/launch/launch/launch/frontend/expose.py:27  
-  message : Replace this expression; used as a condition it will always be constant.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinbuzCYfarq97IJU)  
----
-  * file : ros2/launch/launch/launch/frontend/expose.py:56  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinbuzCYfarq97IJV)  
----
-  * file : ros2/launch/launch/launch/launch_description.py:93  
-  message : Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISineZzCYfarq97IJk)  
----
-  * file : ros2/launch/launch/launch/launch_service.py:93  
-  message : Remove this unread private attribute '__shutdown_when_idle' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinXNzCYfarq97II6)  
----
-  * file : ros2/launch/launch/launch/launch_service.py:96  
-  message : Remove this unread private attribute '__return_code' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinXNzCYfarq97II5)  
----
-  * file : ros2/launch/launch/launch/launch_service.py:259  
-  message : Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinXNzCYfarq97II9)  
----
-  * file : ros2/launch/launch/launch/logging/__init__.py:171  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinduzCYfarq97IJd)  
----
-  * file : ros2/launch/launch/launch/logging/__init__.py:315  
-  message : Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinduzCYfarq97IJe)  
----
-  * file : ros2/launch/launch/launch/logging/__init__.py:378  
-  message : Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinduzCYfarq97IJf)  
----
-  * file : ros2/launch/launch/launch/utilities/ensure_argument_type_impl.py:41  
-  message : Define a constant instead of duplicating this literal "'ensure_argument_type()' e" 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISina5zCYfarq97IJS)  
----
-  * file : ros2/launch/launch/launch/utilities/signal_management.py:200  
-  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinbMzCYfarq97IJT)  
----
-  * file : ros2/launch/launch/launch/utilities/type_utils.py:213  
-  message : Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinamzCYfarq97IJP)  
----
-  * file : ros2/launch/launch/launch/utilities/type_utils.py:366  
-  message : Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinamzCYfarq97IJQ)  
----
-  * file : ros2/launch/launch/launch/utilities/type_utils.py:511  
-  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinamzCYfarq97IJR)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_append_environment_variable.py:52  
-  message : Define a constant instead of duplicating this literal 'another value' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISingXzCYfarq97IJw)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_append_environment_variable.py:56  
-  message : Define a constant instead of duplicating this literal 'some value' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISingXzCYfarq97IJv)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_append_environment_variable.py:61  
-  message : Define a constant instead of duplicating this literal 'other value' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISingXzCYfarq97IJx)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_declare_launch_argument.py:26  
-  message : Define a constant instead of duplicating this literal 'default value' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinhUzCYfarq97IJy)  
----
-  * file : ros2/launch/launch/test/launch/event_handlers/test_on_execution_complete.py:35  
-  message : Define a constant instead of duplicating this literal 'some message' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmpzCYfarq97IKs)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:91  
-  message : Define a constant instead of duplicating this literal '$0 $1' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISink8zCYfarq97IKZ)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:224  
-  message : Define a constant instead of duplicating this literal '$(test asd)' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISink8zCYfarq97IKb)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:282  
-  message : Define a constant instead of duplicating this literal 'prefix/bsd' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISink8zCYfarq97IKa)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:27  
-  message : Remove this identity check; it will always be True.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKR)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:32  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKS)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:38  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKT)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:44  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKU)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:53  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKV)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:68  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKW)  
----
-  * file : ros2/launch/launch/test/launch/test_execute_process.py:85  
-  message : Define a constant instead of duplicating this literal "print('action')" 6 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkazCYfarq97IKX)  
----
-  * file : ros2/launch/launch/test/launch/test_launch_description_source.py:28  
-  message : Define a constant instead of duplicating this literal 'method description' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinktzCYfarq97IKY)  
----
-  * file : ros2/launch/launch/test/launch/test_logging.py:127  
-  message : Define a constant instead of duplicating this literal 'some-proc-stdout.log' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmbzCYfarq97IKf)  
----
-  * file : ros2/launch/launch/test/launch/test_logging.py:140  
-  message : Define a constant instead of duplicating this literal 'some-proc-stderr.log' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmbzCYfarq97IKg)  
----
-  * file : ros2/launch/launch/test/launch/test_logging.py:153  
-  message : Define a constant instead of duplicating this literal 'some-proc.log' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmbzCYfarq97IKh)  
----
-  * file : ros2/launch/launch/test/launch/test_on_process_io.py:34  
-  message : Define a constant instead of duplicating this literal b'phony io' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinhnzCYfarq97IJz)  
----
-  * file : ros2/launch/launch/test/launch/test_timer_action.py:33  
-  message : Define a constant instead of duplicating this literal 'while True: pass' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinfTzCYfarq97IJo)  
----
-  * file : ros2/launch/launch/test/launch/test_timer_action.py:102  
-  message : Define a constant instead of duplicating this literal 'fast shutdown' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinfUzCYfarq97IJp)  
----
-  * file : ros2/launch/launch/test/launch/test_timer_action.py:109  
-  message : Define a constant instead of duplicating this literal 'slow shutdown' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinfTzCYfarq97IJn)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_perform_substitutions.py:30  
-  message : Define a constant instead of duplicating this literal 'Mock substitution' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniAzCYfarq97IJ0)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_signal_management.py:28  
-  message : Add a nested comment explaining why this function is empty, or complete the implementation.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniTzCYfarq97IJ1)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:182  
-  message : Define a constant instead of duplicating this literal "'off'" 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ5)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:201  
-  message : Define a constant instead of duplicating this literal '[asd, 2.0]' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ3)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:222  
-  message : Define a constant instead of duplicating this literal "''1''" 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ4)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:299  
-  message : Change this argument; Function "coerce_to_type" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ6)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:538  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ9)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:539  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ-)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:541  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ_)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:543  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKA)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:546  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKB)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:556  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKC)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:566  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKD)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:576  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKE)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:586  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKF)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:588  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKG)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:590  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKH)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:592  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKI)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:594  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKJ)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:597  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKK)  
----
-  * file : ros2/launch/launch_pytest/test/launch_pytest/test_plugin.py:116  
-  message : Define a constant instead of duplicating this literal '.*must stop iteration after yielding once.*' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISin2HzCYfarq97IL8)  
----
-  * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:119  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinshzCYfarq97ILS)  
----
-  * file : ros2/launch/launch_testing/launch_testing/loader.py:34  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISins-zCYfarq97ILY)  
----
-  * file : ros2/launch/launch_testing/launch_testing/pytest/hooks.py:199  
-  message : Define a constant instead of duplicating this literal '__init__.py' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinpdzCYfarq97IK7)  
----
-  * file : ros2/launch/launch_testing/launch_testing/test_runner.py:42  
-  message : Change this default value to "None" and initialize this parameter inside the function/method.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinpJzCYfarq97IK3)  
----
-  * file : ros2/launch/launch_testing/launch_testing/test_runner.py:223  
-  message : Change this default value to "None" and initialize this parameter inside the function/method.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinpJzCYfarq97IK4)  
----
-  * file : ros2/launch/launch_testing/launch_testing/tools/text.py:29  
-  message : Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinoazCYfarq97IKx)  
----
-  * file : ros2/launch/launch_testing/launch_testing/tools/text.py:85  
-  message : Refactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinoazCYfarq97IKy)  
----
-  * file : ros2/launch/launch_testing/launch_testing/util/proc_lookup.py:83  
-  message : Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinsAzCYfarq97ILP)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/examples/context_launch_test.py:35  
-  message : Define a constant instead of duplicating this literal 'good_proc.py' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISintmzCYfarq97ILe)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/examples/terminating_proc_launch_test.py:64  
-  message : Define a constant instead of duplicating this literal 'Starting Up' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISint_zCYfarq97ILg)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:35  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py' 8 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILv)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:71  
-  message : Define a constant instead of duplicating this literal 'node:=different_name' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILw)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:129  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py-1' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILz)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:130  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py-2' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILy)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:131  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py-3' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILx)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_runner_results.py:36  
-  message : Define a constant instead of duplicating this literal 'lib/launch_testing' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvLzCYfarq97ILl)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_runner_results.py:61  
-  message : Define a constant instead of duplicating this literal 'Starting Up' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvLzCYfarq97ILk)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_runner_results.py:114  
-  message : Add a nested comment explaining why this function is empty, or complete the implementation.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvLzCYfarq97ILm)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_sequential_output_checker.py:54  
-  message : Define a constant instead of duplicating this literal 'multi-line 1' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinuyzCYfarq97ILj)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_sequential_output_checker.py:70  
-  message : Define a constant instead of duplicating this literal 'output 20' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinuyzCYfarq97ILh)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_sequential_output_checker.py:110  
-  message : Define a constant instead of duplicating this literal 'I am the very model of a modern major general' 7 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinuyzCYfarq97ILi)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_tools.py:128  
-  message : Define a constant instead of duplicating this literal 'Foobar\n' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwLzCYfarq97ILu)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_tools.py:144  
-  message : Define a constant instead of duplicating this literal 'Warning!\n' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwLzCYfarq97ILt)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_xml_output.py:345  
-  message : Add a nested comment explaining why this function is empty, or complete the implementation.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvjzCYfarq97ILr)  
----
-  * file : ros2/launch/launch_xml/launch_xml/entity.py:75  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinxyzCYfarq97IL4)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/composable_node_container.py:87  
-  message : Remove this identity check; it will always be True.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq6BzCYfarq97Ixn)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/lifecycle_node.py:77  
-  message : Remove this unread private attribute '__rclpy_subscription' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq6ZzCYfarq97Ixo)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/lifecycle_node.py:78  
-  message : Remove this unread private attribute '__current_state' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq6ZzCYfarq97Ixp)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/load_composable_nodes.py:244  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5QzCYfarq97Ixf)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:227  
-  message : Remove this unread private attribute '__ros_arguments' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixj)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:228  
-  message : Remove this unread private attribute '__arguments' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixk)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:243  
-  message : Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixl)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:383  
-  message : Refactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixm)  
----
   * file : ros2/common_interfaces/sensor_msgs_py/sensor_msgs_py/numpy_compat.py:38  
   message : Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqc1zCYfarq97Iwc)  
@@ -49991,374 +50361,6 @@ out 2
   * file : ros2/launch/launch/launch/actions/execute_process.py:300  
   message : Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinWZzCYfarq97II4)  
----
-  * file : ros2/launch/launch/launch/event_handlers/on_action_event_base.py:39  
-  message : Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinUOzCYfarq97IIy)  
----
-  * file : ros2/launch/launch/launch/frontend/expose.py:27  
-  message : Replace this expression; used as a condition it will always be constant.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinbuzCYfarq97IJU)  
----
-  * file : ros2/launch/launch/launch/frontend/expose.py:56  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinbuzCYfarq97IJV)  
----
-  * file : ros2/launch/launch/launch/launch_description.py:93  
-  message : Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISineZzCYfarq97IJk)  
----
-  * file : ros2/launch/launch/launch/launch_service.py:93  
-  message : Remove this unread private attribute '__shutdown_when_idle' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinXNzCYfarq97II6)  
----
-  * file : ros2/launch/launch/launch/launch_service.py:96  
-  message : Remove this unread private attribute '__return_code' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinXNzCYfarq97II5)  
----
-  * file : ros2/launch/launch/launch/launch_service.py:259  
-  message : Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinXNzCYfarq97II9)  
----
-  * file : ros2/launch/launch/launch/logging/__init__.py:171  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinduzCYfarq97IJd)  
----
-  * file : ros2/launch/launch/launch/logging/__init__.py:315  
-  message : Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinduzCYfarq97IJe)  
----
-  * file : ros2/launch/launch/launch/logging/__init__.py:378  
-  message : Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinduzCYfarq97IJf)  
----
-  * file : ros2/launch/launch/launch/utilities/ensure_argument_type_impl.py:41  
-  message : Define a constant instead of duplicating this literal "'ensure_argument_type()' e" 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISina5zCYfarq97IJS)  
----
-  * file : ros2/launch/launch/launch/utilities/signal_management.py:200  
-  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinbMzCYfarq97IJT)  
----
-  * file : ros2/launch/launch/launch/utilities/type_utils.py:213  
-  message : Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinamzCYfarq97IJP)  
----
-  * file : ros2/launch/launch/launch/utilities/type_utils.py:366  
-  message : Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinamzCYfarq97IJQ)  
----
-  * file : ros2/launch/launch/launch/utilities/type_utils.py:511  
-  message : Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinamzCYfarq97IJR)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_append_environment_variable.py:52  
-  message : Define a constant instead of duplicating this literal 'another value' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISingXzCYfarq97IJw)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_append_environment_variable.py:56  
-  message : Define a constant instead of duplicating this literal 'some value' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISingXzCYfarq97IJv)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_append_environment_variable.py:61  
-  message : Define a constant instead of duplicating this literal 'other value' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISingXzCYfarq97IJx)  
----
-  * file : ros2/launch/launch/test/launch/actions/test_declare_launch_argument.py:26  
-  message : Define a constant instead of duplicating this literal 'default value' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinhUzCYfarq97IJy)  
----
-  * file : ros2/launch/launch/test/launch/event_handlers/test_on_execution_complete.py:35  
-  message : Define a constant instead of duplicating this literal 'some message' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmpzCYfarq97IKs)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:91  
-  message : Define a constant instead of duplicating this literal '$0 $1' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISink8zCYfarq97IKZ)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:224  
-  message : Define a constant instead of duplicating this literal '$(test asd)' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISink8zCYfarq97IKb)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:282  
-  message : Define a constant instead of duplicating this literal 'prefix/bsd' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISink8zCYfarq97IKa)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:27  
-  message : Remove this identity check; it will always be True.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKR)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:32  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKS)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:38  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKT)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:44  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKU)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:53  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKV)  
----
-  * file : ros2/launch/launch/test/launch/test_executable.py:68  
-  message : Change this argument; Function "prepare" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkMzCYfarq97IKW)  
----
-  * file : ros2/launch/launch/test/launch/test_execute_process.py:85  
-  message : Define a constant instead of duplicating this literal "print('action')" 6 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinkazCYfarq97IKX)  
----
-  * file : ros2/launch/launch/test/launch/test_launch_description_source.py:28  
-  message : Define a constant instead of duplicating this literal 'method description' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinktzCYfarq97IKY)  
----
-  * file : ros2/launch/launch/test/launch/test_logging.py:127  
-  message : Define a constant instead of duplicating this literal 'some-proc-stdout.log' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmbzCYfarq97IKf)  
----
-  * file : ros2/launch/launch/test/launch/test_logging.py:140  
-  message : Define a constant instead of duplicating this literal 'some-proc-stderr.log' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmbzCYfarq97IKg)  
----
-  * file : ros2/launch/launch/test/launch/test_logging.py:153  
-  message : Define a constant instead of duplicating this literal 'some-proc.log' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinmbzCYfarq97IKh)  
----
-  * file : ros2/launch/launch/test/launch/test_on_process_io.py:34  
-  message : Define a constant instead of duplicating this literal b'phony io' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinhnzCYfarq97IJz)  
----
-  * file : ros2/launch/launch/test/launch/test_timer_action.py:33  
-  message : Define a constant instead of duplicating this literal 'while True: pass' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinfTzCYfarq97IJo)  
----
-  * file : ros2/launch/launch/test/launch/test_timer_action.py:102  
-  message : Define a constant instead of duplicating this literal 'fast shutdown' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinfUzCYfarq97IJp)  
----
-  * file : ros2/launch/launch/test/launch/test_timer_action.py:109  
-  message : Define a constant instead of duplicating this literal 'slow shutdown' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinfTzCYfarq97IJn)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_perform_substitutions.py:30  
-  message : Define a constant instead of duplicating this literal 'Mock substitution' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniAzCYfarq97IJ0)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_signal_management.py:28  
-  message : Add a nested comment explaining why this function is empty, or complete the implementation.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniTzCYfarq97IJ1)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:182  
-  message : Define a constant instead of duplicating this literal "'off'" 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ5)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:201  
-  message : Define a constant instead of duplicating this literal '[asd, 2.0]' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ3)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:222  
-  message : Define a constant instead of duplicating this literal "''1''" 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ4)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:299  
-  message : Change this argument; Function "coerce_to_type" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ6)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:538  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ9)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:539  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ-)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:541  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ_)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:543  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKA)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:546  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKB)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:556  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKC)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:566  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKD)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:576  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKE)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:586  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKF)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:588  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKG)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:590  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKH)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:592  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKI)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:594  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKJ)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:597  
-  message : Change this argument; Function "perform_typed_substitution" expects a different type  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IKK)  
----
-  * file : ros2/launch/launch_pytest/test/launch_pytest/test_plugin.py:116  
-  message : Define a constant instead of duplicating this literal '.*must stop iteration after yielding once.*' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISin2HzCYfarq97IL8)  
----
-  * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:119  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinshzCYfarq97ILS)  
----
-  * file : ros2/launch/launch_testing/launch_testing/loader.py:34  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISins-zCYfarq97ILY)  
----
-  * file : ros2/launch/launch_testing/launch_testing/pytest/hooks.py:199  
-  message : Define a constant instead of duplicating this literal '__init__.py' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinpdzCYfarq97IK7)  
----
-  * file : ros2/launch/launch_testing/launch_testing/test_runner.py:42  
-  message : Change this default value to "None" and initialize this parameter inside the function/method.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinpJzCYfarq97IK3)  
----
-  * file : ros2/launch/launch_testing/launch_testing/test_runner.py:223  
-  message : Change this default value to "None" and initialize this parameter inside the function/method.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinpJzCYfarq97IK4)  
----
-  * file : ros2/launch/launch_testing/launch_testing/tools/text.py:29  
-  message : Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinoazCYfarq97IKx)  
----
-  * file : ros2/launch/launch_testing/launch_testing/tools/text.py:85  
-  message : Refactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinoazCYfarq97IKy)  
----
-  * file : ros2/launch/launch_testing/launch_testing/util/proc_lookup.py:83  
-  message : Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinsAzCYfarq97ILP)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/examples/context_launch_test.py:35  
-  message : Define a constant instead of duplicating this literal 'good_proc.py' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISintmzCYfarq97ILe)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/examples/terminating_proc_launch_test.py:64  
-  message : Define a constant instead of duplicating this literal 'Starting Up' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISint_zCYfarq97ILg)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:35  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py' 8 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILv)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:71  
-  message : Define a constant instead of duplicating this literal 'node:=different_name' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILw)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:129  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py-1' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILz)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:130  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py-2' 4 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILy)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_io_handler_and_assertions.py:131  
-  message : Define a constant instead of duplicating this literal 'terminating_proc.py-3' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwezCYfarq97ILx)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_runner_results.py:36  
-  message : Define a constant instead of duplicating this literal 'lib/launch_testing' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvLzCYfarq97ILl)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_runner_results.py:61  
-  message : Define a constant instead of duplicating this literal 'Starting Up' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvLzCYfarq97ILk)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_runner_results.py:114  
-  message : Add a nested comment explaining why this function is empty, or complete the implementation.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvLzCYfarq97ILm)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_sequential_output_checker.py:54  
-  message : Define a constant instead of duplicating this literal 'multi-line 1' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinuyzCYfarq97ILj)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_sequential_output_checker.py:70  
-  message : Define a constant instead of duplicating this literal 'output 20' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinuyzCYfarq97ILh)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_sequential_output_checker.py:110  
-  message : Define a constant instead of duplicating this literal 'I am the very model of a modern major general' 7 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinuyzCYfarq97ILi)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_tools.py:128  
-  message : Define a constant instead of duplicating this literal 'Foobar\n' 5 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwLzCYfarq97ILu)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_tools.py:144  
-  message : Define a constant instead of duplicating this literal 'Warning!\n' 3 times.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinwLzCYfarq97ILt)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_xml_output.py:345  
-  message : Add a nested comment explaining why this function is empty, or complete the implementation.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinvjzCYfarq97ILr)  
----
-  * file : ros2/launch/launch_xml/launch_xml/entity.py:75  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinxyzCYfarq97IL4)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/composable_node_container.py:87  
-  message : Remove this identity check; it will always be True.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq6BzCYfarq97Ixn)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/lifecycle_node.py:77  
-  message : Remove this unread private attribute '__rclpy_subscription' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq6ZzCYfarq97Ixo)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/lifecycle_node.py:78  
-  message : Remove this unread private attribute '__current_state' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq6ZzCYfarq97Ixp)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/load_composable_nodes.py:244  
-  message : Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5QzCYfarq97Ixf)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:227  
-  message : Remove this unread private attribute '__ros_arguments' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixj)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:228  
-  message : Remove this unread private attribute '__arguments' or refactor the code to use its value.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixk)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:243  
-  message : Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixl)  
----
-  * file : ros2/launch_ros/launch_ros/launch_ros/actions/node.py:383  
-  message : Refactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq5fzCYfarq97Ixm)  
 ---
 </details>  
   
