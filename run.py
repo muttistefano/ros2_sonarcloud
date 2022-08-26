@@ -303,17 +303,17 @@ for PK in PKGS_set_issue_blocker:
 f.write("  \n")
 f.write("<br />  \n")
 f.write("  \n")
-f.write("## ISSUES (level critical) #" + str(iss_c_crit_len+iss_cpp_crit_len+iss_py_crit_len) + " \n")
+#f.write("## ISSUES (level critical) #" + str(iss_c_crit_len+iss_cpp_crit_len+iss_py_crit_len) + " \n")
 
-for PK in PKGS_set_issue_critical:
-    f.write("<details><summary><a style='color:blue;font-size:18px;'>" + str(PK) + "</a></summary>  \n\n")
-      
-    for BG in ISSUES_CRITICAL_list:
-        # f.write("asd\n")
-        if BG.pkg == PK:
-            ret_str=entry_to_str(BG)
-            f.write(ret_str)
-    f.write("</details>  \n  ")
+#for PK in PKGS_set_issue_critical:
+#    f.write("<details><summary><a style='color:blue;font-size:18px;'>" + str(PK) + "</a></summary>  \n\n")
+#      
+#    for BG in ISSUES_CRITICAL_list:
+#        # f.write("asd\n")
+#        if BG.pkg == PK:
+#            ret_str=entry_to_str(BG)
+#            f.write(ret_str)
+#    f.write("</details>  \n  ")
 
 
 
