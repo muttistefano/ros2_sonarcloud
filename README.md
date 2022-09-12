@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #268 
+## BUGS #267 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -40,10 +40,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
-  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:108  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-y)  
----
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:179  
   message : Unexpected duplicate "font-size"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O-7)  
@@ -160,11 +156,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 1st function call argument is an uninitialized value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixUezCYfarq97NVs)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1659  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1612  
   message : Called C++ object pointer is null  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixA0zCYfarq97NF-)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1850  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1884  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -1167,7 +1163,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #820 
+## ISSUES (level blocker) #819 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -1181,10 +1177,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
-  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:108  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-y)  
----
   * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:253  
   message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-o)  
@@ -1225,27 +1217,27 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "TypeLookup_Return" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocx)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2332  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2334  
   message : Ensure that the move constructor of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYX)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2352  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2354  
   message : Ensure that the move assignment operator of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYY)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2444  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2446  
   message : Ensure that the move constructor of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYd)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2464  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2466  
   message : Ensure that the move assignment operator of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYe)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2561  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2563  
   message : Ensure that the move constructor of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYk)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2583  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2585  
   message : Ensure that the move assignment operator of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYl)  
 ---
@@ -2309,31 +2301,31 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "DataNode" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0CvzCYfarq97O4q)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1582  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1535  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMG)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1607  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1560  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMI)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1618  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1571  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMK)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1633  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1586  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1653  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1606  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMN)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1671  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1624  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMP)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1672  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1625  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMO)  
 ---
@@ -3125,10 +3117,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove this useless sequence of pointer operators: "&*".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivwEzCYfarq97Ka5)  
 ---
-  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:108  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-y)  
----
   * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:253  
   message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-o)  
@@ -3169,27 +3157,27 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "TypeLookup_Return" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocx)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2332  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2334  
   message : Ensure that the move constructor of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYX)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2352  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2354  
   message : Ensure that the move assignment operator of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYY)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2444  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2446  
   message : Ensure that the move constructor of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYd)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2464  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2466  
   message : Ensure that the move assignment operator of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYe)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2561  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2563  
   message : Ensure that the move constructor of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYk)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2583  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2585  
   message : Ensure that the move assignment operator of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYl)  
 ---
@@ -4253,31 +4241,31 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "DataNode" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0CvzCYfarq97O4q)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1582  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1535  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMG)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1607  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1560  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMI)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1618  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1571  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMK)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1633  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1586  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1653  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1606  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMN)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1671  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1624  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMP)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1672  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/domain/DomainParticipantImpl.cpp:1625  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i2DnILU70yBX0vMO)  
 ---
@@ -6167,6 +6155,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "SourceFile" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4O)  
 ---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3784  
+  message : Ensure that the move assignment operator of "SourceFile" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4P)  
+---
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/variant.hpp:2106  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi5D6zCYfarq97P9_)  
@@ -6218,6 +6210,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3783  
   message : Ensure that the move constructor of "SourceFile" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4O)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3784  
+  message : Ensure that the move assignment operator of "SourceFile" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4P)  
 ---
   * file : osrf/osrf_pycommon/tests/unit/test_cli_utils/test_common.py:32  
   message : Provide a value for field(s) with index 1.  
