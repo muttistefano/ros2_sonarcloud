@@ -160,7 +160,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Called C++ object pointer is null  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixA0zCYfarq97NF-)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1884  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1880  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -412,7 +412,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Identical sub-expressions on both sides of operator "&&".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97KnK)  
 ---
-  * file : eProsima/Fast-DDS/thirdparty/optionparser/optionparser/optionparser.h:2006  
+  * file : eProsima/Fast-DDS/thirdparty/optionparser/optionparser/optionparser.h:2001  
   message : 1 uninitialized field at the end of the constructor call  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv8nzCYfarq97Kft)  
 ---
@@ -1069,15 +1069,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Use "operator==" to check object equality, "Locator_t" is not a trivially copyable type without padding.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiysezCYfarq97OI_)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:117  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:119  
   message : Ensure that the move constructor of "LocatorList" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMj)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:132  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:134  
   message : Ensure that the move assignment operator of "LocatorList" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMk)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:375  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:377  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMz)  
 ---
@@ -2165,7 +2165,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1497  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1517  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwY5zCYfarq97LTD)  
 ---
@@ -3009,15 +3009,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Use "operator==" to check object equality, "Locator_t" is not a trivially copyable type without padding.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiysezCYfarq97OI_)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:117  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:119  
   message : Ensure that the move constructor of "LocatorList" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMj)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:132  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:134  
   message : Ensure that the move assignment operator of "LocatorList" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMk)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:375  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:377  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMz)  
 ---
@@ -4105,7 +4105,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1497  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1517  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwY5zCYfarq97LTD)  
 ---
