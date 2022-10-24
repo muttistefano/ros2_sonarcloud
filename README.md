@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #207 
+## BUGS #197 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -172,19 +172,19 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKfoz9MEkPBL9VHvoyi)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:204  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:205  
   message : Ensure that destructor of "FlowControllerAsyncPublishMode" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyI)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:226  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:227  
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:256  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:257  
   message : Give class "FlowControllerSyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyP)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:270  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:271  
   message : Give class "FlowControllerLimitedAsyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyR)  
 ---
@@ -196,11 +196,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 2 uninitialized fields at the end of the constructor call  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwf2zCYfarq97LWn)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:218  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:233  
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M08)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:230  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:245  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M1H)  
 ---
@@ -236,41 +236,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Identical sub-expressions on both sides of operator "==".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtBzCYfarq97L9i)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:78939  
-  message : Memory set function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo0)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:86405  
-  message : Address of stack memory associated with local variable 'zBase' returned to caller  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo3)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:96799  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo7)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:98630  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo-)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:98630  
-  message : Null pointer passed to 2nd parameter expecting 'nonnull'  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo9)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102965  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MpC)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:116947  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MpO)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:116952  
-  message : Memory set function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYNT7eTDJKSdyaDorZAs)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:120615  
-  message : Memory copy function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MpQ)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129429  
   message : Identical sub-expressions on both sides of operator "==".  
@@ -286,19 +254,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpt)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpu)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpv)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpw)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/transport/ChannelResource.cpp:48  
   message : Null pointer passed to 1st parameter expecting 'nonnull'  
@@ -332,7 +288,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_EzCYfarq97Kpv)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:289  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:311  
   message : Null pointer passed to 1st parameter expecting 'nonnull'  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97KqS)  
 ---
@@ -470,6 +426,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : moveit2/moveit_commander/src/moveit_commander/move_group.py:655  
   message : Fix this invalid "+" operation between incompatible types (str and type).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjn)  
+---
+</details>  
+<details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
+
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:429  
+  message : Remove duplicate values for parameter "smoother_id" in "_smoothPathImpl" call.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYPkFcRLmU8C9mUey0I9)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
@@ -923,7 +886,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #799 
+## ISSUES (level blocker) #790 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -1145,7 +1108,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORq)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:443  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:446  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORs)  
 ---
@@ -2117,31 +2080,31 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Make sure that moving an object of class "DiscoveryParticipantChangeData" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwNZzCYfarq97K7m)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:204  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:205  
   message : Ensure that destructor of "FlowControllerAsyncPublishMode" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyI)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:226  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:227  
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:256  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:257  
   message : Give class "FlowControllerSyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyP)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:270  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:271  
   message : Give class "FlowControllerLimitedAsyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1276  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1277  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzE)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1277  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1278  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzF)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:218  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:233  
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M08)  
 ---
@@ -2189,15 +2152,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_EzCYfarq97Kpv)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:297  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:319  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp-)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:298  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:320  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp9)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:299  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:321  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp8)  
 ---
@@ -2205,11 +2168,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1631  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1644  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1753  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1767  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
 ---
@@ -3089,7 +3052,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORq)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:443  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:446  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORs)  
 ---
@@ -4061,31 +4024,31 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Make sure that moving an object of class "DiscoveryParticipantChangeData" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwNZzCYfarq97K7m)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:204  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:205  
   message : Ensure that destructor of "FlowControllerAsyncPublishMode" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyI)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:226  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:227  
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:256  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:257  
   message : Give class "FlowControllerSyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyP)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:270  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:271  
   message : Give class "FlowControllerLimitedAsyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1276  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1277  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzE)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1277  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1278  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzF)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:218  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:233  
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M08)  
 ---
@@ -4133,15 +4096,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_EzCYfarq97Kpv)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:297  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:319  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp-)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:298  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:320  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp9)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:299  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:321  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp8)  
 ---
@@ -4149,11 +4112,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1631  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1644  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1753  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1767  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
 ---
@@ -5009,10 +4972,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtCzCYfarq97MDQ)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:78939  
-  message : Memory set function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo0)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:81724  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtCzCYfarq97MET)  
@@ -5028,10 +4987,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:84919  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtCzCYfarq97MFY)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:86405  
-  message : Address of stack memory associated with local variable 'zBase' returned to caller  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo3)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:87403  
   message : Remove this misleading "jump_to_p2_and_check_for_interrupt" label.  
@@ -5537,14 +5492,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtDzCYfarq97MIE)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:96799  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo7)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:98630  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mo-)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:98634  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtDzCYfarq97ML1)  
@@ -5641,14 +5588,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MTW)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:116947  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MpO)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:116952  
-  message : Memory set function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYNT7eTDJKSdyaDorZAs)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:118255  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtFzCYfarq97MUW)  
@@ -5660,10 +5599,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:119588  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtFzCYfarq97MUo)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:120615  
-  message : Memory copy function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MpQ)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:123302  
   message : Remove any side effects from right hand operands of logical && operator.  
@@ -5755,19 +5690,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpt)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpu)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpv)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpw)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169502  
   message : Remove any side effects from right hand operands of logical && operator.  
@@ -5783,6 +5706,13 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
+
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:429  
+  message : Remove duplicate values for parameter "smoother_id" in "_smoothPathImpl" call.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYPkFcRLmU8C9mUey0I9)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
