@@ -558,7 +558,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiolQzCYfarq97IYE)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_executor.py:285  
+  * file : ros2/rclpy/rclpy/test/test_executor.py:313  
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
@@ -855,7 +855,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:362  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
@@ -5703,7 +5703,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Fix this invalid "+" operation between incompatible types (str and type).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpJ7ZzpJC77kImjn)  
 ---
-  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:340  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:362  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
