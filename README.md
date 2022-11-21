@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #197 
+## BUGS #198 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -164,7 +164,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/ReadTakeCommand.hpp:93  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/ReadTakeCommand.hpp:95  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixBhzCYfarq97NHE)  
 ---
@@ -430,6 +430,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
 
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/line_iterator.py:84  
+  message : Correct one of the identical sub-expressions on both sides of operator "==".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYR0LI5rHE-0Dh1G_Im6)  
+---
   * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:429  
   message : Remove duplicate values for parameter "smoother_id" in "_smoothPathImpl" call.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYPkFcRLmU8C9mUey0I9)  
