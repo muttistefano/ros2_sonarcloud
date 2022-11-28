@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #198 
+## BUGS #199 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -104,17 +104,21 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : "std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz_kzCYfarq97OxR)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:77  
-  message : Add a condition argument to this call to "wait".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owe)  
----
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:82  
-  message : Add a condition argument to this call to "wait".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owf)  
----
   * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:111  
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owg)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:152  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owe)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:157  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owf)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:198  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p02)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/dynamic-types/DynamicData.cpp:1229  
   message : 1st function call argument is an uninitialized value  
@@ -208,7 +212,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw2JzCYfarq97M2o)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:493  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:491  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWszCYfarq97LOf)  
 ---
@@ -434,7 +438,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Correct one of the identical sub-expressions on both sides of operator "==".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYR0LI5rHE-0Dh1G_Im6)  
 ---
-  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:429  
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:445  
   message : Remove duplicate values for parameter "smoother_id" in "_smoothPathImpl" call.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYPkFcRLmU8C9mUey0I9)  
 ---
@@ -890,7 +894,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #790 
+## ISSUES (level blocker) #793 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -2000,29 +2004,41 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (1)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-rzCYfarq97Owz)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:77  
-  message : Add a condition argument to this call to "wait".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owe)  
----
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:82  
-  message : Add a condition argument to this call to "wait".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owf)  
----
   * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:111  
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owg)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:244  
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:152  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owe)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:157  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owf)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:198  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p02)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:289  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p05)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:400  
   message : Ensure that the move constructor of "shared_lock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owh)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:252  
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:408  
   message : Ensure that the move assignment operator of "shared_lock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owi)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:293  
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:449  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owm)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:551  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p06)  
 ---
   * file : eProsima/Fast-DDS/include/fastrtps/xmlparser/XMLTree.h:138  
   message : Ensure that the move constructor of "DataNode" is exception-free and declare it "noexcept".  
@@ -3944,29 +3960,41 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (1)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-rzCYfarq97Owz)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:77  
-  message : Add a condition argument to this call to "wait".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owe)  
----
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:82  
-  message : Add a condition argument to this call to "wait".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owf)  
----
   * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:111  
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owg)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:244  
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:152  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owe)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:157  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owf)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:198  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p02)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:289  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p05)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:400  
   message : Ensure that the move constructor of "shared_lock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owh)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:252  
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:408  
   message : Ensure that the move assignment operator of "shared_lock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owi)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:293  
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:449  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owm)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:551  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p06)  
 ---
   * file : eProsima/Fast-DDS/include/fastrtps/xmlparser/XMLTree.h:138  
   message : Ensure that the move constructor of "DataNode" is exception-free and declare it "noexcept".  
@@ -5714,7 +5742,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
 
-  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:429  
+  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:445  
   message : Remove duplicate values for parameter "smoother_id" in "_smoothPathImpl" call.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYPkFcRLmU8C9mUey0I9)  
 ---
@@ -5761,18 +5789,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "handle" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P33)  
 ---
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:583  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P37)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3780  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4a)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3783  
-  message : Ensure that the move constructor of "SourceFile" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4O)  
----
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/variant.hpp:2106  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi5D6zCYfarq97P9_)  
@@ -5812,18 +5828,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:546  
   message : Ensure that the move assignment operator of "handle" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P33)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:583  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P37)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3780  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4a)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3783  
-  message : Ensure that the move constructor of "SourceFile" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4O)  
 ---
   * file : osrf/osrf_pycommon/tests/unit/test_cli_utils/test_common.py:32  
   message : Provide a value for field(s) with index 1.  
