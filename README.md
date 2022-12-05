@@ -212,7 +212,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw2JzCYfarq97M2o)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:491  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:499  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWszCYfarq97LOf)  
 ---
@@ -694,7 +694,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipcBzCYfarq97Im5)  
 ---
-  * file : ros2/rosbag2/rosbag2_py/test/common.py:49  
+  * file : ros2/rosbag2/rosbag2_py/test/common.py:50  
   message : Refactor this loop to do more than one iteration.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEkzCYfarq97H-9)  
 ---
