@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #199 
+## BUGS #213 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -36,6 +36,18 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eclipse-iceoryx/iceoryx/doc/website/overrides/partials/footer.html:66  
   message : Add an "alt" attribute to this image.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi1qYzCYfarq97PE4)  
+---
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/include/iceoryx_hoofs/cxx/expected.hpp:65  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPJHepM_KNhuouaqt)  
+---
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/include/iceoryx_hoofs/cxx/expected.hpp:108  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPJHepM_KNhuouaqu)  
+---
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/include/iceoryx_hoofs/cxx/function_ref.hpp:90  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPJCzpM_KNhuouaqs)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
@@ -240,10 +252,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Identical sub-expressions on both sides of operator "==".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtBzCYfarq97L9i)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102965  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MpC)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129429  
   message : Identical sub-expressions on both sides of operator "==".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtFzCYfarq97MZM)  
@@ -251,10 +259,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:131335  
   message : Identical sub-expressions on both sides of operator "-".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtFzCYfarq97MZz)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:137150  
-  message : Returned pointer value points outside the original object (potential buffer overflow)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpg)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
@@ -272,11 +276,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwH3zCYfarq97Ky9)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPAcceptorSecure.h:60  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPAcceptorSecure.h:62  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwJEzCYfarq97K1o)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPAcceptorSecure.h:61  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPAcceptorSecure.h:63  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwJEzCYfarq97K1p)  
 ---
@@ -315,6 +319,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/src/cpp/rtps/xmlparser/XMLParser.cpp:508  
   message : Identical sub-expressions on both sides of operator "||".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwhmzCYfarq97Ln5)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/variadic_templates_tools.hpp:51  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPBZWpM_KNhuouaea)  
 ---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/segment_manager_helper.hpp:75  
   message : Do not throw uncaught exceptions in a destructor.  
@@ -368,6 +376,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kiu)  
 ---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:12626  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPB7dpM_KNhuouae0)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:18010  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPB7dpM_KNhuouaez)  
+---
   * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:25311  
   message : Identical sub-expressions on both sides of operator "&&".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97KnK)  
@@ -375,6 +391,26 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/thirdparty/optionparser/optionparser/optionparser.h:2001  
   message : 1 uninitialized field at the end of the constructor call  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv8nzCYfarq97Kft)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/taocpp-pegtl/pegtl/mmap_input.hpp:38  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPB6DpM_KNhuouaex)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/taocpp-pegtl/pegtl/mmap_input.hpp:61  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPB6DpM_KNhuouaey)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/taocpp-pegtl/pegtl/read_input.hpp:27  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPBxrpM_KNhuouaes)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/taocpp-pegtl/pegtl/read_input.hpp:49  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPBxrpM_KNhuouaet)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/taocpp-pegtl/pegtl/string_input.hpp:26  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPBzCpM_KNhuouaeu)  
 ---
   * file : eProsima/Fast-DDS/tools/fastdds/shm/clean.py:94  
   message : Group parts of the regex together to make the intended operator precedence explicit.  
@@ -438,10 +474,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Correct one of the identical sub-expressions on both sides of operator "==".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYR0LI5rHE-0Dh1G_Im6)  
 ---
-  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:445  
-  message : Remove duplicate values for parameter "smoother_id" in "_smoothPathImpl" call.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYPkFcRLmU8C9mUey0I9)  
----
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
 
@@ -467,6 +499,30 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros/class_loader/src/multi_library_class_loader.cpp:56  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKfo4YIEkPBL9VHvoyk)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:297  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqv)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:499  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqw)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:520  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqx)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:544  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqy)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:570  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqz)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:598  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaq0)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros-visualization</a></summary>  
@@ -694,6 +750,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipcBzCYfarq97Im5)  
 ---
+  * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/src/rmw_get_endpoint_network_flow.cpp:192  
+  message : Remove this conditional structure or edit its code blocks so that they're not all the same.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEO8snpM_KNhuouaX3)  
+---
   * file : ros2/rosbag2/rosbag2_py/test/common.py:50  
   message : Refactor this loop to do more than one iteration.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEkzCYfarq97H-9)  
@@ -826,10 +886,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add a description to this table.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAI)  
 ---
-  * file : ros2/tlsf/tlsf/src/tlsf.c:901  
-  message : Memory set function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISir-izCYfarq97JHi)  
----
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
 
@@ -894,7 +950,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #793 
+## ISSUES (level blocker) #789 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -5536,10 +5592,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MOE)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102965  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MpC)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103001  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MOM)  
@@ -5656,10 +5708,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtGzCYfarq97MbX)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:137150  
-  message : Returned pointer value points outside the original object (potential buffer overflow)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpg)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:139978  
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtGzCYfarq97Mcu)  
@@ -5738,13 +5786,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:362  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
----
-</details>  
-  <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
-
-  * file : navigation2/nav2_simple_commander/nav2_simple_commander/robot_navigator.py:445  
-  message : Remove duplicate values for parameter "smoother_id" in "_smoothPathImpl" call.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYPkFcRLmU8C9mUey0I9)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
@@ -5862,10 +5903,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rcutils/src/strdup.c:53  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
----
-  * file : ros2/tlsf/tlsf/src/tlsf.c:901  
-  message : Memory set function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISir-izCYfarq97JHi)  
 ---
   * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:383  
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
