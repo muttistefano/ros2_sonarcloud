@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #209 
+## BUGS #204 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -160,6 +160,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Forming reference to null pointer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixkXzCYfarq97N_h)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/condition/WaitSetImpl.cpp:39  
+  message : Do not throw uncaught exceptions in a destructor.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYW4cZPeJXHd5uT915On)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/condition/WaitSetImpl.cpp:44  
+  message : Do not throw uncaught exceptions in a destructor.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYW4cZPeJXHd5uT915Oo)  
+---
   * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/ParameterList.cpp:127  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixU7zCYfarq97NVz)  
@@ -224,37 +232,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWszCYfarq97LOf)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:21035  
-  message : Identical sub-expressions on both sides of operator "==".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtAzCYfarq97L2t)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:31638  
-  message : Identical sub-expressions on both sides of operator "==".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtAzCYfarq97L5J)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:31646  
-  message : Identical sub-expressions on both sides of operator "==".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtAzCYfarq97L5K)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:49776  
   message : The left operand of '&' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Moi)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:57638  
-  message : Identical sub-expressions on both sides of operator "".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtBzCYfarq97L9K)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:59196  
-  message : Identical sub-expressions on both sides of operator "==".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtBzCYfarq97L9i)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129429  
-  message : Identical sub-expressions on both sides of operator "==".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtFzCYfarq97MZM)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:131335  
-  message : Identical sub-expressions on both sides of operator "-".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtFzCYfarq97MZz)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
@@ -492,7 +472,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKfo4YVEkPBL9VHvoyl)  
 ---
-  * file : ros/class_loader/src/multi_library_class_loader.cpp:56  
+  * file : ros/class_loader/src/multi_library_class_loader.cpp:89  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKfo4YIEkPBL9VHvoyk)  
 ---
@@ -738,7 +718,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
 ---
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:158  
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5p)  
 ---
@@ -934,7 +914,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #752 
+## ISSUES (level blocker) #747 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -5707,35 +5687,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Replace "override" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiruozCYfarq97JCx)  
 ---
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem5" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I52)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem6" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I53)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem7" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I54)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem8" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I55)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem9" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I56)  
----
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:158  
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5p)  
 ---
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:230  
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:234  
   message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5q)  
 ---
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:236  
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:240  
   message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5r)  
 ---
@@ -5770,6 +5730,26 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:76  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQk)  
+---
+  * file : ros2/rmw_fastrtps/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/MessageTypeSupport.hpp:25  
+  message : Make sure that moving an object of class "MessageTypeSupport" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipLYzCYfarq97Igl)  
+---
+  * file : ros2/rmw_fastrtps/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/TypeSupport.hpp:34  
+  message : Make sure that moving an object of class "TypeSupport" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipKvzCYfarq97Igh)  
+---
+  * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/include/rmw_fastrtps_shared_cpp/guid_utils.hpp:56  
+  message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipcBzCYfarq97Im5)  
+---
+  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
+  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
+---
+  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
 ---
   * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
   message : "std::forward" should only be called on a forwarding reference.  
@@ -5815,35 +5795,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Replace "override" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiruozCYfarq97JCx)  
 ---
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem5" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I52)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem6" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I53)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem7" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I54)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem8" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I55)  
----
-  * file : ros2/rcutils/test/mocking_utils/filesystem.hpp:83  
-  message : Make sure that moving an object of class "FileSystem9" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirLHzCYfarq97I56)  
----
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:158  
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5p)  
 ---
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:230  
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:234  
   message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5q)  
 ---
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:236  
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:240  
   message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5r)  
 ---
@@ -5878,6 +5838,26 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:76  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQk)  
+---
+  * file : ros2/rmw_fastrtps/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/MessageTypeSupport.hpp:25  
+  message : Make sure that moving an object of class "MessageTypeSupport" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipLYzCYfarq97Igl)  
+---
+  * file : ros2/rmw_fastrtps/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/TypeSupport.hpp:34  
+  message : Make sure that moving an object of class "TypeSupport" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipKvzCYfarq97Igh)  
+---
+  * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/include/rmw_fastrtps_shared_cpp/guid_utils.hpp:56  
+  message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipcBzCYfarq97Im5)  
+---
+  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
+  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
+---
+  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
 ---
   * file : ros2/rcutils/src/cmdline_parser.c:40  
   message : Remove any side effects from right hand operands of logical && operator.  
