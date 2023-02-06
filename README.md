@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #204 
+## BUGS #205 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -295,6 +295,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/src/cpp/rtps/xmlparser/XMLParser.cpp:508  
   message : Identical sub-expressions on both sides of operator "||".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwhmzCYfarq97Ln5)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/statistics/rtps/messages/RTPSStatisticsMessages.hpp:207  
+  message : Use constructors or assignment operators, "Locator_t" is not trivially copyable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYYAjAHZv_hJbTx3eLSU)  
 ---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/variadic_templates_tools.hpp:51  
   message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
@@ -914,7 +918,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #747 
+## ISSUES (level blocker) #748 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -2187,6 +2191,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1755  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/statistics/rtps/messages/RTPSStatisticsMessages.hpp:207  
+  message : Use constructors or assignment operators, "Locator_t" is not trivially copyable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYYAjAHZv_hJbTx3eLSU)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/utils/SystemInfo.cpp:135  
   message : Replace this call to the non reentrant function "getpwuid" by a call to "getpwuid_r".  
@@ -3995,6 +4003,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1755  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/statistics/rtps/messages/RTPSStatisticsMessages.hpp:207  
+  message : Use constructors or assignment operators, "Locator_t" is not trivially copyable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYYAjAHZv_hJbTx3eLSU)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/utils/SystemInfo.cpp:135  
   message : Replace this call to the non reentrant function "getpwuid" by a call to "getpwuid_r".  
@@ -5747,10 +5759,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
 ---
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
----
   * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
@@ -5854,10 +5862,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
   message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
----
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
 ---
   * file : ros2/rcutils/src/cmdline_parser.c:40  
   message : Remove any side effects from right hand operands of logical && operator.  
