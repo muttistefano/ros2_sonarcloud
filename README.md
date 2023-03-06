@@ -264,7 +264,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Use pointer or reference to avoid slicing from "TCPv4TransportDescriptor" to "TCPTransportDescriptor".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwDNzCYfarq97KvP)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:261  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:273  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97Ks8)  
 ---
@@ -276,15 +276,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Null pointer passed to 1st parameter expecting 'nonnull'  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97KqS)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:340  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:346  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M5g)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:347  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:353  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M5h)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:354  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:360  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M5i)  
 ---
@@ -442,6 +442,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : moveit2/moveit/scripts/maintainer_table_template.html:27  
   message : Add a description to this table.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkW)  
+---
+  * file : moveit2/moveit_py/moveit/servo_client/devices/ps4_dualshock.py:143  
+  message : Add a "self" or class parameter  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYaQ0q1avTyJunPyDVLW)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
@@ -851,13 +855,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAI)  
 ---
 </details>  
-<details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
-
-  * file : ros2_control/ros2controlcli/ros2controlcli/verb/load_controller.py:56  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYIBdgN9jsepBWks1Tre)  
----
-</details>  
   
 <br />  
   
@@ -914,7 +911,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #747 
+## ISSUES (level blocker) #748 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -2148,15 +2145,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Make sure that moving an object of class "Pkt" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwCGzCYfarq97Kuj)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:658  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:670  
   message : Ensure that the move assignment operator of "Listener" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:693  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:705  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:822  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:834  
   message : Ensure that the move assignment operator of "Port" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtW)  
 ---
@@ -2180,11 +2177,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1642  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1648  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1777  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1783  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
 ---
@@ -3960,15 +3957,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Make sure that moving an object of class "Pkt" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwCGzCYfarq97Kuj)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:658  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:670  
   message : Ensure that the move assignment operator of "Listener" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:693  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:705  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:822  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:834  
   message : Ensure that the move assignment operator of "Port" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtW)  
 ---
@@ -3992,11 +3989,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1642  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1648  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1777  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1783  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
 ---
@@ -5458,6 +5455,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:360  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
+---
+  * file : moveit2/moveit_py/moveit/servo_client/devices/ps4_dualshock.py:143  
+  message : Add a "self" or class parameter  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYaQ0q1avTyJunPyDVLW)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
