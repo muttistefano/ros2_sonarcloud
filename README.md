@@ -562,11 +562,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove this "return" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioXazCYfarq97IVX)  
 ---
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:383  
+  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:389  
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ7)  
 ---
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:387  
+  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:393  
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ8)  
 ---
@@ -911,7 +911,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #748 
+## ISSUES (level blocker) #749 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -5704,6 +5704,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5r)  
 ---
+  * file : ros2/rcutils/test/test_string_map.cpp:1951  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYa0uTVeaL88A9HpsmQA)  
+---
   * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:39  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirJszCYfarq97I2w)  
@@ -5747,10 +5751,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/include/rmw_fastrtps_shared_cpp/guid_utils.hpp:56  
   message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipcBzCYfarq97Im5)  
----
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
-  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
 ---
   * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
   message : "std::forward" should only be called on a forwarding reference.  
@@ -5808,6 +5808,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5r)  
 ---
+  * file : ros2/rcutils/test/test_string_map.cpp:1951  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYa0uTVeaL88A9HpsmQA)  
+---
   * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:39  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirJszCYfarq97I2w)  
@@ -5852,10 +5856,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISipcBzCYfarq97Im5)  
 ---
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
-  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
----
   * file : ros2/rcutils/src/cmdline_parser.c:40  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirRUzCYfarq97I81)  
@@ -5868,11 +5868,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
 ---
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:383  
+  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:389  
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ7)  
 ---
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:387  
+  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:393  
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ8)  
 ---
