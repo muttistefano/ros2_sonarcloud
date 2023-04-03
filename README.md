@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #223 
+## BUGS #222 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -180,7 +180,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 1st function call argument is an uninitialized value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixUezCYfarq97NVs)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1904  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1906  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -629,10 +629,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/geometry2/test_tf2/test/test_buffer_client.py:80  
   message : Remove this "return" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioZUzCYfarq97IVs)  
----
-  * file : ros2/geometry2/tf2/src/cache.cpp:123  
-  message : Dereference of null pointer (loaded from variable 'error_code')  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb88zFtwhn1MW9k8X_A)  
 ---
   * file : ros2/geometry2/tf2_tools/tf2_tools/view_frames.py:106  
   message : Remove this "return" statement from this "finally" block.  
@@ -2197,7 +2193,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i3MlILU70yBX0vMT)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:127  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:128  
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
@@ -4009,7 +4005,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i3MlILU70yBX0vMT)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:127  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:128  
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
