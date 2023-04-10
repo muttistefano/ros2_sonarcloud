@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #222 
+## BUGS #215 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -168,11 +168,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYW4cZPeJXHd5uT915Oo)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/ParameterList.cpp:127  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/ParameterList.cpp:128  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixU7zCYfarq97NVz)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/ParameterList.cpp:195  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/ParameterList.cpp:196  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixU7zCYfarq97NV0)  
 ---
@@ -180,7 +180,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 1st function call argument is an uninitialized value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixUezCYfarq97NVs)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1906  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1908  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -343,10 +343,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/src/cpp/rtps/transport/tcp/RTCPMessageManager.cpp:74  
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_EzCYfarq97Kpv)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:311  
-  message : Null pointer passed to 1st parameter expecting 'nonnull'  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97KqS)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:346  
   message : Do not throw uncaught exceptions in a destructor.  
@@ -726,59 +722,35 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXy)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:150  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXz)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:153  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX0)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:155  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX1)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:157  
+  * file : ros2/rclpy/rclpy/test/test_time.py:154  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX2)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:159  
+  * file : ros2/rclpy/rclpy/test/test_time.py:156  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX3)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:161  
+  * file : ros2/rclpy/rclpy/test/test_time.py:158  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX4)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:163  
+  * file : ros2/rclpy/rclpy/test/test_time.py:160  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX5)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:182  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX6)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:185  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX7)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:187  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX8)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:189  
+  * file : ros2/rclpy/rclpy/test/test_time.py:183  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX9)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:191  
+  * file : ros2/rclpy/rclpy/test/test_time.py:185  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX-)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:193  
+  * file : ros2/rclpy/rclpy/test/test_time.py:187  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX_)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:195  
+  * file : ros2/rclpy/rclpy/test/test_time.py:189  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IYA)  
 ---
