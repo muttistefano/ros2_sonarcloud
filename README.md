@@ -774,19 +774,19 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Refactor this loop to do more than one iteration.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEkzCYfarq97H-9)  
 ---
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:112  
+  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:137  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-5)  
 ---
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:123  
+  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:148  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-6)  
 ---
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:134  
+  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:159  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-8)  
 ---
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:141  
+  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:166  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-7)  
 ---
@@ -916,7 +916,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:360  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:361  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
@@ -947,7 +947,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #744 
+## ISSUES (level blocker) #742 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -3672,7 +3672,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:360  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:361  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
@@ -3867,14 +3867,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
----
-  * file : ros2/rosidl_dynamic_typesupport_fastrtps/src/detail/fastrtps_dynamic_type.cpp:177  
-  message : Expression statements should have at most one resource allocation. Consider using factory functions.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYdpFSuDMwG3nqqZuH63)  
----
-  * file : ros2/rosidl_dynamic_typesupport_fastrtps/src/detail/fastrtps_dynamic_type.cpp:211  
-  message : Expression statements should have at most one resource allocation. Consider using factory functions.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYdpFSuDMwG3nqqZuH66)  
 ---
   * file : ros2/rosidl_dynamic_typesupport_fastrtps/src/detail/utils.cpp:44  
   message : Remove any side effects from right hand operands of logical && operator.  
