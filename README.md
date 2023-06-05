@@ -595,8 +595,8 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:411  
-  message : This branch duplicates the one on line 405.  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:421  
+  message : This branch duplicates the one on line 415.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi24QzCYfarq97PjT)  
 ---
   * file : ros-visualization/rqt_graph/src/rqt_graph/rosgraph2_impl.py:445  
@@ -924,7 +924,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:361  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:364  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
@@ -3680,7 +3680,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
-  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:361  
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:364  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
