@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #215 
+## BUGS #223 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -21,6 +21,38 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ament/ament_lint/ament_cpplint/ament_cpplint/cpplint.py:3621  
   message : Rework this part of the regex to not match the empty string.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi4hnzCYfarq97PyS)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:133  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQs)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:136  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQr)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:140  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQq)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:144  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQp)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:149  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQo)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:153  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQn)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:157  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQm)  
+---
+  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:162  
+  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQl)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
