@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #228 
+## BUGS #226 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -123,14 +123,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.h:252  
   message : Use "operator==" to check object equality, "Locator_t" is not a trivially copyable type without padding.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiysezCYfarq97OI_)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/messages/CDRMessage.hpp:95  
-  message : Null pointer passed to 1st parameter expecting 'nonnull'  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy0tzCYfarq97OPL)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/messages/CDRMessage.hpp:472  
-  message : Null pointer passed to 2nd parameter expecting 'nonnull'  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy0tzCYfarq97OPM)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/rtps/messages/RTPSMessageGroup.h:107  
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
@@ -1007,7 +999,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #755 
+## ISSUES (level blocker) #757 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -1180,6 +1172,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Token.h:54  
   message : Ensure that the move assignment operator of "DataHolder" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxyzCYfarq97OM-)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/WriteParams.h:33  
+  message : Make sure that moving an object of class "WriteParams" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYlh3wciG85feRYr0mZ6)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/rtps/exceptions/Exception.h:80  
   message : Ensure that the move constructor of "Exception" is exception-free and declare it "noexcept".  
@@ -2233,6 +2229,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "UDPChannelResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwFczCYfarq97Kxh)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemGlobal.hpp:67  
+  message : Make sure that moving an object of class "BufferDescriptor" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYlh3tCyG85feRYr0mYd)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemLog.hpp:167  
   message : Make sure that moving an object of class "Pkt" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwCGzCYfarq97Kuj)  
@@ -2245,7 +2245,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:834  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:833  
   message : Ensure that the move assignment operator of "Port" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtW)  
 ---
@@ -2253,15 +2253,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_EzCYfarq97Kpv)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:319  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:325  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp-)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:320  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:326  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp9)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:321  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:327  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp8)  
 ---
