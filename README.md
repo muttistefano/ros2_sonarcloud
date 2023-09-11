@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #226 
+## BUGS #225 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -647,19 +647,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Introduce a new variable or use its initial value before reassigning 'bad_node'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3I9zCYfarq97Plo)  
 ---
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:428  
-  message : Fix this attribute access on a value that can be 'None'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3A2zCYfarq97Pkw)  
----
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:483  
+  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:511  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3A2zCYfarq97Pkt)  
 ---
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:493  
+  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:521  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3A2zCYfarq97Pkv)  
 ---
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:494  
+  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:522  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3A2zCYfarq97Pks)  
 ---
