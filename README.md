@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #225 
+## BUGS #226 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -810,6 +810,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory copy function accesses out-of-bound array element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirQczCYfarq97I8q)  
 ---
+  * file : ros2/rcutils/src/logging.c:436  
+  message : Memory copy function overflows the destination buffer  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
+---
   * file : ros2/rcutils/src/strdup.c:53  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
@@ -1118,7 +1122,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #758 
+## ISSUES (level blocker) #759 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -4126,6 +4130,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rcutils/src/error_handling_helpers.h:82  
   message : Memory copy function accesses out-of-bound array element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirQczCYfarq97I8q)  
+---
+  * file : ros2/rcutils/src/logging.c:436  
+  message : Memory copy function overflows the destination buffer  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
   * file : ros2/rcutils/src/strdup.c:53  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
