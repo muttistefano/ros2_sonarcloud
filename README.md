@@ -27,35 +27,35 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz6zeHXxtxeKK1WaA)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:133  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQs)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:136  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQr)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:140  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQq)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:144  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQp)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:149  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQo)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:153  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQn)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:157  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQm)  
 ---
   * file : ament/googletest/googletest/test/googletest-shuffle-test.py:162  
-  message : Fix this access on a list element that may trigger an 'IndexError'.  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQl)  
 ---
 </details>  
