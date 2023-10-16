@@ -1122,7 +1122,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #39 
+## VULNERABILITIES #40 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-cyclonedds</a></summary>  
 
   * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/get_authenticated_peer_credential_token/src/get_authenticated_peer_credential_token_utests.c:142  
@@ -1260,6 +1260,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (16)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-rzCYfarq97Owz)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:427  
+  message : "snprintf" overflows write buffer "buf + i * 2"; passed size "buf_len" (33) exceeds buffer size (31)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYsSOtGgfe6HmavoEUNQ)  
+---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/os_file_functions.hpp:426  
   message : Remove this TOCTOU race condition window when accessing files  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISius5zCYfarq97JiM)  
@@ -1298,9 +1302,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #759 
+## ISSUES (level blocker) #760 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
+  message : Replace this call to the non reentrant function "localtime" by a call to "localtime_r".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi01KzCYfarq97PEZ)  
+---
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
   message : Replace this call to the non reentrant function "localtime" by a call to "localtime_r".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi01KzCYfarq97PEZ)  
@@ -2584,6 +2592,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Replace this call to the non reentrant function "getpwuid" by a call to "getpwuid_r".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixfAzCYfarq97Ndb)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:427  
+  message : "snprintf" overflows write buffer "buf + i * 2"; passed size "buf_len" (33) exceeds buffer size (31)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYsSOtGgfe6HmavoEUNQ)  
+---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:90  
   message : Ensure that the move constructor of "basic_multiallocation_chain" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KK7)  
@@ -2960,15 +2972,1839 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JYn)  
 ---
-  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:1994  
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:1995  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JYy)  
 ---
-  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:2225  
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:2226  
   message : Ensure that the move constructor of "slist" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JY6)  
 ---
-  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:2229  
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:2230  
+  message : Ensure that the move assignment operator of "slist" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JY7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/smart_ptr/detail/shared_count.hpp:356  
+  message : Replace this use of "std::auto_ptr" with "std::unique_ptr"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivXBzCYfarq97KIO)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/smart_ptr/shared_ptr.hpp:256  
+  message : Replace this use of "std::auto_ptr" with "std::unique_ptr"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivZ1zCYfarq97KJ2)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/smart_ptr/shared_ptr.hpp:471  
+  message : Replace this use of "std::auto_ptr" with "std::unique_ptr"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivZ1zCYfarq97KKJ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/smart_ptr/shared_ptr.hpp:484  
+  message : Replace this use of "std::auto_ptr" with "std::unique_ptr"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivZ1zCYfarq97KKN)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/smart_ptr/shared_ptr.hpp:567  
+  message : Replace this use of "std::auto_ptr" with "std::unique_ptr"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivZ1zCYfarq97KKS)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/smart_ptr/shared_ptr.hpp:576  
+  message : Replace this use of "std::auto_ptr" with "std::unique_ptr"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivZ1zCYfarq97KKT)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/smart_ptr/shared_ptr.hpp:578  
+  message : Replace this use of "std::auto_ptr" with "std::unique_ptr"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivZ1zCYfarq97KKU)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/throw_exception.hpp:103  
+  message : Make sure that moving an object of class "wrapexceptboost::bad_weak_ptr" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivn3zCYfarq97KaQ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/throw_exception.hpp:103  
+  message : Make sure that moving an object of class "wrapexceptstd::runtime_error" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivn3zCYfarq97KaS)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/throw_exception.hpp:103  
+  message : Make sure that moving an object of class "wrapexceptboost::gregorian::bad_weekday" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivn3zCYfarq97KaT)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/throw_exception.hpp:103  
+  message : Make sure that moving an object of class "wrapexceptboost::gregorian::bad_year" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivn3zCYfarq97KaU)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/throw_exception.hpp:103  
+  message : Make sure that moving an object of class "wrapexceptboost::gregorian::bad_month" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivn3zCYfarq97KaV)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/throw_exception.hpp:103  
+  message : Make sure that moving an object of class "wrapexceptboost::gregorian::bad_day_of_month" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivn3zCYfarq97KaW)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/throw_exception.hpp:103  
+  message : Make sure that moving an object of class "wrapexceptboost::gregorian::bad_day_of_year" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivn3zCYfarq97KaX)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:3908  
+  message : Make sure that moving an object of class "iteration_proxy_valuenlohmann::detail::iter_implconst nlohmann::basic_json" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Khm)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:5416  
+  message : Ensure that the move constructor of "json_sax_dom_parser" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kh5)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:5418  
+  message : Ensure that the move assignment operator of "json_sax_dom_parser" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kh6)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:5591  
+  message : Ensure that the move constructor of "json_sax_dom_callback_parser" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kh7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:5593  
+  message : Ensure that the move assignment operator of "json_sax_dom_callback_parser" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kh8)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:6070  
+  message : Ensure that the move constructor of "lexer" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97KiK)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:6072  
+  message : Ensure that the move assignment operator of "lexer" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97KiL)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:7020  
+  message : This goto statement must be replaced by a standard iteration statement.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97KiV)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:7083  
+  message : This goto statement must be replaced by a standard iteration statement.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97KiW)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:7174  
+  message : This goto statement must be replaced by a standard iteration statement.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97KiX)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:7787  
+  message : Ensure that the move constructor of "binary_reader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kib)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:7789  
+  message : Ensure that the move assignment operator of "binary_reader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kic)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:9920  
+  message : "std::forward" should only be called on a forwarding reference.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9yzCYfarq97Kiu)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:10232  
+  message : Make sure that moving an object of class "parsernlohmann::basic_json, nlohmann::detail::iterator_input_adapterconst char *" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97KjH)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:10232  
+  message : Make sure that moving an object of class "parsernlohmann::basic_json, nlohmann::detail::input_stream_adapter" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97KnL)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:12633  
+  message : Ensure that the move constructor of "json_ref" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Kjb)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:22442  
+  message : The swap function should be unconditionally declared as "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Km2)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:22472  
+  message : The swap function should be unconditionally declared as "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Km3)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:22502  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Km4)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:22535  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Km5)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:22568  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Km6)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:22601  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Km7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:22615  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97Km8)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/nlohmann-json/nlohmann/json.hpp:25310  
+  message : The swap function should be unconditionally declared as "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv9zzCYfarq97KnJ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/taocpp-pegtl/pegtl/internal/string.hpp:27  
+  message : Remove this useless sequence of pointer operators: "&*".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivwEzCYfarq97Ka5)  
+---
+  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:253  
+  message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-o)  
+---
+  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:265  
+  message : Ensure that the move assignment operator of "FastBuffer" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-p)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:76  
+  message : Ensure that the move constructor of "TypeLookup_getTypes_Result" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocn)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:80  
+  message : Ensure that the move assignment operator of "TypeLookup_getTypes_Result" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Oco)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:151  
+  message : Ensure that the move constructor of "TypeLookup_getTypeDependencies_Result" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocq)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:155  
+  message : Ensure that the move assignment operator of "TypeLookup_getTypeDependencies_Result" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocr)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:194  
+  message : Ensure that the move constructor of "TypeLookup_Call" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Oct)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:198  
+  message : Ensure that the move assignment operator of "TypeLookup_Call" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocu)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:263  
+  message : Ensure that the move constructor of "TypeLookup_Return" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocw)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:267  
+  message : Ensure that the move assignment operator of "TypeLookup_Return" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocx)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2334  
+  message : Ensure that the move constructor of "TypeIdV1" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYX)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2354  
+  message : Ensure that the move assignment operator of "TypeIdV1" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYY)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2446  
+  message : Ensure that the move constructor of "TypeObjectV1" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYd)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2466  
+  message : Ensure that the move assignment operator of "TypeObjectV1" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYe)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2563  
+  message : Ensure that the move constructor of "TypeInformation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYk)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2585  
+  message : Ensure that the move assignment operator of "TypeInformation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYl)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/dds/topic/TypeSupport.hpp:219  
+  message : Remove the "virtual" specifier and refactor the code to not require polymorphism for comparison operators.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizOgzCYfarq97Obs)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/attributes/PropertyPolicy.h:38  
+  message : Ensure that the move constructor of "PropertyPolicy" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyzlzCYfarq97ON8)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/attributes/PropertyPolicy.h:49  
+  message : Ensure that the move assignment operator of "PropertyPolicy" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyzlzCYfarq97ON9)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:47  
+  message : Make sure that moving an object of class "RemoteServerAttributes" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyydzCYfarq97ONW)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/BinaryProperty.h:42  
+  message : Ensure that the move constructor of "BinaryProperty" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiysQzCYfarq97OId)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/BinaryProperty.h:63  
+  message : Ensure that the move assignment operator of "BinaryProperty" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiysQzCYfarq97OIe)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.h:132  
+  message : Ensure that the move constructor of "CDRMessage_t" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiystzCYfarq97OJV)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.h:151  
+  message : Ensure that the move assignment operator of "CDRMessage_t" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiystzCYfarq97OJW)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/EntityId_t.hpp:107  
+  message : Ensure that the move constructor of "EntityId_t" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiywOzCYfarq97OLn)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/EntityId_t.hpp:120  
+  message : Ensure that the move assignment operator of "EntityId_t" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiywOzCYfarq97OLo)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Guid.h:39  
+  message : Make sure that moving an object of class "GUID_t" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxkzCYfarq97OM4)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.h:103  
+  message : Ensure that the move constructor of "Locator_t" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiysezCYfarq97OIw)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.h:252  
+  message : Use "operator==" to check object equality, "Locator_t" is not a trivially copyable type without padding.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiysezCYfarq97OI_)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:119  
+  message : Ensure that the move constructor of "LocatorList" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMj)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:134  
+  message : Ensure that the move assignment operator of "LocatorList" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMk)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:377  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMz)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorWithMask.hpp:33  
+  message : Make sure that moving an object of class "LocatorWithMask" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYOb722oECTpe_WiKJPC)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorsIterator.hpp:47  
+  message : Remove the "virtual" specifier and refactor the code to not require polymorphism for comparison operators.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyrzzCYfarq97OIO)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorsIterator.hpp:56  
+  message : Remove the "virtual" specifier and refactor the code to not require polymorphism for comparison operators.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyrzzCYfarq97OIP)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Property.h:44  
+  message : Ensure that the move constructor of "Property" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyuBzCYfarq97OKO)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Property.h:81  
+  message : Ensure that the move assignment operator of "Property" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyuBzCYfarq97OKP)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/SampleIdentity.h:59  
+  message : Ensure that the move constructor of "SampleIdentity" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiywqzCYfarq97OLz)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/SampleIdentity.h:80  
+  message : Ensure that the move assignment operator of "SampleIdentity" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiywqzCYfarq97OL0)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Token.h:40  
+  message : Ensure that the move constructor of "DataHolder" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxyzCYfarq97OM9)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Token.h:54  
+  message : Ensure that the move assignment operator of "DataHolder" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxyzCYfarq97OM-)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/WriteParams.h:33  
+  message : Make sure that moving an object of class "WriteParams" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYlh3wciG85feRYr0mZ6)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/exceptions/Exception.h:80  
+  message : Ensure that the move constructor of "Exception" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy5JzCYfarq97OQg)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/exceptions/Exception.h:99  
+  message : Ensure that the move assignment operator of "Exception" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy5JzCYfarq97OQh)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/messages/RTPSMessageGroup.h:107  
+  message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy1zzCYfarq97OPc)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/reader/StatelessReader.h:255  
+  message : Make sure that moving an object of class "RemoteWriterInfo_t" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyrlzCYfarq97OIL)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/security/common/ParticipantGenericMessage.h:41  
+  message : Ensure that the move constructor of "MessageIdentity" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy_PzCYfarq97OSV)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/security/common/ParticipantGenericMessage.h:54  
+  message : Ensure that the move assignment operator of "MessageIdentity" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy_PzCYfarq97OSW)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/security/common/ParticipantGenericMessage.h:137  
+  message : Ensure that the move constructor of "ParticipantGenericMessage" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy_PzCYfarq97OSb)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/security/common/ParticipantGenericMessage.h:159  
+  message : Ensure that the move assignment operator of "ParticipantGenericMessage" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy_PzCYfarq97OSc)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/transport/SenderResource.h:76  
+  message : Ensure that the move constructor of "SenderResource" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb889hywhn1MW9k8YAd)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:333  
+  message : Replace "final" with another name.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORq)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:457  
+  message : Replace "final" with another name.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORs)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:88  
+  message : Ensure that the move constructor of "ExtendedAnnotationParameterValue" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97Om5)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:102  
+  message : Ensure that the move assignment operator of "ExtendedAnnotationParameterValue" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97Om6)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:190  
+  message : Ensure that the move constructor of "AnnotationParameterValue" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97Om9)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:204  
+  message : Ensure that the move assignment operator of "AnnotationParameterValue" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97Om-)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:843  
+  message : Ensure that the move constructor of "AppliedAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnL)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:857  
+  message : Ensure that the move assignment operator of "AppliedAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnM)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1050  
+  message : Ensure that the move constructor of "AppliedAnnotation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnP)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1054  
+  message : Ensure that the move assignment operator of "AppliedAnnotation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnQ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1143  
+  message : Ensure that the move constructor of "AppliedVerbatimAnnotation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnT)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1149  
+  message : Ensure that the move assignment operator of "AppliedVerbatimAnnotation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnU)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1265  
+  message : Ensure that the move constructor of "AppliedBuiltinMemberAnnotations" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnW)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1271  
+  message : Ensure that the move assignment operator of "AppliedBuiltinMemberAnnotations" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnX)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifier.h:105  
+  message : Ensure that the move constructor of "TypeIdentifier" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizsPzCYfarq97Ont)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifier.h:119  
+  message : Ensure that the move assignment operator of "TypeIdentifier" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizsPzCYfarq97Onu)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:83  
+  message : Ensure that the move constructor of "StringSTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97OkV)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:97  
+  message : Ensure that the move assignment operator of "StringSTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97OkW)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:194  
+  message : Ensure that the move constructor of "StringLTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97OkY)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:208  
+  message : Ensure that the move assignment operator of "StringLTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97OkZ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:305  
+  message : Ensure that the move constructor of "PlainCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okb)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:319  
+  message : Ensure that the move assignment operator of "PlainCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okc)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:440  
+  message : Ensure that the move constructor of "PlainSequenceSElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Oke)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:454  
+  message : Ensure that the move assignment operator of "PlainSequenceSElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okf)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:610  
+  message : Ensure that the move constructor of "PlainSequenceLElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okh)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:624  
+  message : Ensure that the move assignment operator of "PlainSequenceLElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Oki)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:780  
+  message : Ensure that the move constructor of "PlainArraySElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okk)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:794  
+  message : Ensure that the move assignment operator of "PlainArraySElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okl)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:960  
+  message : Ensure that the move constructor of "PlainArrayLElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okn)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:974  
+  message : Ensure that the move assignment operator of "PlainArrayLElemDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Oko)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1140  
+  message : Ensure that the move constructor of "PlainMapSTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okq)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1154  
+  message : Ensure that the move assignment operator of "PlainMapSTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okr)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1363  
+  message : Ensure that the move constructor of "PlainMapLTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okt)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1377  
+  message : Ensure that the move assignment operator of "PlainMapLTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Oku)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1586  
+  message : Ensure that the move constructor of "StronglyConnectedComponentId" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okw)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1600  
+  message : Ensure that the move assignment operator of "StronglyConnectedComponentId" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okx)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1759  
+  message : Ensure that the move constructor of "ExtendedTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Okz)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1766  
+  message : Remove the "virtual" specifier; polymorphism should not be used with assignment operators.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Ok7)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1773  
+  message : Ensure that the move assignment operator of "ExtendedTypeDefn" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Ok0)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeIdentifierTypes.h:1773  
+  message : Remove the "virtual" specifier; polymorphism should not be used with assignment operators.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizp1zCYfarq97Ok8)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:50  
+  message : Ensure that the move constructor of "CommonStructMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OqZ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:54  
+  message : Ensure that the move assignment operator of "CommonStructMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqa)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:114  
+  message : Ensure that the move constructor of "CompleteMemberDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqd)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:118  
+  message : Ensure that the move assignment operator of "CompleteMemberDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqe)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:177  
+  message : Ensure that the move constructor of "MinimalMemberDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqg)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:181  
+  message : Ensure that the move assignment operator of "MinimalMemberDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqh)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:224  
+  message : Ensure that the move constructor of "CompleteStructMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqj)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:228  
+  message : Ensure that the move assignment operator of "CompleteStructMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqk)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:282  
+  message : Ensure that the move constructor of "MinimalStructMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqn)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:286  
+  message : Ensure that the move assignment operator of "MinimalStructMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqo)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:338  
+  message : Ensure that the move constructor of "AppliedBuiltinTypeAnnotations" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqr)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:342  
+  message : Ensure that the move assignment operator of "AppliedBuiltinTypeAnnotations" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqs)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:383  
+  message : Ensure that the move constructor of "MinimalTypeDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqu)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:387  
+  message : Ensure that the move assignment operator of "MinimalTypeDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqv)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:422  
+  message : Ensure that the move constructor of "CompleteTypeDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqy)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:426  
+  message : Ensure that the move assignment operator of "CompleteTypeDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oqz)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:483  
+  message : Ensure that the move constructor of "CompleteStructHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq1)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:487  
+  message : Ensure that the move assignment operator of "CompleteStructHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq2)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:536  
+  message : Ensure that the move constructor of "MinimalStructHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq4)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:540  
+  message : Ensure that the move assignment operator of "MinimalStructHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq5)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:591  
+  message : Ensure that the move constructor of "CompleteStructType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq7)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:595  
+  message : Ensure that the move assignment operator of "CompleteStructType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq8)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:654  
+  message : Ensure that the move constructor of "MinimalStructType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq-)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:658  
+  message : Ensure that the move assignment operator of "MinimalStructType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oq_)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:724  
+  message : Ensure that the move constructor of "CommonUnionMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrC)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:728  
+  message : Ensure that the move assignment operator of "CommonUnionMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrD)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:795  
+  message : Ensure that the move constructor of "CompleteUnionMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrG)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:799  
+  message : Ensure that the move assignment operator of "CompleteUnionMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrH)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:853  
+  message : Ensure that the move constructor of "MinimalUnionMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrK)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:857  
+  message : Ensure that the move assignment operator of "MinimalUnionMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrL)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:910  
+  message : Ensure that the move constructor of "CommonDiscriminatorMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrO)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:914  
+  message : Ensure that the move assignment operator of "CommonDiscriminatorMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrP)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:966  
+  message : Ensure that the move constructor of "CompleteDiscriminatorMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrR)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:970  
+  message : Ensure that the move assignment operator of "CompleteDiscriminatorMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrS)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1028  
+  message : Ensure that the move constructor of "MinimalDiscriminatorMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrU)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1032  
+  message : Ensure that the move assignment operator of "MinimalDiscriminatorMember" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrV)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1073  
+  message : Ensure that the move constructor of "CompleteUnionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrX)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1077  
+  message : Ensure that the move assignment operator of "CompleteUnionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OrY)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1118  
+  message : Ensure that the move constructor of "MinimalUnionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ora)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1122  
+  message : Ensure that the move assignment operator of "MinimalUnionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orb)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1166  
+  message : Ensure that the move constructor of "CompleteUnionType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ord)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1170  
+  message : Ensure that the move assignment operator of "CompleteUnionType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ore)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1238  
+  message : Ensure that the move constructor of "MinimalUnionType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Org)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1242  
+  message : Ensure that the move assignment operator of "MinimalUnionType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orh)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1309  
+  message : Ensure that the move constructor of "CommonAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orj)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1313  
+  message : Ensure that the move assignment operator of "CommonAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ork)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1366  
+  message : Ensure that the move constructor of "CompleteAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orm)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1370  
+  message : Ensure that the move assignment operator of "CompleteAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orn)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1430  
+  message : Ensure that the move constructor of "MinimalAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orq)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1434  
+  message : Ensure that the move assignment operator of "MinimalAnnotationParameter" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orr)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1493  
+  message : Ensure that the move constructor of "CompleteAnnotationHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oru)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1497  
+  message : Ensure that the move assignment operator of "CompleteAnnotationHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orv)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1538  
+  message : Ensure that the move constructor of "MinimalAnnotationHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Orx)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1542  
+  message : Ensure that the move assignment operator of "MinimalAnnotationHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ory)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1577  
+  message : Ensure that the move constructor of "CompleteAnnotationType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or1)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1581  
+  message : Ensure that the move assignment operator of "CompleteAnnotationType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or2)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1639  
+  message : Ensure that the move constructor of "MinimalAnnotationType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or4)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1643  
+  message : Ensure that the move assignment operator of "MinimalAnnotationType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or5)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1702  
+  message : Ensure that the move constructor of "CommonAliasBody" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or7)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1706  
+  message : Ensure that the move assignment operator of "CommonAliasBody" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or8)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1756  
+  message : Ensure that the move constructor of "CompleteAliasBody" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or-)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1760  
+  message : Ensure that the move assignment operator of "CompleteAliasBody" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Or_)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1816  
+  message : Ensure that the move constructor of "MinimalAliasBody" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsB)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1820  
+  message : Ensure that the move assignment operator of "MinimalAliasBody" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsC)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1860  
+  message : Ensure that the move constructor of "CompleteAliasHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsE)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1864  
+  message : Ensure that the move assignment operator of "CompleteAliasHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsF)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1904  
+  message : Ensure that the move constructor of "MinimalAliasHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsH)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1908  
+  message : Ensure that the move assignment operator of "MinimalAliasHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsI)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1942  
+  message : Ensure that the move constructor of "CompleteAliasType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsL)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:1946  
+  message : Ensure that the move assignment operator of "CompleteAliasType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsM)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2003  
+  message : Ensure that the move constructor of "MinimalAliasType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsO)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2007  
+  message : Ensure that the move assignment operator of "MinimalAliasType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsP)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2065  
+  message : Ensure that the move constructor of "CompleteElementDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsR)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2069  
+  message : Ensure that the move assignment operator of "CompleteElementDetail" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsS)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2118  
+  message : Ensure that the move constructor of "CommonCollectionElement" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsU)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2122  
+  message : Ensure that the move assignment operator of "CommonCollectionElement" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsV)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2172  
+  message : Ensure that the move constructor of "CompleteCollectionElement" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsX)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2176  
+  message : Ensure that the move assignment operator of "CompleteCollectionElement" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OsY)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2225  
+  message : Ensure that the move constructor of "MinimalCollectionElement" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osa)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2229  
+  message : Ensure that the move assignment operator of "MinimalCollectionElement" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osb)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2270  
+  message : Ensure that the move constructor of "CommonCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osd)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2274  
+  message : Ensure that the move assignment operator of "CommonCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ose)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2316  
+  message : Ensure that the move constructor of "CompleteCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osh)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2320  
+  message : Ensure that the move assignment operator of "CompleteCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osi)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2369  
+  message : Ensure that the move constructor of "MinimalCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osk)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2373  
+  message : Ensure that the move assignment operator of "MinimalCollectionHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osl)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2417  
+  message : Ensure that the move constructor of "CompleteSequenceType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osn)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2421  
+  message : Ensure that the move assignment operator of "CompleteSequenceType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oso)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2480  
+  message : Ensure that the move constructor of "MinimalSequenceType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osq)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2484  
+  message : Ensure that the move assignment operator of "MinimalSequenceType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osr)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2542  
+  message : Ensure that the move constructor of "CommonArrayHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ost)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2546  
+  message : Ensure that the move assignment operator of "CommonArrayHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osu)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2588  
+  message : Ensure that the move constructor of "CompleteArrayHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osw)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2592  
+  message : Ensure that the move assignment operator of "CompleteArrayHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osx)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2641  
+  message : Ensure that the move constructor of "MinimalArrayHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Osz)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2645  
+  message : Ensure that the move assignment operator of "MinimalArrayHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os0)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2688  
+  message : Ensure that the move constructor of "CompleteArrayType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os2)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2692  
+  message : Ensure that the move assignment operator of "CompleteArrayType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os3)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2751  
+  message : Ensure that the move constructor of "MinimalArrayType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os5)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2755  
+  message : Ensure that the move assignment operator of "MinimalArrayType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os6)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2816  
+  message : Ensure that the move constructor of "CompleteMapType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os8)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2820  
+  message : Ensure that the move assignment operator of "CompleteMapType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os9)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2887  
+  message : Ensure that the move constructor of "MinimalMapType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Os_)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2891  
+  message : Ensure that the move assignment operator of "MinimalMapType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtA)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2962  
+  message : Ensure that the move constructor of "CommonEnumeratedLiteral" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtD)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:2966  
+  message : Ensure that the move assignment operator of "CommonEnumeratedLiteral" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtE)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3018  
+  message : Ensure that the move constructor of "CompleteEnumeratedLiteral" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtH)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3022  
+  message : Ensure that the move assignment operator of "CompleteEnumeratedLiteral" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtI)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3076  
+  message : Ensure that the move constructor of "MinimalEnumeratedLiteral" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtL)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3080  
+  message : Ensure that the move assignment operator of "MinimalEnumeratedLiteral" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtM)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3132  
+  message : Ensure that the move constructor of "CommonEnumeratedHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtP)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3136  
+  message : Ensure that the move assignment operator of "CommonEnumeratedHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtQ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3178  
+  message : Ensure that the move constructor of "CompleteEnumeratedHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtT)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3182  
+  message : Ensure that the move assignment operator of "CompleteEnumeratedHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtU)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3231  
+  message : Ensure that the move constructor of "MinimalEnumeratedHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtW)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3235  
+  message : Ensure that the move assignment operator of "MinimalEnumeratedHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtX)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3279  
+  message : Ensure that the move constructor of "CompleteEnumeratedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OtZ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3283  
+  message : Ensure that the move assignment operator of "CompleteEnumeratedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ota)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3342  
+  message : Ensure that the move constructor of "MinimalEnumeratedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otc)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3346  
+  message : Ensure that the move assignment operator of "MinimalEnumeratedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otd)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3406  
+  message : Ensure that the move constructor of "CommonBitflag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otf)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3410  
+  message : Ensure that the move assignment operator of "CommonBitflag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otg)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3460  
+  message : Ensure that the move constructor of "CompleteBitflag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otj)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3464  
+  message : Ensure that the move assignment operator of "CompleteBitflag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otk)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3515  
+  message : Ensure that the move constructor of "MinimalBitflag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otn)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3519  
+  message : Ensure that the move assignment operator of "MinimalBitflag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oto)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3571  
+  message : Ensure that the move constructor of "CommonBitmaskHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otr)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3575  
+  message : Ensure that the move assignment operator of "CommonBitmaskHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ots)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3620  
+  message : Ensure that the move constructor of "CompleteBitmaskType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Otx)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3624  
+  message : Ensure that the move assignment operator of "CompleteBitmaskType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oty)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3683  
+  message : Ensure that the move constructor of "MinimalBitmaskType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ot0)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3687  
+  message : Ensure that the move assignment operator of "MinimalBitmaskType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ot1)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3748  
+  message : Ensure that the move constructor of "CommonBitfield" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ot3)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3752  
+  message : Ensure that the move assignment operator of "CommonBitfield" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ot4)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3818  
+  message : Ensure that the move constructor of "CompleteBitfield" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ot9)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3822  
+  message : Ensure that the move assignment operator of "CompleteBitfield" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ot-)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3873  
+  message : Ensure that the move constructor of "MinimalBitfield" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuB)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3877  
+  message : Ensure that the move assignment operator of "MinimalBitfield" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuC)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3927  
+  message : Ensure that the move constructor of "CompleteBitsetHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuF)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3931  
+  message : Ensure that the move assignment operator of "CompleteBitsetHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuG)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3980  
+  message : Ensure that the move constructor of "MinimalBitsetHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuI)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:3984  
+  message : Ensure that the move assignment operator of "MinimalBitsetHeader" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuJ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4026  
+  message : Ensure that the move constructor of "CompleteBitsetType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuL)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4030  
+  message : Ensure that the move assignment operator of "CompleteBitsetType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuM)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4089  
+  message : Ensure that the move constructor of "MinimalBitsetType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuO)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4093  
+  message : Ensure that the move assignment operator of "MinimalBitsetType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuP)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4154  
+  message : Ensure that the move constructor of "CompleteExtendedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuR)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4158  
+  message : Ensure that the move assignment operator of "CompleteExtendedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuS)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4191  
+  message : Ensure that the move constructor of "MinimalExtendedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuV)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4195  
+  message : Ensure that the move assignment operator of "MinimalExtendedType" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuW)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4225  
+  message : Ensure that the move constructor of "CompleteTypeObject" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97OuZ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4229  
+  message : Ensure that the move assignment operator of "CompleteTypeObject" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oua)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4331  
+  message : Ensure that the move constructor of "MinimalTypeObject" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oud)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4335  
+  message : Ensure that the move assignment operator of "MinimalTypeObject" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oue)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4453  
+  message : Ensure that the move constructor of "TypeObject" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ouh)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4467  
+  message : Ensure that the move assignment operator of "TypeObject" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oui)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4608  
+  message : Ensure that the move constructor of "TypeIdentifierTypeObjectPair" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oum)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4612  
+  message : Ensure that the move assignment operator of "TypeIdentifierTypeObjectPair" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Oun)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4656  
+  message : Ensure that the move constructor of "TypeIdentifierPair" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ouq)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4660  
+  message : Ensure that the move assignment operator of "TypeIdentifierPair" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Our)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4704  
+  message : Ensure that the move constructor of "TypeIdentifierWithSize" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ouu)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4708  
+  message : Ensure that the move assignment operator of "TypeIdentifierWithSize" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ouv)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4757  
+  message : Ensure that the move constructor of "TypeIdentifierWithDependencies" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ouz)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4761  
+  message : Ensure that the move assignment operator of "TypeIdentifierWithDependencies" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ou0)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4818  
+  message : Ensure that the move constructor of "TypeInformation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ou4)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObject.h:4822  
+  message : Ensure that the move assignment operator of "TypeInformation" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizuIzCYfarq97Ou5)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObjectHashId.h:77  
+  message : Ensure that the move constructor of "TypeObjectHashId" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizupzCYfarq97OvL)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypeObjectHashId.h:89  
+  message : Ensure that the move assignment operator of "TypeObjectHashId" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizupzCYfarq97OvM)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypesBase.h:340  
+  message : Ensure that the move constructor of "MemberFlag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrNzCYfarq97Ol9)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypesBase.h:353  
+  message : Ensure that the move assignment operator of "MemberFlag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrNzCYfarq97Ol-)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypesBase.h:494  
+  message : Ensure that the move constructor of "TypeFlag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrNzCYfarq97OmN)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/types/TypesBase.h:507  
+  message : Ensure that the move assignment operator of "TypeFlag" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrNzCYfarq97OmO)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/IPFinder.h:55  
+  message : Make sure that moving an object of class "info_IP" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0AczCYfarq97Ox7)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/ProxyPool.hpp:75  
+  message : "std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz_kzCYfarq97OxM)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/ProxyPool.hpp:88  
+  message : "std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz_kzCYfarq97OxO)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/ProxyPool.hpp:98  
+  message : "std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz_kzCYfarq97OxQ)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/ProxyPool.hpp:98  
+  message : "std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz_kzCYfarq97OxR)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/TimeConversion.h:137  
+  message : Replace "rand" with the facilities in random.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0AAzCYfarq97Oxg)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/TimeConversion.h:144  
+  message : Replace "rand" with the facilities in random.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0AAzCYfarq97Oxj)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/TimeConversion.h:151  
+  message : Replace "rand" with the facilities in random.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0AAzCYfarq97Oxm)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/fixed_size_string.hpp:217  
+  message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (6)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-rzCYfarq97Ow0)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/fixed_size_string.hpp:217  
+  message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (1)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-rzCYfarq97Ow1)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/fixed_size_string.hpp:217  
+  message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (16)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-rzCYfarq97Owz)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:111  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owg)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:152  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owe)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:157  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owf)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:198  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p02)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:289  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p05)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:400  
+  message : Ensure that the move constructor of "shared_lock" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owh)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:408  
+  message : Ensure that the move assignment operator of "shared_lock" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owi)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:449  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-czCYfarq97Owm)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/utils/shared_mutex.hpp:551  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYSYJ7bqjWNzjtTw5p06)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/xmlparser/XMLTree.h:138  
+  message : Ensure that the move constructor of "DataNode" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0CvzCYfarq97O4p)  
+---
+  * file : eProsima/Fast-DDS/include/fastrtps/xmlparser/XMLTree.h:140  
+  message : Ensure that the move assignment operator of "DataNode" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0CvzCYfarq97O4q)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/SampleLoanManager.hpp:200  
+  message : Ensure that the move constructor of "OutstandingLoanItem" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixB-zCYfarq97NHm)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/SampleLoanManager.hpp:202  
+  message : Ensure that the move assignment operator of "OutstandingLoanItem" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixB-zCYfarq97NHn)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/fastrtps_deprecated/subscriber/SubscriberHistory.cpp:707  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw-PzCYfarq97M_P)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/data/ProxyHashTables.hpp:60  
+  message : Ensure that the move constructor of "node_segregator" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwUvzCYfarq97LKO)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/database/DiscoveryDataBase.hpp:92  
+  message : Ensure that the move constructor of "AckedFunctor" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwM8zCYfarq97K66)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/database/DiscoveryParticipantChangeData.hpp:38  
+  message : Make sure that moving an object of class "DiscoveryParticipantChangeData" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwNZzCYfarq97K7m)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:205  
+  message : Ensure that destructor of "FlowControllerAsyncPublishMode" is exception-free and declare it "noexcept"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyI)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:227  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyM)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:257  
+  message : Give class "FlowControllerSyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyP)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:271  
+  message : Give class "FlowControllerLimitedAsyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyR)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1277  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzE)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1278  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzF)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:233  
+  message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M08)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/messages/SendBuffersManager.cpp:92  
+  message : Add a condition argument to this call to "wait".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw2JzCYfarq97M2o)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/network/ReceiverResource.h:94  
+  message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i3MlILU70yBX0vMT)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:128  
+  message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1542  
+  message : Replace "final" with another name.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwY5zCYfarq97LTD)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/ChannelResource.h:32  
+  message : Ensure that the move constructor of "ChannelResource" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwFOzCYfarq97KxV)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPv4Transport.cpp:124  
+  message : Use pointer or reference to avoid slicing from "TCPv4TransportDescriptor" to "TCPTransportDescriptor".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwDNzCYfarq97KvP)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/UDPChannelResource.h:117  
+  message : Ensure that the move assignment operator of "UDPChannelResource" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwFczCYfarq97Kxh)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemGlobal.hpp:67  
+  message : Make sure that moving an object of class "BufferDescriptor" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYlh3tCyG85feRYr0mYd)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemLog.hpp:167  
+  message : Make sure that moving an object of class "Pkt" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwCGzCYfarq97Kuj)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:670  
+  message : Ensure that the move assignment operator of "Listener" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtM)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:705  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtR)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:832  
+  message : Ensure that the move assignment operator of "Port" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtW)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/tcp/RTCPMessageManager.cpp:74  
+  message : Memory copy function overflows the destination buffer  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_EzCYfarq97Kpv)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:325  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp-)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:326  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp9)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/test_UDPv4Transport.cpp:327  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiv_UzCYfarq97Kp8)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/LivelinessManager.cpp:111  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1650  
+  message : Replace "final" with another name.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1785  
+  message : Replace "final" with another name.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/statistics/rtps/messages/RTPSStatisticsMessages.hpp:207  
+  message : Use constructors or assignment operators, "Locator_t" is not trivially copyable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYYAjAHZv_hJbTx3eLSU)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/utils/SystemInfo.cpp:135  
+  message : Replace this call to the non reentrant function "getpwuid" by a call to "getpwuid_r".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixfAzCYfarq97Ndb)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:427  
+  message : "snprintf" overflows write buffer "buf + i * 2"; passed size "buf_len" (33) exceeds buffer size (31)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYsSOtGgfe6HmavoEUNQ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:90  
+  message : Ensure that the move constructor of "basic_multiallocation_chain" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KK7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:94  
+  message : Ensure that the move assignment operator of "basic_multiallocation_chain" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KK8)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:166  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KLJ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:226  
+  message : Ensure that the move constructor of "transform_multiallocation_chain" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KLM)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:234  
+  message : Ensure that the move assignment operator of "transform_multiallocation_chain" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KLN)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:246  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KLZ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/date_time/posix_time/posix_time_config.hpp:44  
+  message : Make sure that moving an object of class "time_duration" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivG3zCYfarq97J1K)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/allocators/allocator.hpp:168  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzOzCYfarq97JtD)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/allocators/detail/allocator_common.hpp:299  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuy_zCYfarq97Jr1)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/allocators/detail/allocator_common.hpp:676  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuy_zCYfarq97Jsg)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/atomic.hpp:642  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuvozCYfarq97Jll)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/file_wrapper.hpp:64  
+  message : Ensure that the move constructor of "file_wrapper" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuu8zCYfarq97Jk1)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/file_wrapper.hpp:71  
+  message : Ensure that the move assignment operator of "file_wrapper" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuu8zCYfarq97Jk2)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/file_wrapper.hpp:80  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuu8zCYfarq97Jk4)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/file_wrapper.hpp:134  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuu8zCYfarq97Jk7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/managed_memory_impl.hpp:717  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuv3zCYfarq97JmC)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:230  
+  message : Ensure that the move constructor of "managed_open_or_create_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiur1zCYfarq97JhN)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:233  
+  message : Ensure that the move assignment operator of "managed_open_or_create_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiur1zCYfarq97JhO)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:255  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiur1zCYfarq97JhX)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:481  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiur1zCYfarq97Jhu)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/exceptions.hpp:82  
+  message : Make sure that moving an object of class "lock_exception" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu0kzCYfarq97JuP)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/exceptions.hpp:96  
+  message : Make sure that moving an object of class "bad_alloc" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu0kzCYfarq97JuR)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/file_mapping.hpp:66  
+  message : Ensure that the move constructor of "file_mapping" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzrzCYfarq97Jtf)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/file_mapping.hpp:74  
+  message : Ensure that the move assignment operator of "file_mapping" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzrzCYfarq97Jtg)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/file_mapping.hpp:83  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzrzCYfarq97Jti)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/file_mapping.hpp:128  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzrzCYfarq97Jtj)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/managed_mapped_file.hpp:147  
+  message : Ensure that the move constructor of "basic_managed_mapped_file" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu1vzCYfarq97Jw6)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/managed_mapped_file.hpp:154  
+  message : Ensure that the move assignment operator of "basic_managed_mapped_file" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu1vzCYfarq97Jw7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/managed_mapped_file.hpp:172  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu1vzCYfarq97JxF)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/managed_shared_memory.hpp:156  
+  message : Ensure that the move constructor of "basic_managed_shared_memory" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzdzCYfarq97JtN)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/managed_shared_memory.hpp:165  
+  message : Ensure that the move assignment operator of "basic_managed_shared_memory" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzdzCYfarq97JtO)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/managed_shared_memory.hpp:174  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuzdzCYfarq97JtY)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mapped_region.hpp:143  
+  message : Ensure that the move constructor of "mapped_region" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuywzCYfarq97Jq3)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mapped_region.hpp:160  
+  message : Ensure that the move assignment operator of "mapped_region" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuywzCYfarq97Jq4)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mapped_region.hpp:169  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuywzCYfarq97JrI)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mapped_region.hpp:272  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuywzCYfarq97JrK)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mapped_region.hpp:863  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuywzCYfarq97Jrc)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/detail/mem_algo_common.hpp:63  
+  message : Ensure that the move constructor of "basic_multiallocation_chain" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxZzCYfarq97JnN)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/detail/mem_algo_common.hpp:67  
+  message : Ensure that the move assignment operator of "basic_multiallocation_chain" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxZzCYfarq97JnO)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/rbtree_best_fit.hpp:624  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxqzCYfarq97Jo7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/rbtree_best_fit.hpp:872  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxqzCYfarq97JpV)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/rbtree_best_fit.hpp:980  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxqzCYfarq97Jpd)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/rbtree_best_fit.hpp:1090  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxqzCYfarq97Jpo)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/rbtree_best_fit.hpp:1091  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxqzCYfarq97Jpp)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/rbtree_best_fit.hpp:1270  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxqzCYfarq97Jp9)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/shared_memory_object.hpp:88  
+  message : Ensure that the move constructor of "shared_memory_object" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu0yzCYfarq97JuU)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/shared_memory_object.hpp:96  
+  message : Ensure that the move assignment operator of "shared_memory_object" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu0yzCYfarq97JuV)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/shared_memory_object.hpp:104  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu0yzCYfarq97JuX)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/shared_memory_object.hpp:167  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu0yzCYfarq97JuZ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/posix/mutex.hpp:132  
+  message : This lock has already been unlocked  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISium4zCYfarq97Jew)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/posix/mutex.hpp:132  
+  message : This was not the most recently acquired lock. Possible lock order reversal  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISium4zCYfarq97Jex)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/scoped_lock.hpp:131  
+  message : Ensure that the move constructor of "scoped_lock" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuptzCYfarq97JgM)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/scoped_lock.hpp:266  
+  message : Ensure that the move assignment operator of "scoped_lock" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuptzCYfarq97JgN)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/scoped_lock.hpp:359  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiupuzCYfarq97Jgb)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/sharable_lock.hpp:132  
+  message : Ensure that the move constructor of "sharable_lock" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuquzCYfarq97Jgv)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/sharable_lock.hpp:196  
+  message : Ensure that the move assignment operator of "sharable_lock" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuquzCYfarq97Jgw)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/sharable_lock.hpp:292  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuquzCYfarq97Jg8)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree.hpp:737  
+  message : Ensure that the move constructor of "bstree_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJ0zCYfarq97JUT)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree.hpp:745  
+  message : Ensure that the move assignment operator of "bstree_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJ0zCYfarq97JUU)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree.hpp:975  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJ0zCYfarq97JU0)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree.hpp:2102  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJ0zCYfarq97JU6)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree.hpp:2212  
+  message : Ensure that the move constructor of "bstree" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJ0zCYfarq97JVC)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree.hpp:2216  
+  message : Ensure that the move assignment operator of "bstree" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJ0zCYfarq97JVD)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree_algorithms.hpp:1086  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuKGzCYfarq97JVt)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/bstree_algorithms.hpp:1705  
+  message : Remove any side effects from right hand operands of logical || operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuKGzCYfarq97JVy)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/ebo_functor_holder.hpp:190  
+  message : Ensure that the move constructor of "ebo_functor_holder" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuD-zCYfarq97JN0)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/ebo_functor_holder.hpp:200  
+  message : Ensure that the move assignment operator of "ebo_functor_holder" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuD-zCYfarq97JN1)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/ebo_functor_holder.hpp:255  
+  message : Ensure that the move constructor of "ebo_functor_holderT, Tag, false" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuD-zCYfarq97JN7)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/ebo_functor_holder.hpp:266  
+  message : Ensure that the move assignment operator of "ebo_functor_holderT, Tag, false" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuD-zCYfarq97JN8)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/key_nodeptr_comp.hpp:58  
+  message : Make sure that moving an object of class "key_nodeptr_compboost::interprocess::iset_indexboost::interprocess::ipcdetail::index_configchar, boost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::intrusive_key_value_less, boost::intrusive::bhtraitsboost::interprocess::ipcdetail::intrusive_value_type_implboost::intrusive::generic_hookboost::intrusive::RbTreeAlgorithms, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::dft_tag, boost::intrusive::safe_link, boost::intrusive::RbTreeBaseHookId, char, unsigned int, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::safe_link, boost::intrusive::dft_tag, 3, boost::move_detail::identityboost::interprocess::ipcdetail::intrusive_value_type_implboost::intrusive::generic_hookboost::intrusive::RbTreeAlgorithms, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::dft_tag, boost::intrusive::safe_link, boost::intrusive::RbTreeBaseHookId, char, unsigned int" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuCozCYfarq97JNQ)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/key_nodeptr_comp.hpp:58  
+  message : Make sure that moving an object of class "key_nodeptr_compboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::size_block_ctrl_compare, boost::intrusive::bhtraitsboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::block_ctrl, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::normal_link, boost::intrusive::dft_tag, 3, boost::move_detail::identityboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::block_ctrl" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuCozCYfarq97JNT)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/key_nodeptr_comp.hpp:58  
+  message : Make sure that moving an object of class "key_nodeptr_compstd::lessboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::block_ctrl, boost::intrusive::bhtraitsboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::block_ctrl, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::normal_link, boost::intrusive::dft_tag, 3, boost::move_detail::identityboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::block_ctrl" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuCozCYfarq97JNU)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/key_nodeptr_comp.hpp:58  
+  message : Make sure that moving an object of class "key_nodeptr_compstd::lessboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family::block_ctrl, boost::intrusive::bhtraitsboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family::block_ctrl, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, true, boost::intrusive::normal_link, boost::intrusive::dft_tag, 3, boost::move_detail::identityboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family::block_ctrl" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuCozCYfarq97JNV)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/node_cloner_disposer.hpp:75  
+  message : Make sure that moving an object of class "node_disposerboost::intrusive::detail::null_disposer, boost::intrusive::bhtraitsboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family::block_ctrl, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, true, boost::intrusive::normal_link, boost::intrusive::dft_tag, 3, boost::intrusive::RbTreeAlgorithms" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuFuzCYfarq97JP0)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/node_cloner_disposer.hpp:75  
+  message : Make sure that moving an object of class "node_disposerboost::intrusive::detail::null_disposer, boost::intrusive::bhtraitsboost::interprocess::ipcdetail::intrusive_value_type_implboost::intrusive::generic_hookboost::intrusive::RbTreeAlgorithms, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::dft_tag, boost::intrusive::safe_link, boost::intrusive::RbTreeBaseHookId, char, unsigned int, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::safe_link, boost::intrusive::dft_tag, 3, boost::intrusive::RbTreeAlgorithms" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuFuzCYfarq97JPx)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/node_cloner_disposer.hpp:75  
+  message : Make sure that moving an object of class "node_disposerboost::intrusive::detail::null_disposer, boost::intrusive::bhtraitsboost::interprocess::rbtree_best_fitboost::interprocess::mutex_family, boost::interprocess::offset_ptrvoid, unsigned int::block_ctrl, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, unsigned int, true, boost::intrusive::normal_link, boost::intrusive::dft_tag, 3, boost::intrusive::RbTreeAlgorithms" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuFuzCYfarq97JPy)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/node_cloner_disposer.hpp:75  
+  message : Make sure that moving an object of class "node_disposerboost::intrusive::detail::null_disposer, boost::intrusive::bhtraitsboost::interprocess::ipcdetail::intrusive_value_type_implboost::intrusive::generic_hookboost::intrusive::RbTreeAlgorithms, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, true, boost::intrusive::dft_tag, boost::intrusive::safe_link, boost::intrusive::RbTreeBaseHookId, char, unsigned long, boost::intrusive::rbtree_node_traitsboost::interprocess::offset_ptrvoid, true, boost::intrusive::safe_link, boost::intrusive::dft_tag, 3, boost::intrusive::RbTreeAlgorithms" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuFuzCYfarq97JPz)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/size_holder.hpp:54  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuAxzCYfarq97JL_)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/detail/size_holder.hpp:84  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuAxzCYfarq97JMN)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/rbtree.hpp:143  
+  message : Ensure that the move constructor of "rbtree_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuLbzCYfarq97JWg)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/rbtree.hpp:148  
+  message : Ensure that the move assignment operator of "rbtree_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuLbzCYfarq97JWh)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/rbtree.hpp:556  
+  message : Ensure that the move constructor of "rbtree" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuLbzCYfarq97JXD)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/rbtree.hpp:560  
+  message : Ensure that the move assignment operator of "rbtree" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuLbzCYfarq97JXE)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:110  
+  message : Ensure that the move constructor of "set_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JRc)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:115  
+  message : Ensure that the move assignment operator of "set_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JRd)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:543  
+  message : Ensure that the move constructor of "set" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JR_)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:547  
+  message : Ensure that the move assignment operator of "set" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JSA)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:647  
+  message : Ensure that the move constructor of "multiset_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JSK)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:652  
+  message : Ensure that the move assignment operator of "multiset_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JSL)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:1038  
+  message : Ensure that the move constructor of "multiset" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JSs)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/set.hpp:1042  
+  message : Ensure that the move assignment operator of "multiset" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuJFzCYfarq97JSt)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:350  
+  message : Ensure that the move constructor of "slist_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuMzzCYfarq97JYL)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:360  
+  message : Ensure that the move assignment operator of "slist_impl" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuMzzCYfarq97JYM)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:718  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JYn)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:1995  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JYy)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:2226  
+  message : Ensure that the move constructor of "slist" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JY6)  
+---
+  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/intrusive/slist.hpp:2230  
   message : Ensure that the move assignment operator of "slist" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuM0zCYfarq97JY7)  
 ---
@@ -4134,6 +5970,42 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "SourceFile" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4P)  
 ---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:147  
+  message : Use of memory after it is freed  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi48MzCYfarq97P6B)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:290  
+  message : Use of memory after it is freed  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi48MzCYfarq97P6C)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/memory_tools_service.cpp:103  
+  message : Expression statements should have at most one resource allocation. Consider using factory functions.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi49lzCYfarq97P6b)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:545  
+  message : Ensure that the move constructor of "handle" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P32)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:546  
+  message : Ensure that the move assignment operator of "handle" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P33)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:583  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P37)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3780  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4a)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3783  
+  message : Ensure that the move constructor of "SourceFile" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4O)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3784  
+  message : Ensure that the move assignment operator of "SourceFile" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4P)  
+---
   * file : osrf/osrf_pycommon/tests/unit/test_cli_utils/test_common.py:32  
   message : Provide a value for field(s) with index 1.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi40lzCYfarq97P2b)  
@@ -4141,6 +6013,30 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros</a></summary>  
 
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:315  
+  message : Ensure that the move constructor of "MatcherBase" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi17XzCYfarq97PKN)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:320  
+  message : Ensure that the move assignment operator of "MatcherBase" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi17XzCYfarq97PKO)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:510  
+  message : Make sure that moving an object of class "Matcherconst std::basic_stringchar &" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi17XzCYfarq97PKd)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest.h:361  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi174zCYfarq97PLv)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/src/gtest-death-test.cc:1386  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi19WzCYfarq97PNy)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/src/gtest.cc:1195  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi19tzCYfarq97POj)  
+---
   * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:315  
   message : Ensure that the move constructor of "MatcherBase" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi17XzCYfarq97PKN)  
@@ -4295,9 +6191,117 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirsBzCYfarq97JCN)  
 ---
-  * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:418  
+  * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
+  message : "std::forward" should only be called on a forwarding reference.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
+---
+  * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:230  
+  message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iq4)  
+---
+  * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:236  
   message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirsBzCYfarq97JCO)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iq5)  
+---
+  * file : ros2/rcl/rcl_yaml_param_parser/test/time_bomb_allocator_testing_utils.h:39  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqRFzCYfarq97Iqa)  
+---
+  * file : ros2/rcl/rcl_yaml_param_parser/test/time_bomb_allocator_testing_utils.h:51  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqRFzCYfarq97Iqb)  
+---
+  * file : ros2/rcl/rcl_yaml_param_parser/test/time_bomb_allocator_testing_utils.h:64  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqRFzCYfarq97Iqc)  
+---
+  * file : ros2/rcl/rcl_yaml_param_parser/test/time_bomb_allocator_testing_utils.h:76  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqRFzCYfarq97Iqd)  
+---
+  * file : ros2/rcpputils/include/rcpputils/scope_exit.hpp:29  
+  message : "std::forward" should only be called on a forwarding reference.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISir08zCYfarq97JF4)  
+---
+  * file : ros2/rcpputils/include/rcpputils/scope_exit.hpp:34  
+  message : Ensure that the move constructor of "scope_exit" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISir08zCYfarq97JF0)  
+---
+  * file : ros2/rcpputils/include/rcpputils/scope_exit.hpp:37  
+  message : Ensure that the move assignment operator of "scope_exit" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISir08zCYfarq97JF1)  
+---
+  * file : ros2/rcpputils/test/test_find_library.cpp:63  
+  message : Replace "override" with another name.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiruozCYfarq97JCx)  
+---
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
+  message : "std::forward" should only be called on a forwarding reference.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5p)  
+---
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:234  
+  message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5q)  
+---
+  * file : ros2/rcutils/test/mocking_utils/patch.hpp:240  
+  message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5r)  
+---
+  * file : ros2/rcutils/test/test_string_map.cpp:1951  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYa0uTVeaL88A9HpsmQA)  
+---
+  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:39  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirJszCYfarq97I2w)  
+---
+  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:51  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirJszCYfarq97I2x)  
+---
+  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:64  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirJszCYfarq97I2y)  
+---
+  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:76  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirJszCYfarq97I2z)  
+---
+  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:39  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQh)  
+---
+  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:51  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQi)  
+---
+  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:64  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQj)  
+---
+  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:76  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQk)  
+---
+  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
+  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
+---
+  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
+---
+  * file : ros2/rosidl_dynamic_typesupport_fastrtps/src/detail/utils.cpp:44  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYdpFSuiMwG3nqqZuH7j)  
+---
+  * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:343  
+  message : "std::forward" should only be called on a forwarding reference.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirsBzCYfarq97JCI)  
+---
+  * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:412  
+  message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirsBzCYfarq97JCN)  
 ---
   * file : ros2/rcutils/src/cmdline_parser.c:40  
   message : Remove any side effects from right hand operands of logical && operator.  
