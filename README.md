@@ -798,15 +798,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiolQzCYfarq97IYE)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_executor.py:315  
+  * file : ros2/rclpy/rclpy/test/test_executor.py:317  
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1487  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1528  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-8w_ub2taBKNOD)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1488  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1529  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-8w_ub2taBKNOE)  
 ---
@@ -1122,131 +1122,8 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #40 
-<details><summary><a style='color:blue;font-size:18px;'>eclipse-cyclonedds</a></summary>  
-
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/get_authenticated_peer_credential_token/src/get_authenticated_peer_credential_token_utests.c:142  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR70sQ9jOKC7SsmX)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/get_authenticated_peer_credential_token/src/get_authenticated_peer_credential_token_utests.c:172  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR70sQ9jOKC7SsmY)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/get_permissions_credential_token/src/get_permissions_credential_token_utests.c:91  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR_4sQ9jOKC7Ssme)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/get_permissions_token/src/get_permissions_token_utests.c:87  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR7OsQ9jOKC7SsmW)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/get_xxx_sec_attributes/src/get_xxx_sec_attributes_utests.c:90  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR6EsQ9jOKC7SsmV)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/listeners_access_control/src/listeners_access_control_utests.c:99  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR-wsQ9jOKC7Ssmc)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/listeners_authentication/src/listeners_authentication_utests.c:74  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR-PsQ9jOKC7Ssma)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/listeners_authentication/src/listeners_authentication_utests.c:103  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR-QsQ9jOKC7Ssmb)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/process_handshake/src/process_handshake_utests.c:127  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSAmsQ9jOKC7Ssmf)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/process_handshake/src/process_handshake_utests.c:157  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSAmsQ9jOKC7Ssmg)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/process_handshake/src/process_handshake_utests.c:340  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSAmsQ9jOKC7Ssmh)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_begin_handshake_reply/src/validate_begin_handshake_reply_utests.c:122  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR9NsQ9jOKC7SsmZ)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_begin_handshake_request/src/validate_begin_handshake_request_utests.c:103  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR2asQ9jOKC7SsmS)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_local_identity/src/validate_local_identity_utests.c:87  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSBasQ9jOKC7Ssmi)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_local_identity/src/validate_local_identity_utests.c:209  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSBasQ9jOKC7Ssmj)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_local_identity/src/validate_local_identity_utests.c:238  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSBasQ9jOKC7Ssmk)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_local_identity/src/validate_local_identity_utests.c:256  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSBasQ9jOKC7Ssml)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_local_identity/src/validate_local_identity_utests.c:314  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSBasQ9jOKC7Ssmm)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_local_identity/src/validate_local_identity_utests.c:371  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DSBasQ9jOKC7Ssmn)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_local_permissions/src/validate_local_permissions_utests.c:86  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR5dsQ9jOKC7SsmU)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_remote_identity/src/validate_remote_identity_utests.c:92  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR_KsQ9jOKC7Ssmd)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/validate_remote_permissions/src/validate_remote_permissions_utests.c:91  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DR30sQ9jOKC7SsmT)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/common/test_identity.h:48  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRv-sQ9jOKC7SsmK)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/common/test_identity.h:103  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRv-sQ9jOKC7SsmL)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/common/test_identity.h:159  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRv-sQ9jOKC7SsmM)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/common/test_identity.h:216  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRv-sQ9jOKC7SsmN)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/common/test_identity.h:271  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRv-sQ9jOKC7SsmO)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/common/test_identity.h:326  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRv-sQ9jOKC7SsmP)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/common/test_identity.h:379  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRv-sQ9jOKC7SsmQ)  
----
-  * file : eclipse-cyclonedds/cyclonedds/src/security/core/tests/plugin_loading/plugin_mock_common.h:68  
-  message : Make sure this private key gets revoked, changed, and removed from the code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DRxXsQ9jOKC7SsmR)  
----
-</details>  
-  <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+## VULNERABILITIES #10 
+<details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-DDS/include/fastrtps/utils/fixed_size_string.hpp:217  
   message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (6)  
