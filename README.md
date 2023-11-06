@@ -208,7 +208,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 1st function call argument is an uninitialized value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixUezCYfarq97NVs)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1908  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1950  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -1233,27 +1233,27 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "TypeLookup_Return" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocx)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2334  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2335  
   message : Ensure that the move constructor of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYX)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2354  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2355  
   message : Ensure that the move assignment operator of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYY)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2446  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2447  
   message : Ensure that the move constructor of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYd)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2466  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2467  
   message : Ensure that the move assignment operator of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYe)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2563  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2564  
   message : Ensure that the move constructor of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYk)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2585  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2586  
   message : Ensure that the move assignment operator of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYl)  
 ---
@@ -1397,11 +1397,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "SenderResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb889hywhn1MW9k8YAd)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:333  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:340  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORq)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:457  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:464  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORs)  
 ---
@@ -2453,11 +2453,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1650  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1679  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1785  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1814  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
 ---
@@ -3057,27 +3057,27 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "TypeLookup_Return" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizRozCYfarq97Ocx)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2334  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2335  
   message : Ensure that the move constructor of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYX)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2354  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2355  
   message : Ensure that the move assignment operator of "TypeIdV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYY)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2446  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2447  
   message : Ensure that the move constructor of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYd)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2466  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2467  
   message : Ensure that the move assignment operator of "TypeObjectV1" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYe)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2563  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2564  
   message : Ensure that the move constructor of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYk)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2585  
+  * file : eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:2586  
   message : Ensure that the move assignment operator of "TypeInformation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizIrzCYfarq97OYl)  
 ---
@@ -3221,11 +3221,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "SenderResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb889hywhn1MW9k8YAd)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:333  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:340  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORq)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:457  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/writer/StatefulWriter.h:464  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiy7hzCYfarq97ORs)  
 ---
@@ -4277,11 +4277,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1650  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1679  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1785  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1814  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
 ---
