@@ -49,6 +49,8 @@ jobs:
 
       - name: Install sonar-scanner and build-wrapper
         uses: SonarSource/sonarcloud-github-c-cpp@v1
+        with:
+          installation-path: /home/runner/target_ws/
 
       - name: Checking out
         uses: actions/checkout@v2.3.4
