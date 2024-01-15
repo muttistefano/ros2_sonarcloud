@@ -9,7 +9,7 @@ jobs:
   build-and-test:
     runs-on: ubuntu-22.04
     env:
-      SONAR_SCANNER_VERSION: 5.0.1
+      SONAR_SCANNER_VERSION: 5.0.1.3006
       SONAR_SERVER_URL: "https://sonarcloud.io"
       BUILD_WRAPPER_OUT_DIR: /home/runner/target_ws/
       ISOLATION: "shell"
