@@ -2,9 +2,9 @@ name: Build and Test
 on:
   schedule:
     - cron: "0 0 * * 1"
-  # push:         
-  #   branches:
-  #     - master
+  push:         
+    branches:
+      - master
 jobs:
   build-and-test:
     runs-on: ubuntu-22.04
