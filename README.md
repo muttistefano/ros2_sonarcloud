@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #300 
+## BUGS #290 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -220,11 +220,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixU7zCYfarq97NV0)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/QosPoliciesSerializer.hpp:872  
-  message : 1st function call argument is an uninitialized value  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixUezCYfarq97NVs)  
----
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1950  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:1957  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -274,7 +270,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:14962  
   message : The result of the left shift is undefined due to shifting by '2147483647', which is greater or equal to the width of type 'Bitmask'  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6M)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0vAmUy7qQC6XimiWSC)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:18390  
   message : Access to field 'flags' results in a dereference of a null pointer (loaded from variable 'pExpr')  
@@ -690,14 +686,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros-visualization/qt_gui_core/qt_gui/src/qt_gui/reload_importer.py:77  
   message : Change this condition so that it does not always evaluate to true; some subsequent code is never executed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsr)  
----
-  * file : ros-visualization/qt_gui_core/qt_gui_cpp/src/qt_gui_cpp/composite_plugin_provider.cpp:46  
-  message : Do not throw uncaught exceptions in a destructor.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-75X3-gB3mVexO9Q)  
----
-  * file : ros-visualization/qt_gui_core/qt_gui_cpp/src/qt_gui_cpp/composite_plugin_provider.cpp:73  
-  message : Catch the exception by reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-75X3-gB3mVexO9d)  
 ---
   * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/message_tree_model.py:154  
   message : Provide a value for field(s) with index 1, 2.  
@@ -1210,34 +1198,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add a description to this table.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAI)  
 ---
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/objects/covariance_visual.cpp:152  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-u493-gB3mVexOlm)  
----
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/objects/effort_visual.cpp:58  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-u5w3-gB3mVexOmR)  
----
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/objects/effort_visual.cpp:60  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-u5w3-gB3mVexOmS)  
----
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/objects/effort_visual.cpp:62  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-u5w3-gB3mVexOmT)  
----
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/objects/effort_visual.cpp:64  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-u5w3-gB3mVexOmU)  
----
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/objects/effort_visual.cpp:66  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-u5w3-gB3mVexOmV)  
----
-  * file : ros2/rviz/rviz_rendering/src/rviz_rendering/render_system.cpp:241  
-  message : Name this temporary "unique_ptrOgre::RenderSystemCapabilities" object if you want to use it in for RAII.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-u8b3-gB3mVexOpI)  
----
 </details>  
   
 <br />  
@@ -1299,7 +1259,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #773 
+## ISSUES (level blocker) #765 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
