@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #305 
+## BUGS #301 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -232,7 +232,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY13pOS0w2X4EK9K44ga)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2012  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2014  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -727,7 +727,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Provide a value for field(s) with index 1, 2.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2eczCYfarq97Pd1)  
 ---
-  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:81  
+  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:99  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
@@ -1014,7 +1014,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory copy function accesses out-of-bound array element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYvGYSeY228C2JcY-al-)  
 ---
-  * file : ros2/rcutils/src/logging.c:436  
+  * file : ros2/rcutils/src/logging.c:464  
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
@@ -1033,22 +1033,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/src/rmw_get_endpoint_network_flow.cpp:192  
   message : Remove this conditional structure or edit its code blocks so that they're not all the same.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-wVy3-gB3mVexO0U)  
----
-  * file : ros2/ros2_tracing/lttngpy/src/lttngpy/event.cpp:120  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("struct lttng_event_perf_counter_ctx" to "struct lttng_event_context::(unnamed at /usr/include/lttng/event.h:201:3)"). "app_ctx" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGWLnqJUqUcDjvPqE)  
----
-  * file : ros2/ros2_tracing/lttngpy/src/lttngpy/event.cpp:121  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("struct lttng_event_perf_counter_ctx" to "struct lttng_event_context::(unnamed at /usr/include/lttng/event.h:201:3)"). "app_ctx" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGWLnqJUqUcDjvPqF)  
----
-  * file : ros2/ros2_tracing/lttngpy/src/lttngpy/event.cpp:198  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("struct lttng_event_perf_counter_ctx" to "struct lttng_event_context::(unnamed at /usr/include/lttng/event.h:201:3)"). "app_ctx" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGWLnqJUqUcDjvPqG)  
----
-  * file : ros2/ros2_tracing/lttngpy/src/lttngpy/event.cpp:199  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("struct lttng_event_perf_counter_ctx" to "struct lttng_event_context::(unnamed at /usr/include/lttng/event.h:201:3)"). "app_ctx" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGWLnqJUqUcDjvPqH)  
 ---
   * file : ros2/ros2cli/ros2cli/test/test_direct.py:48  
   message : Do not perform equality checks with floating point values.  
@@ -1668,43 +1652,43 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "ExtendedAnnotationParameterValue" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97Om6)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:196  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:197  
   message : Ensure that the move constructor of "AnnotationParameterValue" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97Om9)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:210  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:211  
   message : Ensure that the move assignment operator of "AnnotationParameterValue" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97Om-)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:854  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:855  
   message : Ensure that the move constructor of "AppliedAnnotationParameter" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnL)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:868  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:869  
   message : Ensure that the move assignment operator of "AppliedAnnotationParameter" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnM)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1066  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1067  
   message : Ensure that the move constructor of "AppliedAnnotation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnP)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1070  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1071  
   message : Ensure that the move assignment operator of "AppliedAnnotation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnQ)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1168  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1169  
   message : Ensure that the move constructor of "AppliedVerbatimAnnotation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnT)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1174  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1175  
   message : Ensure that the move assignment operator of "AppliedVerbatimAnnotation" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnU)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1298  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1299  
   message : Ensure that the move constructor of "AppliedBuiltinMemberAnnotations" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnW)  
 ---
-  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1304  
+  * file : eProsima/Fast-DDS/include/fastrtps/types/AnnotationParameterValue.h:1305  
   message : Ensure that the move assignment operator of "AppliedBuiltinMemberAnnotations" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISizrszCYfarq97OnX)  
 ---
@@ -4324,7 +4308,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Provide a value for field(s) with index 1, 2.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2eczCYfarq97Pd1)  
 ---
-  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:81  
+  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:99  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
@@ -4459,7 +4443,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirRUzCYfarq97I81)  
 ---
-  * file : ros2/rcutils/src/logging.c:436  
+  * file : ros2/rcutils/src/logging.c:464  
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
