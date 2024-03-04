@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #301 
+## BUGS #299 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -714,14 +714,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros-visualization/qt_gui_core/qt_gui/src/qt_gui/reload_importer.py:77  
   message : Change this condition so that it does not always evaluate to true; some subsequent code is never executed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsr)  
----
-  * file : ros-visualization/qt_gui_core/qt_gui_cpp/src/qt_gui_cpp/composite_plugin_provider.cpp:46  
-  message : Do not throw uncaught exceptions in a destructor.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-75X3-gB3mVexO9Q)  
----
-  * file : ros-visualization/qt_gui_core/qt_gui_cpp/src/qt_gui_cpp/composite_plugin_provider.cpp:73  
-  message : Catch the exception by reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-75X3-gB3mVexO9d)  
 ---
   * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/message_tree_model.py:154  
   message : Provide a value for field(s) with index 1, 2.  
