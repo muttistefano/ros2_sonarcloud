@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #299 
+## BUGS #297 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -232,7 +232,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY13pOS0w2X4EK9K44ga)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2014  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2029  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixPxzCYfarq97NSv)  
 ---
@@ -567,14 +567,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/thirdparty/taocpp-pegtl/pegtl/string_input.hpp:26  
   message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPBzCpM_KNhuouaeu)  
----
-  * file : eProsima/Fast-DDS/tools/fastdds/shm/clean.py:94  
-  message : Group parts of the regex together to make the intended operator precedence explicit.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0I8zCYfarq97O6J)  
----
-  * file : eProsima/Fast-DDS/tools/fastdds/shm/clean.py:126  
-  message : Group parts of the regex together to make the intended operator precedence explicit.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0I8zCYfarq97O6K)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:179  
   message : Unexpected duplicate "font-size"  
