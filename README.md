@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #297 
+## BUGS #302 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:21  
@@ -755,6 +755,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Introduce a new variable or use its initial value before reassigning 'bad_node'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3I9zCYfarq97Plo)  
 ---
+  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:423  
+  message : Fix this attribute access on a value that can be 'None'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTlt9cfb7eSp4sJjN)  
+---
   * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:511  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3A2zCYfarq97Pkt)  
@@ -874,6 +878,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Change or remove this string; "normalize_parameters_dict" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq9CzCYfarq97Ix4)  
 ---
+  * file : ros2/launch_ros/launch_testing_ros/test/examples/check_msgs_launch_test.py:60  
+  message : Remove this "return" statement from this "finally" block.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY4rOM_lmANMCkDoQwwB)  
+---
   * file : ros2/launch_ros/test_launch_ros/test/test_launch_ros/actions/test_load_composable_nodes.py:255  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYlcmw_ub2taBKNOG)  
@@ -882,9 +890,17 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq06zCYfarq97IxA)  
 ---
+  * file : ros2/message_filters/src/message_filters/__init__.py:59  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTg-acfb7eSp4sJjM)  
+---
   * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/__init__.py:89  
+  message : Fix this attribute access on a value that can be 'None'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTfVpcfb7eSp4sJjG)  
 ---
   * file : ros2/rclpy/rclpy/rclpy/node.py:1312  
   message : Do not perform equality checks with floating point values.  
@@ -909,6 +925,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rclpy/rclpy/test/test_parameter_client.py:76  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-Ow_ub2taBKNOB)  
+---
+  * file : ros2/rclpy/rclpy/test/test_task.py:85  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTfaGcfb7eSp4sJjH)  
+---
+  * file : ros2/rclpy/rclpy/test/test_task.py:98  
+  message : Fix this access on a collection that may trigger an 'IndexError'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTfaGcfb7eSp4sJjI)  
 ---
   * file : ros2/rclpy/rclpy/test/test_time.py:92  
   message : Remove or refactor this statement; it has no side effects.  
@@ -998,7 +1022,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory copy function accesses out-of-bound array element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYvGYSeY228C2JcY-al-)  
 ---
-  * file : ros2/rcutils/src/logging.c:464  
+  * file : ros2/rcutils/src/logging.c:476  
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
@@ -1009,14 +1033,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5p)  
----
-  * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/include/rmw_fastrtps_shared_cpp/guid_utils.hpp:56  
-  message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-wb33-gB3mVexO4O)  
----
-  * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/src/rmw_get_endpoint_network_flow.cpp:192  
-  message : Remove this conditional structure or edit its code blocks so that they're not all the same.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-wVy3-gB3mVexO0U)  
 ---
   * file : ros2/ros2cli/ros2cli/test/test_direct.py:48  
   message : Do not perform equality checks with floating point values.  
@@ -1227,6 +1243,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAI)  
 ---
 </details>  
+<details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
+
+  * file : ros2_control/rqt_controller_manager/rqt_controller_manager/controller_manager.py:424  
+  message : Remove this "return" statement from this "finally" block.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTmrHcfb7eSp4sJjO)  
+---
+</details>  
   
 <br />  
   
@@ -1406,7 +1429,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #763 
+## ISSUES (level blocker) #762 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -4395,10 +4418,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQk)  
 ---
-  * file : ros2/rmw_fastrtps/rmw_fastrtps_shared_cpp/include/rmw_fastrtps_shared_cpp/guid_utils.hpp:56  
-  message : Use constructors or assignment operators, "EntityId_t" is not trivially copyable.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-wb33-gB3mVexO4O)  
----
   * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
   message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
@@ -4427,7 +4446,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirRUzCYfarq97I81)  
 ---
-  * file : ros2/rcutils/src/logging.c:464  
+  * file : ros2/rcutils/src/logging.c:476  
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
