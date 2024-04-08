@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #301 
+## BUGS #300 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -715,35 +715,35 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:616  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:612  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOi)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:803  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:799  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOj)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:831  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:827  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOk)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:841  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:837  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOl)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:412  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:408  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1X_w_ub2taBKNOf)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:415  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:411  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1X_w_ub2taBKNOg)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:421  
-  message : This branch duplicates the one on line 415.  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:417  
+  message : This branch duplicates the one on line 411.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi24QzCYfarq97PjT)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:421  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:417  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1X_w_ub2taBKNOh)  
 ---
@@ -1239,13 +1239,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAI)  
 ---
 </details>  
-<details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
-
-  * file : ros2_control/rqt_controller_manager/rqt_controller_manager/controller_manager.py:424  
-  message : Remove this "return" statement from this "finally" block.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTmrHcfb7eSp4sJjO)  
----
-</details>  
   
 <br />  
   
@@ -1425,7 +1418,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #767 
+## ISSUES (level blocker) #768 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -1439,13 +1432,17 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
-  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:253  
+  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:268  
   message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-o)  
 ---
-  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:265  
+  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:280  
   message : Ensure that the move assignment operator of "FastBuffer" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-p)  
+---
+  * file : eProsima/Fast-CDR/include/fastcdr/xcdr/optional.hpp:215  
+  message : Ensure that the move assignment operator of "optional" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY6XV5oZLAV-oFEgTkla)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:114  
   message : Ensure that the move constructor of "TypeLookup_getTypes_Result" is exception-free and declare it "noexcept".  
@@ -3271,13 +3268,17 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove this useless sequence of pointer operators: "&*".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivwEzCYfarq97Ka5)  
 ---
-  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:253  
+  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:268  
   message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-o)  
 ---
-  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:265  
+  * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:280  
   message : Ensure that the move assignment operator of "FastBuffer" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NOzCYfarq97O-p)  
+---
+  * file : eProsima/Fast-CDR/include/fastcdr/xcdr/optional.hpp:215  
+  message : Ensure that the move assignment operator of "optional" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY6XV5oZLAV-oFEgTkla)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/builtin/typelookup/common/TypeLookupTypes.hpp:114  
   message : Ensure that the move constructor of "TypeLookup_getTypes_Result" is exception-free and declare it "noexcept".  
@@ -6334,10 +6335,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
 ---
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
----
   * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
@@ -6437,10 +6434,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
   message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
----
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:785  
-  message : Ensure that the swap function is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzq)  
 ---
   * file : ros2/rcutils/src/cmdline_parser.c:40  
   message : Remove any side effects from right hand operands of logical && operator.  
