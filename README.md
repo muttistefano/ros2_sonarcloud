@@ -1026,7 +1026,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
-  * file : ros2/rcutils/src/strdup.c:53  
+  * file : ros2/rcutils/src/strdup.c:54  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
 ---
@@ -6443,7 +6443,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
-  * file : ros2/rcutils/src/strdup.c:53  
+  * file : ros2/rcutils/src/strdup.c:54  
   message : Out of bound memory access (access exceeds upper limit of memory block)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
 ---
