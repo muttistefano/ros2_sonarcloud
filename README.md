@@ -276,7 +276,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M1H)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:665  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:715  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWszCYfarq97LOf)  
 ---
@@ -1078,7 +1078,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN0)  
 ---
-  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:393  
+  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:397  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN1)  
 ---
@@ -1418,7 +1418,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #768 
+## ISSUES (level blocker) #770 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -1563,6 +1563,14 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:377  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMz)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorSelectorEntry.hpp:38  
+  message : Make sure that moving an object of class "LocatorSelectorEntry" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY7f680bVxLMsfMbnqZ9)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorSelectorEntry.hpp:43  
+  message : Make sure that moving an object of class "EntryState" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY7f680bVxLMsfMbnqZ-)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorWithMask.hpp:35  
   message : Make sure that moving an object of class "LocatorWithMask" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
@@ -3399,6 +3407,14 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorList.hpp:377  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiyxVzCYfarq97OMz)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorSelectorEntry.hpp:38  
+  message : Make sure that moving an object of class "LocatorSelectorEntry" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY7f680bVxLMsfMbnqZ9)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorSelectorEntry.hpp:43  
+  message : Make sure that moving an object of class "EntryState" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY7f680bVxLMsfMbnqZ-)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/LocatorWithMask.hpp:35  
   message : Make sure that moving an object of class "LocatorWithMask" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
@@ -6327,14 +6343,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQj)  
 ---
-  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:76  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQk)  
----
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
-  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
----
   * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
@@ -6426,14 +6434,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:64  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQj)  
----
-  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:76  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioJmzCYfarq97IQk)  
----
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:219  
-  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik0dzCYfarq97Hzd)  
 ---
   * file : ros2/rcutils/src/cmdline_parser.c:40  
   message : Remove any side effects from right hand operands of logical && operator.  
