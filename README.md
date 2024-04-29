@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #300 
+## BUGS #299 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -220,10 +220,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYW4cZPeJXHd5uT915Oo)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/ParameterList.cpp:149  
-  message : The left operand of '==' is a garbage value  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixU7zCYfarq97NVz)  
----
   * file : eProsima/Fast-DDS/src/cpp/fastdds/core/policy/ParameterList.cpp:210  
   message : The left operand of '==' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixU7zCYfarq97NV0)  
@@ -276,7 +272,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M1H)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:715  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:744  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWszCYfarq97LOf)  
 ---
@@ -2648,7 +2644,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i3MlILU70yBX0vMT)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:153  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:154  
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
@@ -4492,7 +4488,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i3MlILU70yBX0vMT)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:153  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:154  
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
