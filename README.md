@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #299 
+## BUGS #287 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -131,10 +131,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-CDR/utils/doxygen/pages/eprosima_header.html:23  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NhzCYfarq97O-1)  
----
-  * file : eProsima/Fast-CDR/utils/doxygen/pages/eprosima_header.html:23  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NhzCYfarq97O-0)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.h:252  
   message : Use "operator==" to check object equality, "Locator_t" is not a trivially copyable type without padding.  
@@ -592,20 +588,12 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0H4zCYfarq97O5i)  
 ---
-  * file : eProsima/Fast-DDS/utils/doxygen/pages/eprosima_header.html:23  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0H4zCYfarq97O5h)  
----
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
   * file : moveit2/moveit/scripts/maintainer_table_template.html:27  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkX)  
----
-  * file : moveit2/moveit/scripts/maintainer_table_template.html:27  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkW)  
 ---
   * file : moveit2/moveit_py/moveit/policies/policy.py:148  
   message : Add a "self" or class parameter  
@@ -1166,73 +1154,37 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_i)  
 ---
-  * file : ros2/rviz/rviz_common/help/help.html:24  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_h)  
----
   * file : ros2/rviz/rviz_common/help/help.html:63  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_s)  
----
-  * file : ros2/rviz/rviz_common/help/help.html:63  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_r)  
 ---
   * file : ros2/rviz/rviz_common/help/help.html:76  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_x)  
 ---
-  * file : ros2/rviz/rviz_common/help/help.html:76  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_w)  
----
   * file : ros2/rviz/rviz_common/help/help.html:86  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_1)  
----
-  * file : ros2/rviz/rviz_common/help/help.html:86  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_0)  
 ---
   * file : ros2/rviz/rviz_common/help/help.html:104  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_5)  
 ---
-  * file : ros2/rviz/rviz_common/help/help.html:104  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_4)  
----
   * file : ros2/rviz/rviz_common/help/help.html:129  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_9)  
----
-  * file : ros2/rviz/rviz_common/help/help.html:129  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_8)  
 ---
   * file : ros2/rviz/rviz_common/help/help.html:159  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAB)  
 ---
-  * file : ros2/rviz/rviz_common/help/help.html:159  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAA)  
----
   * file : ros2/rviz/rviz_common/help/help.html:184  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAF)  
 ---
-  * file : ros2/rviz/rviz_common/help/help.html:184  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAE)  
----
   * file : ros2/rviz/rviz_common/help/help.html:209  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAJ)  
----
-  * file : ros2/rviz/rviz_common/help/help.html:209  
-  message : Add a description to this table.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAI)  
 ---
 </details>  
   
