@@ -886,7 +886,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTfVpcfb7eSp4sJjG)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1312  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1314  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
