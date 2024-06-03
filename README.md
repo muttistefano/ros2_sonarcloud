@@ -854,7 +854,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq06zCYfarq97IxA)  
 ---
-  * file : ros2/message_filters/src/message_filters/__init__.py:59  
+  * file : ros2/message_filters/src/message_filters/__init__.py:60  
   message : Fix this access on a collection that may trigger an 'IndexError'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTg-acfb7eSp4sJjM)  
 ---
