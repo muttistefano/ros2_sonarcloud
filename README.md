@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #282 
+## BUGS #272 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -41,38 +41,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ament/googletest/docs/_layouts/default.html:3  
   message : Add a title tag to this page.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz6zeHXxtxeKK1WaA)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:133  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQs)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:137  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQr)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:141  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGpUSqJUqUcDjvPqt)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:146  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGpUSqJUqUcDjvPqu)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:153  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYjRcujWFV6s3AxGMkQn)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:160  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGpUSqJUqUcDjvPqv)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:165  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGpUSqJUqUcDjvPqw)  
----
-  * file : ament/googletest/googletest/test/googletest-shuffle-test.py:172  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGpUSqJUqUcDjvPqx)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
@@ -672,11 +640,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2wxzCYfarq97Pie)  
 ---
   * file : ros-visualization/qt_gui_core/qt_gui/src/qt_gui/reload_importer.py:77  
-  message : Change this condition so that it does not always evaluate to true; some subsequent code is never executed.  
+  message : Fix this condition that always evaluates to true; some subsequent code is never executed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsq)  
 ---
   * file : ros-visualization/qt_gui_core/qt_gui/src/qt_gui/reload_importer.py:77  
-  message : Change this condition so that it does not always evaluate to true; some subsequent code is never executed.  
+  message : Fix this condition that always evaluates to true; some subsequent code is never executed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsr)  
 ---
   * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/message_tree_model.py:154  
@@ -726,10 +694,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros-visualization/rqt_graph/src/rqt_graph/rosgraph2_impl.py:445  
   message : Introduce a new variable or use its initial value before reassigning 'bad_node'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3I9zCYfarq97Plo)  
----
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:423  
-  message : Fix this attribute access on a value that can be 'None'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTlt9cfb7eSp4sJjN)  
 ---
   * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:511  
   message : Fix this attribute access on a value that can be 'None'.  
@@ -854,10 +818,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq06zCYfarq97IxA)  
 ---
-  * file : ros2/message_filters/src/message_filters/__init__.py:60  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTg-acfb7eSp4sJjM)  
----
   * file : ros2/rcl/rcl_yaml_param_parser/test/mocking_utils/patch.hpp:161  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
@@ -866,7 +826,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTfVpcfb7eSp4sJjG)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1314  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1315  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
@@ -1170,7 +1130,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #39 
+## VULNERABILITIES #43 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-cyclonedds</a></summary>  
 
   * file : eclipse-cyclonedds/cyclonedds/src/security/builtin_plugins/tests/get_authenticated_peer_credential_token/src/get_authenticated_peer_credential_token_utests.c:142  
@@ -1318,6 +1278,25 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:364  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
+
+  * file : navigation2/nav2_bringup/launch/cloned_multi_tb3_simulation_launch.py:111  
+  message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0Qc5MWueF4yM_B3g)  
+---
+  * file : navigation2/nav2_bringup/launch/tb3_simulation_launch.py:214  
+  message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0QdDMWueF4yM_B3h)  
+---
+  * file : navigation2/nav2_bringup/launch/tb4_simulation_launch.py:215  
+  message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0QczMWueF4yM_B3f)  
+---
+  * file : navigation2/nav2_bringup/launch/unique_multi_tb3_simulation_launch.py:138  
+  message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0QcpMWueF4yM_B3e)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
