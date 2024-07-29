@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #261 
+## BUGS #271 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -591,6 +591,46 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros/class_loader/src/multi_library_class_loader.cpp:89  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKfo4YIEkPBL9VHvoyk)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:297  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqv)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:499  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqw)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:520  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqx)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:544  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqy)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:570  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqz)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:598  
+  message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaq0)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:325  
+  message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZw)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:328  
+  message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZx)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:351  
+  message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZy)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:351  
+  message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZz)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros-visualization</a></summary>  
@@ -1194,7 +1234,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #753 
+## ISSUES (level blocker) #759 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -4033,6 +4073,33 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : osrf/osrf_pycommon/tests/unit/test_cli_utils/test_common.py:32  
   message : Provide a value for field(s) with index 1.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi40lzCYfarq97P2b)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>ros</a></summary>  
+
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:315  
+  message : Ensure that the move constructor of "MatcherBase" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi17XzCYfarq97PKN)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:320  
+  message : Ensure that the move assignment operator of "MatcherBase" is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi17XzCYfarq97PKO)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:510  
+  message : Make sure that moving an object of class "Matcherconst std::basic_stringchar &" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi17XzCYfarq97PKd)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest.h:361  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi174zCYfarq97PLv)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/src/gtest-death-test.cc:1386  
+  message : Remove any side effects from right hand operands of logical && operator.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi19WzCYfarq97PNy)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/src/gtest.cc:1195  
+  message : Ensure that the swap function is exception-free and declare it "noexcept".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi19tzCYfarq97POj)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros-visualization</a></summary>  
