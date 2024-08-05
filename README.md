@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #271 
+## BUGS #284 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -200,6 +200,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY13pNppw2X4EK9K44fO)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDP.cpp:1257  
+  message : Called C++ object pointer is null  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RWB8pZKJaqlJl3_K)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:209  
   message : Ensure that destructor of "FlowControllerAsyncPublishMode" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyI)  
@@ -216,6 +220,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Give class "FlowControllerLimitedAsyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyR)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/history/TopicPayloadPool.hpp:270  
+  message : Access of the field 'data' at negative byte offset -12  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RWTQpZKJaqlJl3_S)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/history/WriterHistory.cpp:24  
+  message : Remove non-standard characters from this #include.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RWRupZKJaqlJl3_R)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:244  
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M08)  
@@ -224,7 +236,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M1H)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:744  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:775  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWszCYfarq97LOf)  
 ---
@@ -240,10 +252,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Access to field 'flags' results in a dereference of a null pointer (loaded from variable 'pExpr')  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6H)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:19729  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6J)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:32975  
   message : Null pointer passed to 1st parameter expecting 'nonnull'  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAK)  
@@ -257,11 +265,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAM)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:56305  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of the field 'xBusyHandler' at index 1, while it holds only a single 'void *' element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6D)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:57670  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAN)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:75472  
@@ -284,10 +292,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Address of stack memory associated with local variable 'zBase' returned to caller  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAP)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:96799  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAQ)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:98630  
   message : Memory copy function accesses out-of-bound array element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAS)  
@@ -296,13 +300,33 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Null pointer passed to 2nd parameter expecting 'nonnull'  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAR)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102964  
+  message : Access of the field 'a' at negative byte offset -51539607552  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_x)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103022  
+  message : Access of the field 'a' at negative byte offset -24  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_y)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103022  
+  message : Access of the field 'a' at negative byte offset -48  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_z)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103553  
   message : The left operand of '!=' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6G)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:109429  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6I)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:114177  
+  message : Access of 'char' element in the region at index -1  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_0)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:120028  
+  message : Access of 'unsigned char' element in the region at index -1  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_1)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:120615  
   message : Memory copy function overflows the destination buffer  
@@ -324,6 +348,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAV)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:148888  
+  message : Access of 'char' element in the region at index -1  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_2)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:149433  
+  message : Access of the field 'a' at index 3, while it holds only 3 'struct WhereOrCost' elements  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_3)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:149559  
   message : Access to field 'op' results in a dereference of a null pointer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAX)  
@@ -337,19 +369,19 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAZ)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpv)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAa)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAb)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAc)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/resources/ResourceEvent.cpp:50  
@@ -431,10 +463,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/mem_algo/detail/mem_algo_common.hpp:318  
   message : Remove the unary minus operator or change the expression's underlying type.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiuxZzCYfarq97Jn-)  
----
-  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/posix/mutex.hpp:132  
-  message : This lock has already been unlocked  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISium4zCYfarq97Jew)  
 ---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/posix/mutex.hpp:132  
   message : This was not the most recently acquired lock. Possible lock order reversal  
@@ -943,12 +971,36 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
   * file : ros2/rcutils/src/strdup.c:54  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
 ---
   * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5p)  
+---
+  * file : ros2/ros2cli/ros2cli/test/test_daemon.py:64  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39k)  
+---
+  * file : ros2/ros2cli/ros2cli/test/test_daemon.py:71  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39l)  
+---
+  * file : ros2/ros2cli/ros2cli/test/test_daemon.py:77  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39m)  
+---
+  * file : ros2/ros2cli/ros2cli/test/test_daemon.py:82  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39n)  
+---
+  * file : ros2/ros2cli/ros2cli/test/test_daemon.py:94  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39o)  
+---
+  * file : ros2/ros2cli/ros2cli/test/test_daemon.py:100  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39p)  
 ---
   * file : ros2/ros2cli/ros2cli/test/test_direct.py:48  
   message : Do not perform equality checks with floating point values.  
@@ -1234,7 +1286,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #759 
+## ISSUES (level blocker) #764 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -2448,6 +2500,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzF)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/history/TopicPayloadPool.hpp:270  
+  message : Access of the field 'data' at negative byte offset -12  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RWTQpZKJaqlJl3_S)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/messages/RTPSMessageGroup.cpp:244  
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw0IzCYfarq97M08)  
@@ -2456,11 +2512,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYJ7i3MlILU70yBX0vMT)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:154  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.h:155  
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1630  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1645  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwY5zCYfarq97LTD)  
 ---
@@ -2735,10 +2791,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/shared_memory_object.hpp:167  
   message : Ensure that the swap function is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiu0yzCYfarq97JuZ)  
----
-  * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/posix/mutex.hpp:132  
-  message : This lock has already been unlocked  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISium4zCYfarq97Jew)  
 ---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/sync/posix/mutex.hpp:132  
   message : This was not the most recently acquired lock. Possible lock order reversal  
@@ -3052,10 +3104,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove this useless sequence of pointer operators: "&*".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivwEzCYfarq97Ka5)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:19729  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6J)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:22693  
   message : Replace this call to the non reentrant function "localtime" by a call to "localtime_r".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtAzCYfarq97L3D)  
@@ -3169,7 +3217,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtBzCYfarq97L8i)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:56305  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of the field 'xBusyHandler' at index 1, while it holds only a single 'void *' element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6D)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:57558  
@@ -3177,7 +3225,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYo6DGK7sQ9jOKC7SsmJ)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:57670  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAN)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:59741  
@@ -3784,10 +3832,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtDzCYfarq97MIE)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:96799  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAQ)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:98630  
   message : Memory copy function accesses out-of-bound array element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAS)  
@@ -3804,9 +3848,21 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MOE)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102964  
+  message : Access of the field 'a' at negative byte offset -51539607552  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_x)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103001  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MOM)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103022  
+  message : Access of the field 'a' at negative byte offset -24  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_y)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103022  
+  message : Access of the field 'a' at negative byte offset -48  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_z)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103224  
   message : Remove any side effects from right hand operands of logical && operator.  
@@ -3857,7 +3913,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MP4)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:109429  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6I)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:111033  
@@ -3884,6 +3940,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MSe)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:114177  
+  message : Access of 'char' element in the region at index -1  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_0)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:115877  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MTW)  
@@ -3899,6 +3959,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:119588  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtFzCYfarq97MUo)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:120028  
+  message : Access of 'unsigned char' element in the region at index -1  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_1)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:120615  
   message : Memory copy function overflows the destination buffer  
@@ -3944,9 +4008,17 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAV)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:148888  
+  message : Access of 'char' element in the region at index -1  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_2)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:148935  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtHzCYfarq97MgV)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:149433  
+  message : Access of the field 'a' at index 3, while it holds only 3 'struct WhereOrCost' elements  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RW2dpZKJaqlJl3_3)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:149527  
   message : Remove any side effects from right hand operands of logical && operator.  
@@ -3997,19 +4069,19 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97MoN)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtIzCYfarq97Mpv)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAa)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAb)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169410  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAc)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169502  
@@ -4240,7 +4312,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
   * file : ros2/rcutils/src/strdup.c:54  
-  message : Out of bound memory access (access exceeds upper limit of memory block)  
+  message : Access of 'char' element in the region at index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirSSzCYfarq97I9X)  
 ---
   * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:389  
