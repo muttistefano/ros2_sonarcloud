@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #284 
+## BUGS #285 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -675,7 +675,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this condition that always evaluates to true; some subsequent code is never executed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsr)  
 ---
-  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:99  
+  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:102  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
@@ -846,15 +846,19 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1334  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1344  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:56  
+  message : Raise this exception or remove this useless statement.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZFEP0Hyi5a_X_62zTxy)  
 ---
   * file : ros2/rclpy/rclpy/test/test_action_server.py:405  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiolQzCYfarq97IYE)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_executor.py:343  
+  * file : ros2/rclpy/rclpy/test/test_executor.py:361  
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
@@ -4180,7 +4184,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : path is used before it is defined. Move the definition before.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2wxzCYfarq97Pie)  
 ---
-  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:99  
+  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:102  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
