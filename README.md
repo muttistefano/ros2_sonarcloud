@@ -846,7 +846,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1340  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1350  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
@@ -1290,8 +1290,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #763 
-<details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+## ISSUES (level blocker) #765 
+<details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
+
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
+  message : Replace this call to the non reentrant function "localtime" by a call to "localtime_r".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi01KzCYfarq97PEZ)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:268  
   message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
@@ -4359,6 +4366,13 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/sros2/sros2/test/test_policy_to_permissions.py:34  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimOXzCYfarq97H_H)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
+
+  * file : ros2_control/ros2controlcli/ros2controlcli/verb/list_controllers.py:97  
+  message : Refactor this method to not always return the same value.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZGwZD5kFFmecEscKaX_)  
 ---
 </details>  
     
