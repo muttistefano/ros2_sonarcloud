@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #285 
+## BUGS #287 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -846,7 +846,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1350  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1349  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
@@ -870,7 +870,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-8w_ub2taBKNOE)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_parameter_client.py:76  
+  * file : ros2/rclpy/rclpy/test/test_parameter_client.py:77  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-Ow_ub2taBKNOB)  
 ---
@@ -981,6 +981,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISirK4zCYfarq97I5p)  
+---
+  * file : ros2/realtime_support/rttest/src/rttest.cpp:68  
+  message : Value assigned to field 'thread_id' in implicit constructor is garbage or undefined  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZHUlC85esNELLGLarFR)  
+---
+  * file : ros2/realtime_support/rttest/src/rttest.cpp:150  
+  message : 7 uninitialized fields at the end of the constructor call  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZHUlC85esNELLGLarFS)  
 ---
   * file : ros2/ros2cli/ros2cli/test/test_daemon.py:64  
   message : Remove or refactor this statement; it has no side effects.  
