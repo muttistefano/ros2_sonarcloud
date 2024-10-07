@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #286 
+## BUGS #283 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -667,10 +667,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this condition that always evaluates to true; some subsequent code is never executed.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsq)  
 ---
-  * file : ros-visualization/qt_gui_core/qt_gui/src/qt_gui/reload_importer.py:77  
-  message : Fix this condition that always evaluates to true; some subsequent code is never executed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsr)  
----
   * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:102  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
@@ -869,14 +865,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rclpy/rclpy/test/test_parameter_client.py:77  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-Ow_ub2taBKNOB)  
----
-  * file : ros2/rclpy/rclpy/test/test_task.py:85  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTfaGcfb7eSp4sJjH)  
----
-  * file : ros2/rclpy/rclpy/test/test_task.py:98  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY5PTfaGcfb7eSp4sJjI)  
 ---
   * file : ros2/rclpy/rclpy/test/test_time.py:92  
   message : Remove or refactor this statement; it has no side effects.  
