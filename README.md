@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #283 
+## BUGS #282 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -1006,10 +1006,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Return a value of type `str` in this method.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZAj0mexBIBOiy31Qq8o)  
 ---
-  * file : ros2/ros2cli/ros2param/ros2param/verb/dump.py:103  
-  message : e is used before it is defined. Move the definition before.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGWqiqJUqUcDjvPqk)  
----
   * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:137  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-5)  
@@ -1282,15 +1278,8 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #765 
-<details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
-
-  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
-  message : Replace this call to the non reentrant function "localtime" by a call to "localtime_r".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi01KzCYfarq97PEZ)  
----
-</details>  
-  <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+## ISSUES (level blocker) #763 
+<details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:268  
   message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
@@ -4338,10 +4327,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/ros2cli/ros2doctor/ros2doctor/api/network.py:54  
   message : Return a value of type `str` in this method.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZAj0mexBIBOiy31Qq8o)  
----
-  * file : ros2/ros2cli/ros2param/ros2param/verb/dump.py:103  
-  message : e is used before it is defined. Move the definition before.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY2bGWqiqJUqUcDjvPqk)  
 ---
   * file : ros2/sros2/sros2/sros2/keystore/_permission.py:70  
   message : Disable access to external entities in XML parsing.  
