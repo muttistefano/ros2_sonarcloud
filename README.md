@@ -1278,8 +1278,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #763 
-<details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+## ISSUES (level blocker) #764 
+<details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
+
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
+  message : Replace this call to the non reentrant function "localtime" by a call to "localtime_r".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi01KzCYfarq97PEZ)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:268  
   message : Ensure that the move constructor of "FastBuffer" is exception-free and declare it "noexcept".  
