@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #277 
+## BUGS #276 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -643,10 +643,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : path is used before it is defined. Move the definition before.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2wxzCYfarq97Pie)  
 ---
-  * file : ros-visualization/qt_gui_core/qt_gui/src/qt_gui/reload_importer.py:77  
-  message : Fix this condition that always evaluates to true; some subsequent code is never executed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYf5QW3ZDmwXAEX3ffsq)  
----
   * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:102  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
@@ -818,11 +814,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : "std::forward" should only be called on a forwarding reference.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiqR2zCYfarq97Iqz)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1350  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1398  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/qos.py:56  
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:54  
   message : Raise this exception or remove this useless statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZFEP0Hyi5a_X_62zTxy)  
 ---
