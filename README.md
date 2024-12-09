@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #276 
+## BUGS #277 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -244,13 +244,21 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : The result of left shift is undefined because the right operand is = 2147483647, not smaller than 64, the capacity of 'Bitmask'  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY-Tw9PRMBVWy2Eq_il3)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:14962  
+  message : The result of left shift is undefined because the right operand is negative  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJEA)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:18390  
   message : Access to field 'flags' results in a dereference of a null pointer (loaded from variable 'pExpr')  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6H)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:29603  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OI)  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:32975  
+  message : Null pointer passed to 1st parameter expecting 'nonnull'  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD6)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:49776  
+  message : The left operand of '&' is a garbage value  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD7)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:50282  
   message : Memory set function overflows the destination buffer  
@@ -260,21 +268,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Access of the field 'xBusyHandler' at index 1, while it holds only a single 'void *' element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6D)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:75472  
+  message : Array access (from variable 'aHeap') results in a null pointer dereference  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD8)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:78939  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAO)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:80014  
-  message : Access to field 'funcFlags' results in a dereference of a null pointer (loaded from variable 'pDef')  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OJ)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:80023  
-  message : Access to field 'szMalloc' results in a dereference of a null pointer (loaded from variable 'p')  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OK)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:80027  
-  message : Access to field 'pFunc' results in a dereference of a null pointer (loaded from variable 'p')  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OL)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:83555  
   message : The left operand of '==' is a garbage value  
@@ -292,13 +292,17 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory copy function accesses out-of-bound array element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAS)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:100748  
-  message : The left operand of '' is a garbage value  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OM)  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:98630  
+  message : Null pointer passed to 2nd parameter expecting 'nonnull'  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD9)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102350  
-  message : Access to field 'mallocFailed' results in a dereference of a null pointer (loaded from variable 'db')  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3ON)  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102964  
+  message : Access of the field 'a' at negative byte offset -51539607552  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD-)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103022  
+  message : Access of the field 'a' at negative byte offset -24  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD_)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103553  
   message : The left operand of '!=' is a garbage value  
@@ -308,13 +312,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAT)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:134367  
-  message : 3rd function call argument is an uninitialized value  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OO)  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:134430  
+  message : Access to field 'nExpr' results in a dereference of a null pointer (loaded from field 'pOrderBy')  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJEB)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:145504  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:135399  
   message : Dereference of null pointer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OP)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJEC)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:146321  
   message : Dereference of null pointer  
@@ -332,17 +336,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Access to field 'op' results in a dereference of a null pointer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAX)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:149868  
-  message : Access of 'dummy' at index 1, while it holds only a single 'struct VdbeOp' element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OQ)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:154116  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAY)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:154859  
-  message : Access of 'dummy' at index 1, while it holds only a single 'struct VdbeOp' element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OR)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:168161  
   message : Array access (from variable 'zFilename') results in a null pointer dereference  
@@ -635,6 +631,17 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:351  
   message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZz)  
+---
+</details>  
+<details><summary><a style='color:blue;font-size:18px;'>ros-perception</a></summary>  
+
+  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/camera_info_manager.py:267  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0Z4Vgb3UCOkJEf)  
+---
+  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/zoom_camera_info_manager.py:230  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0E4Vgb3UCOkJEa)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros-visualization</a></summary>  
@@ -1138,15 +1145,18 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAJ)  
 ---
-  * file : ros2/tlsf/tlsf/src/tlsf.c:776  
-  message : Access of the field 'buffer' at negative byte offset -16  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_4nJ53x7xtMCv3OB)  
+</details>  
+<details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
+
+  * file : ros2_control/controller_manager/controller_manager/launch_utils.py:148  
+  message : Remove this unexpected named argument 'controller_params_file'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPesJ4Vgb3UCOkJEX)  
 ---
 </details>  
   
 <br />  
   
-## VULNERABILITIES #22 
+## VULNERABILITIES #21 
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-DDS/include/fastrtps/utils/fixed_size_string.hpp:241  
@@ -1156,10 +1166,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/include/fastrtps/utils/fixed_size_string.hpp:241  
   message : "memccpy" overflows read buffer "c_string"; passed size "MAX_CHARS" (255) exceeds buffer size (6)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiz-rzCYfarq97Owz)  
----
-  * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:427  
-  message : "snprintf" overflows write buffer "buf + i * 2"; passed size "buf_len" (33) exceeds buffer size (31)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYsSOtGgfe6HmavoEUNQ)  
 ---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/os_file_functions.hpp:426  
   message : Remove this TOCTOU race condition window when accessing files  
@@ -1254,7 +1260,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #758 
+## ISSUES (level blocker) #756 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -2568,10 +2574,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Replace this call to the non reentrant function "getpwuid" by a call to "getpwuid_r".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISixfAzCYfarq97Ndb)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:427  
-  message : "snprintf" overflows write buffer "buf + i * 2"; passed size "buf_len" (33) exceeds buffer size (31)  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYsSOtGgfe6HmavoEUNQ)  
----
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/multiallocation_chain.hpp:90  
   message : Ensure that the move constructor of "basic_multiallocation_chain" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISivbKzCYfarq97KK7)  
@@ -3111,10 +3113,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:29586  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtAzCYfarq97L4z)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:29603  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OI)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:31847  
   message : Remove any side effects from right hand operands of logical || operator.  
@@ -3824,9 +3822,17 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MOE)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:102964  
+  message : Access of the field 'a' at negative byte offset -51539607552  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD-)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103001  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MOM)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103022  
+  message : Access of the field 'a' at negative byte offset -24  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD_)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:103224  
   message : Remove any side effects from right hand operands of logical && operator.  
@@ -3976,10 +3982,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtHzCYfarq97Mgw)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:149868  
-  message : Access of 'dummy' at index 1, while it holds only a single 'struct VdbeOp' element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OQ)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:152068  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtHzCYfarq97Mhy)  
@@ -3999,10 +4001,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:154652  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtHzCYfarq97Mjq)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:154859  
-  message : Access of 'dummy' at index 1, while it holds only a single 'struct VdbeOp' element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_6ad53x7xtMCv3OR)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:158128  
   message : Remove any side effects from right hand operands of logical && operator.  
@@ -4255,10 +4253,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Memory copy function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYqmAQdbWvNZCKI3y18h)  
 ---
-  * file : ros2/tlsf/tlsf/src/tlsf.c:776  
-  message : Access of the field 'buffer' at negative byte offset -16  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZLQ_4nJ53x7xtMCv3OB)  
----
   * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:389  
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ7)  
@@ -4306,6 +4300,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
 
+  * file : ros2_control/controller_manager/controller_manager/launch_utils.py:148  
+  message : Remove this unexpected named argument 'controller_params_file'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPesJ4Vgb3UCOkJEX)  
+---
   * file : ros2_control/ros2controlcli/ros2controlcli/verb/list_controllers.py:107  
   message : Refactor this method to not always return the same value.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZGwZD5kFFmecEscKaX_)  
