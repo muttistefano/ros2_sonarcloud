@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #277 
+## BUGS #276 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -1146,13 +1146,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAJ)  
 ---
 </details>  
-<details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
-
-  * file : ros2_control/controller_manager/controller_manager/launch_utils.py:148  
-  message : Remove this unexpected named argument 'controller_params_file'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPesJ4Vgb3UCOkJEX)  
----
-</details>  
   
 <br />  
   
@@ -1185,11 +1178,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0Qc5MWueF4yM_B3g)  
 ---
-  * file : navigation2/nav2_bringup/launch/tb3_simulation_launch.py:214  
+  * file : navigation2/nav2_bringup/launch/tb3_simulation_launch.py:205  
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0QdDMWueF4yM_B3h)  
 ---
-  * file : navigation2/nav2_bringup/launch/tb4_simulation_launch.py:216  
+  * file : navigation2/nav2_bringup/launch/tb4_simulation_launch.py:207  
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0QczMWueF4yM_B3f)  
 ---
@@ -1260,7 +1253,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #756 
+## ISSUES (level blocker) #755 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -4300,10 +4293,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
 
-  * file : ros2_control/controller_manager/controller_manager/launch_utils.py:148  
-  message : Remove this unexpected named argument 'controller_params_file'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPesJ4Vgb3UCOkJEX)  
----
   * file : ros2_control/ros2controlcli/ros2controlcli/verb/list_controllers.py:107  
   message : Refactor this method to not always return the same value.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZGwZD5kFFmecEscKaX_)  
