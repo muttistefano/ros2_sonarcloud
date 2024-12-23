@@ -635,11 +635,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros-perception</a></summary>  
 
-  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/camera_info_manager.py:267  
+  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/camera_info_manager.py:275  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0Z4Vgb3UCOkJEf)  
 ---
-  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/zoom_camera_info_manager.py:230  
+  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/zoom_camera_info_manager.py:229  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0E4Vgb3UCOkJEa)  
 ---
