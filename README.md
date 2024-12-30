@@ -849,83 +849,83 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-Ow_ub2taBKNOB)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:92  
+  * file : ros2/rclpy/rclpy/test/test_time.py:81  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZPxVnaCmsyemdV_C1Mn)  
+---
+  * file : ros2/rclpy/rclpy/test/test_time.py:104  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXo)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:95  
+  * file : ros2/rclpy/rclpy/test/test_time.py:107  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXp)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:107  
+  * file : ros2/rclpy/rclpy/test/test_time.py:119  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXq)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:112  
+  * file : ros2/rclpy/rclpy/test/test_time.py:124  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXr)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:114  
-  message : Fix this invalid "-" operation between incompatible types (Duration and Time).  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokozCYfarq97IXh)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:114  
+  * file : ros2/rclpy/rclpy/test/test_time.py:126  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXs)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:135  
+  * file : ros2/rclpy/rclpy/test/test_time.py:147  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXt)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:137  
+  * file : ros2/rclpy/rclpy/test/test_time.py:149  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXu)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:139  
+  * file : ros2/rclpy/rclpy/test/test_time.py:151  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXv)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:141  
+  * file : ros2/rclpy/rclpy/test/test_time.py:153  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXw)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:143  
+  * file : ros2/rclpy/rclpy/test/test_time.py:155  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXx)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:145  
+  * file : ros2/rclpy/rclpy/test/test_time.py:157  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXy)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:154  
+  * file : ros2/rclpy/rclpy/test/test_time.py:166  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX2)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:156  
+  * file : ros2/rclpy/rclpy/test/test_time.py:168  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX3)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:158  
+  * file : ros2/rclpy/rclpy/test/test_time.py:170  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX4)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:160  
+  * file : ros2/rclpy/rclpy/test/test_time.py:172  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX5)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:183  
+  * file : ros2/rclpy/rclpy/test/test_time.py:195  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX9)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:185  
+  * file : ros2/rclpy/rclpy/test/test_time.py:197  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX-)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:187  
+  * file : ros2/rclpy/rclpy/test/test_time.py:199  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX_)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_time.py:189  
+  * file : ros2/rclpy/rclpy/test/test_time.py:201  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IYA)  
 ---
@@ -1253,7 +1253,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #755 
+## ISSUES (level blocker) #754 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -4265,10 +4265,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/launch_ros/launch_ros/launch_ros/utilities/__init__.py:42  
   message : Change or remove this string; "normalize_parameters_dict" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq9CzCYfarq97Ix4)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:114  
-  message : Fix this invalid "-" operation between incompatible types (Duration and Time).  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokozCYfarq97IXh)  
 ---
   * file : ros2/ros2cli/ros2doctor/ros2doctor/api/network.py:54  
   message : Return a value of type `str` in this method.  
