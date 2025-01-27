@@ -797,7 +797,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiolQzCYfarq97IYE)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_executor.py:361  
+  * file : ros2/rclpy/rclpy/test/test_executor.py:381  
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
