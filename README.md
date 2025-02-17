@@ -11,9 +11,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #546 
+## BUGS #547 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:71  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39l)  
+---
   * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:77  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39m)  
@@ -202,7 +206,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #19 
+## VULNERABILITIES #21 
   
 <br />  
   
