@@ -11,45 +11,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #547 
+## BUGS #538 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:71  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39l)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:77  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39m)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:82  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39n)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:94  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39o)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:100  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39p)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_direct.py:48  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYfNdw_ub2taBKNN2)  
----
-  * file : ros2/ros2cli/ros2doctor/ros2doctor/api/network.py:54  
-  message : Return a value of type `str` in this method.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZAj0mexBIBOiy31Qq8o)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:137  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-5)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:148  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-6)  
----
   * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:159  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-8)  
@@ -214,7 +178,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #533 
+## ISSUES (level blocker) #583 
   
 <br />  
   
