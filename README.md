@@ -11,9 +11,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #539 
+## BUGS #540 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
+  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:137  
+  message : The return value of "isinstance" must be used.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-5)  
+---
   * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:148  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-6)  
@@ -182,7 +186,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #583 
+## ISSUES (level blocker) #584 
   
 <br />  
   
