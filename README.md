@@ -11,45 +11,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #540 
+## BUGS #531 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:137  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-5)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:148  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-6)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:159  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-8)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:166  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-7)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_writer.py:36  
-  message : Remove or correct this useless self-assignment.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimDwzCYfarq97H-2)  
----
-  * file : ros2/rosidl/rosidl_adapter/test/test_base_type.py:85  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik3NzCYfarq97H0F)  
----
-  * file : ros2/rosidl/rosidl_adapter/test/test_parse_primitive_value_string.py:212  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYeY2w_ub2taBKNNz)  
----
-  * file : ros2/rosidl/rosidl_adapter/test/test_type.py:79  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik3bzCYfarq97H0K)  
----
-  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:115  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN0)  
----
   * file : ros2/rosidl/rosidl_parser/test/test_parser.py:398  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN1)  
@@ -186,7 +150,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #584 
+## ISSUES (level blocker) #606 
   
 <br />  
   
