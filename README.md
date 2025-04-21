@@ -11,21 +11,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #531 
+## BUGS #528 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
-  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:398  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN1)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:66  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOH)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:67  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOI)  
----
   * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:85  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOJ)  
@@ -150,7 +138,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #606 
+## ISSUES (level blocker) #599 
   
 <br />  
   
