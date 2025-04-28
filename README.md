@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #528 
+## BUGS #532 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
   * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:85  
@@ -73,6 +73,22 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:206  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm3kw_ub2taBKNOY)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:220  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMba)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:223  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMbb)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:228  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMbc)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:231  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMbd)  
 ---
   * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:343  
   message : "std::forward" should only be called on a forwarding reference.  
