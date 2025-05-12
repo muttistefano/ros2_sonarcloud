@@ -142,7 +142,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #21 
+## VULNERABILITIES #22 
   
 <br />  
   
