@@ -11,9 +11,33 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #534 
+## BUGS #540 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
+  * file : ros2/rosidl/rosidl_adapter/test/test_parse_primitive_value_string.py:212  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYeY2w_ub2taBKNNz)  
+---
+  * file : ros2/rosidl/rosidl_adapter/test/test_type.py:79  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik3bzCYfarq97H0K)  
+---
+  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:115  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN0)  
+---
+  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:398  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN1)  
+---
+  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:66  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOH)  
+---
+  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:67  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOI)  
+---
   * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:85  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOJ)  
