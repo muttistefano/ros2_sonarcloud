@@ -11,9 +11,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #546 
+## BUGS #547 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_direct.py:48  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYfNdw_ub2taBKNN2)  
+---
   * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:137  
   message : The return value of "isinstance" must be used.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-5)  
