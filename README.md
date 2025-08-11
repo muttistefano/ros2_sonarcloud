@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #547 
+## BUGS #545 
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
   * file : ros2/ros2cli/ros2cli/test/test_ros2cli_direct.py:48  
@@ -195,17 +195,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97IAJ)  
 ---
 </details>  
-<details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
-
-  * file : ros2_control/rqt_controller_manager/rqt_controller_manager/controller_manager.py:442  
-  message : Add 1 missing arguments; 'switch_controllers' expects at least 7 positional arguments.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZbmau5npmjrsTWY1Om9)  
----
-  * file : ros2_control/rqt_controller_manager/rqt_controller_manager/controller_manager.py:447  
-  message : Remove this unexpected named argument 'strict'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZbmau5npmjrsTWY1Om-)  
----
-</details>  
   
 <br />  
   
@@ -217,7 +206,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #599 
+## ISSUES (level blocker) #597 
   
 <br />  
   
