@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #460 
+## BUGS #458 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -1198,7 +1198,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZdSqQ_UXvAjqlUSZWsp)  
 ---
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:395  
+  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:400  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZcKjD3PNTaJx6YGJ8L8)  
 ---
@@ -1209,18 +1209,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
 
-  * file : osrf/osrf_pycommon/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py:120  
-  message : Use an asynchronous file API instead of synchronous os.fdopen() in this async function.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZeax3ZqYQO-EckZ69j7)  
----
-  * file : osrf/osrf_pycommon/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py:123  
-  message : Use an asynchronous file API instead of synchronous os.fdopen() in this async function.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZeax3ZqYQO-EckZ69j8)  
----
-  * file : osrf/osrf_pycommon/tests/unit/test_cli_utils/test_common.py:32  
-  message : Provide a value for field(s) with index 1.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi40lzCYfarq97P2b)  
----
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:147  
   message : Use of memory after it is freed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi48MzCYfarq97P6B)  
@@ -1232,6 +1220,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros</a></summary>  
 
+  * file : ros/pluginlib/ros2plugin/ros2plugin/verb/list.py:47  
+  message : Remove or refactor this statement; it has no side effects.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZnbWNjX5WDow3WVC02m)  
+---
   * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/gtest-matchers.h:297  
   message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPKkPpM_KNhuouaqv)  
@@ -1354,7 +1346,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3A2zCYfarq97Pks)  
 ---
-  * file : ros-visualization/rqt_topic/rqt_topic/workers/topic.py:184  
+  * file : ros-visualization/rqt_topic/rqt_topic/workers/topic.py:186  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhFmEWS9FtSIxsrC)  
 ---
@@ -1985,7 +1977,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #599 
+## ISSUES (level blocker) #598 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -4220,10 +4212,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp/backward.hpp:3784  
   message : Ensure that the move assignment operator of "SourceFile" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi47yzCYfarq97P4P)  
----
-  * file : osrf/osrf_pycommon/tests/unit/test_cli_utils/test_common.py:32  
-  message : Provide a value for field(s) with index 1.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi40lzCYfarq97P2b)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros</a></summary>  
