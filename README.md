@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #458 
+## BUGS #450 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -445,10 +445,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_ANh)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4693  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned long" to "float"). "m_float32_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_ANi)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4693  
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned short" to "float"). "m_float32_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_ANj)  
 ---
@@ -491,14 +487,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4697  
   message : Replace "long" to "double" type punning with "std::memcpy". "m_float64_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_ANy)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4697  
-  message : Replace "unsigned long" to "double" type punning with "std::memcpy". "m_float64_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_ANz)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4701  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned long" to "long double"). "m_float128_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AN-)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4701  
   message : Remove the undefined behavior caused by type punning types of different sizes ("_Bool" to "long double"). "m_float128_value" is not an active member of the union  
@@ -549,10 +537,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOH)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4705  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned long" to "char"). "m_char_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOI)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4705  
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned short" to "char"). "m_char_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOJ)  
 ---
@@ -589,10 +573,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOV)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4709  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned long" to "wchar_t"). "m_wchar_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOW)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4709  
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned short" to "wchar_t"). "m_wchar_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOX)  
 ---
@@ -623,10 +603,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4713  
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned char" to "int"). "m_enumerated_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOi)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4713  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned long" to "int"). "m_enumerated_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOj)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4713  
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned short" to "int"). "m_enumerated_value" is not an active member of the union  
@@ -668,10 +644,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned int" to "struct eprosima::fastcdr::fixed_string128"). "m_string8_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOy)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4717  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned long" to "struct eprosima::fastcdr::fixed_string128"). "m_string8_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AOz)  
----
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4721  
   message : Remove the undefined behavior caused by type punning types of different sizes ("signed char" to "class std::basic_stringwchar_t"). "m_string16_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_AO-)  
@@ -699,10 +671,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4721  
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned int" to "class std::basic_stringwchar_t"). "m_string16_value" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_APA)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4721  
-  message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned long" to "class std::basic_stringwchar_t"). "m_string16_value" is not an active member of the union  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkhOaMMoXQXhL_APB)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/xtypes/type_representation/detail/dds_xtypes_typeobject.hpp:4721  
   message : Remove the undefined behavior caused by type punning types of different sizes ("unsigned short" to "class std::basic_stringwchar_t"). "m_string16_value" is not an active member of the union  
@@ -857,7 +825,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD9)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:111516  
-  message : Access of the field 'a' at negative byte offset -24  
+  message : Access of the field 'a' containing 1 elements at negative index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD_)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129897  
@@ -1533,7 +1501,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq06zCYfarq97IxA)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1372  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1371  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
@@ -2399,11 +2367,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw31zCYfarq97M4w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1678  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1681  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6j)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1813  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1816  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiw4TzCYfarq97M6p)  
 ---
@@ -3872,7 +3840,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtEzCYfarq97MOM)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:111516  
-  message : Access of the field 'a' at negative byte offset -24  
+  message : Access of the field 'a' containing 1 elements at negative index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJD_)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:111722  
