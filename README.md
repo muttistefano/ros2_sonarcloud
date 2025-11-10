@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #450 
+## BUGS #452 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -72,23 +72,23 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
-  * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:179  
+  * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:176  
   message : Unexpected duplicate "font-size"  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O-7)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMjlZiJawz635PPk)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:266  
   message : Unexpected nonstandard direction  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O-_)  
 ---
-  * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:624  
+  * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:620  
   message : Unexpected duplicate "background-color"  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O-8)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMjlZiJawz635PPl)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:805  
   message : Unexpected missing generic font family  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O--)  
 ---
-  * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:1013  
+  * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:1008  
   message : Unexpected duplicate "text-decoration"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O-9)  
 ---
@@ -99,6 +99,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-CDR/utils/doxygen/pages/eprosima_header.html:23  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NhzCYfarq97O-1)  
+---
+  * file : eProsima/Fast-CDR/utils/doxygen/pages/eprosima_header.html:40  
+  message : Duplicate id "projectbrief" found. First occurrence was on line 34.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMjHZiJawz635PPg)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/dds/log/Log.hpp:292  
   message : Potential leak of memory pointed to by 'p'  
@@ -1108,23 +1112,23 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add 1 missing arguments; 'serve' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH6xdXFK9T8SBv1E5)  
 ---
-  * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:179  
+  * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:176  
   message : Unexpected duplicate "font-size"  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5o)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMafZiJawz635PPe)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:266  
   message : Unexpected nonstandard direction  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5s)  
 ---
-  * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:624  
+  * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:620  
   message : Unexpected duplicate "background-color"  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5p)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMafZiJawz635PPf)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:805  
   message : Unexpected missing generic font family  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5r)  
 ---
-  * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:1013  
+  * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:1008  
   message : Unexpected duplicate "text-decoration"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5q)  
 ---
@@ -1135,6 +1139,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/utils/doxygen/pages/eprosima_header.html:23  
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0H4zCYfarq97O5i)  
+---
+  * file : eProsima/Fast-DDS/utils/doxygen/pages/eprosima_header.html:40  
+  message : Duplicate id "projectbrief" found. First occurrence was on line 34.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMaAZiJawz635PPa)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
@@ -2183,31 +2191,31 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv0_8)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1385  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1388  
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv1Ah)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1447  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1450  
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv1Am)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1499  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1502  
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv1Ar)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1543  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1546  
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv1Aw)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1641  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1644  
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv1A2)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1925  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:1928  
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv1BF)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:2103  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/idl_parser/IdlParser.hpp:2106  
   message : Replace "module" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZYOH50vXFK9T8SBv1BL)  
 ---
@@ -2247,11 +2255,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Give class "FlowControllerLimitedAsyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MyR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1364  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1365  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzE)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1365  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1366  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwwkzCYfarq97MzF)  
 ---
@@ -2291,7 +2299,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwWazCYfarq97LNp)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1648  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1649  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwY5zCYfarq97LTD)  
 ---
@@ -2339,15 +2347,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Make sure that moving an object of class "Pkt" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwCGzCYfarq97Kuj)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:684  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:685  
   message : Ensure that the move assignment operator of "Listener" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtM)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:719  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:720  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:851  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/shared_mem/SharedMemManager.hpp:852  
   message : Ensure that the move assignment operator of "Port" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwAvzCYfarq97KtW)  
 ---
