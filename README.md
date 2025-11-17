@@ -2035,11 +2035,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "BinaryProperty" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkg41MMoXQXhL-_rx)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:132  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:167  
   message : Ensure that the move constructor of "CDRMessage_t" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiystzCYfarq97OJV)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:151  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:186  
   message : Ensure that the move assignment operator of "CDRMessage_t" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiystzCYfarq97OJW)  
 ---
