@@ -1521,11 +1521,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1582  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1657  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbT)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1583  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1658  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbV)  
 ---
@@ -1637,27 +1637,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 7 uninitialized fields at the end of the constructor call  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZHUlC85esNELLGLarFS)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:65  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:68  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39k)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:72  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:75  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39l)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:78  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:82  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39m)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:83  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:88  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39n)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:95  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:100  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39o)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:101  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:106  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39p)  
 ---
@@ -1953,13 +1953,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #599 
+## ISSUES (level blocker) #598 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
-  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/include/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object.hpp:82  
-  message : Field "m_isInitialized" shadows a field of the same name in base class "Creation".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZqPxJj9slHV-syY5A-I)  
----
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
   message : Replace this call to the non reentrant function "localtime" by a call to "localtime_r".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi01KzCYfarq97PEZ)  
