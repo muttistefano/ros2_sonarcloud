@@ -1247,7 +1247,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0Z4Vgb3UCOkJEf)  
 ---
-  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/zoom_camera_info_manager.py:229  
+  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/zoom_camera_info_manager.py:226  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0E4Vgb3UCOkJEa)  
 ---
