@@ -1933,7 +1933,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimSLzCYfarq97H_a)  
 ---
-  * file : ros2/sros2/sros2/sros2/policy/__init__.py:81  
+  * file : ros2/sros2/sros2/sros2/policy/__init__.py:70  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimQSzCYfarq97H_J)  
 ---
@@ -4350,7 +4350,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimSLzCYfarq97H_a)  
 ---
-  * file : ros2/sros2/sros2/sros2/policy/__init__.py:81  
+  * file : ros2/sros2/sros2/sros2/policy/__init__.py:70  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimQSzCYfarq97H_J)  
 ---
