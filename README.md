@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #452 
+## BUGS #456 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -1228,9 +1228,17 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZw)  
 ---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:325  
+  message : Replace "double" to "unsigned long" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-3ZL0uebLXI9fXua)  
+---
   * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:328  
   message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZx)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:328  
+  message : Replace "double" to "unsigned long" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-3ZL0uebLXI9fXub)  
 ---
   * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:351  
   message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
@@ -1239,6 +1247,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:351  
   message : Replace "float" to "unsigned int" type punning with "std::memcpy". "bits_" is not an active member of the union  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYkZz21DHXxtxeKK1WZz)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:351  
+  message : Replace "double" to "unsigned long" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-3ZL0uebLXI9fXuc)  
+---
+  * file : ros/urdfdom/urdf_parser/test/gtest/include/gtest/internal/gtest-internal.h:351  
+  message : Replace "double" to "unsigned long" type punning with "std::memcpy". "bits_" is not an active member of the union  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-3ZL0uebLXI9fXud)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros-perception</a></summary>  
@@ -1853,8 +1869,39 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #21 
-<details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+## VULNERABILITIES #29 
+<details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
+
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:28  
+  message : Change this action invocation to not use user-controlled data directly as the parameter 'ref'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt3)  
+---
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:36  
+  message : Change this action invocation to not use user-controlled data directly as the parameter 'releaseBranch'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt4)  
+---
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:37  
+  message : Change this action invocation to not use user-controlled data directly as the parameter 'futureRelease'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt5)  
+---
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:38  
+  message : Change this action invocation to not use user-controlled data directly as the parameter 'dueTag'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt6)  
+---
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/release_build_publish.yml:32  
+  message : Change this action invocation to not use user-controlled data directly as the parameter 'ref'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21X0uebLXI9fXt0)  
+---
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/release_build_publish.yml:72  
+  message : Change this action invocation to not use user-controlled data directly as the parameter 'tag_name'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21X0uebLXI9fXt1)  
+---
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/release_build_publish.yml:73  
+  message : Change this action invocation to not use user-controlled data directly as the parameter 'name'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21X0uebLXI9fXt2)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:310  
   message : This "memset" is likely to be optimized away by the compiler; either remove it or replace it with "memset_s".  
@@ -1929,6 +1976,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : navigation2/nav2_simple_commander/launch/waypoint_follower_example_launch.py:53  
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZAj064GBIBOiy31Qq8q)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>ros-tooling</a></summary>  
+
+  * file : ros-tooling/libstatistics_collector/.github/workflows/autoapprove.yml:13  
+  message : Workflows should not rely on forgeable GitHub context values to trust events  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-43b0uebLXI9fXvl)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
