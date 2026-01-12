@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #456 
+## BUGS #458 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -796,6 +796,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : The result of left shift is undefined because the right operand is negative  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPW4B4Vgb3UCOkJEA)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:35581  
+  message : Access (via dereference) of the string literal at index 1, while it holds only a single 'unsigned char' element  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZuMDyNmRYcmZHq3D6nx)  
+---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:54824  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYb886cuwhn1MW9k8YAM)  
@@ -803,6 +807,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:60924  
   message : Access of the field 'xBusyHandler' at index 1, while it holds only a single 'void *' element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-05i3-gB3mVexO6D)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:76688  
+  message : Access to field 'nCell' results in a dereference of a null pointer (loaded from field 'pPage')  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZuMDyNmRYcmZHq3D6ny)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:85015  
   message : Memory set function overflows the destination buffer  
@@ -2011,7 +2019,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #601 
+## ISSUES (level blocker) #602 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -3108,6 +3116,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:35433  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiwtAzCYfarq97L5R)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:35581  
+  message : Access (via dereference) of the string literal at index 1, while it holds only a single 'unsigned char' element  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZuMDyNmRYcmZHq3D6nx)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:35983  
   message : Remove any side effects from right hand operands of logical && operator.  
