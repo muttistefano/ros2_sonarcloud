@@ -1545,11 +1545,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1657  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1669  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbT)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1658  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1670  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbV)  
 ---
@@ -1933,11 +1933,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0Qc5MWueF4yM_B3g)  
 ---
-  * file : navigation2/nav2_bringup/launch/tb3_simulation_launch.py:209  
+  * file : navigation2/nav2_bringup/launch/tb3_simulation_launch.py:217  
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0QdDMWueF4yM_B3h)  
 ---
-  * file : navigation2/nav2_bringup/launch/tb4_simulation_launch.py:251  
+  * file : navigation2/nav2_bringup/launch/tb4_simulation_launch.py:259  
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0QczMWueF4yM_B3f)  
 ---
