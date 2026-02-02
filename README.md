@@ -477,7 +477,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Raise this exception or remove this useless statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZFEP0Hyi5a_X_62zTxy)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_executor.py:481  
+  * file : ros2/rclpy/rclpy/test/test_executor.py:480  
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
@@ -785,39 +785,8 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #27 
-<details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
-
-  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:28  
-  message : Change this action invocation to not use user-controlled data directly as the parameter 'ref'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt3)  
----
-  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:36  
-  message : Change this action invocation to not use user-controlled data directly as the parameter 'releaseBranch'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt4)  
----
-  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:37  
-  message : Change this action invocation to not use user-controlled data directly as the parameter 'futureRelease'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt5)  
----
-  * file : eclipse-iceoryx/iceoryx/.github/workflows/changelog.yml:38  
-  message : Change this action invocation to not use user-controlled data directly as the parameter 'dueTag'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21i0uebLXI9fXt6)  
----
-  * file : eclipse-iceoryx/iceoryx/.github/workflows/release_build_publish.yml:32  
-  message : Change this action invocation to not use user-controlled data directly as the parameter 'ref'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21X0uebLXI9fXt0)  
----
-  * file : eclipse-iceoryx/iceoryx/.github/workflows/release_build_publish.yml:72  
-  message : Change this action invocation to not use user-controlled data directly as the parameter 'tag_name'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21X0uebLXI9fXt1)  
----
-  * file : eclipse-iceoryx/iceoryx/.github/workflows/release_build_publish.yml:73  
-  message : Change this action invocation to not use user-controlled data directly as the parameter 'name'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-21X0uebLXI9fXt2)  
----
-</details>  
-  <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
+## VULNERABILITIES #20 
+<details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:364  
   message : Disable access to external entities in XML parsing.  
