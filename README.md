@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #185 
+## BUGS #188 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -185,6 +185,18 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : navigation2/nav2_simple_commander/nav2_simple_commander/line_iterator.py:86  
   message : Correct one of the identical sub-expressions on both sides of operator "==".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYR0LI5rHE-0Dh1G_Im6)  
+---
+  * file : navigation2/nav2_simple_commander/test/test_occupancy_grid.py:41  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNQgMZONY8qvbqfsa)  
+---
+  * file : navigation2/nav2_simple_commander/test/test_occupancy_grid.py:42  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNQgMZONY8qvbqfsb)  
+---
+  * file : navigation2/nav2_simple_commander/test/test_occupancy_grid.py:43  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNQgMZONY8qvbqfsc)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
@@ -785,8 +797,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #20 
-<details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
+## VULNERABILITIES #26 
+<details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+
+  * file : eProsima/Fast-DDS/test/dds/communication/test_build.py:225  
+  message : Change this code to not log user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNTM8ZONY8qvbqfsd)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:364  
   message : Disable access to external entities in XML parsing.  
@@ -861,6 +880,26 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:203  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsH)  
+---
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:221  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsG)  
+---
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:231  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsI)  
+---
+  * file : ros2/rosidl_python/rosidl_generator_py/rosidl_generator_py/generate_py_impl.py:130  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsK)  
+---
+  * file : ros2/rosidl_python/rosidl_generator_py/rosidl_generator_py/generate_py_impl.py:209  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsJ)  
+---
   * file : ros2/sros2/sros2/sros2/keystore/_permission.py:71  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimSLzCYfarq97H_a)  
@@ -885,7 +924,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #26 
+## ISSUES (level blocker) #31 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -986,6 +1025,26 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/launch_ros/launch_ros/launch_ros/utilities/__init__.py:44  
   message : Change or remove this string; "normalize_parameters_dict" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq9CzCYfarq97Ix4)  
+---
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:203  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsH)  
+---
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:221  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsG)  
+---
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:231  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsI)  
+---
+  * file : ros2/rosidl_python/rosidl_generator_py/rosidl_generator_py/generate_py_impl.py:130  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsK)  
+---
+  * file : ros2/rosidl_python/rosidl_generator_py/rosidl_generator_py/generate_py_impl.py:209  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsJ)  
 ---
   * file : ros2/sros2/sros2/sros2/keystore/_permission.py:71  
   message : Disable access to external entities in XML parsing.  
