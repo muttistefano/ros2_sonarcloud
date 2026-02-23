@@ -613,11 +613,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYfNdw_ub2taBKNN2)  
 ---
-  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:330  
+  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:320  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZkDFBn1j1WFNLSWaJdE)  
 ---
-  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:367  
+  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:357  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZkDFBn1j1WFNLSWaJdF)  
 ---
