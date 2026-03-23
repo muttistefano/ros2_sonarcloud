@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #188 
+## BUGS #190 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -298,6 +298,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3A2zCYfarq97Pks)  
 ---
+  * file : ros-visualization/rqt_topic/rqt_topic/models/message.py:42  
+  message : Move this time-dependent expression out of the class body and into a method.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZz0i1lknvODKcpvIRSV)  
+---
+  * file : ros-visualization/rqt_topic/rqt_topic/models/topic.py:108  
+  message : Move this time-dependent expression out of the class body and into a method.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZz0i1lznvODKcpvIRSW)  
+---
   * file : ros-visualization/rqt_topic/rqt_topic/workers/topic.py:186  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhFmEWS9FtSIxsrC)  
@@ -465,7 +473,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Change or remove this string; "normalize_parameters_dict" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq9CzCYfarq97Ix4)  
 ---
-  * file : ros2/launch_ros/launch_testing_ros/test/examples/check_msgs_launch_test.py:60  
+  * file : ros2/launch_ros/launch_testing_ros/test/examples/check_msgs_launch_test.py:62  
   message : Remove this "return" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY4rOM_lmANMCkDoQwwB)  
 ---
