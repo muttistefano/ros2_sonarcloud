@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #190 
+## BUGS #191 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
@@ -68,6 +68,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/include/iceoryx_hoofs/cxx/function_ref.hpp:90  
   message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYUEPJCzpM_KNhuouaqs)  
+---
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/error_handling/error_handling.cpp:68  
+  message : 'break' will never be executed  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ0Yka8wRvqNgnlDYVwx)  
+---
+  * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/file_reader/file_reader.cpp:57  
+  message : 'break' will never be executed  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ0Yka_rRvqNgnlDYVxO)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
@@ -208,13 +216,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:290  
   message : Use of memory after it is freed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi48MzCYfarq97P6C)  
----
-</details>  
-<details><summary><a style='color:blue;font-size:18px;'>ros</a></summary>  
-
-  * file : ros/pluginlib/ros2plugin/ros2plugin/verb/list.py:47  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZnbWNjX5WDow3WVC02m)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros-perception</a></summary>  
@@ -453,7 +454,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNOA)  
 ---
-  * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:265  
+  * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:263  
   message : Change or remove this string; "actions" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinshzCYfarq97ILT)  
 ---
@@ -501,11 +502,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove this "break" statement from this "finally" block.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1669  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1672  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbT)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_node.py:1670  
+  * file : ros2/rclpy/rclpy/test/test_node.py:1673  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbV)  
 ---
@@ -1042,7 +1043,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ8)  
 ---
-  * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:265  
+  * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:263  
   message : Change or remove this string; "actions" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinshzCYfarq97ILT)  
 ---
