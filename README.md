@@ -11,13 +11,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #191 
+## BUGS #189 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
-  * file : ament/ament_index/ament_index_python/ament_index_python/search_paths.py:22  
-  message : The return value of "str.format" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi4uWzCYfarq97P2L)  
----
   * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:81  
   message : Don’t perform an assertion here; An exception is expected to be raised before its execution.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-9x83-gB3mVexO-s)  
@@ -490,17 +486,13 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq06zCYfarq97IxA)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1373  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1375  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
   * file : ros2/rclpy/rclpy/rclpy/qos.py:60  
   message : Raise this exception or remove this useless statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZFEP0Hyi5a_X_62zTxy)  
----
-  * file : ros2/rclpy/rclpy/test/test_executor.py:480  
-  message : Remove this "break" statement from this "finally" block.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiohHzCYfarq97IWQ)  
 ---
   * file : ros2/rclpy/rclpy/test/test_node.py:1672  
   message : Do not perform equality checks with floating point values.  
@@ -594,27 +586,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IYA)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:70  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:87  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39k)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:77  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:94  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39l)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:84  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:101  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39m)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:90  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:107  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39n)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:102  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:119  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39o)  
 ---
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:108  
+  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:125  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39p)  
 ---
@@ -897,27 +889,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZxAQ2i94cQIsYvStOBd)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:202  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:200  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZxAQ2i94cQIsYvStOBe)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:203  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:201  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsH)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:218  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:216  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZxAQ2i94cQIsYvStOBf)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:219  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:217  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZxAQ2i94cQIsYvStOBg)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:221  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:219  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsG)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:231  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:229  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsI)  
 ---
@@ -1059,15 +1051,15 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZyIXMQp0TDJ4yT6vtRY)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:203  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:201  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsH)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:221  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:219  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsG)  
 ---
-  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:231  
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:229  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsI)  
 ---
