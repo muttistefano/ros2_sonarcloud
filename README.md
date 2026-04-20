@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #474 
+## BUGS #495 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:81  
@@ -728,27 +728,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9Ba9MbZ4NfMLP0Wo)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2385  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2372  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PX)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2415  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2403  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PW)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2445  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2434  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PV)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1941  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1939  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Ty)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1964  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1962  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tx)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1988  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1986  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tw)  
 ---
@@ -756,11 +756,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BXtMbZ4NfMLP0Sg)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/DynamicDataImpl.cpp:2839  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/DynamicDataImpl.cpp:2859  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BEyMbZ4NfMLPz_Z)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/DynamicDataImpl.cpp:2930  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/dynamic_types/DynamicDataImpl.cpp:2950  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BEyMbZ4NfMLPz_a)  
 ---
@@ -780,7 +780,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BIvMbZ4NfMLP0I1)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/type_representation/TypeObjectUtils.cpp:3026  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/xtypes/type_representation/TypeObjectUtils.cpp:3029  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BIvMbZ4NfMLP0I2)  
 ---
@@ -788,7 +788,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AmTMbZ4NfMLPzUg)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDP.cpp:1386  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDP.cpp:1331  
   message : Called C++ object pointer is null  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_0IMbZ4NfMLPxzg)  
 ---
@@ -824,31 +824,31 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_8OMbZ4NfMLPx8U)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:811  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:822  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzVz)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:1715  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:1727  
   message : 'return' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzVQ)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2972  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2984  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXF)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2989  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3001  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXG)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3211  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3223  
   message : Use pointer or reference to avoid slicing from "ParticipantProxyData" to "ParticipantBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXO)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3243  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3255  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3274  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3286  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXU)  
 ---
@@ -863,6 +863,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:60923  
   message : Access of the field 'xBusyHandler' at index 1, while it holds only a single 'void *' element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzBs)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:76687  
+  message : Access to field 'nCell' results in a dereference of a null pointer (loaded from field 'pPage')  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5Ss6s0Fbzs2j_I1A)  
 ---
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:85014  
   message : Memory set function overflows the destination buffer  
@@ -892,35 +896,35 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Access of the field 'a' containing 1 elements at negative index -1  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzBz)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129896  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129898  
   message : The left operand of '' is a garbage value  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB1)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:131100  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:131102  
   message : Remove the useless top-level "volatile" qualifier from this type.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPypn)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:150456  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:150458  
   message : Access to field 'nExpr' results in a dereference of a null pointer (loaded from field 'pList')  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB2)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:150459  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:150461  
   message : Access to field 'nExpr' results in a dereference of a null pointer (loaded from field 'pList')  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB3)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:161380  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:161382  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB4)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169765  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169767  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB5)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185793  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185795  
   message : Returned pointer value points outside the original object (potential buffer overflow)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB6)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185886  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185888  
   message : Array access (from variable 'zFilename') results in a null pointer dereference  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB7)  
 ---
@@ -952,7 +956,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_iXMbZ4NfMLPxeo)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPv4Transport.cpp:239  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPv4Transport.cpp:240  
   message : Use pointer or reference to avoid slicing from "TCPv4TransportDescriptor" to "TCPTransportDescriptor".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_jFMbZ4NfMLPxf5)  
 ---
@@ -1566,10 +1570,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Correct one of the identical sub-expressions on both sides of operator "==".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISin3jzCYfarq97IME)  
 ---
-  * file : ros2/launch/test_launch_testing/test/dummy_tests/locking.cpp:18  
-  message : 'return' will never be executed  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88TwMbZ4NfMLPvmv)  
----
   * file : ros2/launch_ros/launch_ros/launch_ros/utilities/__init__.py:37  
   message : Change or remove this string; "evaluate_parameters_dict" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq9CzCYfarq97Ix3)  
@@ -1594,13 +1594,117 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq06zCYfarq97IxA)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1375  
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:65  
+  message : Add "node_name" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izv)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:66  
+  message : Add "node_namespace" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izw)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:67  
+  message : Add "topic_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izx)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:68  
+  message : Add "topic_type_hash" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izy)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:69  
+  message : Add "endpoint_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izz)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:70  
+  message : Add "endpoint_gid" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz0)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:71  
+  message : Add "qos_profile" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz1)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:242  
+  message : Add "node_name" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz2)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:243  
+  message : Add "node_namespace" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz3)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:244  
+  message : Add "service_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz4)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:245  
+  message : Add "service_type_hash" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz5)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:246  
+  message : Add "endpoint_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz6)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:247  
+  message : Add "endpoint_gids" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz7)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:248  
+  message : Add "qos_profiles" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz8)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:249  
+  message : Add "endpoint_count" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz9)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1376  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
   * file : ros2/rclpy/rclpy/rclpy/qos.py:60  
   message : Raise this exception or remove this useless statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZFEP0Hyi5a_X_62zTxy)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:98  
+  message : Add "history" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_Iz-)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:105  
+  message : Add "depth" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_Iz_)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:107  
+  message : Add "reliability" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0A)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:110  
+  message : Add "durability" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0B)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:113  
+  message : Add "lifespan" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0C)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:116  
+  message : Add "deadline" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0D)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:119  
+  message : Add "liveliness" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0E)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:122  
+  message : Add "liveliness_lease_duration" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0F)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:126  
+  message : Add "avoid_ros_namespace_conventions" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0G)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/type_hash.py:36  
+  message : Add "version" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O7Ts0Fbzs2j_Izt)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/type_hash.py:37  
+  message : Add "value" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O7Ts0Fbzs2j_Izu)  
 ---
   * file : ros2/rclpy/rclpy/test/test_node.py:1672  
   message : Do not perform equality checks with floating point values.  
@@ -1694,30 +1798,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IYA)  
 ---
-  * file : ros2/rcpputils/include/rcpputils/scope_exit.hpp:29  
-  message : "std::forward" should only be called on a forwarding reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89KOMbZ4NfMLPvxo)  
----
-  * file : ros2/rcutils/src/error_handling_helpers.h:83  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g884yMbZ4NfMLPvuW)  
----
-  * file : ros2/rcutils/src/logging.c:512  
-  message : Memory copy function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g885vMbZ4NfMLPvvL)  
----
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
-  message : "std::forward" should only be called on a forwarding reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88tFMbZ4NfMLPvm9)  
----
-  * file : ros2/realtime_support/rttest/src/rttest.cpp:68  
-  message : Value assigned to field 'thread_id' in implicit constructor is garbage or undefined  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89ZBMbZ4NfMLPv4i)  
----
-  * file : ros2/realtime_support/rttest/src/rttest.cpp:150  
-  message : 7 uninitialized fields at the end of the constructor call  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89ZBMbZ4NfMLPv4j)  
----
   * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:87  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39k)  
@@ -1746,11 +1826,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYfNdw_ub2taBKNN2)  
 ---
-  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:350  
+  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:405  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZkDFBn1j1WFNLSWaJdE)  
 ---
-  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:387  
+  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:442  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZkDFBn1j1WFNLSWaJdF)  
 ---
@@ -1785,10 +1865,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rosidl/rosidl_adapter/test/test_type.py:79  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik3bzCYfarq97H0K)  
----
-  * file : ros2/rosidl/rosidl_buffer/include/rosidl_buffer/buffer.hpp:167  
-  message : "std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g86jnMbZ4NfMLPvji)  
 ---
   * file : ros2/rosidl/rosidl_parser/test/test_parser.py:115  
   message : Do not perform equality checks with floating point values.  
@@ -1846,6 +1922,18 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm2uw_ub2taBKNOT)  
 ---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:41  
+  message : Add "header" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0i)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:75  
+  message : Add "timestamp1" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0j)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:76  
+  message : Add "timestamp2" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0k)  
+---
   * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:184  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm3kw_ub2taBKNOU)  
@@ -1881,10 +1969,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:231  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMbd)  
----
-  * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:343  
-  message : "std::forward" should only be called on a forwarding reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89FHMbZ4NfMLPvxC)  
 ---
   * file : ros2/rviz/rviz_common/help/help.html:8  
   message : Insert a !DOCTYPE declaration to before this html tag.  
@@ -1938,7 +2022,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #38 
+## VULNERABILITIES #37 
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:310  
@@ -1953,7 +2037,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Granting permissions to "others" can lead to unauthorized access to files.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AsDMbZ4NfMLPzZS)  
 ---
-  * file : eProsima/Fast-DDS/test/dds/communication/test_build.py:225  
+  * file : eProsima/Fast-DDS/test/dds/communication/test_build.py:280  
   message : Change this code to not log user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNTM8ZONY8qvbqfsd)  
 ---
@@ -2045,10 +2129,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
-  * file : ros2/rcutils/src/filesystem.c:249  
-  message : Granting permissions to "others" can lead to unauthorized access to files.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g881cMbZ4NfMLPvtE)  
----
   * file : ros2/rosidl/rosidl_generator_type_description/rosidl_generator_type_description/__init__.py:205  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZyIXMQp0TDJ4yT6vtRY)  
@@ -2113,7 +2193,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #603 
+## ISSUES (level blocker) #607 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -2195,11 +2275,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "BinaryProperty" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BwbMbZ4NfMLP0pb)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:167  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:168  
   message : Ensure that the move constructor of "CDRMessage_t" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BtlMbZ4NfMLP0nu)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:186  
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/CDRMessage_t.hpp:187  
   message : Ensure that the move assignment operator of "CDRMessage_t" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BtlMbZ4NfMLP0nv)  
 ---
@@ -2311,11 +2391,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Make sure that moving an object of class "ReplyWithServerGUID" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9A28MbZ4NfMLPzy0)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/SampleLoanManager.hpp:191  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/SampleLoanManager.hpp:193  
   message : Ensure that the move constructor of "OutstandingLoanItem" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BX6MbZ4NfMLP0Sv)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/SampleLoanManager.hpp:193  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/SampleLoanManager.hpp:195  
   message : Ensure that the move assignment operator of "OutstandingLoanItem" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BX6MbZ4NfMLP0Sw)  
 ---
@@ -2419,11 +2499,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Give class "FlowControllerLimitedAsyncPublishMode" a noexcept destructor (for instance, make sure all subclasses have noexcept destructors).  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9Aj7MbZ4NfMLPzSv)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1408  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1414  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9Aj7MbZ4NfMLPzTS)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1409  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerImpl.hpp:1415  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9Aj7MbZ4NfMLPzTT)  
 ---
@@ -2439,35 +2519,35 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_rjMbZ4NfMLPxom)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:475  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:486  
   message : unannotated fall-through between switch labels  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzVO)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2972  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2984  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXF)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2989  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3001  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXG)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3211  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3223  
   message : Use pointer or reference to avoid slicing from "ParticipantProxyData" to "ParticipantBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXO)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3243  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3255  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3274  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3286  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXU)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.hpp:170  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.hpp:173  
   message : Ensure that the move constructor of "ReceiverControlBlock" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AomMbZ4NfMLPzXa)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1664  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/reader/StatefulReader.cpp:1672  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_pLMbZ4NfMLPxnW)  
 ---
@@ -2495,7 +2575,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ChannelResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_dkMbZ4NfMLPxZK)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPv4Transport.cpp:239  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/transport/TCPv4Transport.cpp:240  
   message : Use pointer or reference to avoid slicing from "TCPv4TransportDescriptor" to "TCPTransportDescriptor".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_jFMbZ4NfMLPxf5)  
 ---
@@ -2543,11 +2623,11 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AhwMbZ4NfMLPzRI)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1695  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1702  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AfVMbZ4NfMLPzPY)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1842  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/writer/StatefulWriter.cpp:1849  
   message : Replace "final" with another name.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AfVMbZ4NfMLPzPd)  
 ---
@@ -4099,211 +4179,211 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPymU)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:128212  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:128214  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPyoc)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129637  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129639  
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPyov)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129654  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:129656  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPyow)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:138844  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:138846  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPysp)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:143468  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:143470  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPyu9)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:143469  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:143471  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPyu-)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:143469  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:143471  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPyu8)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:145973  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:145975  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPyv9)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:147697  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:147699  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZXMbZ4NfMLPywi)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:152981  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:152983  
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPyye)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:155739  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:155741  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPyzt)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:157365  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:157367  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy0N)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:161135  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:161137  
   message : Remove this "goto" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy1u)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:161380  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:161382  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB4)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:162729  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:162731  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy23)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:163569  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:163571  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy3b)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:163609  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:163611  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy3e)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:164662  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:164664  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy4G)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:166676  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:166678  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy4u)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:167472  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:167474  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy5Y)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:167773  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:167775  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy5h)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169765  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:169767  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB5)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:170223  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:170225  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZYMbZ4NfMLPy7V)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:170385  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:170387  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy7h)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:170386  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:170388  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy7g)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:173924  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:173926  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy8t)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:180163  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:180165  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy9T)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:180337  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:180339  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy9X)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185265  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185267  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy-h)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185793  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185795  
   message : Returned pointer value points outside the original object (potential buffer overflow)  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzB6)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185882  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:185884  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy-t)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207766  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207768  
   message : Remove this misleading "parse_object_value" label.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_s)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207862  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207864  
   message : The direct parent of this switch-label is not the body of a switch statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_v)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207865  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207867  
   message : Remove this misleading "parse_string" label.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_w)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207940  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207942  
   message : The direct parent of this switch-label is not the body of a switch statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_x)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207949  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207951  
   message : The direct parent of this switch-label is not the body of a switch statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_y)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207962  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:207964  
   message : Remove this misleading "parse_number" label.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_z)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208019  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208021  
   message : Remove this misleading "parse_number_2" label.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_0)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208069  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208071  
   message : Remove this misleading "parse_number_finish" label.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_1)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208101  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208103  
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_4)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208115  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208117  
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPy_5)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208333  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208335  
   message : Remove this "goto" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAC)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208342  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208344  
   message : Remove this "goto" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAD)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208365  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208367  
   message : Remove this "goto" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAE)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208511  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208513  
   message : Remove this misleading "malformed_jsonb" label.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAH)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208785  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:208787  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAV)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209268  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209270  
   message : Remove this "goto" statement or rewrite it so that it jumps to a label that is located in the same scope or in an enclosing scope.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAo)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209277  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209279  
   message : Remove this misleading "to_double" label.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAp)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209567  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209569  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzAx)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209684  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:209686  
   message : This goto statement must be replaced by a standard iteration statement.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzA0)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:210568  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:210570  
   message : Remove any side effects from right hand operands of logical || operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzBJ)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:210858  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:210860  
   message : Remove any side effects from right hand operands of logical && operator.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzBP)  
 ---
@@ -4379,106 +4459,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
-  * file : ros2/rcpputils/include/rcpputils/scope_exit.hpp:29  
-  message : "std::forward" should only be called on a forwarding reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89KOMbZ4NfMLPvxo)  
----
-  * file : ros2/rcpputils/include/rcpputils/scope_exit.hpp:34  
-  message : Ensure that the move constructor of "scope_exit" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89KOMbZ4NfMLPvxl)  
----
-  * file : ros2/rcpputils/include/rcpputils/scope_exit.hpp:37  
-  message : Ensure that the move assignment operator of "scope_exit" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89KOMbZ4NfMLPvxm)  
----
-  * file : ros2/rcpputils/test/test_find_library.cpp:93  
-  message : Replace "override" with another name.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89M2MbZ4NfMLPvyl)  
----
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:160  
-  message : "std::forward" should only be called on a forwarding reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88tFMbZ4NfMLPvm9)  
----
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:234  
-  message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88tFMbZ4NfMLPvnB)  
----
-  * file : ros2/rcutils/test/mocking_utils/patch.hpp:240  
-  message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88tFMbZ4NfMLPvnC)  
----
-  * file : ros2/rcutils/test/test_string_map.cpp:1951  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g880VMbZ4NfMLPvsB)  
----
-  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:39  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88vHMbZ4NfMLPvoU)  
----
-  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:51  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88vHMbZ4NfMLPvoV)  
----
-  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:64  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88vHMbZ4NfMLPvoW)  
----
-  * file : ros2/rcutils/test/time_bomb_allocator_testing_utils.h:76  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g88vHMbZ4NfMLPvoX)  
----
-  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:39  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g87aDMbZ4NfMLPvll)  
----
-  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:51  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g87aDMbZ4NfMLPvlm)  
----
-  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:64  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g87aDMbZ4NfMLPvln)  
----
-  * file : ros2/rmw/rmw/test/time_bomb_allocator_testing_utils.h:76  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g87aDMbZ4NfMLPvlo)  
----
-  * file : ros2/rosidl/rosidl_buffer/include/rosidl_buffer/buffer.hpp:167  
-  message : "std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g86jnMbZ4NfMLPvji)  
----
-  * file : ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp:229  
-  message : Ensure that the move assignment operator of "BoundedVector" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g86ioMbZ4NfMLPvi8)  
----
-  * file : ros2/rosidl_dynamic_typesupport_fastrtps/src/detail/utils.cpp:43  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89W6MbZ4NfMLPv1K)  
----
-  * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:343  
-  message : "std::forward" should only be called on a forwarding reference.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89FHMbZ4NfMLPvxC)  
----
-  * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:412  
-  message : Ensure that the move constructor of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89FHMbZ4NfMLPvxH)  
----
-  * file : ros2/rosidl_typesupport/rosidl_typesupport_c/test/mocking_utils/patch.hpp:418  
-  message : Ensure that the move assignment operator of "PatchID, ReturnT (ArgTs...)" is exception-free and declare it "noexcept".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g89FHMbZ4NfMLPvxI)  
----
-  * file : ros2/rcutils/src/cmdline_parser.c:40  
-  message : Remove any side effects from right hand operands of logical && operator.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g882iMbZ4NfMLPvts)  
----
-  * file : ros2/rcutils/src/error_handling_helpers.h:83  
-  message : Memory copy function accesses out-of-bound array element  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g884yMbZ4NfMLPvuW)  
----
-  * file : ros2/rcutils/src/logging.c:512  
-  message : Memory copy function overflows the destination buffer  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g885vMbZ4NfMLPvvL)  
----
   * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:392  
   message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ7)  
@@ -4498,6 +4478,110 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/launch_ros/launch_ros/launch_ros/utilities/__init__.py:44  
   message : Change or remove this string; "normalize_parameters_dict" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq9CzCYfarq97Ix4)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:65  
+  message : Add "node_name" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izv)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:66  
+  message : Add "node_namespace" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izw)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:67  
+  message : Add "topic_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izx)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:68  
+  message : Add "topic_type_hash" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izy)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:69  
+  message : Add "endpoint_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Izz)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:70  
+  message : Add "endpoint_gid" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz0)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:71  
+  message : Add "qos_profile" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz1)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:242  
+  message : Add "node_name" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz2)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:243  
+  message : Add "node_namespace" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz3)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:244  
+  message : Add "service_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz4)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:245  
+  message : Add "service_type_hash" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz5)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:246  
+  message : Add "endpoint_type" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz6)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:247  
+  message : Add "endpoint_gids" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz7)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:248  
+  message : Add "qos_profiles" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz8)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:249  
+  message : Add "endpoint_count" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz9)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:98  
+  message : Add "history" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_Iz-)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:105  
+  message : Add "depth" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_Iz_)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:107  
+  message : Add "reliability" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0A)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:110  
+  message : Add "durability" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0B)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:113  
+  message : Add "lifespan" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0C)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:116  
+  message : Add "deadline" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0D)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:119  
+  message : Add "liveliness" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0E)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:122  
+  message : Add "liveliness_lease_duration" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0F)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/qos.py:126  
+  message : Add "avoid_ros_namespace_conventions" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_I0G)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/type_hash.py:36  
+  message : Add "version" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O7Ts0Fbzs2j_Izt)  
+---
+  * file : ros2/rclpy/rclpy/rclpy/type_hash.py:37  
+  message : Add "value" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O7Ts0Fbzs2j_Izu)  
 ---
   * file : ros2/rosidl/rosidl_generator_type_description/rosidl_generator_type_description/__init__.py:205  
   message : Change this code to not construct the path from user-controlled data.  
@@ -4522,6 +4606,18 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/rosidl_python/rosidl_generator_py/rosidl_generator_py/generate_py_impl.py:209  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsJ)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:41  
+  message : Add "header" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0i)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:75  
+  message : Add "timestamp1" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0j)  
+---
+  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:76  
+  message : Add "timestamp2" to the class's "__slots__".  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0k)  
 ---
   * file : ros2/sros2/sros2/sros2/keystore/_permission.py:71  
   message : Disable access to external entities in XML parsing.  
