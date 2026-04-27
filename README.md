@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #495 
+## BUGS #487 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:81  
@@ -864,10 +864,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Access of the field 'xBusyHandler' at index 1, while it holds only a single 'void *' element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzBs)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:76687  
-  message : Access to field 'nCell' results in a dereference of a null pointer (loaded from field 'pPage')  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5Ss6s0Fbzs2j_I1A)  
----
   * file : eProsima/Fast-DDS/src/cpp/rtps/persistence/sqlite3.c:85014  
   message : Memory set function overflows the destination buffer  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AZZMbZ4NfMLPzBt)  
@@ -1270,34 +1266,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZdSqQ_UXvAjqlUSZWsp)  
 ---
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:413  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-DLMbZ4NfMLPv55)  
----
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:429  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-DLMbZ4NfMLPv56)  
----
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:446  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-DLMbZ4NfMLPv57)  
----
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:461  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-DLMbZ4NfMLPv58)  
----
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:481  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-DLMbZ4NfMLPv59)  
----
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:497  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-DLMbZ4NfMLPv5-)  
----
-  * file : navigation2/nav2_loopback_sim/nav2_loopback_sim/loopback_simulator.py:501  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-DLMbZ4NfMLPv5_)  
----
   * file : navigation2/nav2_simple_commander/test/test_occupancy_grid.py:41  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNQgMZONY8qvbqfsa)  
@@ -1654,7 +1622,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add "endpoint_count" to the class's "__slots__".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz9)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1376  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1298  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
