@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #487 
+## BUGS #489 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:81  
@@ -1622,7 +1622,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add "endpoint_count" to the class's "__slots__".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O77s0Fbzs2j_Iz9)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/node.py:1298  
+  * file : ros2/rclpy/rclpy/rclpy/node.py:1304  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
@@ -1673,6 +1673,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/rclpy/rclpy/rclpy/type_hash.py:37  
   message : Add "value" to the class's "__slots__".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O7Ts0Fbzs2j_Izu)  
+---
+  * file : ros2/rclpy/rclpy/test/test_async_clock.py:124  
+  message : Add a checkpoint inside this cancellation scope.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3M_Ecn4igBKyOZM2_X)  
+---
+  * file : ros2/rclpy/rclpy/test/test_async_timer.py:170  
+  message : Do not perform equality checks with floating point values.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3M_Edo4igBKyOZM2_d)  
 ---
   * file : ros2/rclpy/rclpy/test/test_node.py:1672  
   message : Do not perform equality checks with floating point values.  
