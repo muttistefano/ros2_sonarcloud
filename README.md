@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #489 
+## BUGS #491 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:81  
@@ -728,27 +728,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9Ba9MbZ4NfMLP0Wo)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2372  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2374  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PX)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2403  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2405  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PW)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2434  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2436  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PV)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1939  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1941  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Ty)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1962  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1964  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tx)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1986  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1988  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tw)  
 ---
@@ -1063,6 +1063,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/test/dds/xtypes/update_header_and_create_cases.py:25  
   message : Remove or rework this redundant alternative.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkefKMMoXQXhL--qL)  
+---
+  * file : eProsima/Fast-DDS/test/system/tools/fds/tests.py:159  
+  message : Fix this attribute access on a value that can be 'None'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu3kPi00FShfeBVx)  
+---
+  * file : eProsima/Fast-DDS/test/system/tools/fds/tests.py:172  
+  message : Fix this attribute access on a value that can be 'None'.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu3kPi00FShfeBVw)  
 ---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/variadic_templates_tools.hpp:51  
   message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
@@ -1998,9 +2006,39 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #37 
-<details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+## VULNERABILITIES #54 
+<details><summary><a style='color:blue;font-size:18px;'>eclipse-cyclonedds</a></summary>  
 
+  * file : eclipse-cyclonedds/cyclonedds/azure-pipelines.yml:162  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEwKUPi00FShfeBV3)  
+---
+  * file : eclipse-cyclonedds/cyclonedds/fuzz/fuzz_sample_deser/prepare.sh:25  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEwJRPi00FShfeBV2)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
+
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/lint_master.yml:21  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEvdJPi00FShfeBV0)  
+---
+  * file : eclipse-iceoryx/iceoryx/.github/workflows/lint_master.yml:21  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEvdJPi00FShfeBV1)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
+
+  * file : eProsima/Fast-DDS/.github/workflows/docker/ubuntu/alternative_builds/fastdds_gcc_latest.Dockerfile:38  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu5oPi00FShfeBVy)  
+---
+  * file : eProsima/Fast-DDS/.github/workflows/docker/ubuntu/alternative_builds/fastdds_gcc_latest.Dockerfile:38  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu5oPi00FShfeBVz)  
+---
   * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:310  
   message : This "memset" is likely to be optimized away by the compiler; either remove it or replace it with "memset_s".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AvbMbZ4NfMLPza-)  
@@ -2013,9 +2051,25 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Granting permissions to "others" can lead to unauthorized access to files.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AsDMbZ4NfMLPzZS)  
 ---
+  * file : eProsima/Fast-DDS/test/dds/communication/dyn_network/cli.Dockerfile:28  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEupMPi00FShfeBVr)  
+---
+  * file : eProsima/Fast-DDS/test/dds/communication/dyn_network/cli.Dockerfile:28  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEupMPi00FShfeBVs)  
+---
   * file : eProsima/Fast-DDS/test/dds/communication/test_build.py:280  
   message : Change this code to not log user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNTM8ZONY8qvbqfsd)  
+---
+  * file : eProsima/Fast-DDS/test/examples/ubuntu/Dockerfile:28  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu2YPi00FShfeBVt)  
+---
+  * file : eProsima/Fast-DDS/test/examples/ubuntu/Dockerfile:28  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu2YPi00FShfeBVu)  
 ---
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/interprocess/detail/os_file_functions.hpp:426  
   message : Remove this TOCTOU race condition window when accessing files  
@@ -2039,6 +2093,26 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
 
+  * file : navigation2/.github/workflows/claude.yml:43  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xErz2Pi00FShfeBVb)  
+---
+  * file : navigation2/Dockerfile:61  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEr2CPi00FShfeBVc)  
+---
+  * file : navigation2/Dockerfile:61  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEr2CPi00FShfeBVd)  
+---
+  * file : navigation2/Dockerfile:150  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEr2CPi00FShfeBVe)  
+---
+  * file : navigation2/Dockerfile:150  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEr2CPi00FShfeBVf)  
+---
   * file : navigation2/nav2_bringup/launch/cloned_multi_tb3_simulation_launch.py:201  
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY__0Qc5MWueF4yM_B3g)  
@@ -2105,6 +2179,14 @@ Github truncates this file, i am currently looking for a solution but in the mea
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
+  * file : ros2/ros2_tracing/.github/workflows/dco.yml:17  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEpZrPi00FShfeBVY)  
+---
+  * file : ros2/ros2_tracing/.github/workflows/dco.yml:17  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEpZrPi00FShfeBVZ)  
+---
   * file : ros2/rosidl/rosidl_generator_type_description/rosidl_generator_type_description/__init__.py:205  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZyIXMQp0TDJ4yT6vtRY)  
