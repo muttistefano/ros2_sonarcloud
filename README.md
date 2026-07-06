@@ -11,25 +11,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #491 
+## BUGS #376 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
-  * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:81  
-  message : Don’t perform an assertion here; An exception is expected to be raised before its execution.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-9x83-gB3mVexO-s)  
----
-  * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:85  
-  message : Don’t perform an assertion here; An exception is expected to be raised before its execution.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-9x83-gB3mVexO-t)  
----
-  * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:130  
-  message : Don’t perform an assertion here; An exception is expected to be raised before its execution.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-9x83-gB3mVexO-u)  
----
-  * file : ament/ament_index/ament_index_python/test/test_ament_index_python.py:142  
-  message : Don’t perform an assertion here; An exception is expected to be raised before its execution.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-9x83-gB3mVexO-v)  
----
   * file : ament/ament_lint/ament_cpplint/ament_cpplint/cpplint.py:3621  
   message : Rework this part of the regex to not match the empty string.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi4hnzCYfarq97PyS)  
@@ -42,15 +26,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/doc/website/overrides/partials/footer.html:62  
-  message : Add an "alt" attribute to this image.  
+  message : Provide alternative text for this element.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi1qYzCYfarq97PE2)  
 ---
   * file : eclipse-iceoryx/iceoryx/doc/website/overrides/partials/footer.html:64  
-  message : Add an "alt" attribute to this image.  
+  message : Provide alternative text for this element.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi1qYzCYfarq97PE3)  
 ---
   * file : eclipse-iceoryx/iceoryx/doc/website/overrides/partials/footer.html:66  
-  message : Add an "alt" attribute to this image.  
+  message : Provide alternative text for this element.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi1qYzCYfarq97PE4)  
 ---
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/include/iceoryx_hoofs/cxx/expected.hpp:65  
@@ -77,27 +61,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
 <details><summary><a style='color:blue;font-size:18px;'>eProsima</a></summary>  
 
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:176  
-  message : Unexpected duplicate "font-size"  
+  message : Duplicate property "font-size"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMjlZiJawz635PPk)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:266  
-  message : Unexpected nonstandard direction  
+  message : Nonstandard direction  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O-_)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:620  
-  message : Unexpected duplicate "background-color"  
+  message : Duplicate property "background-color"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMjlZiJawz635PPl)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:805  
-  message : Unexpected missing generic font family  
+  message : Missing generic font family  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O--)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/customdoxygen.css:1008  
-  message : Unexpected duplicate "text-decoration"  
+  message : Duplicate property "text-decoration"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NwzCYfarq97O-9)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/eprosima_header.html:3  
-  message : Add "lang" and/or "xml:lang" attributes to this "html" element  
+  message : Add "lang" and/or "xml:lang" attributes to the "html" or "body" element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0NhzCYfarq97O-z)  
 ---
   * file : eProsima/Fast-CDR/utils/doxygen/pages/eprosima_header.html:23  
@@ -728,27 +712,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9Ba9MbZ4NfMLP0Wo)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2374  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2465  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PX)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2405  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2496  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PW)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2436  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/publisher/DataWriterImpl.cpp:2527  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PV)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1941  
-  message : 'break' will never be executed  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Ty)  
----
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1964  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1991  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tx)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1988  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:2014  
+  message : 'break' will never be executed  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Ty)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:2038  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tw)  
 ---
@@ -788,11 +772,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AmTMbZ4NfMLPzUg)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDP.cpp:1331  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDP.cpp:1337  
   message : Called C++ object pointer is null  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_0IMbZ4NfMLPxzg)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDPListener.cpp:245  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDPListener.cpp:247  
   message : Use pointer or reference to avoid slicing from "ParticipantProxyData" to "ParticipantBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_zWMbZ4NfMLPxxm)  
 ---
@@ -824,31 +808,31 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Ensure that destructor of "RTPSMessageGroup" is exception-free and declare it "noexcept"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_8OMbZ4NfMLPx8U)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:822  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:828  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzVz)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:1727  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:1745  
   message : 'return' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzVQ)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2984  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3006  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXF)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3001  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3023  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXG)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3223  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3245  
   message : Use pointer or reference to avoid slicing from "ParticipantProxyData" to "ParticipantBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXO)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3255  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3277  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3286  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3308  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXU)  
 ---
@@ -1056,22 +1040,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add a condition argument to this call to "wait".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AwLMbZ4NfMLPzbh)  
 ---
-  * file : eProsima/Fast-DDS/test/dds/xtypes/test_build.py:126  
-  message : Ensure that the asyncio.CancelledError exception is re-raised after your cleanup code.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZeaxzm8YQO-EckZ69i_)  
----
-  * file : eProsima/Fast-DDS/test/dds/xtypes/update_header_and_create_cases.py:25  
-  message : Remove or rework this redundant alternative.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZSlkefKMMoXQXhL--qL)  
----
-  * file : eProsima/Fast-DDS/test/system/tools/fds/tests.py:159  
-  message : Fix this attribute access on a value that can be 'None'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu3kPi00FShfeBVx)  
----
-  * file : eProsima/Fast-DDS/test/system/tools/fds/tests.py:172  
-  message : Fix this attribute access on a value that can be 'None'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu3kPi00FShfeBVw)  
----
   * file : eProsima/Fast-DDS/thirdparty/boost/include/boost/container/detail/variadic_templates_tools.hpp:51  
   message : Ensure this forwarding constructor has constraints that prevent copying / moving objects of the same type.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_FuMbZ4NfMLPw61)  
@@ -1213,27 +1181,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9CyFMbZ4NfMLP1Q5)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:176  
-  message : Unexpected duplicate "font-size"  
+  message : Duplicate property "font-size"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMafZiJawz635PPe)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:266  
-  message : Unexpected nonstandard direction  
+  message : Nonstandard direction  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5s)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:620  
-  message : Unexpected duplicate "background-color"  
+  message : Duplicate property "background-color"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZpHgMafZiJawz635PPf)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:805  
-  message : Unexpected missing generic font family  
+  message : Missing generic font family  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5r)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/customdoxygen.css:1008  
-  message : Unexpected duplicate "text-decoration"  
+  message : Duplicate property "text-decoration"  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0IHzCYfarq97O5q)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/eprosima_header.html:3  
-  message : Add "lang" and/or "xml:lang" attributes to this "html" element  
+  message : Add "lang" and/or "xml:lang" attributes to the "html" or "body" element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi0H4zCYfarq97O5g)  
 ---
   * file : eProsima/Fast-DDS/utils/doxygen/pages/eprosima_header.html:23  
@@ -1251,6 +1219,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add "th" headers to this "table".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpLzZzpJC77kImkX)  
 ---
+  * file : moveit2/moveit_py/moveit/policies/policy.py:54  
+  message : Reorder or remove base classes to fix this MRO conflict.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ45abtdY7qax-NmfrK3)  
+---
   * file : moveit2/moveit_py/moveit/policies/policy.py:148  
   message : Add a "self" or class parameter  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-5AV3-gB3mVexO6c)  
@@ -1259,32 +1231,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add a "self" or class parameter  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYaQ0q1avTyJunPyDVLW)  
 ---
-</details>  
-<details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
-
-  * file : navigation2/nav2_common/test/test_rewritten_yaml.py:100  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZdSqQ_UXvAjqlUSZWsn)  
----
-  * file : navigation2/nav2_common/test/test_rewritten_yaml.py:110  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZdSqQ_UXvAjqlUSZWso)  
----
-  * file : navigation2/nav2_common/test/test_rewritten_yaml.py:120  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZdSqQ_UXvAjqlUSZWsp)  
----
-  * file : navigation2/nav2_simple_commander/test/test_occupancy_grid.py:41  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNQgMZONY8qvbqfsa)  
----
-  * file : navigation2/nav2_simple_commander/test/test_occupancy_grid.py:42  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNQgMZONY8qvbqfsb)  
----
-  * file : navigation2/nav2_simple_commander/test/test_occupancy_grid.py:43  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNQgMZONY8qvbqfsc)  
+  * file : moveit2/moveit_py/moveit/servo_client/teleop.py:48  
+  message : Reorder or remove base classes to fix this MRO conflict.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ45abtvY7qax-NmfrK4)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
@@ -1297,6 +1246,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Use of memory after it is freed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi48MzCYfarq97P6C)  
 ---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/memory_tools_service_impl.hpp:35  
+  message : 2 uninitialized fields at the end of the constructor call  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ45afmJY7qax-NmfrLI)  
+---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros-perception</a></summary>  
 
@@ -1304,7 +1257,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0Z4Vgb3UCOkJEf)  
 ---
-  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/zoom_camera_info_manager.py:226  
+  * file : ros-perception/image_common/camera_info_manager_py/camera_info_manager/zoom_camera_info_manager.py:229  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZOFPe0E4Vgb3UCOkJEa)  
 ---
@@ -1323,23 +1276,23 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Fix this condition that always evaluates to true.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZdSqS-oXvAjqlUSZWsr)  
 ---
-  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:102  
+  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:103  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:679  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:680  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOi)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:864  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:865  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOj)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:892  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:893  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOk)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:902  
+  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_timeline.py:903  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1Ztw_ub2taBKNOl)  
 ---
@@ -1351,14 +1304,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1X_w_ub2taBKNOg)  
 ---
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:425  
-  message : This branch duplicates the one on line 419.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi24QzCYfarq97PjT)  
----
-  * file : ros-visualization/rqt_bag/rqt_bag/src/rqt_bag/bag_widget.py:425  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1X_w_ub2taBKNOh)  
----
   * file : ros-visualization/rqt_graph/src/rqt_graph/dotcode.py:117  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1rWw_ub2taBKNOm)  
@@ -1367,15 +1312,15 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Introduce a new variable or use its initial value before reassigning 'bad_node'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi3I9zCYfarq97Plo)  
 ---
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:513  
+  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:505  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9FfQMbZ4NfMLP1Xp)  
 ---
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:523  
+  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:515  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9FfQMbZ4NfMLP1Xq)  
 ---
-  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:524  
+  * file : ros-visualization/rqt_reconfigure/src/rqt_reconfigure/node_selector_widget.py:516  
   message : Fix this attribute access on a value that can be 'None'.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9FfQMbZ4NfMLP1Xo)  
 ---
@@ -1390,42 +1335,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros-visualization/rqt_topic/rqt_topic/workers/topic.py:186  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhFmEWS9FtSIxsrC)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:57  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqa)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:59  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqb)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:60  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqc)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:61  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqd)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:65  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqe)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:78  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqf)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:79  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqg)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:80  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqh)  
----
-  * file : ros-visualization/rqt_topic/test/models/test_topic.py:81  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZjfLhD1EWS9FtSIxsqi)  
 ---
 </details>  
 <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
@@ -1446,10 +1355,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Replace this call to time.sleep() with an asynchronous sleep function.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZeaxtzbYQO-EckZ69ie)  
 ---
-  * file : ros2/geometry2/test_tf2/test/test_buffer_client.py:83  
-  message : Remove this "return" statement from this "finally" block.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISioZUzCYfarq97IVs)  
----
   * file : ros2/geometry2/tf2_tools/tf2_tools/view_frames.py:67  
   message : Remove or refactor this statement; it has no side effects.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY13pENcw2X4EK9K417z)  
@@ -1462,89 +1367,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Ensure that the asyncio.CancelledError exception is re-raised after your cleanup code.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZeaxvGqYQO-EckZ69iu)  
 ---
-  * file : ros2/launch/launch/test/launch/actions/test_declare_launch_argument.py:81  
-  message : Don’t perform an assertion here; An exception is expected to be raised before its execution.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-vLd3-gB3mVexOqc)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:243  
-  message : Refactor this test; if this assertion’s argument raises an exception, the assertion will never get executed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-vOf3-gB3mVexOqd)  
----
-  * file : ros2/launch/launch/test/launch/frontend/test_substitutions.py:253  
-  message : Refactor this test; if this assertion’s argument raises an exception, the assertion will never get executed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-vOf3-gB3mVexOqe)  
----
-  * file : ros2/launch/launch/test/launch/test_launch_context.py:82  
-  message : Refactor this test; if this assertion’s argument raises an exception, the assertion will never get executed.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-vPF3-gB3mVexOqf)  
----
-  * file : ros2/launch/launch/test/launch/test_timer_action.py:153  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZe-o-lRPRvRDl2M6seD)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:187  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN3)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:188  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN4)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:189  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN5)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:190  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN6)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:230  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN7)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:231  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN8)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:232  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN9)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:233  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN-)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:234  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNN_)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:235  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZTttbGWvPkZ5NTBu5Fv)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:392  
-  message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ7)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:396  
-  message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ8)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:556  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYh66w_ub2taBKNOA)  
----
   * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:263  
   message : Change or remove this string; "actions" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinshzCYfarq97ILT)  
----
-  * file : ros2/launch/launch_testing/test/launch_testing/test_resolve_process.py:191  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZdSqMkgXvAjqlUSZWsl)  
----
-  * file : ros2/launch/test_launch_testing/test/dummy_tests/dummy.py:19  
-  message : Correct one of the identical sub-expressions on both sides of operator "==".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISin3jzCYfarq97IME)  
 ---
   * file : ros2/launch_ros/launch_ros/launch_ros/utilities/__init__.py:37  
   message : Change or remove this string; "evaluate_parameters_dict" is not defined.  
@@ -1553,22 +1378,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/launch_ros/launch_ros/launch_ros/utilities/__init__.py:44  
   message : Change or remove this string; "normalize_parameters_dict" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq9CzCYfarq97Ix4)  
----
-  * file : ros2/launch_ros/launch_testing_ros/test/examples/check_msgs_launch_test.py:62  
-  message : Remove this "return" statement from this "finally" block.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY4rOM_lmANMCkDoQwwB)  
----
-  * file : ros2/launch_ros/test_launch_ros/test/test_launch_ros/actions/test_load_composable_nodes.py:247  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYlcmw_ub2taBKNOG)  
----
-  * file : ros2/launch_ros/test_launch_ros/test/test_launch_ros/actions/test_ros_timer.py:115  
-  message : Fix this access on a collection that may trigger an 'IndexError'.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZe-o-_gPRvRDl2M6seE)  
----
-  * file : ros2/launch_ros/test_launch_ros/test/test_launch_ros/descriptions/test_parameter_file.py:127  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiq06zCYfarq97IxA)  
 ---
   * file : ros2/rclpy/rclpy/rclpy/endpoint_info.py:65  
   message : Add "node_name" to the class's "__slots__".  
@@ -1682,284 +1491,12 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Add "value" to the class's "__slots__".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O7Ts0Fbzs2j_Izu)  
 ---
-  * file : ros2/rclpy/rclpy/test/test_async_clock.py:124  
-  message : Add a checkpoint inside this cancellation scope.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3M_Ecn4igBKyOZM2_X)  
----
-  * file : ros2/rclpy/rclpy/test/test_async_timer.py:170  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3M_Edo4igBKyOZM2_d)  
----
-  * file : ros2/rclpy/rclpy/test/test_node.py:1672  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbT)  
----
-  * file : ros2/rclpy/rclpy/test/test_node.py:1673  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHaPjJaW_00fRkMbV)  
----
-  * file : ros2/rclpy/rclpy/test/test_parameter_client.py:77  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYi-Ow_ub2taBKNOB)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:82  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZPxVnaCmsyemdV_C1Mn)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:105  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXo)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:108  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXp)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:120  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXq)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:125  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXr)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:127  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXs)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:148  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXt)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:150  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXu)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:152  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXv)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:154  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXw)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:156  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXx)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:158  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IXy)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:167  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX2)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:169  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX3)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:171  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX4)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:173  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX5)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:196  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX9)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:198  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX-)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:200  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IX_)  
----
-  * file : ros2/rclpy/rclpy/test/test_time.py:202  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiokpzCYfarq97IYA)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:87  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39k)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:94  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39l)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:101  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39m)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:107  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39n)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:119  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39o)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_daemon.py:125  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZD8RM_kpZKJaqlJl39p)  
----
-  * file : ros2/ros2cli/ros2cli/test/test_ros2cli_direct.py:48  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYfNdw_ub2taBKNN2)  
----
-  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:405  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZkDFBn1j1WFNLSWaJdE)  
----
-  * file : ros2/rosbag2/ros2bag/test/test_recorder_args_parser.py:442  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZkDFBn1j1WFNLSWaJdF)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:137  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-5)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:148  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-6)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:159  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-8)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_reader.py:166  
-  message : The return value of "isinstance" must be used.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimEWzCYfarq97H-7)  
----
-  * file : ros2/rosbag2/rosbag2_py/test/test_sequential_writer.py:36  
-  message : Remove or correct this useless self-assignment.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimDwzCYfarq97H-2)  
----
-  * file : ros2/rosidl/rosidl_adapter/test/test_base_type.py:85  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik3NzCYfarq97H0F)  
----
-  * file : ros2/rosidl/rosidl_adapter/test/test_parse_primitive_value_string.py:212  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYeY2w_ub2taBKNNz)  
----
-  * file : ros2/rosidl/rosidl_adapter/test/test_type.py:79  
-  message : Remove or refactor this statement; it has no side effects.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISik3bzCYfarq97H0K)  
----
-  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:115  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN0)  
----
-  * file : ros2/rosidl/rosidl_parser/test/test_parser.py:404  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYefSw_ub2taBKNN1)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:66  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOH)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:67  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOI)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:85  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOJ)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:87  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOK)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:276  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOL)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:277  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOM)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:298  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNON)  
----
-  * file : ros2/rosidl_python/rosidl_generator_py/test/test_interfaces.py:299  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYmnpw_ub2taBKNOO)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_convert.py:53  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm2uw_ub2taBKNOQ)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_convert.py:54  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm2uw_ub2taBKNOR)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_convert.py:55  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm2uw_ub2taBKNOS)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_convert.py:56  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm2uw_ub2taBKNOT)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:41  
-  message : Add "header" to the class's "__slots__".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0i)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:75  
-  message : Add "timestamp1" to the class's "__slots__".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0j)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:76  
-  message : Add "timestamp2" to the class's "__slots__".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0k)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:184  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm3kw_ub2taBKNOU)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:187  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm3kw_ub2taBKNOV)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:200  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm3kw_ub2taBKNOW)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:203  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm3kw_ub2taBKNOX)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:206  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYm3kw_ub2taBKNOY)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:220  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMba)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:223  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMbb)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:228  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMbc)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:231  
-  message : Do not perform equality checks with floating point values.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZZWHcoeJaW_00fRkMbd)  
----
   * file : ros2/rviz/rviz_common/help/help.html:8  
   message : Insert a !DOCTYPE declaration to before this html tag.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_e)  
 ---
   * file : ros2/rviz/rviz_common/help/help.html:8  
-  message : Add "lang" and/or "xml:lang" attributes to this "html" element  
+  message : Add "lang" and/or "xml:lang" attributes to the "html" or "body" element  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISim9lzCYfarq97H_f)  
 ---
   * file : ros2/rviz/rviz_common/help/help.html:9  
@@ -2006,16 +1543,279 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #54 
-<details><summary><a style='color:blue;font-size:18px;'>eclipse-cyclonedds</a></summary>  
+## VULNERABILITIES #164 
+<details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
+
+  * file : ament/ament_cmake/ament_cmake_core/cmake/core/package_xml_2_cmake.py:59  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiXh9-h1VmbX_azs)  
+---
+  * file : ament/ament_cmake/ament_cmake_core/cmake/package_templates/templates_2_cmake.py:54  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiXF9-h1VmbX_azr)  
+---
+  * file : ament/ament_cmake/ament_cmake_core/cmake/package_templates/templates_2_cmake.py:55  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiXF9-h1VmbX_azq)  
+---
+  * file : ament/ament_cmake/ament_cmake_google_benchmark/ament_cmake_google_benchmark/__init__.py:82  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiWR9-h1VmbX_azp)  
+---
+  * file : ament/ament_cmake/ament_cmake_google_benchmark/ament_cmake_google_benchmark/__init__.py:96  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiWR9-h1VmbX_azo)  
+---
+  * file : ament/ament_cmake/ament_cmake_google_benchmark/ament_cmake_google_benchmark/__init__.py:112  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiWR9-h1VmbX_azm)  
+---
+  * file : ament/ament_cmake/ament_cmake_google_benchmark/ament_cmake_google_benchmark/__init__.py:116  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiWR9-h1VmbX_azn)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:98  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_az1)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:103  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_az2)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:112  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azu)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:121  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_az3)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:129  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azx)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:130  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_az0)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:201  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azt)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:243  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azz)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:248  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azw)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:267  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_az4)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:280  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azv)  
+---
+  * file : ament/ament_cmake/ament_cmake_test/ament_cmake_test/__init__.py:418  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azy)  
+---
+  * file : ament/ament_index/ament_index_python/ament_index_python/resources.py:87  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiUk9-h1VmbX_azl)  
+---
+  * file : ament/ament_lint/ament_clang_format/ament_clang_format/main.py:100  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh1v9-h1VmbX_azB)  
+---
+  * file : ament/ament_lint/ament_clang_format/ament_clang_format/main.py:109  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted OS commands before using them.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh1v9-h1VmbX_ay9)  
+---
+  * file : ament/ament_lint/ament_clang_format/ament_clang_format/main.py:141  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh1v9-h1VmbX_azA)  
+---
+  * file : ament/ament_lint/ament_clang_format/ament_clang_format/main.py:209  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted OS commands before using them.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh1v9-h1VmbX_ay-)  
+---
+  * file : ament/ament_lint/ament_clang_format/ament_clang_format/main.py:242  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh1v9-h1VmbX_azC)  
+---
+  * file : ament/ament_lint/ament_clang_format/ament_clang_format/main.py:243  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh1v9-h1VmbX_ay_)  
+---
+  * file : ament/ament_lint/ament_clang_tidy/ament_clang_tidy/main.py:184  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh519-h1VmbX_azN)  
+---
+  * file : ament/ament_lint/ament_clang_tidy/ament_clang_tidy/main.py:264  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh519-h1VmbX_azP)  
+---
+  * file : ament/ament_lint/ament_clang_tidy/ament_clang_tidy/main.py:265  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh519-h1VmbX_azO)  
+---
+  * file : ament/ament_lint/ament_copyright/ament_copyright/crawler.py:25  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh5M9-h1VmbX_azM)  
+---
+  * file : ament/ament_lint/ament_copyright/ament_copyright/main.py:211  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh4i9-h1VmbX_azK)  
+---
+  * file : ament/ament_lint/ament_copyright/ament_copyright/main.py:212  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh4i9-h1VmbX_azL)  
+---
+  * file : ament/ament_lint/ament_cppcheck/ament_cppcheck/main.py:360  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh_49-h1VmbX_azb)  
+---
+  * file : ament/ament_lint/ament_cppcheck/ament_cppcheck/main.py:361  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh_49-h1VmbX_azc)  
+---
+  * file : ament/ament_lint/ament_cpplint/ament_cpplint/main.py:216  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh_F9-h1VmbX_aza)  
+---
+  * file : ament/ament_lint/ament_cpplint/ament_cpplint/main.py:217  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh_F9-h1VmbX_azZ)  
+---
+  * file : ament/ament_lint/ament_cpplint/ament_cpplint/main.py:226  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh_F9-h1VmbX_azY)  
+---
+  * file : ament/ament_lint/ament_flake8/ament_flake8/main.py:133  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiCv9-h1VmbX_azk)  
+---
+  * file : ament/ament_lint/ament_flake8/ament_flake8/main.py:134  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiCv9-h1VmbX_azj)  
+---
+  * file : ament/ament_lint/ament_lint_cmake/ament_lint_cmake/cmakelint.py:413  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh7o9-h1VmbX_azS)  
+---
+  * file : ament/ament_lint/ament_lint_cmake/ament_lint_cmake/main.py:121  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh7M9-h1VmbX_azR)  
+---
+  * file : ament/ament_lint/ament_lint_cmake/ament_lint_cmake/main.py:122  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh7M9-h1VmbX_azQ)  
+---
+  * file : ament/ament_lint/ament_mypy/ament_mypy/main.py:149  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiA29-h1VmbX_azg)  
+---
+  * file : ament/ament_lint/ament_mypy/ament_mypy/main.py:150  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiA29-h1VmbX_azf)  
+---
+  * file : ament/ament_lint/ament_pclint/ament_pclint/main.py:228  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh8Y9-h1VmbX_azU)  
+---
+  * file : ament/ament_lint/ament_pclint/ament_pclint/main.py:229  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh8Y9-h1VmbX_azT)  
+---
+  * file : ament/ament_lint/ament_pycodestyle/ament_pycodestyle/main.py:101  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiAh9-h1VmbX_azd)  
+---
+  * file : ament/ament_lint/ament_pycodestyle/ament_pycodestyle/main.py:102  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiAh9-h1VmbX_aze)  
+---
+  * file : ament/ament_lint/ament_pyflakes/ament_pyflakes/main.py:103  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiB39-h1VmbX_azh)  
+---
+  * file : ament/ament_lint/ament_pyflakes/ament_pyflakes/main.py:104  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiB49-h1VmbX_azi)  
+---
+  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:129  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azH)  
+---
+  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:188  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azI)  
+---
+  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:235  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azJ)  
+---
+  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:236  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azF)  
+---
+  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:253  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azG)  
+---
+  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:320  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azD)  
+---
+  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:378  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azE)  
+---
+  * file : ament/ament_lint/ament_xmllint/ament_xmllint/main.py:115  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh9U9-h1VmbX_azV)  
+---
+  * file : ament/ament_lint/ament_xmllint/ament_xmllint/main.py:159  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh9U9-h1VmbX_azW)  
+---
+  * file : ament/ament_lint/ament_xmllint/ament_xmllint/main.py:160  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh9U9-h1VmbX_azX)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>eclipse-cyclonedds</a></summary>  
 
   * file : eclipse-cyclonedds/cyclonedds/azure-pipelines.yml:162  
   message : Using dependencies without locking resolved versions is security-sensitive.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEwKUPi00FShfeBV3)  
 ---
+  * file : eclipse-cyclonedds/cyclonedds/fuzz/fuzz_sample_deser/generate_idl.py:26  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tshRB9-h1VmbX_ay3)  
+---
+  * file : eclipse-cyclonedds/cyclonedds/fuzz/fuzz_sample_deser/generate_idl.py:32  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tshRB9-h1VmbX_ay2)  
+---
+  * file : eclipse-cyclonedds/cyclonedds/fuzz/fuzz_sample_deser/generate_idl.py:48  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tshRB9-h1VmbX_ay5)  
+---
+  * file : eclipse-cyclonedds/cyclonedds/fuzz/fuzz_sample_deser/generate_idl.py:53  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tshRB9-h1VmbX_ay4)  
+---
   * file : eclipse-cyclonedds/cyclonedds/fuzz/fuzz_sample_deser/prepare.sh:25  
   message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEwJRPi00FShfeBV2)  
+---
+  * file : eclipse-cyclonedds/cyclonedds/hooks/must-match-hash.py:34  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tshTQ9-h1VmbX_ay6)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
@@ -2039,6 +1839,58 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Using dependencies without locking resolved versions is security-sensitive.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu5oPi00FShfeBVz)  
 ---
+  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:145  
+  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ4VPEZLtvUmMX9UQln-)  
+---
+  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:170  
+  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ4VPEZLtvUmMX9UQln_)  
+---
+  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:526  
+  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6likjPWneQtRL67Ah-)  
+---
+  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:553  
+  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6likjPWneQtRL67AiN)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/EntityId_t.hpp:284  
+  message : tainted value 'enI' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3QBOTjgnHXE0kCY)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/GuidPrefix_t.hpp:156  
+  message : tainted value 'guiP' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3PKOTjgnHXE0kCX)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.hpp:393  
+  message : tainted value 'loc' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3N5OTjgnHXE0kCV)  
+---
+  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.hpp:418  
+  message : tainted value 'loc' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3N5OTjgnHXE0kCW)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerFactory.cpp:56  
+  message : tainted value 'flow_controller_descr' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv2NxOTjgnHXE0kCP)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:423  
+  message : tainted value 'this' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv2SUOTjgnHXE0kCQ)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/statistics/fastdds/domain/DomainParticipantImpl.cpp:149  
+  message : tainted value 'topic_name' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3AWOTjgnHXE0kCS)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/statistics/fastdds/domain/DomainParticipantImpl.cpp:455  
+  message : tainted value 'topic' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3AWOTjgnHXE0kCT)  
+---
+  * file : eProsima/Fast-DDS/src/cpp/statistics/fastdds/domain/DomainParticipantImpl.cpp:461  
+  message : tainted value 'topic' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3AWOTjgnHXE0kCU)  
+---
   * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:310  
   message : This "memset" is likely to be optimized away by the compiler; either remove it or replace it with "memset_s".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AvbMbZ4NfMLPza-)  
@@ -2051,6 +1903,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Granting permissions to "others" can lead to unauthorized access to files.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AsDMbZ4NfMLPzZS)  
 ---
+  * file : eProsima/Fast-DDS/src/cpp/xmlparser/XMLProfileManager.cpp:326  
+  message : tainted value 'profile_name' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv2e8OTjgnHXE0kCR)  
+---
   * file : eProsima/Fast-DDS/test/dds/communication/dyn_network/cli.Dockerfile:28  
   message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEupMPi00FShfeBVr)  
@@ -2058,10 +1914,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/test/dds/communication/dyn_network/cli.Dockerfile:28  
   message : Using dependencies without locking resolved versions is security-sensitive.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEupMPi00FShfeBVs)  
----
-  * file : eProsima/Fast-DDS/test/dds/communication/test_build.py:280  
-  message : Change this code to not log user-controlled data.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNTM8ZONY8qvbqfsd)  
 ---
   * file : eProsima/Fast-DDS/test/examples/ubuntu/Dockerfile:28  
   message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
@@ -2083,16 +1935,88 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Granting permissions to "others" can lead to unauthorized access to files.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-hbMbZ4NfMLPwPe)  
 ---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:184  
+  message : tainted value 'port' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCZ)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:197  
+  message : tainted value 'domainId' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCa)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:351  
+  message : tainted value 'domain' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCb)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:355  
+  message : tainted value 'domain' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCc)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:951  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCd)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:996  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCe)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1009  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCf)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1013  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCg)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1044  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCh)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1070  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCi)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1101  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCj)  
+---
+  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1127  
+  message : tainted value 'id' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCk)  
+---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:162  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsgJC9-h1VmbX_ay0)  
+---
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:364  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:514  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsgJC9-h1VmbX_ayz)  
+---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:521  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsgJC9-h1VmbX_ay1)  
+---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/round_collada_numbers.py:112  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsgIf9-h1VmbX_ayy)  
+---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>navigation2</a></summary>  
 
+  * file : navigation2/.github/workflows/bt_nodes_validation.yml:26  
+  message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6lievIWneQtRL67Ah1)  
+---
+  * file : navigation2/.github/workflows/bt_nodes_validation.yml:26  
+  message : Using dependencies without locking resolved versions is security-sensitive.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6lievIWneQtRL67Ah2)  
+---
   * file : navigation2/.github/workflows/claude.yml:43  
   message : Using dependencies without locking resolved versions is security-sensitive.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xErz2Pi00FShfeBVb)  
@@ -2169,6 +2093,37 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 'tempfile.mktemp' is insecure. Use 'tempfile.TemporaryFile' instead  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZAj064GBIBOiy31Qq8q)  
 ---
+  * file : navigation2/nav2_smac_planner/lattice_primitives/generate_motion_primitives.py:111  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsRlX9-h1VmbX_atP)  
+---
+  * file : navigation2/nav2_smac_planner/lattice_primitives/generate_motion_primitives.py:211  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsRlX9-h1VmbX_atQ)  
+---
+  * file : navigation2/nav2_smac_planner/lattice_primitives/generate_motion_primitives.py:230  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsRlX9-h1VmbX_atO)  
+---
+</details>  
+  <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
+
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:147  
+  message : tainted value 'fw_size' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCl)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:147  
+  message : tainted value 'memory_in' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCm)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:220  
+  message : tainted value 'fw_count' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCn)  
+---
+  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:290  
+  message : tainted value 'memory' is leaking  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCo)  
+---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros-tooling</a></summary>  
 
@@ -2177,8 +2132,27 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZtn-43b0uebLXI9fXvl)  
 ---
 </details>  
+  <details><summary><a style='color:blue;font-size:18px;'>ros-visualization</a></summary>  
+
+  * file : ros-visualization/qt_gui_core/qt_gui/src/qt_gui/perspective_manager.py:365  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsjLF9-h1VmbX_az7)  
+---
+</details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
+  * file : ros2/geometry2/tf2_tools/tf2_tools/view_frames.py:107  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsWzA9-h1VmbX_atW)  
+---
+  * file : ros2/geometry2/tf2_tools/tf2_tools/view_frames.py:111  
+  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsWzA9-h1VmbX_atV)  
+---
+  * file : ros2/realtime_support/rttest/scripts/analyze.py:29  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsX279-h1VmbX_atX)  
+---
   * file : ros2/ros2_tracing/.github/workflows/dco.yml:17  
   message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEpZrPi00FShfeBVY)  
@@ -2186,6 +2160,18 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/ros2_tracing/.github/workflows/dco.yml:17  
   message : Using dependencies without locking resolved versions is security-sensitive.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEpZrPi00FShfeBVZ)  
+---
+  * file : ros2/rosbag2/rosbag2_examples/rosbag2_examples_py/rosbag2_examples_py/rosbag2csv.py:59  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsVr99-h1VmbX_atU)  
+---
+  * file : ros2/rosidl/rosidl_adapter/rosidl_adapter/main.py:46  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsSoL9-h1VmbX_atS)  
+---
+  * file : ros2/rosidl/rosidl_adapter/rosidl_adapter/main.py:60  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsSoL9-h1VmbX_atR)  
 ---
   * file : ros2/rosidl/rosidl_generator_type_description/rosidl_generator_type_description/__init__.py:205  
   message : Change this code to not construct the path from user-controlled data.  
@@ -2215,6 +2201,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsG)  
 ---
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:225  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6lie2dWneQtRL67Ah3)  
+---
   * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:229  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsI)  
@@ -2227,6 +2217,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsJ)  
 ---
+  * file : ros2/rviz/rviz2/scripts/rviz1_to_rviz2.py:498  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsUSH9-h1VmbX_atT)  
+---
   * file : ros2/sros2/sros2/sros2/keystore/_permission.py:71  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimSLzCYfarq97H_a)  
@@ -2234,14 +2228,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ros2/sros2/sros2/sros2/policy/__init__.py:70  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimQSzCYfarq97H_J)  
----
-  * file : ros2/sros2/sros2/test/policies/policy_to_permissions.py:33  
-  message : Disable access to external entities in XML parsing.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimNhzCYfarq97H_F)  
----
-  * file : ros2/sros2/sros2/test/test_policy_to_permissions.py:34  
-  message : Disable access to external entities in XML parsing.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimOXzCYfarq97H_H)  
 ---
 </details>  
     
@@ -2251,7 +2237,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
 The complete list of issues can be found [here](https://sonarcloud.io/summary/overall?id=muttistefano_ros2_sonarcloud) .  
 <br />  
   
-## ISSUES (level blocker) #607 
+## ISSUES (level blocker) #603 
 <details><summary><a style='color:blue;font-size:18px;'>eclipse-iceoryx</a></summary>  
 
   * file : eclipse-iceoryx/iceoryx/iceoryx_hoofs/source/log/logger.cpp:141  
@@ -2269,7 +2255,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move assignment operator of "FastBuffer" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9C3kMbZ4NfMLP1Sn)  
 ---
-  * file : eProsima/Fast-CDR/include/fastcdr/xcdr/optional.hpp:221  
+  * file : eProsima/Fast-CDR/include/fastcdr/xcdr/optional.hpp:230  
   message : Ensure that the move assignment operator of "optional" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9C2hMbZ4NfMLP1Rk)  
 ---
@@ -2533,7 +2519,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Make sure that moving an object of class "DiscoveryParticipantChangeData" is "noexcept" (for instance, by ensuring that moving base classes and member data is "noexcept").  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_xVMbZ4NfMLPxwd)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDPListener.cpp:245  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/builtin/discovery/participant/PDPListener.cpp:247  
   message : Use pointer or reference to avoid slicing from "ParticipantProxyData" to "ParticipantBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_zWMbZ4NfMLPxxm)  
 ---
@@ -2577,27 +2563,27 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Ensure that the move constructor of "ReceiverResource" is exception-free and declare it "noexcept".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8_rjMbZ4NfMLPxom)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:486  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:490  
   message : unannotated fall-through between switch labels  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzVO)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:2984  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3006  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXF)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3001  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3023  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXG)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3223  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3245  
   message : Use pointer or reference to avoid slicing from "ParticipantProxyData" to "ParticipantBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXO)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3255  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3277  
   message : Use pointer or reference to avoid slicing from "WriterProxyData" to "PublicationBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXR)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3286  
+  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:3308  
   message : Use pointer or reference to avoid slicing from "ReaderProxyData" to "SubscriptionBuiltinTopicData".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AoQMbZ4NfMLPzXU)  
 ---
@@ -4456,6 +4442,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
 ---
+  * file : moveit2/moveit_py/moveit/policies/policy.py:54  
+  message : Reorder or remove base classes to fix this MRO conflict.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ45abtdY7qax-NmfrK3)  
+---
   * file : moveit2/moveit_py/moveit/policies/policy.py:148  
   message : Add a "self" or class parameter  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AY0M-5AV3-gB3mVexO6c)  
@@ -4463,6 +4453,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : moveit2/moveit_py/moveit/servo_client/devices/ps4_dualshock.py:143  
   message : Add a "self" or class parameter  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYaQ0q1avTyJunPyDVLW)  
+---
+  * file : moveit2/moveit_py/moveit/servo_client/teleop.py:48  
+  message : Reorder or remove base classes to fix this MRO conflict.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ45abtvY7qax-NmfrK4)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
@@ -4510,21 +4504,13 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : path is used before it is defined. Move the definition before.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2wxzCYfarq97Pie)  
 ---
-  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:102  
+  * file : ros-visualization/rqt/rqt_py_common/src/rqt_py_common/topic_completer.py:103  
   message : Add 1 missing arguments; 'create_node' expects 1 positional arguments.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISi2gMzCYfarq97PeC)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2</a></summary>  
 
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:392  
-  message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ7)  
----
-  * file : ros2/launch/launch/test/launch/utilities/test_type_utils.py:396  
-  message : Add 1 missing arguments; 'get_typed_value' expects 2 positional arguments.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISiniszCYfarq97IJ8)  
----
   * file : ros2/launch/launch_testing/launch_testing/legacy/__init__.py:263  
   message : Change or remove this string; "actions" is not defined.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISinshzCYfarq97ILT)  
@@ -4653,6 +4639,10 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsG)  
 ---
+  * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:225  
+  message : Change this code to not construct the path from user-controlled data.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6lie2dWneQtRL67Ah3)  
+---
   * file : ros2/rosidl/rosidl_pycommon/rosidl_pycommon/__init__.py:229  
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNLz-ZONY8qvbqfsI)  
@@ -4665,18 +4655,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsJ)  
 ---
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:41  
-  message : Add "header" to the class's "__slots__".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0i)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:75  
-  message : Add "timestamp1" to the class's "__slots__".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0j)  
----
-  * file : ros2/rosidl_runtime_py/test/rosidl_runtime_py/test_set_message.py:76  
-  message : Add "timestamp2" to the class's "__slots__".  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5QWTs0Fbzs2j_I0k)  
----
   * file : ros2/sros2/sros2/sros2/keystore/_permission.py:71  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimSLzCYfarq97H_a)  
@@ -4684,14 +4662,6 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   * file : ros2/sros2/sros2/sros2/policy/__init__.py:70  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimQSzCYfarq97H_J)  
----
-  * file : ros2/sros2/sros2/test/policies/policy_to_permissions.py:33  
-  message : Disable access to external entities in XML parsing.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimNhzCYfarq97H_F)  
----
-  * file : ros2/sros2/sros2/test/test_policy_to_permissions.py:34  
-  message : Disable access to external entities in XML parsing.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimOXzCYfarq97H_H)  
 ---
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros2_control</a></summary>  
