@@ -724,19 +724,19 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BUKMbZ4NfMLP0PV)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1991  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:1992  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tx)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:2014  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:2015  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Ty)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:2038  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl.cpp:2039  
   message : 'break' will never be executed  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BZNMbZ4NfMLP0Tw)  
 ---
-  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/ReadTakeCommand.hpp:94  
+  * file : eProsima/Fast-DDS/src/cpp/fastdds/subscriber/DataReaderImpl/ReadTakeCommand.hpp:95  
   message : Do not throw uncaught exceptions in a destructor.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9BXtMbZ4NfMLP0Sg)  
 ---
@@ -1543,7 +1543,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #164 
+## VULNERABILITIES #160 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_cmake/ament_cmake_core/cmake/core/package_xml_2_cmake.py:59  
@@ -1838,22 +1838,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/.github/workflows/docker/ubuntu/alternative_builds/fastdds_gcc_latest.Dockerfile:38  
   message : Using dependencies without locking resolved versions is security-sensitive.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu5oPi00FShfeBVz)  
----
-  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:145  
-  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ4VPEZLtvUmMX9UQln-)  
----
-  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:170  
-  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ4VPEZLtvUmMX9UQln_)  
----
-  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:526  
-  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6likjPWneQtRL67Ah-)  
----
-  * file : eProsima/Fast-DDS/.github/workflows/reusable-sanitizers-ci.yml:553  
-  message : inputs.label is vulnerable to script injection: values of inputs are provided by whoever triggers the workflow. Change this workflow to not use user-controlled data directly in a run block, for example by assigning this expression to an environment variable.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ6likjPWneQtRL67AiN)  
 ---
   * file : eProsima/Fast-DDS/include/fastdds/rtps/common/EntityId_t.hpp:284  
   message : tainted value 'enI' is leaking  
