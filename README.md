@@ -11,7 +11,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## BUGS #376 
+## BUGS #375 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_lint/ament_cpplint/ament_cpplint/cpplint.py:3621  
@@ -1304,7 +1304,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1X_w_ub2taBKNOg)  
 ---
-  * file : ros-visualization/rqt_graph/src/rqt_graph/dotcode.py:117  
+  * file : ros-visualization/rqt_graph/src/rqt_graph/dotcode.py:115  
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruY1rWw_ub2taBKNOm)  
 ---
@@ -1443,10 +1443,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Do not perform equality checks with floating point values.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYruYjQfw_ub2taBKNOF)  
 ---
-  * file : ros2/rclpy/rclpy/rclpy/qos.py:60  
-  message : Raise this exception or remove this useless statement.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZFEP0Hyi5a_X_62zTxy)  
----
   * file : ros2/rclpy/rclpy/rclpy/qos.py:98  
   message : Add "history" to the class's "__slots__".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ2E5O8Ls0Fbzs2j_Iz-)  
@@ -1543,7 +1539,7 @@ Github truncates this file, i am currently looking for a solution but in the mea
   
 <br />  
   
-## VULNERABILITIES #160 
+## VULNERABILITIES #133 
 <details><summary><a style='color:blue;font-size:18px;'>ament</a></summary>  
 
   * file : ament/ament_cmake/ament_cmake_core/cmake/core/package_xml_2_cmake.py:59  
@@ -1622,9 +1618,9 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiY89-h1VmbX_azy)  
 ---
-  * file : ament/ament_index/ament_index_python/ament_index_python/resources.py:87  
+  * file : ament/ament_index/ament_index_python/ament_index_python/resources.py:77  
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsiUk9-h1VmbX_azl)  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ9Zh5bwe5t9SN_6Ox0b)  
 ---
   * file : ament/ament_lint/ament_clang_format/ament_clang_format/main.py:100  
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
@@ -1750,10 +1746,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azH)  
 ---
-  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:188  
-  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azI)  
----
   * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:235  
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azJ)  
@@ -1765,14 +1757,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:253  
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azG)  
----
-  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:320  
-  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azD)  
----
-  * file : ament/ament_lint/ament_uncrustify/ament_uncrustify/main.py:378  
-  message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsh2y9-h1VmbX_azE)  
 ---
   * file : ament/ament_lint/ament_xmllint/ament_xmllint/main.py:115  
   message : LLMs running this code with faulty CLI arguments can escape from shell sandboxes. Refactor this code to validate untrusted data before passing them to OS commands.  
@@ -1839,42 +1823,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Using dependencies without locking resolved versions is security-sensitive.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ3xEu5oPi00FShfeBVz)  
 ---
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/EntityId_t.hpp:284  
-  message : tainted value 'enI' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3QBOTjgnHXE0kCY)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/GuidPrefix_t.hpp:156  
-  message : tainted value 'guiP' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3PKOTjgnHXE0kCX)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.hpp:393  
-  message : tainted value 'loc' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3N5OTjgnHXE0kCV)  
----
-  * file : eProsima/Fast-DDS/include/fastdds/rtps/common/Locator.hpp:418  
-  message : tainted value 'loc' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3N5OTjgnHXE0kCW)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/flowcontrol/FlowControllerFactory.cpp:56  
-  message : tainted value 'flow_controller_descr' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv2NxOTjgnHXE0kCP)  
----
-  * file : eProsima/Fast-DDS/src/cpp/rtps/participant/RTPSParticipantImpl.cpp:423  
-  message : tainted value 'this' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv2SUOTjgnHXE0kCQ)  
----
-  * file : eProsima/Fast-DDS/src/cpp/statistics/fastdds/domain/DomainParticipantImpl.cpp:149  
-  message : tainted value 'topic_name' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3AWOTjgnHXE0kCS)  
----
-  * file : eProsima/Fast-DDS/src/cpp/statistics/fastdds/domain/DomainParticipantImpl.cpp:455  
-  message : tainted value 'topic' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3AWOTjgnHXE0kCT)  
----
-  * file : eProsima/Fast-DDS/src/cpp/statistics/fastdds/domain/DomainParticipantImpl.cpp:461  
-  message : tainted value 'topic' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv3AWOTjgnHXE0kCU)  
----
   * file : eProsima/Fast-DDS/src/cpp/utils/md5.cpp:310  
   message : This "memset" is likely to be optimized away by the compiler; either remove it or replace it with "memset_s".  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AvbMbZ4NfMLPza-)  
@@ -1886,10 +1834,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : eProsima/Fast-DDS/src/cpp/utils/shared_memory/RobustSharedLock.hpp:366  
   message : Granting permissions to "others" can lead to unauthorized access to files.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g9AsDMbZ4NfMLPzZS)  
----
-  * file : eProsima/Fast-DDS/src/cpp/xmlparser/XMLProfileManager.cpp:326  
-  message : tainted value 'profile_name' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv2e8OTjgnHXE0kCR)  
 ---
   * file : eProsima/Fast-DDS/test/dds/communication/dyn_network/cli.Dockerfile:28  
   message : Omitting "--only-binary :all:" can lead to the execution of setup scripts. Make sure it is safe here.  
@@ -1919,54 +1863,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : Granting permissions to "others" can lead to unauthorized access to files.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ1g8-hbMbZ4NfMLPwPe)  
 ---
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:184  
-  message : tainted value 'port' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCZ)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:197  
-  message : tainted value 'domainId' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCa)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:351  
-  message : tainted value 'domain' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCb)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:355  
-  message : tainted value 'domain' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCc)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:951  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCd)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:996  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCe)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1009  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCf)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1013  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCg)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1044  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCh)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1070  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCi)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1101  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCj)  
----
-  * file : eProsima/Fast-DDS/tools/fds/CliDiscoveryManager.cpp:1127  
-  message : tainted value 'id' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv4E2OTjgnHXE0kCk)  
----
 </details>  
   <details><summary><a style='color:blue;font-size:18px;'>moveit2</a></summary>  
 
@@ -1977,6 +1873,10 @@ Github truncates this file, i am currently looking for a solution but in the mea
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:364  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYKwcpHFZzpJC77kImjV)  
+---
+  * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:407  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ9Zh4hxe5t9SN_6Ox0Z)  
 ---
   * file : moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py:514  
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
@@ -2090,25 +1990,6 @@ Github truncates this file, i am currently looking for a solution but in the mea
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsRlX9-h1VmbX_atO)  
 ---
 </details>  
-  <details><summary><a style='color:blue;font-size:18px;'>osrf</a></summary>  
-
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:147  
-  message : tainted value 'fw_size' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCl)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:147  
-  message : tainted value 'memory_in' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCm)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:220  
-  message : tainted value 'fw_count' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCn)  
----
-  * file : osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:290  
-  message : tainted value 'memory' is leaking  
-  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ8Rv7V7OTjgnHXE0kCo)  
----
-</details>  
   <details><summary><a style='color:blue;font-size:18px;'>ros-tooling</a></summary>  
 
   * file : ros-tooling/libstatistics_collector/.github/workflows/autoapprove.yml:13  
@@ -2205,7 +2086,11 @@ Github truncates this file, i am currently looking for a solution but in the mea
   message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ7tsUSH9-h1VmbX_atT)  
 ---
-  * file : ros2/sros2/sros2/sros2/keystore/_permission.py:71  
+  * file : ros2/rviz/rviz2/scripts/rviz1_to_rviz2.py:506  
+  message : LLMs running this code with faulty CLI arguments can escape file system restrictions. Refactor this code to validate the constructed path before accessing the file system.  
+  [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZ9Zhyhre5t9SN_6Ox0M)  
+---
+  * file : ros2/sros2/sros2/sros2/keystore/_permission.py:72  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimSLzCYfarq97H_a)  
 ---
@@ -4639,7 +4524,7 @@ The complete list of issues can be found [here](https://sonarcloud.io/summary/ov
   message : Change this code to not construct the path from user-controlled data.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AZwcNPeeZONY8qvbqfsJ)  
 ---
-  * file : ros2/sros2/sros2/sros2/keystore/_permission.py:71  
+  * file : ros2/sros2/sros2/sros2/keystore/_permission.py:72  
   message : Disable access to external entities in XML parsing.  
   [LINK](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=muttistefano_ros2_sonarcloud&open=AYISimSLzCYfarq97H_a)  
 ---
